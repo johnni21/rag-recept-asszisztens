@@ -2,26 +2,18 @@
 
 import { useChat } from '@ai-sdk/react';
 import { useState } from 'react';
+import { getToolName, isToolUIPart } from 'ai';
 
 export default function Chat() {
   const [input, setInput] = useState('');
-  const [expandedTools, setExpandedTools] = useState<Record<string, boolean>>({});
   const { messages, sendMessage } = useChat();
-
-  const toggleToolDetails = (messageId: string, partIndex: number) => {
-    const key = `${messageId}-${partIndex}`;
-    setExpandedTools(prev => ({
-      ...prev,
-      [key]: !prev[key]
-    }));
-  };
 
   return (
     <div className="flex flex-col w-full max-w-2xl py-24 mx-auto stretch">
       <div className="space-y-4">
         {messages.map(m => {
           const textParts = m.parts.filter(p => p.type === 'text');
-          const toolParts = m.parts.filter(p => p.type.startsWith('tool-'));
+          const toolParts = m.parts.filter(isToolUIPart);
           
           return (
             <div key={m.id} className="whitespace-pre-wrap">
@@ -44,7 +36,7 @@ export default function Chat() {
                         <div key={index} className="text-sm">
                           <p className="font-medium">
                             {part.state === 'output-available' ? 'Called' : 'Calling'}{' '}
-                            {part.type.replace('tool-', '')}
+                            {getToolName(part)}
                           </p>
                           <pre className="my-1 bg-zinc-100 p-2 rounded-sm text-xs overflow-x-auto">
                             Input: {JSON.stringify(part.input, null, 2)}
