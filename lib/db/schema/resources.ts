@@ -9,7 +9,6 @@ import {
   vector,
 } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
-import { z } from "zod";
 
 import { nanoid } from "@/lib/utils";
 
@@ -61,13 +60,3 @@ export const embeddings = pgTable("embeddings", {
   section: varchar("section", { length: 100 }),
   embedding: vector("embedding", { dimensions: 1536 }).notNull(),
 });
-
-export const insertResourceSchema = createInsertSchema(resources).omit({
-  id: true,
-  createdAt: true,
-  updatedAt: true,
-  processedAt: true,
-  errorMessage: true,
-});
-
-export type NewResourceParams = z.infer<typeof insertResourceSchema>;
