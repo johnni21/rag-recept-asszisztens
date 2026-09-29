@@ -11,7 +11,7 @@ import { z } from 'zod';
 
 import { findRelevantContent } from '@/lib/ai/embedding';
 
-export const maxDuration = 30;
+export const maxDuration = 60;
 
 export async function POST(request: Request) {
   try {
