@@ -20,6 +20,7 @@ import {
 } from '@/lib/db/schema/resources';
 
 const embeddingModel = openai.embedding('text-embedding-3-small');
+const MIN_SIMILARITY = 0.45;
 
 export const generateEmbeddings = async (
   value: string,
@@ -89,7 +90,7 @@ export const findRelevantContent = async (
     .where(
       and(
         eq(resources.status, 'processed'),
-        gt(similarity, 0.3),
+        gt(similarity, MIN_SIMILARITY),
       ),
     )
     .orderBy(desc(similarity))

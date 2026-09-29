@@ -66,20 +66,25 @@ Szabályok:
 - Általános ötletet adhatsz, de jelezd, ha az nem a tudásbázisból származik.
 - A válasz végén nevezd meg a felhasznált fájlt "Forrás:" formában.
 - Mindig magyarul, barátságosan és tömören válaszolj.
+- A getInformation tool meghívásakor a keresőkérdést tömör angol keresőkifejezésként add át, mert a dokumentumok angol nyelvűek.
+- A receptneveket és tulajdonneveket változtatás nélkül őrizd meg.
       `.trim(),
       tools: {
         getInformation: tool({
           description: `
-Search the uploaded recipe documents for recipes, ingredients,
-cooking steps, preparation time, and meal recommendations.
-Use this tool before answering recipe-related questions.
+Search the uploaded English-language recipe documents for recipes,
+ingredients, cooking steps, preparation time, and meal recommendations.
+Translate the user's Hungarian request into a concise English search
+query before calling this tool. Preserve recipe names unchanged.
           `.trim(),
           inputSchema: z.object({
             question: z
               .string()
               .trim()
               .min(1)
-              .describe('The user question to search for'),
+              .describe(
+  'A concise English search query translated from the user request',
+)
           }),
           execute: async ({ question }) =>
             findRelevantContent(question),
