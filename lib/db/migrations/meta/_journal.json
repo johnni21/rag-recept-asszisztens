@@ -15,6 +15,13 @@
       "when": 1756575116874,
       "tag": "0001_gigantic_triton",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790670297161,
+      "tag": "0002_breezy_rhodey",
+      "breakpoints": true
     }
   ]
 }
