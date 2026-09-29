@@ -1,13 +1,23 @@
 import { openai } from '@ai-sdk/openai';
 import { embed, embedMany } from 'ai';
-import { cosineDistance, desc, gt, sql } from 'drizzle-orm';
+import {
+  and,
+  cosineDistance,
+  desc,
+  eq,
+  gt,
+  sql,
+} from 'drizzle-orm';
 
 import {
   chunkDocument,
   SupportedFileType,
 } from '@/lib/ai/chunking';
 import { db } from '@/lib/db';
-import { embeddings } from '@/lib/db/schema/resources';
+import {
+  embeddings,
+  resources,
+} from '@/lib/db/schema/resources';
 
 const embeddingModel = openai.embedding('text-embedding-3-small');
 
@@ -53,23 +63,53 @@ export const generateEmbedding = async (
   return embedding;
 };
 
-export const findRelevantContent = async (userQuery: string) => {
+export const findRelevantContent = async (
+  userQuery: string,
+) => {
   const userQueryEmbedded = await generateEmbedding(userQuery);
+
   const similarity = sql<number>`1 - (${cosineDistance(
     embeddings.embedding,
     userQueryEmbedded,
   )})`;
 
-  const similarGuides = await db
-    .select({ content: embeddings.content, similarity })
+  const relevantChunks = await db
+    .select({
+      resourceId: resources.id,
+      fileName: resources.fileName,
+      section: embeddings.section,
+      content: embeddings.content,
+      similarity,
+    })
     .from(embeddings)
-    .where(gt(similarity, 0.3))
-    .orderBy(t => desc(t.similarity))
+    .innerJoin(
+      resources,
+      eq(embeddings.resourceId, resources.id),
+    )
+    .where(
+      and(
+        eq(resources.status, 'processed'),
+        gt(similarity, 0.3),
+      ),
+    )
+    .orderBy(desc(similarity))
     .limit(4);
 
-  if (similarGuides.length === 0) {
-    return 'No relevant information found in the knowledge base.';
+  if (relevantChunks.length === 0) {
+    return {
+      results: [],
+      message:
+        'No relevant information was found in the knowledge base.',
+    };
   }
 
-  return similarGuides.map(guide => guide.content).join('\n');
+  return {
+    results: relevantChunks.map(chunk => ({
+      resourceId: chunk.resourceId,
+      fileName: chunk.fileName,
+      section: chunk.section,
+      content: chunk.content,
+      similarity: Number(chunk.similarity),
+    })),
+  };
 };
