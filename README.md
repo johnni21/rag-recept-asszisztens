@@ -428,8 +428,4 @@ A másik fontos tanulság a magyar kérdések és az angol dokumentumok között
 
 ## Videó
 
-Loom bemutató:
-
-```text
-A VIDEÓ LINKJE IDE KERÜL
-```
+Loom bemutató: [Megoldás bemutatása Loom-videóban](https://www.loom.com/share/d925ee6f7ab74891b2cdcba2e238bc29)
