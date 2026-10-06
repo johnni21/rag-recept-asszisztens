@@ -1,3 +1,123 @@
+# Multi-Turn Evaluáció Házi – 4. modul
+
+## Kiválasztott aspektus
+
+Az előző modulban készített receptasszisztenst használtam.
+Azt vizsgáltam, hogy a válaszok részletessége mennyire
+illeszkedik a felhasználó kéréséhez több beszélgetési körön át.
+
+Cél: rövid választ kérő felhasználónak tömör,
+részletes magyarázatot kérő kezdőnek érthető, részletes választ adni.
+
+## Szimuláció és értékelés
+
+Három personát használtam:
+
+- Türelmetlen kezdő: legfeljebb öt rövid elkészítési lépést kér.
+- Türelmes kezdő: részletesen szeretné megérteni a panírozást.
+- Tapasztalt szakács: célzott, tömör választ kér az Aloo Matar fűszerezéséről.
+
+Beszélgetésenként 2–4 kérdés–válasz kör futott.
+A szimulált user az előzmények alapján reagált,
+és jelezte az elégedettségét, illetve a lezárási szándékát.
+
+Az asszisztens modellje gpt-5.
+A szimulált user és a judge modellje gpt-4.1-mini.
+
+A judge a teljes beszélgetést egyszer értékelte:
+
+- 0: szinte végig nem megfelelő részletesség.
+- 1: többnyire túl rövid vagy túl hosszú válaszok.
+- 2: többnyire megfelelő, kisebb eltérésekkel.
+- 3: következetesen megfelelő részletesség és alkalmazkodás.
+
+Külön mértem a cél teljesülését és a szimulált user
+elégedettségét. A judge indoklást és szöveges bizonyítékot is adott.
+
+## Baseline eredmények
+
+| Persona | Részletességpont | Cél teljesült | User elégedett |
+|---|---:|---|---|
+| Türelmetlen kezdő | 3 | igen | igen |
+| Türelmes kezdő | 3 | igen | igen |
+| Tapasztalt szakács | 3 | igen | igen |
+
+Átlagos pontszám: 3/3.
+
+## Változtatások
+
+Egy promptmódosítást végeztem.
+Az általános „mindig tömören válaszolj” szabály helyett
+a felhasználó által kért részletesség követését írtam elő,
+kezdőknek egyszerű magyarázattal és kevesebb szükségtelen ismétléssel.
+
+A modellt, a keresést, az adatbázist, a personákat
+és az értékelőt nem változtattam meg a két mérés között.
+
+## Végeredmény
+
+| Persona | Részletességpont | Cél teljesült | User elégedett |
+|---|---:|---|---|
+| Türelmetlen kezdő | 3 | igen | nem |
+| Türelmes kezdő | 3 | igen | igen |
+| Tapasztalt szakács | 3 | igen | igen |
+
+Az átlagpontszám változatlanul 3/3.
+A kiválasztott aspektusban nem mutattam ki javulást.
+
+A szimulált elégedettség 3/3-ról 2/3-ra csökkent.
+A kézi ellenőrzés szerint a türelmetlen user megfelelően
+rövid válaszokat kapott, de további kérdésekkel elérte a körkorlátot.
+Ez önmagában nem bizonyítja a prompt romlását.
+
+## Fájlok és futtatás
+
+- `simulation.ts`: personák, userreakciók és beszélgetési ciklus.
+- `evaluation.ts`: LLM-as-a-Judge értékelés.
+- `run-evaluation.ts`: futtatás és eredménymentés.
+- `lib/ai/prompts.ts`: baseline és módosított prompt.
+- `results/baseline/`: baseline beszélgetések és értékelések.
+- `results/improved/`: módosított változat eredményei.
+- [Összehasonlítás](results/comparison.md)
+- [Reflexió](reflection.md)
+
+A Docker- és adatbázis-setup a README további részében található.
+A futtatáshoz érvényes OpenAI API-kulcs és feldolgozott receptek szükségesek.
+
+```bash
+docker compose up -d
+docker compose exec webapp pnpm exec tsx run-evaluation.ts baseline
+docker compose exec webapp pnpm exec tsx run-evaluation.ts improved
+```
+
+Az új beszélgetések és értékelések API-költséggel járnak.
+A már mentett eredményeket a futtató betölti és nem generálja újra.
+A mentett eredményekhez tartozó kódot és konfigurációt
+új mérés nélkül nem szabad megváltoztatni.
+
+Ha megváltozik az API-kulcs a `.env` fájlban,
+a webapp konténert újra kell létrehozni:
+
+```bash
+docker compose up -d --force-recreate webapp
+```
+
+## Tanulságok
+
+A baseline már maximális pontot kapott, ezért plafonhatás alakult ki.
+A szimulált elégedettség és a judge pontszáma eltérő eredményt adhat.
+A mentett beszélgetések kézi ellenőrzése ezért fontos.
+
+Három beszélgetés változatonként kevés az általánosításhoz.
+A következő kérdések eltérése is korlátozza az összehasonlítást.
+
+## Loom – 4. modul
+
+A 4. modul videójának linkje a felvétel elkészítése után kerül ide.
+
+---
+
+
 # RAG receptasszisztens
 
 Ez a projekt egy dokumentumfeltöltéssel bővített RAG-alapú receptasszisztens. A felhasználó Markdown vagy text formátumú recepteket tölthet fel, feldolgozhatja őket, majd magyar nyelven kérdezhet a receptgyűjtemény tartalmáról.

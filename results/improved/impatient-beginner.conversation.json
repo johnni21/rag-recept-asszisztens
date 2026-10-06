@@ -1,0 +1,465 @@
+{
+  "personaId": "impatient-beginner",
+  "persona": "Türelmetlen kezdő. Rövid, egyszerű válaszokat szeretne. Ha túl hosszú a válasz, kéri a lényeg összefoglalását.",
+  "goal": "Megérteni a chicken-schnitzel recept elkészítését legfeljebb 5 rövid lépésben.",
+  "patience": 1,
+  "turns": 4,
+  "durationMs": 70746,
+  "userSatisfied": false,
+  "endedByUser": false,
+  "stopReason": "turn-limit",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Hogyan készítsek chicken-schnitzelt? Kezdő vagyok, csak 5 rövid lépést kérek."
+    },
+    {
+      "role": "assistant",
+      "content": "Íme 5 rövid lépés kezdőknek:\n\n1) Készíts sós vizes pácot, tedd bele a csirkét, és pácold hűtőben 30 percig.\n2) Vedd ki, töröld szárazra, vágd/nyisd kb. 1/4\" vastagra, majd klopfold egyenletesre.\n3) Készíts panírozó állomást: külön tányéron liszt, felvert tojás, panko.\n4) Hevíts olajat serpenyőben 375°F-ra, a húst forgasd liszt–tojás–panko sorrendben, tedd rácsra.\n5) Süss kevés darabonként, gyakran forgatva, aranybarnára 3–4 perc alatt; rácsra szedd és azonnal sózd.\n\nForrás: chicken-schnitzel.md"
+    },
+    {
+      "role": "user",
+      "content": "Rendben, értem a lépéseket. Milyen olajat ajánlasz a sütéshez?"
+    },
+    {
+      "role": "assistant",
+      "content": "A recept szerint földimogyoróolajat, repceolajat vagy más semleges ízű olajat használj a sütéshez.\n\nForrás: chicken-schnitzel.md"
+    },
+    {
+      "role": "user",
+      "content": "Oké, köszi! Milyen hőmérsékleten süssem az olajat?"
+    },
+    {
+      "role": "assistant",
+      "content": "375°F-on süsd (átváltva kb. 190°C).\n\nForrás: chicken-schnitzel.md"
+    },
+    {
+      "role": "user",
+      "content": "Oké, értem. Még egy kérdés: mennyi olajat kell önteni a serpenyőbe, hogy jól süljön a schnitzel?"
+    },
+    {
+      "role": "assistant",
+      "content": "Ebben a receptben nincs megadva pontos olajmennyiség. Általános tanács (nem a tudásbázisból): sekély sütéshez annyi olajat önts, hogy a szelet feléig érjen, kb. 1–1,5 cm mélyen. Ez egy 26–28 cm-es serpenyőben nagyjából 400–700 ml.\n\nForrás: chicken-schnitzel.md"
+    },
+    {
+      "role": "user",
+      "content": "Oké, értem, köszi! Még egy gyors kérdés: a csirkét előtte sózzam vagy csak a sütés után?"
+    }
+  ],
+  "reactions": [
+    {
+      "message": "Rendben, értem a lépéseket. Milyen olajat ajánlasz a sütéshez?",
+      "satisfied": false,
+      "done": false,
+      "reason": "További pontosítás szükséges az olaj típusára vonatkozóan a receptben."
+    },
+    {
+      "message": "Oké, köszi! Milyen hőmérsékleten süssem az olajat?",
+      "satisfied": false,
+      "done": false,
+      "reason": "Még pontosítani szeretném az olaj sütési hőmérsékletét, hogy biztosan jól csináljam."
+    },
+    {
+      "message": "Oké, értem. Még egy kérdés: mennyi olajat kell önteni a serpenyőbe, hogy jól süljön a schnitzel?",
+      "satisfied": false,
+      "done": false,
+      "reason": "Még pontosítani szeretném az olaj mennyiségét a sütéshez."
+    },
+    {
+      "message": "Oké, értem, köszi! Még egy gyors kérdés: a csirkét előtte sózzam vagy csak a sütés után?",
+      "satisfied": false,
+      "done": false,
+      "reason": "Még pontosítani szeretnék egy fontos lépést a receptben."
+    }
+  ],
+  "modelMessages": [
+    {
+      "role": "user",
+      "content": "Hogyan készítsek chicken-schnitzelt? Kezdő vagyok, csak 5 rövid lépést kérek."
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerOptions": {
+            "openai": {
+              "itemId": "rs_0536dae70f58183a006ac4ef5a5e0487d2809ec0afbe58a725",
+              "reasoningEncryptedContent": "gAAAAABqxO9f9LCuI0m5ifX7p1Oh61Kgo8yHPSzI0f9gGfcgYrg6CLuF73A_xt80q8OPbgYsjtB1G0FMYEGu4Cy98RTYFG1kjyUL624986WeQIiRit0QjRARl0D6-xJkFlHAiOppEyOqxL2lBj5dMQO1CZ7s6iL7NzTByazD3s5jPeaB24LZvtHcyQ7jlWuJpL1c3PMTlglX0_wx0DZ8hEBwubZp1NiEqeU37FDNnwfN2CnQ_cvjHv5ONhmA3KZoeU56xduULhRtw-YxZtDvZP30xHl1P9VeyObGTHc8wdInyEjW-jXahAB_-YyZHEVLjc4IQfk-jdZ29JIkO0kMrRaHKRPWXRw5eAaEA4V4VN-FzL0RML1nWdORWOHM7uQOU5Ojs1i1ZJvkDVwBOFNNtUTnIot3erx6ia-EobK69CKl50yti45AEqHiZp5VMkY0ceZ293_6qVYmE2I82HgYTdd7v8aXyY5L01oW9qVSKAPaBrcvoCok2-pfxqdu3cODuhG5qrp6c06ufQoTv51497nc8ajUA4l8Ea5NQw33SylOCb5BLOFzmyrzKdByVPMfyUpuYGEZeva9Od6HxGKKbSk310hm1LL6PAE1RqQKLMmi630X_OfnSrs5l-uCAdRuxxHPGiZHYa0hi4M6iuKY8FO3BfKnw07_rij2TMoBRkPxFvscSCisrCvMg4Yp0ThTH7xCcWTWCGOJGPZs5nLetiheddvfUlyxkIb9zSsUW6daS7gJj2yGsfuNp2McdVs8NepAk9cTzGWLaIFxyHdEakuJFNMrc1IPbCw77Kk2jgQ5GF5u-6jVNX1Qv4AHt2ZtycWihUv97iOLiA8xd8oO-zc43NuwhA6Gb1siVCOzK9QTpAhCi1sLe8nyOjAGWFzKOymR3So4QZJ4y1hNxXguZnluwMNcQ6j3F22ArqnJQbTRLna3NZokUZxyNDL8Zc860c9NzI6HHRquoALda4916i7CRVPMi9iZmCtIr3utXjkcBOQt60F0YgpW-taMfS6nanM4JecaV9Y1ZAZCdoSv0RpCD0TuTFLO82_hZjT3-jGh-4OV5SiMgWQYIZE-xLTBbp78quYHnnNQ-XV3FdmK_KujzLZ_vUS3xR7F0oNrbObf9z9RltyrSmmEmNFPDq-ipBczmQqcRH8bEZhZR-r3E4Fdufu3_-Wxyh0XSUquSlvmJ3GPWI2BeM4Nt1Of3hM9cfsTN-dh4GfjR4lcfVY1wYesK1B8OsA8uDZPAVN4KZRdEvKtG6_5zkEoQ4GOmoMCK8Wmj6HVnZ2JriMa4eK-BGzdoq6ZFU30aa74ZUCMqdlHPMuAbHX69fDVJxrIdxuiFwLujaNtq65_uymqbVVGuyJb4R1V1kOgUur5xkyLuBP5uoJDC-Ji2w73JS1LItUF7CmrektwzrEA-Y7OHsn7L3Pu7u-D8Cvwap6KJC5dvtV5gh2A0CDupqsGkb-FbiDWVHVucXYfHEJVDUO8w1MxpM1Ag0PXXkyC0yy3kJZpY1UmMcSqswN44Zwt3E2PSaPO4FI3dq1KFCDRt7fmGS6vzCdSnxb_Xo9ZDWbe-Cln7Eari8V5KHfDeoudm4INI4Xh3OQK_H3xkfccW_SImJZDoBdxL_H2B-OaagQluFCZTfhIZd_Y_KXkXvgjE633zcp5qSlktDKcVs4dbendgm62eoXI48rIAVpOemU6rtcevZMq4DkrDTxq92WCJSZH316D19DV16D7RvaLRHqvNckE9Iah9zfYFJwnVFDMXXqcRhbwZFHxHz70Eu6nmRwBTK8BgFGeYcxxN3gkh4_u1mf_OZ-CkTSrnFRud-OyONEPUfhp3V4x91GwbgapNbspdCN341ZpgK9VF34jiuSuzY3JroxTc61ATuZGPdE3n4LyptU1olL5mCGOqsu0F1kLdrRhMNfC_JwDWlJcLakXDrshH7Mt2zmZ6_Kl2McfzedIg8_ufqpztU5Pgl0qxnr-pDt_KBz82nNL2ZzkTeKD7f345nOETfGvqNJ9-45drL75VRMVXiO0XGuLx9XJ_QhwiittIG0eOynMwlJoY4mNbwufUu2QFrBpxZw47q4rYYQGel5m_6lV7W9lGLMoOzeII52MCcT5JrB_hb_mqBNSDdlR1y_jNfrtq0PT2sknGkQokfEQOYJOOiHq646X0CFN4_nTaWvqm2LiE4sQ9glJjUL2NqNJ3sai6_ApJA7ibM-HwUzNYeWjl-2nv-7hnmaz6CSvf2rVTOhM8RaIBQu_yq9t078MGukTGVsghaIqlOPe5JWx2Ib3EDQSDoHbji_9cSlFJjHUsT5U-YGY0bncMCobHkCbWByHsIkt2IsuCCSyMNz4Q807LU-_nyDEL9HcdBIUBS5IR548Ne5zGVxhv4tOx73QugtumAgEFl1VX7-zeeRpA7wCqSWLihymv8HdVVbKLNUaIBi1xNy_g4EFTdRfMLnrlFwR0mXeBFYgLMZcTyLwTU9i2E4zlReXUaUYZd4fFSPMbvBVLJMCE-gJ1qXgC73wn6N14vu5mJmUqo1wc7V4VCMf8TBzMhLIk5BO9UK2Mj39flS2FkMbFjPA6MLSkuZJRcyk0nxPvPPtsnD9yYQN0MgpYZZU8-5ToDsnG7TO7Lo10vhBLkAGV4R8XxY4yX1AnAr5-IVFOArMBSHRnVHTjLHYtLOFdTTFMWmhysmMru8vtIgzQW8KXOhmnVsaqlZIjrw614RV2Ggsav4VdvDpeW-RFzwvlUlklyxI3T9TaWD3mAVneWxQ5U305FFC_qto2iCObpimMhiNoGecvH8fF8iaApZyHVnvRlWg3oHjdNpBPGmrYKBpU8l01qvjp1W5YUfagQb891VPlazTd0vRgws7RvXFmsM="
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "call_jr5BTX9twV33jDWgDHZPBV8q",
+          "toolName": "getInformation",
+          "input": {
+            "question": "chicken-schnitzel recipe steps beginner 5 steps"
+          },
+          "providerOptions": {
+            "openai": {
+              "itemId": "fc_0536dae70f58183a006ac4ef5dd70087d2965d0ded102bcde5"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": [
+        {
+          "type": "tool-result",
+          "toolCallId": "call_jr5BTX9twV33jDWgDHZPBV8q",
+          "toolName": "getInformation",
+          "output": {
+            "type": "json",
+            "value": {
+              "results": [
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "steps",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: steps\n\n1. Cut tenders from chicken breasts, if present\n2. Whisk water and salt in a large bowl or tray, add chicken and brine in the fridge for 30 minutes\n3. Remove chicken, pat dry, and butterfly as needed into pieces about 1/4\" thick\n4. Place chicken in a plastic bag, one piece at a time, and pound with a rolling pin or meat tenderizer until thin and even\n5. Place flour, eggs, and panko onto separate plates (pie tins work great for this)\n6. Heat oil in a cast iron skillet to 375º F\n7. Batter chicken one piece at a time in the flour, egg, and panko, patting lightly to get a thorough coating\n8. Keep prepped cutlets on wire rack\n9. Fry cutlets, a few at a time and turning often, until golden brown and crisp, about 3–4 minutes total\n10. Remove to a wire rack, adding salt immediately\n11. Serve with lemon slices, coleslaw, and cold beer",
+                  "similarity": 0.7240877076721107
+                },
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "ingredients",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: ingredients\n\n* 2 quarts water\n* 1/3 cup kosher salt\n* 2 boneless, skinless chicken breasts\n* 2/4 cup all-purpose flour\n* 2 large eggs, beaten\n* 2 cups panko bread crumbs\n* Peanut, canola, or other neutral oil",
+                  "similarity": 0.6692556851810016
+                },
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "based on",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: based on\n\n* https://www.seriouseats.com/recipes/2014/04/chicken-schnitzel-recipe.html\n* https://www.seriouseats.com/recipes/2018/10/pork-schnitzel-recipe.html",
+                  "similarity": 0.6319933567667341
+                },
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "info",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: info\n\n* About 1.5 hours\n* Hearty meal for 2 plus enough for sandwiches the next day",
+                  "similarity": 0.613111935426418
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerOptions": {
+            "openai": {
+              "itemId": "rs_0536dae70f58183a006ac4ef617cb887d2a42b2cd48f49da4b",
+              "reasoningEncryptedContent": "gAAAAABqxO91ebscjgADOhfPI4zU4_sBNqsec6FbU3BdEYd5-bNPkvjKwgnuuhOgTrR5DxEntSBvHJYQ62DlI8FVNxuYXxtMSwoBrvjXefBxh5_ml7izyAyeNC6VMDM2u5Myj45Nq9MSJeokUlXow7j2kFipTJw22QeeNY_u-qNAcHdSZkWkiQpfgOjYSLpOuIo3lxdyWDem_m7o0O_JkJEJarY5CFBMVvx7Q9UzZvdIeKxds4XvQzXohSUwsYKhGmKIwE82Twyi-AEj-6Cm7ZcjB87W6-hbp71Gk16fpB1MaTPzcyNVRWgAseiQZRG0SNjnAIdMnp60JWDkrgZm_nq3VZhx5QqpkXkq8Sv-55VNhd87SYVGAQLgIUX60bnRrLbwwVrpncT8ed2qQr8tnmY2rKQkcHM7laf-hzLXC8PqquaTh2ZiOSjbIKXV6VMf_9XMh-uJWvea5jLqddr44y4m78XUWJ8vpa2M88USpgE4sdIfqrqY_VmZeH1P9PfGGlxedmYgZxpGLqdX8i2iuiDJx2ZRHy3yATCPvHCTEa-ZrTyRqC8K_4d-N6KWjNpYkJ8V56vCmwtHVNKfMka7IA8yBU_BUjluAOq3q5CLVj8OLQmbcUlfCP73fgyf8b4SliouMte2aOEsyPgObBd4Ni0Mh8pv97fAwuWloZOP5qQ2x1xOlecPsTJ12f4GeYd2PZtg-6TVtn5YPXulJ9X5Oh-m-Lon398SikmYTuZi0jyABYFyc8kh7csQOR2-saLJaw7iTxInAc4v_6kokb1FQVbGH0igjcfnorJ7S6NbyiEPfKdFqpzznJWvJCfdPorVPuHOE98-hh_zHQr8qTiV09t1uqrFXOS12VnXIzc634thkiQoVR0FZ3hyG1P9lU4qaIy3dt8ZwCNOQtjGoGUzL3ShrFip4pWPCZ83fRCRDc9o_r2U8AobY2lgQKbTKQoKokXZdq3UQLZD8dqkgjgK4uCv6lkNxrfUOXXqIwRWmfVkxRgx0URhrd2fYx2rpyt_1mg3VoczFMcuNRtg0aWqbGWL6ZBaaDx91GQ3aMUt3iW8HBr50-nDX4W_VpJ9Y-qZ237frU0vmAViGu-vVwV2hvsLKcFDErn9L_Nvd2zS7WH5V9EnT43h_fgOGSJZxQLX09taSjwCaK0ZWFJiFef6Mr7Y3jLTxqzt9Noje-iUPUCsK_IQAeUqY-no5wISpHf6oE9nW9uMoE5xYOlyv1PdxTirI2S587OGdQRN31e_E_19Ac4gl5cjcib9Zhbgfk4-XcIwEV-vJwqbVVuDa56PiYYXkgYoGZQ4ySoZLPGVSsc8EWDwDv9M35eIWbAwMQ4EbyIrP1nHv0aFi915e8j0wRVw_LMVpqNtdR2ApTNE9p7bauxtxfI301CnRBFFdsGo7hO_1inGKnfFnsz9frpLq7urDlY3QIyorkjJlwQgiFc7u48bulAlOgOZwFUoJc8oPqK_93XL01D1DvIW_0DgiMYjc23FFzqi8qT9i05uMIZxi94Uu_jHfyHGcTHzIbFaAPHXqIohL0q5Vlz75WznaD-a94XrpvFZanfrh4i8O109WJ_yUbDaZebRdX1aCYAm9uTmyB2tWgVQL0a4spHionK-MsfYXENf5fLGdk3PPgwB3njIvOF_PDaxVPewvKL4xmedxaoyTWvrah8iF4LMX3tNm8xjOaf-nw7S9sZPXtmpEci95pZeNHkIzPCWc_wtN7KrhaBwo9_zaJwkJLzxbI0A4BGmavEb8AKNMf3_2AdegddgoyLDFxf6G7U7sdLsm8xCJr_kQKz1auSW5lTDSbXDSeM0pu1v3zZz0EMH1cQZaee7qwRVoFFeSdwDrhwyq-rUBtXtCDnkXr-YGqz-2EBkAryBr8I2cyMueco991PjqOqnp8YujbokhXv40yfQ8-X4eVOSkfP-0sFo8qLypqqCboWR09QTzDthswg-yOdUusMxzW2EnLIlbC8S_OdIhVknDSqirYjYIelOevzcIB5YvARGXN6ITcBGBgogWUecHP2DjZfITa5feaQzXYF5S55wT5k_SjixodM9mInQz3goqwnJE5Kymh62UnOJnp3kepr-yI1thdKHRDVx4LSg-nUgkf4y405YWf-16SREzOCHejb-JTpv6HrVUCzLr93weGqgVkIvmgNCXBlLJHTT4XFlN9fU7xc9Qb53cEKMllKMl5Wo0isH6CMPhAZf0-k7cANm55efL83aloaiGYMhmTf-8J98Z_5GpEiUkzSkgmHh7SiRKHaloLtEJQdKsFlu3yKC7dRDNXdCGqgVO0CFy0b3VA78pAEJcwGAhAPF2u9-CrKc0h9Q9I6iaszsb2mwf9UVFIkz5PH9QtWvJpsslrz1gQpBlzL_bi3VJmmH0ch0gf6LGydcUTmo7N8_V7cKN1SlCEYAI3zJxv4z11YYRVh_qowjrCYKn-NVhk5xFO44731uIHDyfohNtAc-S3Sc9_71v7nG6GkdjfaBsU8FK4gDdLBO2IgoUbtXJUVgBkkA9Bxw1q1zN9B05F2fSyrbCfEUgUfg7OKhTIGkSKoKKSEp6Nd8wBtRUfAAy07eiAEpmmhSitwo5PppBNK_ZM1fLqcD_QoOTWI-68ilMbIReMQchH94fDMeaLZtOK8GuO_EYM98J3GUYLVrhJppAgC7XKbbqzAOE-hhs85kB7xcFW_-vS-9_u3fTU6RiKeG_XMV6djJ_qSfHoABmJV-sPm6Mgrda3dvkHKLw9EADb1U5_qIUMkkEChhkGGJEeD5VfiOrjCHaRgn7a8wyrXpsaKdgU1hAg6Ukfidkae1k9o-komKQuqtmgNldguymC-UuYLKBTUYPyeXOZxjWjTDcAtrJwU-GgNJbdRMueGB4XSijN6wrolssqJw6YLtqe2kJdSIVlK8Yesl2b4ENw8nigkR29Rov6ekhiwQujfgULYxe78cQ0l0BQNme6Wfy74ECFJn-EWYaSwcCLx3wbVG8Or-O3oK1nEBx1jOBDNG24kAtKjMMZe8bLoH3OqukZI2245H7mH0ZIVy7JQrDCARdu1CtMvm7pJKzhodux45xFa6gj6n0Fskjm5ZQ4QU3e3o9TZbS1vo2B3gP0fxqQv9MPlue2GBXeWeWYyFgu4fgs-5bjFHOInbslraYiuLRYEKBp2wTFNVRNZOd2NystBS-iQwiUQJ-Z2r_2-JaDfL4DfSs9JLO5_xliYT5kM6hvqJP4uUZpEXeTlQzgR8-nZlA7AD8gL_THTbtq_cqzppRLRxtWPZkK5B5vQoEpZxyN1VJUXSMAixgHxvO8h_mrc8RXi1HEHFDuy-cAebUJgjrO2SFG9UlTyA3DZgeEEZNxrwL9w3gqMuEdqjvugWWG7wvwzan0vJ5iY-MsXaN-pMUS8_UQ1hUiSl14mVLkI4KewP4DPaekhWHYz5i9cbV14INMRD5KXWTzh6lQw8HSaLwLfm1736T4_B9j--NgUrwSxsT9l8cN8nk2KqSaUEqpW6OMzKfQtg_90MxP6hf6nJhboDS_4sOoTIu5zPd7qKGYJ-Z2aa8QvhkFNMOK0pAO8aydGNwAhxQlP0RjLthq77BPK0YWx0DKC_5hwIYDFL2bY6pGEjpquEqWytJKoyXhpEOc2kXUPTG_SaIIl1K9QRyCA3lMN9aDYhMufrVzjU9mgoRHKukmQJeXDj-26UGhb0Q1X3igYHTUD_kbCxHhONW9Zjzflx3LMncU_GVjmxIl3O5rx52jb6M_r7cID9wDIDcmiWHuE1Asrds3RADpNnMKbomCEM8Wn0UD8kxI2NqBX_hbxiKim2E3RDHxesRE5Wt9waQ7cxnamguuC_bz_gTLm9mEhzgFg-CXUe-Z_mHL8dnsyj8mxpKNQmDqX-PI0IzoddPbaPrdRnbk7E1Lr9hMNFQ0Hi2pVrFHJMeNlsCdTWbLwR7KcBmx_62l7BxUbFWdmDw-wCmMKPPP6AfYPDD2s3_iOhkR7u30bMNpCOY0Cip3lkQ6_tJFhsI3yR9JJW1ZKvsywlMF5SU5uC3pAYGs1Mk7CjEHssCcwHDPMNUvSUAsq5zaIB3oAwAZWfP75FCh-Tr3JssbHkgoIm4JCKr96xgyobGmbiWDgfkwTVbgsEmLY1mZHIX3dpo-m-FFITa_b14kcckCAeimTKxgppvIRMHcM0B2qiVsuiOIChJc9i-de5sR9WqJ5FrBOOKQAX_dMuQLl70YN8AnrjMa9UsHM8rYOxu2EPtFyz5YjhX9JPmaMwu_-zFwl2BP_DmBIoja8PiT5TTpVfHkZG0KYlxL18t91yT8CHjOZ1JZwBgxmL6In_F97J_SU5Cy5oxVwoI7k48VqcSNjZxq_u8Y6N7VhwaMJRjTUsvkgsXLXPsvw-2G642wDs06S2OC5V6x2ZGTJflMi6fE9CsZ6r2FJ2SXEnU83dVGT-835Y7uk37dcB7S_00fZcydRZmN4s3AxvknOtfLARhJhqBG9E3Pof0bTu0RaKE4yiE2Uvl2R1_BPD6tRypJulVvzKgWwYMKsydAy-zrqI9Jl7zhd5gyVxqDOBVFEw5jCnNi0Er259kTbrFEMviTV1MDIA_wVpcmZP2a_MC-Xr_TfwF3vC4GAy9kePIyL8QcM16iwvXdcYmoGHfjqvtaQaBkHhfp5oILTJaTM8gZIBwsEC1LNzCX023jUoOkfuTXA-elQr_-DjySjOHjjLvqZn0aLnP_yitDMIMjCwfj7wUJS8XEDTO3z-Sz_xujfuK-eAtc3G-VNFWWw_4dRqRc9Ehg20vieU1ab1TFrSVrQS_lciy7T-jCmPmL1X62YKy8e0qZOxDv2IoCLRQan6s9TI5SRB80ZTEE4-sfznz4IkHeTQisxQb2PmAg9qKiRH19zgiLDf0FtIHxMZnI72CE5IS9n2BBX0ZoceedkKP-mQYgTk8MxKdlWoWV020fkjIwSqJpxqNm_3PqayTuqT6hjbxaFfKfDBfDn8LFQdvqUINEuWT6087YcReMW0GS94OYSgubQ4qFUf4W-52JJmRypbFYP-ZSqfYX07SODYZ1YaTOZwhk_2FKxmYE4zTrB0vVCdS9aTfW0ZE0MaaJMSVbn2-o_7CKVYxc7O4ggknNL7gfwueABkcKVPoeDyWkSjuKc-oYdNJcHGE2MQr-gGMyBiXHLddOF-qKedP1_6ZZJzFPffioI4P97k2nOxMkHMVLg7m4eqGu3IDgM3wov_N1YMBExcJcKWP1LL9XQHfRsbH2RUFYFEgcrHoAD2DyiSZi0YCFK6WvqDjdzuoD87ll8zM31mapeNm-ojvG_yGm-DOwVkayig3M6dh02Zuyb_xqwDmlX0gBYArI3r62Jo0FSoErQFkhXlYo3tBizvCujT8d8PEAUs8tfGNs53zWHK0I6kvZoJpF2UzPUaoXy4C5Q0U05I1uEjzQ7VuiQSJZ_EzCQHcElnmb9gogZs9r7psNd47CxMymsm9yDL_nWF15v0LhvjGFEGVf1sxrzDw-6_8nv1-dXCCmYIqXX0NGYEbQIDOBdyhemBdrj5_mf41gayuBoM6tNcqDLI60cJNG94t4_X2AuMjkkSGHKHQ0qYoa1IwTCQo8uEa0RjkpLroGyWOkw-YlUDXfFanNtQ7mf0gQCqTtg6uogb66N8eil2z8AOoJktX2yEETT7Ca1VWRE5cXcz2LYXXEsAKCqSAiyqQ3vs2PjD0IJ6nGJtXtCoDp1mtdphFX1zEZcrNwkx_7beLJDv8RUD5Sy8BAjF9M8huhEmraSC0C4V9mMqIyXgrNionuQRyiZJijU83gGoAJqeHKTNTMkf6e18j1uNCVGUdnqsBPjNM6NBS38iTKFEvGQ0C74jD-HqU28_MG4mI_vsLVhVAVogu_KS0A8AI9NUOrwkqqgxnrDQGuqVBWCySdZsQG_GS4WYWGd6TrrFTF9W5HQUjP3mL7TbujyImsLlgnLmetm1VKryFiaRAqzzQJVc8HAP0ll04UvpGH9XMRYWKeNJjlG2S886D6n32gzl1cd5f89v4rJxmBJ4RUigSX9ttHH39M4e3K_yCdVattuAwrm2GnQwrrxkYW-UFqQhQ1mSogLFMiUW8P5-pQmNtxAwfxEkEmU4KVHjf6tYsAKNfjJvaqGEjw4e9jN_YPttY3xtArIrm3nAWmUnAncJpVpJvzInImB-HNn1Q1dLMcGLMnrAetAzdTpVRsvOSHBCXM3TEoHsdyq2epQoqAmr_JhjS2d-vSIZJHssJvhwntdgQodg-n0OA6ZNh2E9Bfr9jHzmsMPc2qV2eLIjVp70lfSA6YcmBYRgmU2GegVR_3n06Bp4xHTeD9BVyypNmh7Xc5l-42vQoe6bhMK-P4agAcRlLhuappew5YAzFY_OX21cONViJ1xCgzxEzOfNJkcK_yxzci_olKLpdb07heVhFIoPYIi1r7o5AYgp-LSHiT5PQ6kk-PUKolxDiJzY3tEfZYlfP_n_NwnbYcFZj6nzFJKa9SgG1QYkq9xC3OKfUFjACpTMxjs21VZh1P8Z8McXCf0l-CkZ1pGD9JY9-IrgYJjOYeeIsIOk6F78z2AaSh-xCqGVyaFev2-ei5CN-7mUaQ0TWe3DYh2E8k-Azleihb8182lqBlZsLS9QGf_rKfs2n1wf5g9e7xkpIVx5hf39fV5vFDXDmGfcKwOCkLvAQ4JwyYqWBNt2FeTcnaVmXLJuvAZZVrqkeAOZkBEmOYy4QNPRQFFgYbpG2aGa9Jj9sRewGJVAJXqs-bqsUJn0ycUfTPEa7c2VvJT8dgEZER8T86z0Ztp1upfkNdTnIo2Deiww-JO6l4Cs9L9U2-HOgAMrIXaaWGa5PZ0VS-7aGW5iTHI48gGNmdywwdyIfkowWWhf9XU8aPbqJCGQeRbwgUxr6Mt57mKaVraVGTlxpjh6UOW8EGEoFrVXMBSNQqGcrYhkOCbSd3xh5KjJQEB0HUsFG_ToIeYf1c5lY5y4uggCpyEChf5Vnm7sqsNQ60T9Wm34hUSqzdTd6XDPii92vq4o8yrymDVsgMjShmkFFxUDjx9JtnBLCUrntAve984TT-RtFs4cbF0_4ep2LjBl8fPM-nirV4cK25Md8yDgtZwKH_qIOtDey7Sa6kQaEjyU55Zl5iuh_nHzYS04L6KntAl5PC7sSOn9s6jrsS9LIeKcKKdXEwGeL8Tu0-E7bZtHhWVTSUj1oE9amgM9x7ysNCsxTEEdHBHSiSyBcrF13SW_miK-BNzuJ4b7a7Bhq-4ZhJ26ApVP6lV3tCIo2jt_3dinsxUGIyzQWmw4UFvdWXKQmRrJEIL27My3HFzgnQMjRfAytJrdG5CqvjDhm4dxeCrhe2fyjNyq-6lWIgChp2sNk5cvo1VX0KQh3dlgIkPfEaov-TvvVfSROb7JY7zDIfnUf7gk7Q=="
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Íme 5 rövid lépés kezdőknek:\n\n1) Készíts sós vizes pácot, tedd bele a csirkét, és pácold hűtőben 30 percig.\n2) Vedd ki, töröld szárazra, vágd/nyisd kb. 1/4\" vastagra, majd klopfold egyenletesre.\n3) Készíts panírozó állomást: külön tányéron liszt, felvert tojás, panko.\n4) Hevíts olajat serpenyőben 375°F-ra, a húst forgasd liszt–tojás–panko sorrendben, tedd rácsra.\n5) Süss kevés darabonként, gyakran forgatva, aranybarnára 3–4 perc alatt; rácsra szedd és azonnal sózd.\n\nForrás: chicken-schnitzel.md",
+          "providerOptions": {
+            "openai": {
+              "itemId": "msg_0536dae70f58183a006ac4ef7136f487d2aee6ebd3ffec612c"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Rendben, értem a lépéseket. Milyen olajat ajánlasz a sütéshez?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerOptions": {
+            "openai": {
+              "itemId": "rs_0536dae70f58183a006ac4ef78601487d2b445f417fd229769",
+              "reasoningEncryptedContent": "gAAAAABqxO9_J88YX6EOWDWW4f67y5wqGUMEMpnzEQf3q8z9c2oT95JdfJlSlWx1-ynHeDacCd2YBo4e7lZjP6y1vAWKJ4GcmGFbYBP5W-Q_1NG_K02fX1rwMNX-t4zey6kFVgdwtv8R67XSqHXCg7Q37v-a7oTUqeBSeqKcJQPhAkC-NyWxKeCbKqHFSgO9ixfAic6mt_1eUUFyLfIFxwQYErGGxFJkRsPVlt6bC0MBixpcmbWEGoHcjdJ0W48rPkasO6BTRkYyjHIFpooqhpmeqkuCo2Ax0TKdOo-HP1LQ_xOm1IpOubkwU8gT8tkRtUvuEriaCqfDG-Gsi9Z-R6CFQTf4U3c24xTyJ8-fViTu7u9x8CkZCNrr9B0FTFpw6wdQxwMIATrb-_OkY9Cv9rv8necJsl2ZidFK3Xu4nhyJR7RmB_7mAcgZExWv-sQ8tfEOBrhtbVrn7sKs5DWEl5F2mEormSaHordnoHLizr0ZQyPLE9QgIc-R37Mp5i5YVjijBAfq8e9p9xYw0opMKxyKS0tysCZeb7iNzXsiipZIi5DQIYhr-NNh-JnjaKJpsqS_ZRL2pLFvE2L60BpMe1_mF_dNEsKE1XwSlC3iUi7_l4b64-PhZ7uskutJPiInfmnaNZOkrS-AYAcpCma2ETGU-PLZ56lxP9ClQWlSvlP7WUzRv4zxKiU1qPuPbUmBbMjipphZRCWeD00ktoFzJQ4n621YTSYczYzSe9JR4kCpq8yvhbfnW-UtYkBOMs9AB5toKDz-dG-jDJEvlNcyJAx6jZq6VMu1eG2DkRRm3_pxc4lzPHW0acFES2fypygJLuApkE2hiomWdZrshxDEIEHpdHaW-ToJvdLUuSgKxorrxIKQGVeazrm3VTfsA9aYh_wGU4cCSJ9y9IBJLvPCbRkaiqAHg50OoB0YdmXTYAY8heSior_W1nbcLB1cJi3iobhRooMT_nklbsUj9aE3yaME7fd5fS6uWGDBno4EGcqJqV0o5DZo65oxrPXCobel7v-axfRO6gay2QBF_pLhRKvWMua7q3zV8hW_cOLrAJRO9gFthUzy7u7XJoVLVp_8OndAWgF7t5QzWJTXz68EVi1BDbH5Isow0HEU3YewVHDDHSIFOfziHKojedA3PSD08ccY1Z39MZhPmlAO-JvKaGj-ES0jaAjgZXfEEyJrTh4k-qIkPVNmZnCXd70Fn6tNHJIIO_67HQpM2VfA5qfWI7tmo0hrQQqTiIuPJP_yX_qcUCt78fHb54HmGLpU96Xsw2GRhjS_hw72QwuWzKx6kTCuJC6Uwtn5YXdJxKbyJ0mvj4We-QqzINYz-SDnOeB3JrUlZThenrfMg5rxLA_QQOtxtFpxK6XVLnaUdG5f9GWfO3X2cte0GjLiTmhJCEt1KtvZbnItJ3OL_TZFpUbAxy_uxUp3Cs3_hKbzu-44d4PnoyLuALL9lYO4IgDsRqOCEsc2ax5k7XAl5la-RMPJ1uw-JUiKjZCY7sbEJL7CznUFtZE93f6qRbvbZBpZY7LI1ji9e7uVv2HnVytqUXYBhzual5v9lJfbVc2gcPxI34BVZXkSXIDAy7Eho550DzUyJezE5LvqASSTArTqzm9NREphH93vCCs6XA5KSYVEp33gLoTjMjXyMfuTwAfhDyfVj5XD8r2rNBcYMe4wOnIImGI4BHHf-5BX3qU_vMN35ehQtCXIc2b_2FfbKqnRA2Fb7XXDK3x1HB1KGvieoYJIBG4mcsZOmE2my-uRMjgBQPb4K8lyDVRQIT8ioJaJymBF9EFs9wP53P3laPaQrYag46N5PYriY__mFQPs1Fl8HiQ-FBMRSM138otvQy-dxWemLyjqQnZ_8F9WsCqonkicdVY_xGH2K0qa7kRjXfnoJcwvnoBi8NydVn6x72JEucuCk5Y05cjfCHV0C7DQNIh91eCHSE3rQlEfEMynNtX33JClvUcHJs9FkpOUDqUvlKUtX6AqGewRYzmplEflNTCsQ_42jOVYYLLaTHZwTjWjEza8Bzr_Xe730tsdbQlIbYYZZs0qMMP2nILPbXqLQoin0KS0fdNECGYVfOdnTjEAb9MiFBERzqFEsjYMKb_m55pSKB80TOVWjrOkPNHS6OcYOejQITNgpBJFxOzyJWrruM3jeYMMs_L-lxHzKEoXhCHBqR--BZmy22UM9ffKggLWy2hGGYNPD6jtNdk3YCOM56dHFWX1IdzBFQ01lMffbYzemGrbRU6-fpSldtjaWR8xc6vWBT4FjnuG8XuyvdnJBMqvpHq6Jbvu3Wzi9AF-Wfv_EtmfOYAAaSlcdAeXe7sxTAmUHGq2YL9e1tBSY1smGbL6jF_Qh0cKkOoeaDpBOpvI8FI2S_aeuIQR50jiRPgPXQ2MwuupgjNigsEhH9zpgnEIp23fYpAoNIRz6Mdl5a8ntsICYMrqucrY7yUrRIph5MKUf3sLdcQQfPXBXuZHJ3DHT1dMLT1i5OzUk1euNcSalCw7gvcqCuDbPqEuYn2tgARA3-r9Xf38G-gKaD2StA16CbwEU20B7zAuKlmYcv6FVG3IyLVxf7qhSyGl2BmrSnvAcPLVtcAQssIqrvJQLXzzXLZtPyC0b9j3A7KYFiaGAksprcKKSbLBjH4Rczic05dDUvQ823akBMQqLLF_epZHYhGZKyqX1zx4wfG6R--zfZhjwIahM2l3vJDaGlplewBLeLfbRtuImSZ6Mpxz91IQlVBx6iWkBVwN6A5RicXzJSErGFelv-4-eV81fVx-_6eis9zcAthl3rlhvOyRjk54TicRdfFgs-roTBQhd-c6tQUbhJ6UbcMZvi3voS-_5ckNPLEeRNxDdbuXcjsgA5qBi30mzOHGqenC5dV07is5-bnJcPzy0htkfckoVx2_8gaee2MD7-moo1Fndhk-GR3le6A6sJEDaU1QNn3O3mq1WsbBenG8bhkkpWpYkofkDImNPmnYjzZSYD-xmdv7FtvduHLrCTJYOlr2nknPplz-j6iYtL0UWeejOrJnMnCiIZXESDQc4HQtZB7M_7e0V5XJv9NEqU1eHwoi_L83Ou-F8dGVKZMBwEnP-eH8CnDJy8KqjvHw7cj78QzT2g1zQumOmZSBMNyMf14TNNuH7C61kWpIUzMSWKbf9rsa5K12R5tAfnq7lBHPhYHrZnsOiNT8NgySzi-XU_4o99eWDdODAFHyBEgTGEC2dxsnmhKUMSU8KtdM2h5QzvLXX8ZhmBVPaCBJWiFi6m0s82PluLYG3VE9mPS0DhbxWgM6RkySNuGD5FKB5UVqjJSJzb2_V4r8cIPYRL9TLJLngq6ULibXTjd5v9QGQ6bE87G-vPN14EV3qSbtBQ0H1ylLYqP0M_6AnkMfZWdYc1jG3EocofVskgRJtMv_w6tJ2ZLnZ_35z12ulbMMVcmayAzRY5F_XEbUval21pZlaGBum8veQmkKSjHQJEOnrdkik13PFfVCbg8upGQggIWDMPR7g1egZbg039XBeGtVw4OkshLxs-y47ntJColizDnYY94__LpEVBNBIBFb2EeI5O0gWPvHx4Lwb2xpva0BfjrDBNSmnI4ebCuX66OtrNAYTnQ3yCjZHVT-jSGD_FVMzknjeFc3rKI7DoSy99kqrZrbh4r1MS_EBVEL1G_SXGAQCfDabAt7FcThrc4OaRbdL2HqRDripOPbX_BvXoPFhbCzyRjfTVgN7RoM2-d6KYUBd5JlBu1CRNJRXSpDnI7kM0C-mmVIR1FxkW6Rbd_lKVf3qrFaOpuZ1EYZ6f79yXg8niD6FlHWF7Fc8aG1Gk-ggTThHh-NtcUJOMjpp9lGx5tsTJEtp97E63egUL8s5XMdLINhQXSk0y6CjqgLWww_8r3u-kwmrLgrx53-Zzr5_0tgH7y3Ky1KvMiWi-5yTi7o3Vpnf69gNSVC6lHldPu0RvTJyW2aQiVaJJWNTOCkQHzYSfsMm-wtBlR6FZf3Qd5S"
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "call_wRsNFptQiGgx0DGwsi0aWQ8U",
+          "toolName": "getInformation",
+          "input": {
+            "question": "chicken-schnitzel oil recommendation peanut canola neutral oil"
+          },
+          "providerOptions": {
+            "openai": {
+              "itemId": "fc_0536dae70f58183a006ac4ef7efc7c87d2a688e6c6f3b17ba3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": [
+        {
+          "type": "tool-result",
+          "toolCallId": "call_wRsNFptQiGgx0DGwsi0aWQ8U",
+          "toolName": "getInformation",
+          "output": {
+            "type": "json",
+            "value": {
+              "results": [
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "ingredients",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: ingredients\n\n* 2 quarts water\n* 1/3 cup kosher salt\n* 2 boneless, skinless chicken breasts\n* 2/4 cup all-purpose flour\n* 2 large eggs, beaten\n* 2 cups panko bread crumbs\n* Peanut, canola, or other neutral oil",
+                  "similarity": 0.5969257775201798
+                },
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "notes",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: notes\n\n* These are *really* good on bao with some Bonchon-style hot sauce!\n* Consider adding this to the flour: 2 tsp baking powder, 1/4 cup gochugaru (Korean red chlii flakes), 1 tbsp black pepper, 2 tbsp garlic powder, 1.5 tsp kosher salt\n* You can also change up the brine: 1/2 cup kimchi juice, 1 cup buttermilk, 1 egg, 1.5 tsp kosher salt, 1 tbsp soy sauce, 1/4 cup gochugaru, 2 tbsp black pepper\n* Can use half butter, half oil to fry",
+                  "similarity": 0.5273253598087105
+                },
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "steps",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: steps\n\n1. Cut tenders from chicken breasts, if present\n2. Whisk water and salt in a large bowl or tray, add chicken and brine in the fridge for 30 minutes\n3. Remove chicken, pat dry, and butterfly as needed into pieces about 1/4\" thick\n4. Place chicken in a plastic bag, one piece at a time, and pound with a rolling pin or meat tenderizer until thin and even\n5. Place flour, eggs, and panko onto separate plates (pie tins work great for this)\n6. Heat oil in a cast iron skillet to 375º F\n7. Batter chicken one piece at a time in the flour, egg, and panko, patting lightly to get a thorough coating\n8. Keep prepped cutlets on wire rack\n9. Fry cutlets, a few at a time and turning often, until golden brown and crisp, about 3–4 minutes total\n10. Remove to a wire rack, adding salt immediately\n11. Serve with lemon slices, coleslaw, and cold beer",
+                  "similarity": 0.5258075442849954
+                },
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "based on",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: based on\n\n* https://www.seriouseats.com/recipes/2014/04/chicken-schnitzel-recipe.html\n* https://www.seriouseats.com/recipes/2018/10/pork-schnitzel-recipe.html",
+                  "similarity": 0.495536566211487
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "A recept szerint földimogyoróolajat, repceolajat vagy más semleges ízű olajat használj a sütéshez.\n\nForrás: chicken-schnitzel.md",
+          "providerOptions": {
+            "openai": {
+              "itemId": "msg_0536dae70f58183a006ac4ef80c39c87d29560f2fa860e0942"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Oké, köszi! Milyen hőmérsékleten süssem az olajat?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerOptions": {
+            "openai": {
+              "itemId": "rs_0536dae70f58183a006ac4ef843bd087d2b3fd0c7ab79eeeb1",
+              "reasoningEncryptedContent": "gAAAAABqxO-LdGBcuewFeCwTYZc9si2X8jEe7bdJC8LLCSoVQ-v8RjFF5l3BATyhr8S8qZCRVCvElxcqamNE-nYHA83P8HixswLUUHyqZA48CuSUyVMy-AgM5eZXYdHyWBPibIZLTfX9h6lOJCNAQHcDWNQBZmRDhjaec95HBq25WfSBSAoxSmc7LAVpf-rZNHWCHfoVjLiD-ZmsaLyHEcTn_R5VDMCcqeonHW_I1qjpmU3hhaCifOkdg1Ttn_hpk-ounZd7x71mdeJNaJP556ntJLrBa4duHjPPboeWjqa4RgcVuUBG2ETirMevUlY9tfjUt6Sl1ZwOOsRw7JIwT34uVIhwgGgJeFXCYjHEOMbyzhwZyIDa8knto0-BAOs8qtH82T1D-yyZgeuAodvdO9ETT00ZFndjW5V48IFUW2rT7jtldo2IfdHPJw4uOKoTty_u9R4Qy2JihW7Yghdy535g_QRSnHs_dRT4uqPIxHbEcQGH7eSzRInI4DiGsLK-XBhIy12QhhUMGPEJVSzphB452nBgksE9goYQ7ybqyAuBLw7w0dKsvH-Np0EBejXPAldQhwLCmoFUHhbXHZKrbwny7eniTvOObp-K6AblqVo3418pztGknM858ZY3EyQ6XOjoT4ezKr2HL-LtXo1QHk-vLExSXvz0Q2q8ITub0XLlWu6TaDLIEffUayXgjrp9GDLF1McaCECuw-KGO9b22e4nvPxpYrpCzGXcjTj5Gfrpz23GmgU_5N5Sx8TIpfCbAagZaBx9M5T-zEf2SZoMFPAk1hjsSu1l2DEtCJasQjb_VG1pIwJ4bK81j6W_BKAQG3tDhlgAcxN6Vdgmar1CDRByG2uL13ostReY7sRP4ftarCRcuO-F7EVn7G4IzXfBZhkapVObYx8rlRDw8o5oP5tqUVdGEOiWmS44zqc_aRTCvZGy67PIjfvYBCy_MsiVT3dSZapeyGYajzC1okDPasd4QB415cPfEUxp2NrTKk_-zXYWCmeoyKw6oK26J3BLkB8tuypiX0qx1mnG8ZXyZr4dl4FPnSBN0JU7ARPIz-yUaEkuKkAcpd8VIdNU44kI1G_KFgn0fA5uCijJqr0gVdlejbsnfb_c4iPFBpKw1MaOP3RFnwiaFRqVctFN4iRWrK6VayQ6xl1FakZPaZwY42uuew5f6er714w58x1reCSgwoXEv-eZdbMtSKTzEGXDRa3Xo6gnD-p2zYdQUvka_CJTNqpGJTe_jhkrsFolfLEolYeJoa5cJ0_DuDbEVtRHW3gsUE_Qq6Ycc7P6B8cH7PXtHgSjxUMbsteuisBmnu1o_hMcz3MIdfcMOzE7Z4NS3oKJbt7_IrC11JD0zaDxRI-7jMQKbqZvlJWq_Jr70XrrrmKTmRwFE8q87GutzLNL2aHBjIko2hk7srqLEkNie4iSYyrbCtNlfEGTL0_B5PbCAbbLCALHGUf3rL_EjpGQvdjFvv1yfKrxNRZAc4DqVFeg73usdKrDLOE5BqbzkUkFXc1J1d_wJn08iLshAr4VuSjsgEtIxulYjBDnBHXDuhX3k4mp8tAdriq74HRX69kVQxExV_juEarvL2m1RYIDjt6RoiyDrCHgfivOII402k54cZNV5l1lbpWTtNcBWYCEDWZdfqV60k3ryJlChKILN3U8MCCq1KU9Zxo8Bh_3wl8qhgEUPfUehI9uU467Vk_yHYyaVcPiiJbsfNN2aiFcQvG5HGscTAEvYVKFPDIf6pJAUi3nlH5b9PVHatUIvcnw6VTChJAxenj9xyGfjEre19wZwbq9ssXDh_PdTbII5Y1rctCMqYjvO8ADGrDKN4hSUB1wjJiwkUytivQ8DFs37oNIltlEvEFdBocFEPvzEKrUJb4T7AAWugPnM4FNbhBk8yym3qEwoR7IHWbxi09hCTDFYarUcQorSJKWqClIvjRhD5Umh3GEFXmHkPjOBuYRUrZZdcTR_lL2Vsc5NN52Mzfi6kCUs_xmcdFZuudIdhYFo2rX_peZwL-TDbDY_Y21yddM-HkgBpbHryBA4pFRhAdhWXzEBiFyOKFwvbo1oA6ykaPl15MIRO3ci6QPV46KqpAk5omRNli-NAg38ee32ycRo8nGvDgDRLc_FvI6v9jr4kZ4quYGCwvjvDabGl57OzNsL_GNjY8FJHrfMUBP013ppu4jHu0d_sWI4BhMYsMj8kZhqYBuZXPyhp5vuZB8VXmc6V-U-KvChPIacVAJj_KYuMbXfeM2wJG4Gq5_uL0h0OX_6faEWLQnrCr6iQKS-8dSC2d6ogUgqnDJONT_jP4I77r1YVQ_FoJzHx8YH6jWS7uWBsBfptTelxv3Om2tfZG39XScRAShZLUsivW433-72UR16wmBQbkZBGyOOIbNs-23A-20qsLmQguPNBNQpDJz5FnGAm8IiQcYACHHx2F3lKQ7jBawfy-kFzEWmmq1gkd8u6Kx1cVXnCxiqtmU3xEZ_e4iXeRSAjpFWFVsDkzz5s91yY6QOkwhBpixst1-iNHC2U6-NHMw5OZR6oiPJvLGtKBhr516PiToJOMG3QmdRCpcwoVqbrqVEugTPQzC2y336JmTa7Z91y9lmW7_Wzcl7d9HgLdwYZ-9joOY851WxbWghiM4UEVn1nbC7lFUBGyl6U_aMTfa1dGUNtrSlZO2NZym-U0-xyis-03A80HBtbYYs7z21Eu9pNaCVmuhJ1SArFcTrEGmaUhSm3SlZAQ9_0KJR6UF6jOJmBYsBY_lQ6tZRU5RgL0wsIxtW6YokfzadYwSev5NvAZqjOMVmzB6bo342wsA8BPuLfi0vWHI6zEbbYgqGlf6QzI1QV8pFd3BhGe9GBnIT1zOtlBBOUM8AMADGxKITln1nOlf1OwQRd46h6X3-_vw80fUi_0HhnbdwHqbJ7AufiimLwQdKh-zFKpNpjf2N2nS3GMF6h9EuuO1wcUZ1WjZZWXajSEXu7oatGJKEbZKcJkMUaAo6f4ALihSKyjuXcIYVzC8h9RcpOsZCb15MoT5eMDIaYXjRKgJ932hudTD-5uC0kGV1vQfCzsqAq7rwo1H8_C-0FEXs2vE0Q4sr1jHSiea4lGW_bsqSgSfhAP56bBNgVx3ZiMIGWzK6iYqtWXdB2bi17Vil4xC78sUppT7v1LdLWH0MVrlxU2FVVPR5o-tTgM4jsOz8PK8U0n9oeSp6DdUdjt0K5_GG6lItka1wIkbkLO7BIgthnpsRidNb0-MelCs6UfMRcUkaK_19gb4PtgjEKJGrYZkrp_syK63JvXYzahFc2bP8UVvFb3DlXM8FYepiM7cLGreSjl1sOfD6oVYmVG-kS38IWgoJPWeCeTbUI5HAATumKFq3oYKwm610bH47PNO5Q5tiaPHkovaHmFvjnGmyt75rsFvWZSzN0IhqmI4dcZ5ZZyjT5OUn1LCcqgTm8URbs8P07LW20JHKPjd-7gkOii5-F3pDOtRyGob76HAIYcy7_ToNTfFYiukx02JbkTjoFpllhewCLDyfwV5-HAlQ8uTlXGyzYrcKVtQ1_iPsChJz2dQIaotRQbYeanOeQaEblABVJwFckIZ4X4DwJt7A4wOmTtVk5d_4NKB7ai6EluXPfbejRkVvbiSspZSRykGWFA1sLxyo9mpzJPbOXMjIygcQiBnmoOmo2J69IAQryI08B2s8Yxj75wcfIQWZrtgcDQw0pJp0eXWFC7xfBXRoFi26JhKSSYWayVuVU9PuDCQwdP6_uqmI8FQnE2_nhAE_eOmzpXrxBLqcUoBpUZFxQ1iNA7xPiDdlfMaVXz60Bgwcqo3tU9g86zXAgfcR__Fk7r0H9yltGPSAk1p9iDpdvsTf5YWs1LN-AIx_X2MMc7fTR8sY31pt7blgtGShF1_Y_feu8Fo9MbhiLaaQMWT-XLmkMHN7MV4pNbtfpeOruG1dqI0dNDmiPFfOC58wiBJkc--GDf9mfkReMNr8QeNPX3j8wBZeLC9RhHWgyMHUjNOd2RLboDI7NCEYkPpfl0iZbkMuCe1txnoPArA5mgyE9srX-d8neip34Y-quGg-1WddNvTwe29Ytw-9JLmjH2roGW09KFURc2n0spbiJj-mMWHmgBOix6NLVvycqIIBhChadwXF2nOFx9Fy13bSW6sqm9GryGwsDInnI8X6ckMZiGJuNuaQbXRPFPhvQXnfl8ag7wp9A=="
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "call_Wxl8WPbN9NH4Z6kPR9O5Hd5h",
+          "toolName": "getInformation",
+          "input": {
+            "question": "chicken-schnitzel oil temperature fry 375 F"
+          },
+          "providerOptions": {
+            "openai": {
+              "itemId": "fc_0536dae70f58183a006ac4ef8b2d1887d2a8857e7ab4c426f9"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": [
+        {
+          "type": "tool-result",
+          "toolCallId": "call_Wxl8WPbN9NH4Z6kPR9O5Hd5h",
+          "toolName": "getInformation",
+          "output": {
+            "type": "json",
+            "value": {
+              "results": [
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "steps",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: steps\n\n1. Cut tenders from chicken breasts, if present\n2. Whisk water and salt in a large bowl or tray, add chicken and brine in the fridge for 30 minutes\n3. Remove chicken, pat dry, and butterfly as needed into pieces about 1/4\" thick\n4. Place chicken in a plastic bag, one piece at a time, and pound with a rolling pin or meat tenderizer until thin and even\n5. Place flour, eggs, and panko onto separate plates (pie tins work great for this)\n6. Heat oil in a cast iron skillet to 375º F\n7. Batter chicken one piece at a time in the flour, egg, and panko, patting lightly to get a thorough coating\n8. Keep prepped cutlets on wire rack\n9. Fry cutlets, a few at a time and turning often, until golden brown and crisp, about 3–4 minutes total\n10. Remove to a wire rack, adding salt immediately\n11. Serve with lemon slices, coleslaw, and cold beer",
+                  "similarity": 0.6359077583796021
+                },
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "ingredients",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: ingredients\n\n* 2 quarts water\n* 1/3 cup kosher salt\n* 2 boneless, skinless chicken breasts\n* 2/4 cup all-purpose flour\n* 2 large eggs, beaten\n* 2 cups panko bread crumbs\n* Peanut, canola, or other neutral oil",
+                  "similarity": 0.6252000838124354
+                },
+                {
+                  "resourceId": "8kwup3il28sv9bkmfiwbk",
+                  "fileName": "chicken-nuggets.md",
+                  "section": "steps",
+                  "content": "Document: chicken-nuggets.md\nTitle: Chicken Nuggets\nSection: steps\n\n6. Cook, flipping every 30 seconds, until they puff and start to brown, about 4–5 minutes\n7. Remove to wire rack and cook the remaining nuggets\n8. Let rest for five minutes on rack\n9. Bring oil to 375ºF\n10. Return all nuggets to oil and cook, flipping, until deep golden brown and very crispy, about 4 minutes\n11. Return to rack and let sit for two minutes",
+                  "similarity": 0.5680853442219448
+                },
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "notes",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: notes\n\n* These are *really* good on bao with some Bonchon-style hot sauce!\n* Consider adding this to the flour: 2 tsp baking powder, 1/4 cup gochugaru (Korean red chlii flakes), 1 tbsp black pepper, 2 tbsp garlic powder, 1.5 tsp kosher salt\n* You can also change up the brine: 1/2 cup kimchi juice, 1 cup buttermilk, 1 egg, 1.5 tsp kosher salt, 1 tbsp soy sauce, 1/4 cup gochugaru, 2 tbsp black pepper\n* Can use half butter, half oil to fry",
+                  "similarity": 0.5628987342220807
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "375°F-on süsd (átváltva kb. 190°C).\n\nForrás: chicken-schnitzel.md",
+          "providerOptions": {
+            "openai": {
+              "itemId": "msg_0536dae70f58183a006ac4ef8cf0a087d29375fbc56376280d"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Oké, értem. Még egy kérdés: mennyi olajat kell önteni a serpenyőbe, hogy jól süljön a schnitzel?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerOptions": {
+            "openai": {
+              "itemId": "rs_0536dae70f58183a006ac4ef90382487d2b363ff10e9895c62",
+              "reasoningEncryptedContent": "gAAAAABqxO-UAy3wAuR4-Gb74VnGMshca6MG2Bjsnu_5YqaHWNfL21AReKbBFXGTIKpL9JrMt1rlI62EP9nd3q7r86xza5ORs2t9Dg5QpIf9U8djERHsEApN8hzpVW4u0STQO5H91Iezgp_7AICErM1waC3pqbj0diU_Y1pf2q-6N55hypnM-8SmKbLqlzZb41_MesiYcGr9cmSjcXasy058PgPiuJNqX4NQ6xMK8750uApph9suG5ssDi6ujCvz5axfZKOWSkg0MjJra_WaxUvEvJOBujTzOY2584b8Hfdx1NPYuL-9NxKhL--uqnRlseIOxdHjAOpoPBhfs4l_09Cgg0dEz7pR5ZA8193vrGvEe5h1ecy9BbjWZ9qogtblhrbFpmpCNBsf0wu_9QfWxM9S8nd9B7xD5dxVryEEBDnaN5noCizo-MGT1Fe7wYzlUD_Nz17EebRtRxZp5NOtQqCexPz_kWvA93Zw40qxIqFuxVrta0huVagQej9qoRTn2xUz96ck-OtgCvPhNuhkgnN-Xzr_jmzPcHwBcHJwZ7mzEFjaYPxIt94ofAJX5pLnwIj2AQqH0FXhuq0Gf3YCM0_pDNrkA0u17mk_a3uSw2CdbDnttEtxrbPWXif17SNFJqBIaDwt6xHy_zEFyGmn3SLTIQhK1J4D7fC6mHeI9l2IkAbqt_qiilt6gbv1ytQNnwayJLyLjdJ6zfKgcLcS_HmUfSuDnigjAIK0TXzNUPiTU1o85DH5cLmTmBWa5kW4UfLE5ELIFitss5iDl6iIpJTS-INM95-9d_cNf4b9Hy-H8G3sMZjXjZ_l34cY4lmsfOP30sXYSEzo-QPYce7TcnTJ-zSmKT4SvTC6uZqh5LxJKPqanouQP2nEuoN_8G0PinoxSEOIqd0-eY_pe5VP7j90MrJbNWFeWk_RD-zC1kmQg-u7WDC-Myp8AkhWMtgF572gaiXV4QGpNhSOzSBE1q4IQH7zk5QhBOiqqXnbwx36UO80740o5JgqZhKdYXxeYpNIXSIoNwD3GxwZt2TiVylutX84A8lZNBZB8hT0YYOE9YYHOUH5or-U-5jvM0sxNoKagXv7CFzb_wNU4jPzh4ikEYmuBwQDdJ0peBsoF88i3JypeOAU4etv4Pz2Km2finMYTFxdeI7VffOVFHwch3GAOvvpcJV2jbRV-6I9SMoxtX_YRvyUy71W04J1D2q6VfX6rkTvyHZa0ivL88_JgLWQE6G9WTaMk2TVwTUHcdmh7O3-ftGGcRXY2uLm7-JZQBogDWZ9qNPOjRvBTkMP0T3Ct-Unu8m58QKnmjKKpBzhfeeKZgeEO-RHt2DWidMdLOYxq5wz2jJ14yZa7Y6pO_cKsmriUH5-2z4QeIfULfeEdRuM-dVdUpznpnQw5-keYVV6wGa2Y_1qhLM00jW8cBckdWdMk11yw8YALa8f_pAlHeVEbKFlTjXi5nTYG7DIo9M-0ZCXYm48sxYGyfhAu0LEVWunBdOFdftsROd_STj56VzVyrJ4hzIOWiZsbPhtVf0M36-n0rHCQzmuOvXLGew36YuEUk6ai_xsQlKqeTRBaSymYW7oIetrAXp8YGJE4rA3MzhlgnPXpN6B2g-TUlqkXxnyxu2RLTP_aAQXkluVGAmxbx4lklVzGzXTLyiWFXc3kN0SlfJAjYTNKTFOs_OROwinmbc-3bFbSgrrMfSNmSo0xESjFc3Np1XqRNFZTTS3EruGiFXGO65nXrNF_EFjvdZW2oczGzVpAyen-b5Ho3FIuEf6lGs35KOD0IjiR8uYDUNUaJeuxSBUCiC-_aOf0_-oLPl2jCZ6K6Fu5VUK99Nf3ivGWLGenGkejvoy4VHmZxUR646W5qceOUTRpMi8Ihcd-qkEQKOgKYzayK28EoYYjz98oHffWFZkQGaaftNMWQngr_nxdbjfXxQGcHQlHmh6SqCu80pGabd5_2BRLysSjANtbfgZQyFXxXP-665_pD7K6wRtjHY3-LiVOG5T_nv_YMzDu41G_0OjyfyOp49GPX5DW6KkI77dA-c3jFeuB9C1ZgHAZgMXngawMs9BEmKx6zLNw4E_IRzDxJ-leb8_OC2k9sbc13EU5fMbVNIGl3H_tML9kslRZuZ8oU7gs3v9Jm_l4nttmq7eg4FdvTl2p6NaKF0iu0LgARFZ0AETpHYxnqCf3PWrKsAeOioJNc0wJkvvALZMd-e2Bf_8pNr0U6N78NFxgBh7cIMtndCKjbVSEGzFyMbgzj_HC3kjIZGEUaoKPixWp_LaqvBLNOf9ud600Dyw8Cn1dL0-YzaSQVxWQ_tWRoYz3o4mb7nQS0FKdZUFROR8dDtbNwsjhuUAlfUDcOuEA9hPmsmRKg6VOakAwXG213yY6YpMzuF6PquG0zLpY4ZIncPguwsRv-UCDnOqlvdh-j_yViqeUX7LlQiWy_jqF32OyX7GKZqwmMlUsytWYpQKtuaBHJv26rkIWb4j7G3qQ_tJiQfRO7GKNCnJwJvJ6LMwe5tlKLDMk_AjLw_FUAguTjULhrhrSpRZKerEKlOBvJUogBd1pw36r8c3HhokUr_8rY215e0AvgU78_yBpez5b_va6Hn4uuV4NedpQ6KZB62ZPf1C_dUe2RetzdeaiEqHDDANcfunSpZn9vs_JKhgafd0qXL8Z1WqJ0tlnGEZQPJzGbOGEl1X6iGJe2SQ7UCgYAofYExvC2sxn74PHQt9QyqEm6fFCnEJWI-RiwS5lvH6vWee1hfenrIn1boKTSsWXDd7_tEB0u58tcgFdf2aJwiRdGDC-M8sbxoGdiKeWm9Skxv7mJveSf3bqN6i4cxXL9ZZY0gg1uNEIm6IJSTTqvDBcD5ShI6JfO3eyvlf1mu_dik8hBli17_whLf05amJ4yCcIABnYFfnake44K4WXO3LtgNywdWcLtliv8AL_RYmcK1w38-w11VLpXFFdxP0VoEDmlYtEGkl_yrsZpbspIt6FKu6r91Dy-GGvTw="
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "call_XKTsbNAr2CGK0pEhoIPvgTW4",
+          "toolName": "getInformation",
+          "input": {
+            "question": "chicken-schnitzel how much oil depth amount in skillet"
+          },
+          "providerOptions": {
+            "openai": {
+              "itemId": "fc_0536dae70f58183a006ac4ef941e7487d29491572f6cdb5e1e"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": [
+        {
+          "type": "tool-result",
+          "toolCallId": "call_XKTsbNAr2CGK0pEhoIPvgTW4",
+          "toolName": "getInformation",
+          "output": {
+            "type": "json",
+            "value": {
+              "results": [
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "ingredients",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: ingredients\n\n* 2 quarts water\n* 1/3 cup kosher salt\n* 2 boneless, skinless chicken breasts\n* 2/4 cup all-purpose flour\n* 2 large eggs, beaten\n* 2 cups panko bread crumbs\n* Peanut, canola, or other neutral oil",
+                  "similarity": 0.6268315281263414
+                },
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "steps",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: steps\n\n1. Cut tenders from chicken breasts, if present\n2. Whisk water and salt in a large bowl or tray, add chicken and brine in the fridge for 30 minutes\n3. Remove chicken, pat dry, and butterfly as needed into pieces about 1/4\" thick\n4. Place chicken in a plastic bag, one piece at a time, and pound with a rolling pin or meat tenderizer until thin and even\n5. Place flour, eggs, and panko onto separate plates (pie tins work great for this)\n6. Heat oil in a cast iron skillet to 375º F\n7. Batter chicken one piece at a time in the flour, egg, and panko, patting lightly to get a thorough coating\n8. Keep prepped cutlets on wire rack\n9. Fry cutlets, a few at a time and turning often, until golden brown and crisp, about 3–4 minutes total\n10. Remove to a wire rack, adding salt immediately\n11. Serve with lemon slices, coleslaw, and cold beer",
+                  "similarity": 0.6079387774245059
+                },
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "info",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: info\n\n* About 1.5 hours\n* Hearty meal for 2 plus enough for sandwiches the next day",
+                  "similarity": 0.5523735202849862
+                },
+                {
+                  "resourceId": "jnzwi9r41ytulhiur6wj3",
+                  "fileName": "chicken-schnitzel.md",
+                  "section": "notes",
+                  "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: notes\n\n* These are *really* good on bao with some Bonchon-style hot sauce!\n* Consider adding this to the flour: 2 tsp baking powder, 1/4 cup gochugaru (Korean red chlii flakes), 1 tbsp black pepper, 2 tbsp garlic powder, 1.5 tsp kosher salt\n* You can also change up the brine: 1/2 cup kimchi juice, 1 cup buttermilk, 1 egg, 1.5 tsp kosher salt, 1 tbsp soy sauce, 1/4 cup gochugaru, 2 tbsp black pepper\n* Can use half butter, half oil to fry",
+                  "similarity": 0.5446131551071552
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerOptions": {
+            "openai": {
+              "itemId": "rs_0536dae70f58183a006ac4ef95ba8087d293febdf1430626b2",
+              "reasoningEncryptedContent": "gAAAAABqxO-eLvvjOeU3uq31YU--Zcs9Avrw_S16uPdE-Lr_iRm82vPNPEI3PaJeh9BjPWB5zlvmoq12dzzH1PBkKBf6ZWPj8uikTUtQ585Emfx7UyNXaIgHssbF5o9Hs9OwiJoMsaHc9LJXJf6NvnhUv6QrEuV8Am9itAxhf6JnrTlYISsvQytlrcjyBEYOewebnpqinAQWOOXRsPYELs69XXpRKrY_K2UvE9rSxPt56t_TQhgtGY5PrGkjwCINDItyot8LkH7d7o83i4Q-d3b7vMiAyJKOplTvgl7mueUrWSbNNNC6PZsFdxxIeOh4i3Mgw6-pUMghMCaBMFn2akQzon7dMpd3fLyaa8xCjnaqGGouF43Fup52k4Rz6A1yyau2UMRP-3U071QKZZIHpUYiH8GBwqsrTlSilIO8Pa-xL1Ci1LZnQzRh9dpnRCmgslehU8I-g3CcDkEOak60nukXp1MDcYMvgval4jlBpZDvlCW5Nl6Qz4UXqTlYD6s5ewmDJ5n7FgGB2N4k0zNDLg7UWC02YT-lk3yJ5k7KIEnRR_v9RUr3qiQ4FIuVdgaqJhMOQfZfbfkaj6az9JggQI0VcGDb_5OjcGQbrHbGK7Lrp8IsFnRI4fvMq_UsB4MhL4USrb20QZ5kD_UqC8aqf_lN8f21Jj3KllAjBoSXwoh05XGajzQS6MdCrYMfrZVTTqi9M3wAQqmeP7PsoQ501EqdE7olLAAN-ByajcoNMtZmaweHFiMCS5d9IW0TdzPpbq0dP_O_6QszCyvksdt0cxDI_d85CF9uI285LaYbILpABAxIEmXbg48qS3cJgCNMB-Ga23IGWEr-MLtIUi37p0Glv6F4r71VF2cgfdY8YrmhzDSK68SnoSG6Ibz7jLB0PkG-EMKMoM_QaOZ9gp6Uyi_lEVpU9iIledgUTvAYTOVx_ecjr_uysJkosNup3IEJU-8uvDzxdp6Ii-3-389mqfBFyyJlbLjjxuxsIj2w4244PbsvQqulBhC7w31VnlltUyCD5c0AJL8a3-XGSVCU88XmAGQAZSpdfEtn1cG-z81K593yydx5LWY1z4KblDzAaxBv8fdTyB52FIeVq-14oaJdo4XJeyYsT0MuwjG8Sp1dXMR_Hhd9bZx3jc9it156qiomYN480hlyHBlgn86-pfVEFT2nKC8e1hXTHXXLsYkyJGMKJ6Sz7jIAWnOs3EaYSgnZ9k8Yg_tCfGcyze_1RCVCNtxiWXSKy_NH772UfG5gsnlSNM0WBW1Hr01822IFEPqiun3KTYPcMKCkCNPP5IxHVT_z1OTnSlborMo2HcDhVhF_nRyN6TDrgeJaHWkqFQS6SWIccSUSjtofwaRn1hjvyF_v0KPfbi9GuUEV9PHONtZuMk8w7sgf8Wg31Xe05IJ_BQ3ih3VwNdcbWkH18roWuqlwXKWJeudn4Hdc1kZfZaLljxK5nFf4Dg4vBPQyFyv4vpjwEmRJmIcwep4EBvtlYmDEkXZIOT1aCgXzmm_U5Xh70ovZVN6J6d846SXWXGzoRF6fiaPmBq1Uo7omorSVG9DSiBUF2_OPwf0HLSkUe4xPcJeU-Xb1vXya_sAwJ3jq51CijSzh_vK9XPNXPMCYlqDZRKXcZKevVt3qZ4RwkgzyEL9QBQ-VE4pjnBaCWJOFCN_Irz6MLJgmbNQWqJN0KMBxBUWav2HfBsUNpw_wdSBwbpefAx3VvFxQ6MhhkvKChnSI9x-ArT9qfDE8ARI5DC8zLQ_70YrMa0fIEBIGMkDzH52gT3L7iIjifwFz9TpskEfsXwLqjK-neH822eSqFJeuhbGMkZnxVEVh9XDvjhknzLVZm6KLe-aqE-iXHTmOrPzTXEqCC856lg_-lsdg7RN4gzeVdODkQu9zwts8RCVf6tuxh-J1b1bBB1KuRYscpzdCvEBU0q_7oNOSh2vzmp3AUmDd_TaWqr5axZzVndohiCcKmToPCHuIxYXpPWCXn_63SALKgS84JCZ3ITmdgl0rR-2-Szft8Ud8mJ7JHCTn3SkVHAAFYdayBbEUWu4GasuuZ_ngluU0yPYTik-k4DhECHFNrHcnwLvoKzJmfkH5TuYOtvm9YosJdUd3hvZtRKkQrw6ebkfcG40SHHECpDsDwzoXXZwEjgqdvwnskptAc_xRwUQi97tfPaYGyavRGpZFXlyI7lnNaiTQBs1hTsKjiSuP8A2ziQjjaOF1PZ_MT1GAml9CAKY8dJBEwhqwXDRIpHBhvmZylvfbgsa-RTBZPlsUl65tuT_ewoiaa-1dCqCaYWbvHJLTlM4vExAXX36uENB3cYPzaL8VkNFiIsJht5OCgfsPlKWJmgOIT4qs0O-ozcMoZAxPyV7JURanuspB8AYGXWFEeeYOjvKgK4-955pkj1-e_k2NyqvUrJXbC-2j5VBMVEfLnmZX7Vfz50XaOQmROLjYwM5f-wjfycPCBjdXz9RjCQqRz8wPrWXwdCUJIObKQLMmmbwZzEZ_GnwaJSN1uSCfW-AgjodVtmAd7H2D80hgdjlshKySPy98Zu7UO4zR-0FWT8oBf-56Th_kZHVCNdC_XV9hRkiXmckqUQru3OPzzOQMr_9bLg2Z8GqfotXOcWxof-i7bbDg-RLKNc12zet6hcBRv0Bh66YohvPqfIaR0pppf9oGFhEXuvl0SQXB4HR4lbLHXnS6yUVH3Y2YTb-9pAtL6Sx6wejw4HgZiYMDZGNxlFKLOkQURcNpjVAjuq6Eb20ibafARKHYvV2hfSHbfrXlY2TbT3cuYfvr5PeGIK3H1qu2Ht4EBr3exhLioyK2tqeCOFcwp-GU5czBtrXwsBr0FEsL_G-nO-hwAE0sXOysxYHmWCQudZ59_AFkpBuC3lKCJMO3BnRs0-CRZRubxplrCiH6_gkIIob4oCdYhaSnLHr1SLHseVfkZU7ky9TkRsI1yFEBN-aK1QDVgcrbILGoyCU5HCNaOLqIiK9FEwt2NGi7mdyBJwxPi5tJ6BdT3UGqPMa5ejVaHrOS_cUbq1RYE16X82SsDNFZnUeChIpAbJjcTKht_3ya3yEno7fyI1LuffQSgLNT4Whm1tjXblL5lvndEwdyvgjHM1yNU8myeSB1OBiSU_u9dSzzqWypDO9Zi02BgnYH2Af7LCbnQJNsEPQ02n4MJJhk35zHHLL5h0tXWKxrysRuhpNVhX-dy5acgiRaH8fM-8cmPs2RsgaplRKrgXN74BTYnkJiBiuLrhZYjdC14P28SiyawFKrswSgQlEqbzWlhdi1k9QwFYTMbZVOI2IRVCay9SOfhVjCocSby2Hg9cou1tG2jnARKzsBwc8FNf2F1SkHhgDl3WjV45P-nB_h9cc13jqAg-dqY4g3IvVoxz7-lhorfVy6lwm6NN4wdAdhef69va783b6leWFDU_8AkUmfowqdzEsRiEEjX2-7k0eokyQ9zI7N8yuBRWo7NOkFAZWyMebQPJZDsy67OHU8HEFMIkcXBrKi6U6B_vIDDsQibuxMol89BDnx-KVLO3Tp6d2LcYhjK0oX9LMre4NcYvsa9-MUGDAPfNnJshop5fjhlELAlVATgBRfh3IWEptWRjcc8baEaQI7A3sgfX9-BrpUKVwkWvyFuGsKSAGuDVLzgaWj3LvgpMBjBvZk6suNDSG6MczPZQIy32KDBZh55lhBXijnggt4AaZ27BUM3pCVRSxmjx7ffgZJeW9K2st23AeLPJbI7oU4GLYoC2oLRxx322nJir3txNPfvDKEY0D2Wujfi82sPIm9Tu7Xz20B2ulmTmF3hgIvmvlrJ_QgyybtzD-8zMXUHxPQGquiv4qZ6SamMJtpLx6EjsTRGQWGIpwUDXlSVu-jfa1fp6zKav_mcqoWKwaGhwvfPiNScGqoT19KIjVRd6RJdViXhr6PCMOOJ7D3znc4idBmezYvCyshEUGxcISCXJH5VqIL4dLJVgP9OQ9O41at4vXBJlNojz_hfV-9XXN0Dxx8gccc5wFtYyhybHsNGTeUE2RqvOW1Xeg-Q92ZIfEXasR3up0boDVzU1m7lo48cRGwEmv73e5hDXu0UNkIwaYptChiVF7YgBMZDqxIPpjPH6NWHwwURLl2bCaA5PkPWb73dqsiX6EIW2R_omd9LiYZw-GU1fLfQFVto20N26jVcRPTJl09EeqwmEKQ3ECPPBqbYEj4G0ot5E17JtPpCkCyOSlnsIRlqNqfcROhkhdCpwEJUUnm3iqe6jX5mYMlblgsBHoJczu1M6qiJscS-cJTnafpwuOGrNK_bywhGR3ldScHO6GffH-KRii1IHilk7Z77KpFkJtoOubWsmHf53zmtqrufCVszHr9KkR903FH5ijxLQdD-QDS"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Ebben a receptben nincs megadva pontos olajmennyiség. Általános tanács (nem a tudásbázisból): sekély sütéshez annyi olajat önts, hogy a szelet feléig érjen, kb. 1–1,5 cm mélyen. Ez egy 26–28 cm-es serpenyőben nagyjából 400–700 ml.\n\nForrás: chicken-schnitzel.md",
+          "providerOptions": {
+            "openai": {
+              "itemId": "msg_0536dae70f58183a006ac4ef9d249c87d2a7c08641ac4b7441"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Oké, értem, köszi! Még egy gyors kérdés: a csirkét előtte sózzam vagy csak a sütés után?"
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "personaId": "experienced-cook",
+  "persona": "Tapasztalt szakács. Tömör, konkrét válaszokat szeretne. Az alapvető konyhai műveleteket már ismeri.",
+  "goal": "Megtudni az Aloo Matar recept fűszereit és azt, hogy mikor kerülnek az ételbe.",
+  "patience": 3,
+  "turns": 4,
+  "durationMs": 70045,
+  "userSatisfied": true,
+  "endedByUser": true,
+  "stopReason": "user-finished",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Az Aloo Matar fűszerezése érdekel. Milyen fűszerek kellenek, és mikor adjam hozzá őket? Az alaplépéseket ismerem, tömören válaszolj."
+    },
+    {
+      "role": "assistant",
+      "content": "Aloo Matar – fűszerezés, tömören:\n\n- Egész fűszerek: fahéjrúd, szegfűszeg, zöld kardamom – az elején szárazon pirítsd illatosra.\n- Köménymag (római kömény): a pirított egész fűszerekhez adj olajat, majd a köményt pattogtasd ki benne.\n- Egész chilipaprika: a hagymával együtt megy a serpenyőbe.\n- Őrölt fűszerek: koriander, kurkuma, chili por (és a só) – a krumpli után add, 1/4 csésze vízzel „felfuttatva” (bloomolva).\n- Befejezés: kaszuri methi (szárított görögszéna-levél) és garam masala – a legvégén, még pár perc főzésre.\n\nForrás: aloo-matar.md"
+    },
+    {
+      "role": "user",
+      "content": "Köszi, ez jó összefoglaló. Azt még pontosítsd, hogy a kaszuri methit és a garam masalát pontosan mikor, milyen fázisban kell hozzáadni, és mennyi ideig hagyjam főni utána?"
+    },
+    {
+      "role": "assistant",
+      "content": "Pontosan így járj el:\n\n- Mikor: miután a borsóval együtt rotyogtatva a krumpli teljesen megpuhult (ez a főzés végi befejező fázis).\n- Mit és hogyan: ekkor add hozzá a kaszuri methit és a garam masalát (ha használsz tejszínt, az is most megy bele), alaposan keverd el.\n- Meddig: még pár percig főzd tovább, hogy a fűszerek kibontakozzanak.\n\nForrás: aloo-matar.md"
+    },
+    {
+      "role": "user",
+      "content": "Rendben, köszi a pontosítást. Egy utolsó kérdés: a garam masalát frissen őröltként vagy előre elkészített keverékként ajánlod használni? Ez befolyásolja az ízét?"
+    },
+    {
+      "role": "assistant",
+      "content": "A recept nem részletezi, hogy frissen őrölt vagy bolti keveréket használj; csak azt írja, hogy a végén add hozzá a garam masalát a kaszuri methivel, és még pár percig főzd.\n\nÁltalános tanács (nem a tudásbázisból):\n- Frissen őrölt saját keverék: intenzívebb és illatosabb. Használj kicsit kevesebbet (kb. 1–1,25 tk), kóstolj és igazítsd.\n- Előre elkészített keverék: teljesen rendben. Ha nem nagyon friss az illata, mehet a recept szerinti 1,5 tk, szükség esetén még egy csipet.\n- Időzítés változatlan: a főzés legvégén add hozzá (a kaszuri methivel), majd 2–3 percig rotyogtasd, ne tovább, hogy a friss aromák megmaradjanak.\n\nForrás: aloo-matar.md"
+    },
+    {
+      "role": "user",
+      "content": "Rendben, köszi a választ. Egyetlen kérdés maradt: a kaszuri methi mennyiségét is meg tudnád mondani, hogy mennyi az ideális a receptben?"
+    },
+    {
+      "role": "assistant",
+      "content": "A recept szerint: 1 teáskanál összemorzsolt kaszuri methi (szárított görögszéna-levél).\n\nForrás: aloo-matar.md"
+    },
+    {
+      "role": "user",
+      "content": "Köszönöm, ez így megfelel. A fűszerezés időzítése és mennyisége most már tiszta, megvan minden, amit kértem."
+    }
+  ],
+  "reactions": [
+    {
+      "message": "Köszi, ez jó összefoglaló. Azt még pontosítsd, hogy a kaszuri methit és a garam masalát pontosan mikor, milyen fázisban kell hozzáadni, és mennyi ideig hagyjam főni utána?",
+      "satisfied": false,
+      "done": false,
+      "reason": "Még pontos információt kérek a befejező fűszerek hozzáadásáról."
+    },
+    {
+      "message": "Rendben, köszi a pontosítást. Egy utolsó kérdés: a garam masalát frissen őröltként vagy előre elkészített keverékként ajánlod használni? Ez befolyásolja az ízét?",
+      "satisfied": true,
+      "done": false,
+      "reason": "A fűszerezés időzítését és módját megkaptam, most a garam masala típusára vagyok kíváncsi a tökéletes íz érdekében."
+    },
+    {
+      "message": "Rendben, köszi a választ. Egyetlen kérdés maradt: a kaszuri methi mennyiségét is meg tudnád mondani, hogy mennyi az ideális a receptben?",
+      "satisfied": true,
+      "done": false,
+      "reason": "A garam masalával kapcsolatban megkaptam a szükséges infót, de a kaszuri methi mennyiségét még pontosítanám."
+    },
+    {
+      "message": "Köszönöm, ez így megfelel. A fűszerezés időzítése és mennyisége most már tiszta, megvan minden, amit kértem.",
+      "satisfied": true,
+      "done": true,
+      "reason": "Megkaptam a kaszuri methi mennyiségét és a fűszerek hozzáadási idejét, így a célom teljesült."
+    }
+  ],
+  "modelMessages": [
+    {
+      "role": "user",
+      "content": "Az Aloo Matar fűszerezése érdekel. Milyen fűszerek kellenek, és mikor adjam hozzá őket? Az alaplépéseket ismerem, tömören válaszolj."
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerOptions": {
+            "openai": {
+              "itemId": "rs_001f60a36a226d94006ac4f022a8cc87d29d6c8b86b912006c",
+              "reasoningEncryptedContent": "gAAAAABqxPAl5l3wlet4so_Csi1tSEtEGKV0mE8RwHzCAZvbSJeeX1fpRTQuQh78Mmz7SrigUUPtI0kqg_VPJfZG5aQ6xFsalBLSCzuWDUgprPiml_y_GqgTdVdNktFelxyDwXHNEcPU9wQ0jOrp2VA6jbtcdYZnns3ioH_DlkJlZ_6sSG9GC8_Pvy6DVMv2Z2Zhf-6CN4mYm2exj2PDEMOV2-lrV62ePHiHyBeF-YiSIBZV7ybTN_mOb9XTvJzsRXWSyBWsfYWKVgxBz8q9YKn8rOjqsoNkT1xvY1sgPlx-SFxj5JMrM-5M-3sms2nmUYxgW7wMZfRmnRDzTNfxWlX4KjdPo5Atp-VrYReBBM9yuIkuiNR3Z-BZSr5NN-2Q2uip93YwNTR2XnDVgjyomnjsermtZ5HcR7x47RScksyyjzChKmyp9JsDwpHx4u_99-o5d4ErDlEt1KRS5n1jrO06LA2R57JylKYKaZHvf1JBRztXZyrTlZj02gcfsgX3kd2G6VuGtDIKOlLy2dWFo_OCBviPcpEwZmDU4ks9QAmgF5cGGlsBQe1V8qKYcCNX6qqDLxtTJrV1l9iTkjcEUhJwHHRFjyIyTk-aKqpu2sH9F5zUXKzw6MY-V0Xp80YwEBuPM1CxRE6vupXpbtLtJtyMR1t--ZAjRidr3r3HNSm1gsMTFRQgRuRLMFTQrc0FWAUZ41k8564GvD1oRIoiCZE_w3gcdX0HwUiIaeKBIYsUSCnc_1_aBqvVzDYFEad3xxWXz_okdwL7eA3s6L2hQzYi9eF18EGMQxJ6o8Du_wwGoG7qEG9X8pWiiFIUbK6jONxMlU_TqX6P6IhBJjXkZlnXBSSkUkmrewUTHr0Ionkknh2uCStOUrmq10ng-VUJiJyXfpgApRWgpIXiSeWzcGh-nHo40-2qkDT-FtbYzLD_d163wRWRqlpF4aOYyRgBTIM6_H6PaiJOmG_eFc1tJMNX6VjZAf9DPsScq4ZgjBz4P7lEfjO6ZjirospYjrFZ3u5qH3X8BURU0g5dkpq-R_BLzpCq_-2mdJXHsClIEViqXyBOmJVcTYo7cOApPm-946RCXmG73osuSgeQGFqb2l08aIxMaglSLj5fC3fdcgIbMhZUoXLM9YYGuSPl3zEcDMJYc5AFDV0zN2QxO6BCCHICr5YOif409YwopSExrD6Wv-qXgfj2lMhh-EFxi3fbMpGRIdRKlvBEswQEBX-o3Qm-XzeMNuSUQT7wGOvFCCEk8-PI68OjMpuLp9GPi3DLFf3U6DpzhTq794dXtvPW48tcTyvYnzmFwMSw_ZZvuxslmL-rDGavi3vR-2ll-lv2uTKiOFTTgq3qWw-U6A92u5jb7DQh9_G0z2VOVG8P4d0oChTuwR7hmOpzELaAx3rffO0Mshv6wmjeH4ruRzOKHMrVzoQHngD9s-tZiZhX-prs-ivGVi4VjLs6vBGVSR6l-TZPoZ8vxnxgNGLdWOZLpYSAbEvh2mSsfplhv7Kzkw5unKD6S7ztrr5YZ-4C3faBkW4VpslY_ptVwdY02SAdyru5dMzhN4Ig02vL59TmFoyZfZGS1Pc_lcIVWpWy1xOFixT8iIcBT81iTossJWOffFVocjkW84s7ILfNEGJPIr2iG5BPLOKaWR7D7iQiPMdRYFpApUU4TTCpA4eAmrr2shcLLszgUwo-FEIGHYraCZ8n4ysoZbY1G0sV29Sr8V9e4d_oUsTmhFKRYGKR_8vBzzmQ3WskCqkDtMeIsJeOrCVA9TYnMkZlYDdB4WhdYMLcMyzdFnGREZtxiSwCVSNhS6PlsBg_9CK0ZSrhstUAhs8_WEPdKvlaLkvxBDP0g32YWZgAmi4F-6dV9vuPvdf7P2d9mHpDGOfV8BakS7RMA_SD-kZLk1WfY_q9juYeUo5FeTBOEF7r233OSWF6HZuHVYzNwidGrPUIKi8dtsJ85VeIgEqe_ehAyWNGvuEy7d6wnf6kJau4w5-zwQvhxBfjaOeuA4ctIZzRbm6qP-4h3Pd6wh2CoRtxFbRRVWtMIdvuZ0MXKmk0_SVNyDuVBWWSV_tU6bmcGZxIBkMXi2FMz33LapPHJ6aiSfCfdT0kg5xEI4o0x7x3TmxIx9D0R4dUwwbSSOzLTvs1QuC7rgkrH2m9XlAi4GabwdFQDPiPwVtVrbANqJ2BbFZHKM8voW4Z6FyLex-cy5oqKhesUtLhI6TzUFIFS19lqv5w6K4mfvTVZgAH8_lp5pSYpMohbORSPmXAZ4lJN-G9d0nHzY7mKEiELH-bi8uo7ODsPXA8cmQ7s-q-Vss_9eKdcS_5ces5wd9Iv8BLEL7cDXs5N3I-YwCP7GhVaIDQwpmrRozSgpCb4InN3S8FzaDu4QbJbjnUnu5YBNFKC-X9_JU13neZq9sl8Dc7btamTDi4J2-cAaUv-J95Kf-9_CcBsy-9Id3h0yp9lhlUYaV8VWzJ6uju_MawOndOP_tBlGVkVhmrlEbWH3vMXHuT--DC8M8oPRwaxgZukUuxMUbu_CKUI9h_xO_U-gRzFJnzdvfdKEpWyqbDPNGZzEbUwnNOtqyEfApl8RyqDSwDbQcRZDrRiLxOlHEM89yHJRPi-Sw="
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "call_laGKAbPb9Q9KudsSq8MJX75i",
+          "toolName": "getInformation",
+          "input": {
+            "question": "Aloo Matar spices and when to add them steps"
+          },
+          "providerOptions": {
+            "openai": {
+              "itemId": "fc_001f60a36a226d94006ac4f0251dc087d2bad57db97c2d98ea"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": [
+        {
+          "type": "tool-result",
+          "toolCallId": "call_laGKAbPb9Q9KudsSq8MJX75i",
+          "toolName": "getInformation",
+          "output": {
+            "type": "json",
+            "value": {
+              "results": [
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "steps",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: steps\n\n1. In a blender, puree tomatoes, garlic, and ginger\n2. In a large pot, dry roast cinnamon, clove, and cardamom until very fragrant\n3. Add oil and cook cumin seeds until fragrant\n4. Add onion and whole chilies, sautee 2–3 minutes, until soft\n5. Add potatoes and cook, stirring often, for about three minutes\n6. Add spices (except garam masala) and 1/4-cup water\n7. Reduce heat and add pureed tomato, stir and cover, cooking for about 12 minutes until oil starts to separate from sauce\n8. Add two cups water and peas, maintain simmer until potatoes are completely cooked, about 10 minutes\n9. Add fenugreek leaves and garam masala (and cream, if using), mix and cook a few more minutes\n10. Serve with chopped cilantro on top",
+                  "similarity": 0.7909843435856819
+                },
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "ingredients",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: ingredients\n\n* 2 medium tomatoes (or 1 small can, fire-roasted best)\n* 6 cloves garlic, peeled\n* 1\" piece of ginger, roughly chopped\n* 1\" piece cinnamon\n* 2 cloves\n* 2 green cardamom pods\n* 1 tbsp oil\n* 1 tsp cumin seeds\n* 1 medium red onion, chopped\n* 3–4 whole chilies, sliced lenghtwise\n* 1 tsp coriander powder\n* 1/2 tsp turmeric powder\n* 1/2 tsp red chili powder\n* 3/4 tsp salt\n* 1.5 cups water\n* 2 medium potatoes, cut into 1/2\" pieces\n* 2–3 cup green peas (frozen ok)\n* 1.5 tsp garam masala\n* 1 tsp crushed fenugreek leaves (kasuri methi)\n* Cilantro (to garnish)",
+                  "similarity": 0.7563484752063049
+                },
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "notes",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: notes\n\n* Try adding paneer instead of or alongside the potatoes (making it either Matar Paneer or Aloo Matar Paneer), same cooking time applies",
+                  "similarity": 0.7295896650655241
+                },
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "info",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: info\n\n* About 45 minutes\n* 4 servings as part of a meal with other dishes",
+                  "similarity": 0.6985012303761079
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerOptions": {
+            "openai": {
+              "itemId": "rs_001f60a36a226d94006ac4f0267db487d289c3ca7a8f512f92",
+              "reasoningEncryptedContent": "gAAAAABqxPA6aBfR9wIuc3vft2DjPFuYS0Nzb1CjQRLhUjlV7V_QvIaRbPPuAUtiu4t1xgEQFBpXa6xnjUhy36W1IZBcA-_eN7ulP-TcuoJGzGzP-2EGU1WLwjs-4pM5GbgY1nkzkrfju2CITsZlaYMrCVBx11P30X-ydDQhJ72VEX3ZMw9dKB_cgzU2DCCcXR8kaOTa4uyTUnlgZbAj8S3a2Yo9rVQru8oJ_LjjpGCPr_1Bo9O3APNfUyrkgqKEW2AeBqGxPsyjvrY0mHXyasVSADKNkDxqplfPWDKPIEIjPU0vLB2gptyYiSAL46MeA3o93SsCRj8acm9Cui-aUQ7FwkwsjnarQX1w7FnhLB0U3QZe6YHs2LsWvlb57NvWKOliCk0xK59uS1LrhFDKF6446NSFJChgCrkpOkQupFt17MOt2FPjQ2Tw1FUf5mxnz7FcSPlUixsDkSGGDHHYBMVCi3p-nIiYlvGiNFSZvqt5tsJFWFaN68G316ZMb6xGwjFFRQkjda0H-w_A4-VxaJvIBms4YPWcnoliZivWi69-yWMiGD-TXzStUqipe9NVIvTf617QJcOICAB7391V1IsVEY6jI_0rj7DBp_lStipPkl0VP_sK5_7YHdwIgNPF5wA2LlkaPNLJGE9LbzYDW1V0DqfdNLQYqXhVHfmEW9YkFiuEatLo0rLPN97ZJYCbxHxIz555_OAFTlosMUGqNfqbCvJB8kXIrZv5wIdb5Yb4SWDy2A0PE-WnvRvYlDQjJIDiIPCk6k-zMdF7JmUOk2ijEwAv7PNELS6kxMkENDMl1_2gWFnIIhl7SEidS90WcS95mD6gFS1FrGJYucF9G8U2SN11mmws5v6ac1MM-bb-4DZ4aKFOVfEcLJ6TTWW8MnUDRxPWZAcTSycWZ81z9HA60a168ttMGdZyEhpUXAQ16JpG3bbAWBiLni1rNott71NE6gqKzakxTZgFIPzYIVdxVxS4wqMCFJ32pmvxJTwF08mi8vIZfSWJFDbkKTfNiEu3u-S4QndvwC52vCFVKm7jc8vf47opyuAZ_o-v7pqMcI89aF2FjUDMnf7tmmOsJIT2eu05zvUshuZv7fb3xyoeDYQIVV8-ymR7_MA4Py3Jer0Bs7g7VfjSzQOsexfXVnjpO7cATe0Yg92SCHnueKRriIb1EZK7ZCOsHjnwFnBUxfYXwLmjz4TMXFcjlOmFJgU_N9AYHqBJ_FrKViq0hvUMDWOXDp2IhQNBNwN_icnYmfz0YF1ToaIwmUNPPNwDLKQOoiCSshY3PLyppVw8pLggDRrGB4FbbOTAVeqOkA4EBMMyZ2-ysSOWanaKMyRAhV6R4FC0iRlKmcWnRnNvo37_zAVnYuVw3PF9McKHlJwsjjhqwIskaZPdWr20oYUzMe5SpLm6nLoUpogkOKFHTkspjMIrixR1WY4_R2Nx2nsoenILKCP67bBr_iMbIbO0P8aqr-PmC1hcOuXe13ngARvqpr036SH6gn7qAchfV2n4gZYp2uWMx-VNI3ociZdUz9xNUB9LFOltkeqVaihEXyDBfgAEPgEFzV2Q853tMqnCteEiBB6YV3I7NgfMgS3F6kUb23CY55Qzn4SIXX7lE3WQhboiQ09zoMkG1bjF5UlO_IR5WYRmiVtC31vKkgx7S-u3IybSUSBoaREqJoyFH9irVu_ZymlwKsYKIFsKw8Nh8HMTTckYd8SZmwStKRyvEURD3emS3JbO68K4IJ764Sj1GxBcA2ub5zXwoaEczUBDsXDdgvtQTmRzw8I147CtEWlqHga3fv_MHv2ZDRkcSz4v3GvXibl1LjYFV5GPXSG9ymAk4PQ3Uy2ZUiefLe46FtwtozetDR0fWXLKSrIGF7bELqH0nMUmi7GMZAxvjZaUVoNwSUVLOP6hfpLzFxh_66vIaTIWV3z4-vynbMydxgqzC2wK5i3Ud_q8lZrO6KPpTGUtCXUXREEMYBLmDzqu6xa9EscHzrZ08XZzkZ6EKalck1ixuItXnYrEmlEU5F3u5Icc4RuiOfbsTWjFWBM5g2IxhFPBsdg129AEZrgj1_c1TFpR4JrmH5ksmhQ_C73abnnTsSNGoZdk54-Eky5gp3wbnXbp-mwUJNcPzCR091IitKqohndjHjW1qoQqdlnXrDrhaowIxNtyf62-hOEZdaGMoJlI7-roWFVWRj3ymEmKEzmBDfBFkYCs2rV5FewARz2-_-ny0NwmNwg-jslRDmsAdGWIr-rfFHmb2ctgavC1JkUi6XrGOTBGG224WkFR0kO4q6uCCiPsDJ_7G_XD-3xp7dxY5HkFskv82kIaKjn6QJu4Pz3ykqwpXK7yZ3st3cImLavCpY2OMHAbMhQT8RYACC_VWZq3MD5LIi-QEhFC2ahyT-WgK772q3CYnJYApXpj2QZQxHZ58XJyg9eX2YQbe6qfvtnfKIDzgLR09W4koBh5_NpDnNAlB4E8z07pekP6FSsxEhfQ2A4iBbyJ02qqMMKKeYyHJyjMYpux2CmVexEVeKVDQhcVFU49Ck39DYNpv352Jw0EaNQJV3QsFyEDu2diJ5aZ7Gm11HMYeBMfRdjS8zIqcBno6tZC23LYEdYjCS65umJ8IHYTYLVbJ2o702zloNe3MNXxRFBi4NFBvmHcc5VZsn0OlUOO81tnog0d8F-RT1YVUBtHwh-C2kVLOnyGA4K_BP1WOuoiOC8jRPBozb-HN8-qpSWpms2HnHlHualLY1bSQLq1jFD8HZ60YcgsZMAFBEZaKzCDLRD6QJE4GUazZDBNQ9fTDqXNLhWOx_ft6VeLGDLuZc9-ujfGpTr7uxIaqH95FaVzJ7ei1O4JUtEJzFP38JKD0RGGJkSn1hLo9B_I4ysbdcznsw1azRDL2kaq0W-7iICBLvlhTet4SpnSmc8ymVTCnIeG_sN06BmwIYaOmrrJJO0xEWb5EO98Bi5u8hpHrhFXFvyI1YuOP9w2N9j5BKIydHB4626gf_LSMPw8Es5IIz2aVv8at5L64sOZej8kHyLf_4nXk21oKWy2mdDpVnT6RBWOyi2u9y3PKCP3Gu8vBo9PsCUN_pu2feb68bCCEuRCFH6GcBZ2gxCSAZvoeH-8T-8Y31YfDl9NV3cSsblxwn2lB_vA9_J8WaQ2kZ8Avchh-foEgJTDaiTIFrkZPXrky4MBSZjrsgWHg2Qj5MOPA3lcKf4Iln5aJMeTOhrJcpw5XkojnjbKZnX9VX9XoZ2Sbyxqj2seerNOqetKWny7QNfc7BDgNRdhosgb6l6MNGILgXX6bP1h04VM37m1fKUbBUWozX1KyW1HS5URvx-jJp7Ws0T8Et_EJC4PRK-q5bS1ysQOddJ-x2wsXmMvfg9x707FTWDVwfaQhw2gqYuP9paPBqG50v26lsDYJNv8IIDTYeYC5XTUx3vSCgy-q3oyYLQRGitnF9Hk4FnDQqaaBtKiy40jSXQwrcUZRzfc95SwmeaMYzFvfziU95CdDNXnCsTFgh4qJ9N2swufic2yuPDu4fXZmInGl-PWvwQTy_3ik9Wq4XVXDR56pHLVubaMmpKyQTchgVV1rOtVi92iG4LaUPG8IYEFm7LtrYUOZ-yXjiSCpfcTrJu9OHUCcs9oHv3pV9yK46bZ-2s_wt_KrgVaxpsvYpvkHSbOIvTy910aY10jqm5L-0oqcQtr2s4e8i487PCYsI2-wpnRtkNh0Tgn1UH2dy7spVm6uwqmjIEk6twkvmRFXbgrb-dmj4rVcH2xOTtoFa_3Tq_xttReTtep1lhC-GcZqTz94MFlBgtcKBJAXPjf5Mg86CszoHhqaNmUaGXnFufxoGHK4tPm9xDienhyjku21hKhkIjskDdnIe-IZlRBlufAQz7t5PwJkaimzDMX8J_MTxs6O2apyH22hYNOgKwIXVEgJwKyXqnFmHuzWMhHs9ltyIS_aRDha4tLVf2NFCH2RZhx7uzgox2bftxCguO4UFheJb3BbWe88jh2oVonxTdrJUYTXM2b6eij0YzroDBel8OeRcSN7PWXdlBQO71RiNoOXP8ET2AW0K59FhBgeA77vRfqel1tRiVcSayJDwFX8jBg4PQHwqPcXp22-kh1S2f68I0hfEVzwd_Ns446g8z368x1g0Bds0yg6X9BLelfyByOq3XN9YssUpleCx92l7G94CbtOUyMmkOopRxMELljXWuSkd-kowWqJPQpgDEGPw4hXwMFeik3Xc4IzvTtC_suqNWxU6dkUPuDlnaxwpLQ_xXOZhZ6qZ0iJCSlfsPzmnhhPXOSJJJ-4LkLp6KnnaWmRGcGpzLSPVYLcwB_2oiFV6R-vEC4ixjMnX0GNhj61P6Tsg81ZaZeZErlMvFiJtnmpRvRI-m2aWc69WTdHZK2qLFMP7Q9OYUpM4RSZBFs9CPO_slHpHJwIhq9ocCL-BdBurIhgKllyU9GN5nucgthCm9yqojVQAaunmHy-cBADZpJTDa4Gzzy4dD79uCSwlVBjpTlTkhfp8Oacgkg9_uvivZpwO0bfI61NGI55ro0AJJzmXUkdXd2IFvamLZQRDdJaKaCVDtE6Is7_JGYrkPe4c-eZ0KCKHlv3ZmWx0my9dpK_PiTTwac2gDhxJ9LUwooAhVppv_r20WSX9tqSbCvXNf8zwOZEOBdKAxuRdquNULbARnBkNlEqQQ4zDi94xmIDHif6aB0vQqwc2TB07ptAUrOZHkfoplvZyT21fTWYNlx2iyl0Ry52KcbjoN2qXr0jVR7zxHztvGS18Ct_YlzmB3bzyi1BXC5QSISMo_aiUQYiXRDzHUeOqykCHnJD046NcPlWrUmOLyKY_VGjIUPcmQ_3JBYBmp60hJm93t4b8IlyXkzLslDNoXvHlDO7X8GlJT1MNn2f4gzte2tCeqsYTnjAcQfClpAQvSwLI3PxMD2Gf4dqAynnVamNElD6pbjFWVvEvAI41U-5qYKUJiix3VAt9rd1vlODtBHaxMgC7OF2CnWh2MZKLoOa4P5cYtZzHp-GpgFpNK3ytwOYhZzO6KWGDHwh-BvtRyCVok6tBRnHD9wsNEbWfYJP0o3Yz7D506PqyMke67RtsNzzl_4pmMYXW-G9bxJGDNKfmfI_U0qYUhdzYWt2Rw1k0TpWQhGZhXPOc3HVaO-wGDMMrkWDI89mLHHoaG25hxA8p9wXH_CjJ6RIPW8jndJemMtzrm7d6OGP6-9Nya9ZuNwZwULjSkUFQLq8vJOinC0EHb9p0f89-VgH0_5y8sJ5qMi-wpkekSec3PIvp8pDKbrviIeOAWOp_AMqBuEyvMsJ1EiRXTlVuU-OIu7AX8qeBidm3D0qBkQgDlUhcLjO-RjQo3SaxgtmqeYKw49SzsPfz7d83DH7TqCcAOxdFZwc7_EaZojCj2x7nIhFc8E70DRINGfinmYRafCDVBfbBlXP_HLk_djzsIs3YhM0ZdBojIkHI5KW8vt3Bhb4zlUFOSi3ktvffnwAZDttqfhvaBg1CFQZPioHxb6WHqIaKAejobROdCuA8Ad7qZ0TcvKJysTaUdwOgMgHuAlBQQpQAp2vGT1NloPPQrP8lX2lNCJgACMNvn84KilVjQ1krnyJpT_enp9sLxFvvJ5CMuqS453IpTIkRo1LAj-_bbrQsCpDXkeNz0BbM6o-IoLqtwwbAveQkrwQXCBAtVOyjRHHJBks3ljlCR34Y9DT1cBzWTFPHUh12LC5kij1OVHgbm8fOUvvdn5h02MSvIC94N2oc3rV9QjpMhkypSQ_OWSFeRFc5vqQ4qlNP8TiVMERGiR4GwEMYfuWYC1765dmUYMD3T3y5QMCjqh2N8J-3KSQcagK2IrjRGz5zE3xj0A41I4DNfP7VehSWeyUMCfP0DwwJHFjSnE9VsQs0YmyM1iJ1iHJ6O4OZhiYyUmfH-GP_m1END21bykeTwGnqnhLBxVDCA7Mv6QXUm-jiVHP1FbE6Jabumo3Hv-qd9_XxZ3qA3cbCTBVkYFN7_GLd86lLsRWvxnQJNZT53P8KszLOQCwkNaT4nLRhwymXF7yE6zZQyQC4RRwPdEXlYp1WHIVt_mjrRD_FM2bPfLhFytAwVYzoqZFUnv-wqmRLTvygs4lu2zHjWOHkOVcUSDM31-qaBtcBSbSJ2Fz7aydm4wWb-nmZWOVwrr4THWujIgxmxAP6ue_N20FhWK1NzsLqVHF9f8uyfx-QaeQ6nNLXcPBfE-nKK8OHVSpzORhSM7pwkyiGk8Omg341kiy4JmwrRKMtaWfCN-o9-X2iYSmZi1dLfmErkAojLqeCH2RZF2tbgDKdrNoot4AUTD9NjmjHzHJvc-eAkPq2jf2MW9cpO0iz1DEUstg-9og3dgpg0uUdTKU9M4cTn8HXZkUZ0O6ieeQOgbiNrWPhSbjOpR2av6qapT2ts2_wp4Xnl6EWYY_F9sDd81SPe-sgEEq1Hc2H1YQOEpPul5eGeBgtU8C5f55Ljw0O91w8bdMZc3vGMZOQrCBosapvI3pFSN_T0K6sqpTp5j3CRSozEJcn1XpMzYgCMEYlaIbTBYJ_7seP9cP_NIJrd7DkzGOUSF3Xnye8fFeoWrHuNmQFiuGkLJxQF9SazNOTvF5dK6V1XugLIvGBVtLFqTeRFR9RQG-XQXxD-eYbGjemCQhiMRrI3KTPeY-DR08RgRUkHNu74X8aB5RGHrrPRJ_if4LAh3_UI3_uSE4Y6KKxIT4UwCJR08KEFDv2EUuO-ISqN8Dzj6x0xqwqi6VbBkkYMaQzMIeXVTmxQRya6it1FEuV6Bd3xvnZKYCiBPa03iwnn84Kw91ZJXArVgcGEsD77dsaAp7e0x58bz4mTnB9kR_4JzFuorC1jsjHsj_EzuW-9tSLneaolnWKZsJARkAzCrwjr9KDw_4kYDoc6LRrmGatRRIDH_EtjnNg8Vx9qyWFNG1mOM_0VtslzXd0Ej6SvWS72rYcNHILdKLcdnqg-XxYWJjombaacIamKuOy6cjGIeWLuT-gH4qoPQeqCGon4KHTnuT3KSOghEG7Y2aT8fR-g5FOg1Jn8J7WA6yojgv9kMIbHz0S0woVzJQgX8fqW68psMVxfOHrQDtvRjgHZWpdu6cTdEwBe_VPx8jcv3n_pJMINCwJJdMI9Ey-ivi67egStLR7MP9A7wslSkxPDiX_O9vJZaQeNK84s5kwsNntUV-XpEHwoH4Obc0Jv59vN_JgeaW0WrGJGaYuUXeiqxTN4Gv_FcfFoG3s3mzUhKgG4RBhyMrkTLgqD5dQrl7dG_N5wV-3bJaWdoUdH61ZTHNTm_TISF4447giqp_nqtHP4WlKirQz9Whp8elRNUyzNZv5cfJmFKOu2oZ2EKTcXY9ni6QvFyab2W3A5KZdVoNjAfwsattlm7ySKl7FVF01vFhuIrM1aMKSw_5NfLGAh_wRFI5UhCk7w5PZ7HYeBD1IeMGJB3sblpWTVWWJolMcjr9lMsCjFwGjCJBqqits0EQ2M4-u2af-aeYqJ1g79XWHtetFr0ntV5spdfgxprDuc6_Mhm_a5I6Oj-VhyGTOwiRao-o2lkjj9XoaWqq_m7SgQlUcTcdyb_pSoBtwsFvUzpGnIuVMyceniqNl9Sk8Nb7dVP5S9hqGngLfCeQiNBTW0yaCS2d3nV99pNhg7AzckY51G_6MHGVs95S8nwCoJsvUXvb_m4JMPf6HLl-5xu3lnvx1yZ0zgngQZx4GbYOKXY3LzBNesB90O5NnYB5_foOGpxdDkaikBmPBWynRjmIi0rBUpUQfbO0YeRBQh9sM4tSeQJF0Du-kSmu5CfhFpzZ_WntFwHLyZ8l2f_RFxzlT8UWUVjsUyJqF5h3TXjKC3An3B3dITYSNhCzYYneJFfNud6cLwt3YZeT4Q3L9OBPJnTSe_FF0puReUeEhwNsnAvAR5LPI-u6tiaTO5BXkhZCCdZFCDt8fALqqLidGrE3kOcLR8RvvQVxAUd91Haqp4jZrf1Zgn3mUxJfXvS-qdr84yGEZxJGa2SXZUekfskXbAlrwwtPf8jkrWVh77txavRIsMaED8Xc0cHHoLNQZHiuz1MRuVL7XbgkT2murLkjJUYOxEAfCvlGCKr858Yh-Y_d4BmtzbB_XEPVyo8Osk9XZVeAj0IJ619I2ukqBimJ3jPMq_3f1KsTMPV9uKpT1xlP3XScyJVhqLmp8GXSnHr61tr2xtH5VB1g0be_44FD7EhuK829I1vYAgDSWJnrCGaEn5_hzfrUh9JCHS6Xt25TTMjCv_FlyipqhXSt9guGoHtBpdLj-vg7tXSJ2ND7OYUVYC1uj6XSwDh5DmC-13wQD4kcPKJHB-MRDWvfKdOQe1mg1IIVYxOyRyuPGDFbv4Px9YsOsaaD_93U6DyygQbd0n9t-x4dghv3dEDjefksvRbDDhR0oG78zVsyUcgBClGclttgv9jibF7yWa7PKX7Aqhm_VO2FrLZmj45KZ0-41WIC_2nToqkai8KVaadlgO2c_YbXh8-X_Qh359FZGvUmWhrt9FYHMX_zu2K12aThrebRJLz0e7YYz_aGiSWR75J3YkHr0ra9ibkOHng2ZxPxasEKmz8nDbvQtoJAaRHHAore-4UcALbwJt3eZQMKzv5m9MXe53aP9KBVccBGAz5XODPCWTFnWL6llxMtFXWfW_CG7AEImc-L6qVp1aZls0XnknqKNzYGDYL5bi4_fGIYIdKsq_A6JMZKLr7NeFG--ts5LdMTQZrPmqvfm_9CmA8kLxJpB-3gCxg8r-qNnWW-L0RrTJ2gQpl4_IgpWLk9uJUXNNjFOpaw0nw65JZJpeJROcPnjqdcXk8HzNCmk4DvTQgkZ5gj0QB7dG9ctlmxDHQlX3IRjDOtpRa1PkBf93n6O1Dez-Wi9GqtU6eOqPKiBiDzVm6kvth43m6396fZ0DDB0kSP7EwosaufdOrHfnML60yK7XTL_Q9Q-sRCSa00IsIFuVicPjAZpw48CKyA9W3cwG5g9WTHrSX1AV6dHGI-hEWwd9Zebe27Uspsxd_dQshIp3gEvS3O9nn-s_zZ9FOW578c_WVnuLR3pXSvHUI6WI_-hIJiop6wPEVNNH2mp0H_mqzLE-xtPm5h98xascAPBLBa6ottZkCgfbB7UeLe2furertQgeKaPKyVRcOTG6xjEsCdkMzrsRJge_lobJ4thXFxTcnKa9NlA-goUawG8xRG2Fs4ue_-jRAbRwWyC4zdPWsjXZIGtySNpoVmPSDTHjG6NzCL9nlMvxBoFmt0ogFgG80CEQdpPIdPcVI7QbrZCA="
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Aloo Matar – fűszerezés, tömören:\n\n- Egész fűszerek: fahéjrúd, szegfűszeg, zöld kardamom – az elején szárazon pirítsd illatosra.\n- Köménymag (római kömény): a pirított egész fűszerekhez adj olajat, majd a köményt pattogtasd ki benne.\n- Egész chilipaprika: a hagymával együtt megy a serpenyőbe.\n- Őrölt fűszerek: koriander, kurkuma, chili por (és a só) – a krumpli után add, 1/4 csésze vízzel „felfuttatva” (bloomolva).\n- Befejezés: kaszuri methi (szárított görögszéna-levél) és garam masala – a legvégén, még pár perc főzésre.\n\nForrás: aloo-matar.md",
+          "providerOptions": {
+            "openai": {
+              "itemId": "msg_001f60a36a226d94006ac4f037c98c87d296e98c27214c3fb4"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Köszi, ez jó összefoglaló. Azt még pontosítsd, hogy a kaszuri methit és a garam masalát pontosan mikor, milyen fázisban kell hozzáadni, és mennyi ideig hagyjam főni utána?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerOptions": {
+            "openai": {
+              "itemId": "rs_001f60a36a226d94006ac4f03df2d487d2ad5f7be8a706f7c5",
+              "reasoningEncryptedContent": "gAAAAABqxPBGmiatdSzZQlWeW9Yh4vBRKsP-fpRLSRh-Id3HZtkv-7a2L-T0XGjgVPC5w725j9Z2ZRN1_cz9ZiIlUmazUh8L7msISzhMAVWeCELihCTq8h7W9f20D2o6cVa8Sbr96cpYF9MDvN0F7sh0y-Uo4MsJHvSYG8pQDN2a0HUNEQ0hmKlccIq7ruQwor0bEJrbJtPGdoWmNCfwYgLtj_SCUqxIhaJP9UuIjYa8Z217WIQaKu3xuz-3pDAIQUgbGoiYYzLID1W-pIEbw7oQWq-EViYWVGWNYQL6_EwdVhL7XPfHOXQr2WF4zzGvhfCzwV0efLoajVnp22ySzSKmh1jcqVyvDlbpABZK0vOL3LqF_gW-fH7r3NwVbeZcnX9q6xq_kyFQNHrQ-YS3y1cRq4RGB6RXHys-TFzmJP6r389ZEFsozXKw0b3jpWjYxd03Y2-5eRL_RRxBPJlqUIbNeRGvGNk_vQ-G69r9Dsf9uIvUhuDtr9otPOmeTA8F1Wlxv031t-XSIEnOMxDZr-3kNLM4Ut8xkpnsHmnMU5f-cpqcJiBghk2kdHfZ7YfUN_PfbrFVgb_fBZs68u_2cEdewvXkWBuxvJdytV9oJEQIYYz8TySf-W638oCvjoQsLA4g5s2X49CyLZGKzT7v0YznHasNVgAlbK6hFFaA4PPOuqy4J-Lrj-vtceOiPcTQc1DxJ0S7dqtYc7LXe1Q_Q1VcGo4zsTZzGp7qSu3tbe9woVFJwtDrXoub-uneXVQD-SIrfdlS4kpiNiJaZR4fJlEDmKjWDO7QvQ2_Xh7x_6Pt604JUjeKiOm-hu5xmN_XbKRztmFHX1ap-GNSlAc8kM99a1cvjnth_Or8GNwzaA0EQnG7_hehdm9gAONMQ859lRjUlpc5cKPYPtBoI-ABIfb_j7Jdg-Arex9iP3JdLhIlVtLt8Hv5LwfrD0GJ9OrB1JdgUuGpSIguP0_NA1e5RrHRr9c6hLGdsBvCuBAhKIEcdxMeWveisp0dSTHAFEf5rWnMUzEvUaDTEtdgqTHsZNXD2oU5ZAeOev7WHoRKTDd29tRCpntp_x_lVZBBQV2c9r6xWn-W8A7wJSjuYcnyRS3IOJap9WnEfj4Ze3nD6jSI-FxHi5dzXzb2CfrvAOXOR63xmZweAsV-mMQmRb0-ehlMxRYzu5vPx3fH5wkbBK7p5n4l7wNczmIil0Jqnv2aTxwaKYI8mbdsqxFq5xqGSysWijwsi-G72R3YpMujlCfI0DnKg0KIY4MRQn1OkApp6IfBwBCTwNPMEEHsY0fEh86E3k7TCsD8OrSy7s89mOyDCuwcysepj944h-z5m3XzQusxGYHNUXSdPIAVG7Yc1dGzm5dU0cH1pZt1_dfK2D8KUbzvlgQk2zdSNBhWvvGFtgDEGPWwTVQOGjmmRgK4M7E-1O6eQ-2TS5v3NSAl6WFYdUlEIrW-2DP7xzqNngr1BURO7qDTXIoqkEPfUXxWXD8Ml-WGQbGwWiOiNfjIQxJGgIgo1yEc8rV5399Oyrxl4NKPo3Lkx1bnUnVDQxd0X04gcFTNbZuusmyNVbhAyyhg8BmHkt8SF8wpz6oTulF5gURoPg-efFmRbu3eW6gopWl4zKn0V7BvMeSCNM7jYPvcXn2_2c3gTj6ySNUfZ0nMAkcKmCkqouHKofoz0zlWwyyniu3J-2iehdMhSbcN-akZKSUl9bRPVg3lf7rLi5pqKTbj1KqalmlCazOJsUHziDFW3UT28tZF-dC_Rz3PyO4naj9tYDYzsVl4gPVjMzCIlIhOV7ukcohW6W5RjSF_CrJ8GOz9SNcCgq_ZXIBYzYU_PffXMlpFqmuMOUK8vKyQCtOeH26JxnRztMhsmNtJpD4a6gci1IxKP6u1Vvy4Qxl78Ee4HFstsY7V5WZ-T-qI1T1b01HjG7GUxWMRYWiAByg4k-L5jyX3tJ-REUBdpPBZmXGXxiHoO1Y341WTDd1hGMHwk9J1s4F4jntI12qQqE_-kWswpM6pL_mwHw_ScAFFvR2vigjbo5mU9JEl6UK70eVtUGGGhQsKjsE1cVsYEKZbFMrtx4e4cOB4x3gS-BH64fbuP693OC-bw51aza_1bByEjwVhPjRz0qGraw1kIaGCasVZcyeQXwaMmhj0rU5gaknxJHOxdohBa_LJsxgF8DOaybVmheQ7aWU1kNqAmxXp1TMVLuKlo_X7j4yo1y-j-cVAkSUINHMMEqI5wf0q7SaKhU8b8FI9L-Sw-uaw60kZ8pNNyjtDzIB2uuXFEkpU5Rh7oPyC6nCHYEhg4WmCkEYb17FarB-C5y9NSxoILHm-AEnEyAIntpKUk4Rfv9U8PDG1t0FlAga5wxvWNwRB7-z8Sl8vbnFWXROjqY66b_Ad47f3d5s2aHLdmgFXs8CIx4l0ccV32FKeFicLT7JtNvDi6JGy7y-U9V5zxGOwNMLcZk2vrmBClxysYONnWajYNCZAnGQgtAtxRfxm8LsIixfl3VgVm5pHWKKdrxQuDhKBD5suzKoyiAx10Po_rt2zZiI7vjYFyfIH5MI9o11tsFlceKu1hBuWAYFBn_pPZBR_QvXIOKOgiswfcGKsj9oj9nxIKo3ATh_jtgY0cPNofqgBdHnLUbbL07L1J1iV9WjSGrn1V-RcWlXK7VIlzgOTMGWCr7Z4m6mgGp6qUV-plwm9GqdjEjRTIpu16kFBgvCfDn1_-3LV5qrhKJGCtjguRiLZYRdckDzpy-CL93Gibcyn1blBJNpUHKYgL_x7zRkqc0Q1iwEYTvbtkpViIF49BV9giPhmqnDWjaV09xOTOqsZPzFvumAc8YU3-LOJH6hhJyjolLoa-CTD3mhccWu9OJ086xApzKexQeIe3ehAfUY4nCt2oF0KLtGlWiEwLyijua820-KlGwO-wyTEqe2QdgBcPljkbbmpNQEQF05cvea3GH0KISdpGMxyy_rUWLG3O8u96MPeVDSjDRVnTYzJO0gYVK1_RY5UzqaJ4lTqC2oIopk3NZNanH28yCK_cFY_CfwHOfnDphtphQ-g9jfVjX0WdErzRTeyRvOv7t703ef43UxtOm7J7xPp1rvzd_FmlTO0MR-g0-VrHwNWmLfY4yR-9OnIA2ID-3pbE9aypUCCJ949sTfXWDI8KgIou8ayOWbnu9eQtCNQaQxkbAK_H3sBMUasQaSyHciGuiAFuIBcm0ohBo1CZlwrDnN3gz09vewojOUKTD_DNBlYl55VP-YtC8OUaa0hhhpU8EuV-mZpySSBbdRJVSzmxagKLkKPT98d3NSMATIYzVc3WYXGDs_SkIBUUUNLK2Lj2McDSX30CHf8PdXc7WXOLXb1bcGcp6zNAcuFh7hQ0NIEcAbMjEy75TJJYxTsE5g7__Av_HzFkD_xvuKCBNn5E3iB3ujIUWgN9_2JbPMp34-rTpirypCjEi0b__E="
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "call_vu8vRedHsPHNVD9qpsLhKUfU",
+          "toolName": "getInformation",
+          "input": {
+            "question": "Aloo Matar when to add fenugreek leaves and garam masala and how long to cook after"
+          },
+          "providerOptions": {
+            "openai": {
+              "itemId": "fc_001f60a36a226d94006ac4f046377887d280a5a04eb9830545"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": [
+        {
+          "type": "tool-result",
+          "toolCallId": "call_vu8vRedHsPHNVD9qpsLhKUfU",
+          "toolName": "getInformation",
+          "output": {
+            "type": "json",
+            "value": {
+              "results": [
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "steps",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: steps\n\n1. In a blender, puree tomatoes, garlic, and ginger\n2. In a large pot, dry roast cinnamon, clove, and cardamom until very fragrant\n3. Add oil and cook cumin seeds until fragrant\n4. Add onion and whole chilies, sautee 2–3 minutes, until soft\n5. Add potatoes and cook, stirring often, for about three minutes\n6. Add spices (except garam masala) and 1/4-cup water\n7. Reduce heat and add pureed tomato, stir and cover, cooking for about 12 minutes until oil starts to separate from sauce\n8. Add two cups water and peas, maintain simmer until potatoes are completely cooked, about 10 minutes\n9. Add fenugreek leaves and garam masala (and cream, if using), mix and cook a few more minutes\n10. Serve with chopped cilantro on top",
+                  "similarity": 0.7571746724271894
+                },
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "ingredients",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: ingredients\n\n* 2 medium tomatoes (or 1 small can, fire-roasted best)\n* 6 cloves garlic, peeled\n* 1\" piece of ginger, roughly chopped\n* 1\" piece cinnamon\n* 2 cloves\n* 2 green cardamom pods\n* 1 tbsp oil\n* 1 tsp cumin seeds\n* 1 medium red onion, chopped\n* 3–4 whole chilies, sliced lenghtwise\n* 1 tsp coriander powder\n* 1/2 tsp turmeric powder\n* 1/2 tsp red chili powder\n* 3/4 tsp salt\n* 1.5 cups water\n* 2 medium potatoes, cut into 1/2\" pieces\n* 2–3 cup green peas (frozen ok)\n* 1.5 tsp garam masala\n* 1 tsp crushed fenugreek leaves (kasuri methi)\n* Cilantro (to garnish)",
+                  "similarity": 0.7297187860750298
+                },
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "notes",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: notes\n\n* Try adding paneer instead of or alongside the potatoes (making it either Matar Paneer or Aloo Matar Paneer), same cooking time applies",
+                  "similarity": 0.7186177163631362
+                },
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "info",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: info\n\n* About 45 minutes\n* 4 servings as part of a meal with other dishes",
+                  "similarity": 0.7019304630114545
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "Pontosan így járj el:\n\n- Mikor: miután a borsóval együtt rotyogtatva a krumpli teljesen megpuhult (ez a főzés végi befejező fázis).\n- Mit és hogyan: ekkor add hozzá a kaszuri methit és a garam masalát (ha használsz tejszínt, az is most megy bele), alaposan keverd el.\n- Meddig: még pár percig főzd tovább, hogy a fűszerek kibontakozzanak.\n\nForrás: aloo-matar.md",
+          "providerOptions": {
+            "openai": {
+              "itemId": "msg_001f60a36a226d94006ac4f048095887d2b83ae0196e5f5984"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Rendben, köszi a pontosítást. Egy utolsó kérdés: a garam masalát frissen őröltként vagy előre elkészített keverékként ajánlod használni? Ez befolyásolja az ízét?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerOptions": {
+            "openai": {
+              "itemId": "rs_001f60a36a226d94006ac4f04cfee087d2beb3ab46bfffd1cc",
+              "reasoningEncryptedContent": "gAAAAABqxPBRZBg63QqqcdLqCiRbg7Zr9C4E3D6q2mCsjZUiiWqvtYnXaufP2msSUATDm5FcebDKCr2IRIAzwK7pqzlOgmmNsPf2Yjrk07XPxVFjhzXhIZmqLaJnareXZAZt2BNxhnRBu9bO3GAzMZPnf67QCqihaBx6BEx6jwdhc-dYegmFwvNcrWgf8F2TjHLJQyHEaVBspbH2U0Nf3JbiY4z4jtncdCieRp1xOMWkJF1kexXKd4vHGp73pZj-rFyexXL121bptytV9eqmyqnC2sWCNCv0OkHeKoYQDCKWmhfvvEa29oQIJqGxBfm4eKIUoHWEqC4S4QGK2y3G_JM4bURuh5B1SUa99Wvwa_43uA_wI8gqvqTieLQMIP_tXXGY1hboxJl0EtOSRJLe0ItfLqx_yosMn5zfrkIotQ2Z9thEoHwWfl5rQNhHwyvsc7_IK8mLlXY6LsaAoP5m0gpFWxRLEdjQU4BL1XKweeNWy5O7uVPfd0UK_k4XLinEAFWdkA6LuhOms3lw0dbvDN8qqRIfLEQQUJLdlRbCGRZFPeV08HAx8AGGvAT4IHnfrBR9jGydLzjL2zl0I1aAv4H1SP4-W3X3_PB-IJ_7e2GuS1rahl2C7g1mwUmdC4Eu-9a_Ea-PYgg4Pcb44aR4NhImrb5RhqTNkB4BSMPUGnUpactVV4jFc8RnRZsqIcRQqyEuzViJH5gxzjQIWxqlpxHlRw6mb0rvxoRJxd-Jijnpox_w1qUUXa2yi_mkZYxGQEVqhJB1t9MTvpoHiNuWVR-vxBvyjsU5OOQE193DyrRkp-1tUGzUyjN0BgnZ7FG_4NJ62skMPK-VnsYmGi_FrDiQmAazql3HjraraqRNa73_RM_OV9A85bdnbEMpqlb4pvf0JECWXXy66o2nP1ysK0tBXI4qck4G5h97OupAS_XPGfHBMHo36LYUB5nT1nwPn3KSHL6MXfiFFfx4eCRXjz0fruNwxYysmm3xChXKqfq8sA2WtglSD62eNlC6qaKOxGTelBbq7BdQvTffUDx1um-zN2ILeL9tOmbVOrZCcIdlrWweDEhxAGoXsoRWBUY6Ai791PiTZubQMPzPiTvk6Y2fUNhN89fXW-xUbnGCckWh7ADHIUbVIjY9Vfb3itGT3QzmuUXZz9SoComeM_SrxayPsQIFERuCHgdnShf2Y0AEGNXR92h1kjjiTjRUNCQwd5fcm4oEvpSIS3IZL4HNJ3FBvl1W0fk6Mpq5IXDDTrVdUS6QALrF_SnMBb06b0lgDnrfAX8uGcAzIGfRAZRK-C2UTxiXlEaKhijGcGoDeVkw5rh5Z9lLF1BMKcTBVQJPyAk70lFI03RwkQWf0zkPVi2f-GrMDKMVOFhCEpxqfhMNPus6i_Izi5EXlF_q2XfJFzL6K-eFaTsil9lxiImVYbhbQZ3sqNAIJ5Pvd9kq7v5VfVhZh5nhzkuXNyIrvnr35vWTRoZddyGPtTrvH8nxHK6wcUHY8L6QW2DwwCpazsxmz4lXYZQGwijCDfijQ9brbywHSPMvjlWAEG7arWbpyWjmCc2cOP9O3L04k1_yStVa8Z-ywFItwLFvVR8_eHdhzpQqdKkbVmpw-K006fE7lxNdsLaKQm8E9oX4_7kAgEp08AItDKgSA6WhsqGav4IFNtDwpBzp_a3J2fWKzmnZp6XiaaCqkGdkNAoAZLJkf48SOYLk63r9Ph42hGZfeLaJv4gevlwdff8ble93FMlnjzqCi6UCTpJWSYV3v2kj_Js4J8Zazn50APWY2Wq4v6m20Sq1trwj44578oYKwRHESipLIykJvV2ugTlHzghBB77fPkPQcjWODJIaamVFH6FFuGRXkMRLCmeD30iCBgtf9eNSyB_-xUrDK7_BSbnLvpWX8hcb5i0ECubQCvqvzMW_WaGdOubjKLIs2csv4Tg8jpT4H8dVvFFI5GkrO-f4op2wiiTHhwYsk4SUnYi9927nfCRBiw5LAUFH_1h6R5YwY4FIW06QJu3NiXpgUurHIfvDdzVS48U5B3ahWpbz1alz0t5s9bNSG15beiB3koeYn3EyplasDiT6-TmR7k-WA2nu7aKn1mSd-vb7TQMnNnv7lPqUWs2ITJ3fLAK9xgQbYkFG48-oh-3IEXHrlpgQTsHUM59nR1hnddsEhn6FZ88X6XFABxPys5-1T7YIs8RmDr7UNO9lMbB4qRfS-beq4AfkiQOYM3bW59HUAXele-xubzJELNKhaYIr6PcR3xpqe7jd9Jm2jDs4enBXjb4wmf2VbU8hyLShGb8QL2EGapIdlj_fxks3MADBXX4UQV8IUWm1hkrQyC1Jp8XGVwyhztpA6ToPuTpjMNU1qe7aV_xW822POiGP8Mx_wwYXz1IfY-S_XeP4e5KQoaJXav6H9HUpWD4T1FHbl2M5xc7mzSBP4ZnY_OOekqPAck4zzfF-9zFZkw2A7W6o2v0CyMDTSJV8ZmbirUZFCy7OOVcfsQKDjPnmpXTGyEH5l5nPA4RIrVlkZuLVdQVocGwtVFCreKo6p4sQhM4OMGsI0rZCSlTz5r11uB43ywWIDIRzjue_sZQ9j5RPGrQIRZQldtcduHj9IucmodR2rSEPlBETleOjy-fqsXLy7WsyP_-dyzD6kDdkA1j6nzmSDnL_PvtJdCKyXm5_g7hh2MXTnP4nf2din5VxUx9u5IA-x4cn46vShxzDaO_ev5m0nGvmEhGn7-Ck3_8jwwsFHoga6a9Ig9RU2HuCcdk_lcHIoPvkc9TYk5-XUJxP1PqwgwY6WUJQ95jmtYtL-OxpePYNvU_kgDzAu2R0EjJ_lCiUqQ_5-155ekRHtBKmKerpe16rfM9kO9M5hws8I2o8yaqx13Mzi2ss4TewCGyK-mgGPUhwN9cCHPKTNKaftXVoFb2w_84VNSVEd8xsMbFxJ4k76VCLZdEtph-LPFGzIwf-H2sRAsjPb3I1HI0VnBrOoeutIdwAP6zZdOJEfM1Cu35DePcC5Rrty-tqPkQGLUL164e7yhHIM0GIOR0lODcwhEAc1W8dhuR_97WgpkTn-BF6wqi3I59IuycTcoB8S50UL7-ixGnAe0WYcQruZQ-pCQ=="
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "call_HsvrRavK0MNChPhHneXkIYR2",
+          "toolName": "getInformation",
+          "input": {
+            "question": "Aloo Matar garam masala fresh ground or pre-made recommendation"
+          },
+          "providerOptions": {
+            "openai": {
+              "itemId": "fc_001f60a36a226d94006ac4f050770087d286015d2590b43c4a"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": [
+        {
+          "type": "tool-result",
+          "toolCallId": "call_HsvrRavK0MNChPhHneXkIYR2",
+          "toolName": "getInformation",
+          "output": {
+            "type": "json",
+            "value": {
+              "results": [
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "ingredients",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: ingredients\n\n* 2 medium tomatoes (or 1 small can, fire-roasted best)\n* 6 cloves garlic, peeled\n* 1\" piece of ginger, roughly chopped\n* 1\" piece cinnamon\n* 2 cloves\n* 2 green cardamom pods\n* 1 tbsp oil\n* 1 tsp cumin seeds\n* 1 medium red onion, chopped\n* 3–4 whole chilies, sliced lenghtwise\n* 1 tsp coriander powder\n* 1/2 tsp turmeric powder\n* 1/2 tsp red chili powder\n* 3/4 tsp salt\n* 1.5 cups water\n* 2 medium potatoes, cut into 1/2\" pieces\n* 2–3 cup green peas (frozen ok)\n* 1.5 tsp garam masala\n* 1 tsp crushed fenugreek leaves (kasuri methi)\n* Cilantro (to garnish)",
+                  "similarity": 0.6990132750473106
+                },
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "steps",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: steps\n\n1. In a blender, puree tomatoes, garlic, and ginger\n2. In a large pot, dry roast cinnamon, clove, and cardamom until very fragrant\n3. Add oil and cook cumin seeds until fragrant\n4. Add onion and whole chilies, sautee 2–3 minutes, until soft\n5. Add potatoes and cook, stirring often, for about three minutes\n6. Add spices (except garam masala) and 1/4-cup water\n7. Reduce heat and add pureed tomato, stir and cover, cooking for about 12 minutes until oil starts to separate from sauce\n8. Add two cups water and peas, maintain simmer until potatoes are completely cooked, about 10 minutes\n9. Add fenugreek leaves and garam masala (and cream, if using), mix and cook a few more minutes\n10. Serve with chopped cilantro on top",
+                  "similarity": 0.6798273647176886
+                },
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "based on",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: based on\n\n* https://www.cookwithmanali.com/instant-pot-aloo-matar\n* https://www.seriouseats.com/recipes/2012/01/potato-and-pea-curry-aloo-matar-indian-recipe.html",
+                  "similarity": 0.6455301798867737
+                },
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "info",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: info\n\n* About 45 minutes\n* 4 servings as part of a meal with other dishes",
+                  "similarity": 0.6295275854317351
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerOptions": {
+            "openai": {
+              "itemId": "rs_001f60a36a226d94006ac4f053444487d2b828f1f66a879553",
+              "reasoningEncryptedContent": "gAAAAABqxPBfGAerk-XkRhsu59ay-vcACY4vnSPZuJ8ZYgLi3gjj1RmBB2i4z0k4Wh-2817FG7aSk4s0qPRr9dmuYOWldEiSc5J17f95V-tItxx2cWjdksJ783xrD5ySmQE4KrMLCPNyJKvonOedRhGiBpyVdw_0bc-sm9DDheIfaddIgpWGA7jq_yMblwMR1Zmf9s7Wn48Ab_PZ1ttMlFiZwyUNzWv31OvSj7bPyUxIplfS7fUa7GqqMuVpNZ4dPSB15L3TOhyoTKDUwYr1Y3Yfu9ng9ctaoyxkJbsSC3VySEQZzSjR7IbcGs85oCNvYIgo4pkNcdc1AoMnm0L4U1CBrQ5T97uJwqXddevSc8OaqD987cV1ve3KLDsZhLPWdOogyoQpx7_zx8bVrkj8yBktQkAqeUUL2aEm1cM5P6rDxVTwx6nLleZB389jI9lRvVMJ7YJ4GIn6ShUzfQeRXJOsL8KnJuuF4ZXTtwc6AtI4-TvloXgEFlBZWaR4lD61DVK1yU4LA0a5cCYIJDTb09lBoHJg6_WrerUVVzHdl_Jc1cqfJYNHFmndWXxDXUttyei5f5GRu8RBHrW8Y-IEDfuAuCGKiffwa7b72DQu4rKVMKwZjQj92wa_SLVyCwLVXDdjb6AW-lJthzOa0J4gql9GyFlEeBMGzsJNajPDjqjM3_EeTjuftQxgPXsnjLP0YGsFuI-U2XkliPh3QIPxQZFE-QIYdLh4U2IS3nBbLgUku-qkCtR0kAzdWvxC_BmniTq_2LgVUziJpynpMnnqKjOLRheCLJl5gpN9y7YRkgmD4b0ZXozg1L4e15RpLVN6DrSJN1dZGFee8y2LcmllFnBIdpUrUCfqFT1ToPOGe6b-GMiktrBE6dZm6YlXX6Uk9lgZfGJzGTGNZ-n_6iglOwnZpATBvDdfSQ52C23brFLtm5hDVGhEcvGQ9VE2h2lRm6YOQX-lrFD_Wsh1Th3ojzSLq9LajCfW6-Il3O_D1_SJttvPPIlZZePkF3_u3vBV-CSh2qq3w5ST2IP-4MsaTBSoEpAXDBWhzCifj4Sqy0tF8GqPULkUq8yt65DeEkMbH9M1a1yByxLWAItp3yBCgsW3_K_777va7sqFWZMJqdUXwu23Z-PMJ1GhZJFJKAyVM7EOv5m_zNJzVL2Dswrx7GSKMMo0TGdNYHuSR7wyRbOEDd59gEC_ZNH5x0NLaW7wM7L1KVPWeSj7zPcgq9_FPPkh056ej8hcWEFAlAvucSN1TcsbobFLfsyQGiJFs2ZRavij_fKCYYJrDGapViremCYxXasgyjybGuJwYRAENN_x7N1a4jjsM8QJn6NOfYBBcZwhpCJMISPetOpOv_bSKjXjdm_R2kijxnJmXIfY6Z8j6dfHO9GQO2tA9lJVIDjwWeoyFefzMpsCDPjzibPlyJqIqnNx80Qj_vNjFfX4bc5CmLXKGq9McTIYTABWivHrk_QS-Xto39glJPn9Ax_yVgRbEiZCM7d79htJhNLo3RnrW-4LKDW0M0XdcsZpkN03opTDfCWArDZtCXGYqtTwYxk6cHjpiEpcNNTQ_F2ZkaSwBYkP-5ZSVBdxU9a6ceBPQFQkExnjGmPAJRpjuy3NpE6CakgEImJGCybmFNw_rdRfxHzVBFzC-4L6LsJVcoq-P9rfwzAVUhHx7QmL-iDVZFYx62-_SU-fM0_cab39u6JYxLcYnQ3GcUtH7eCXEJWfSTNNzBUF-Mrg0dWa-0NSCFNzL60rvrRAc0SSox2XRORLQfOQfqY7kES0J5Ud9Ulh_xI59uLxTUfOPQCg0bpgm_SIKDblExfJJpJj8Tdi37x7SRqZeux53n6tBxZ7RO67NdqNjpL8py5w1kvISfa66D6NsrUNWyUPMufdFjMHPiR9ghGWPW5c5mgHutm8ivkc5RfU6TEl9EXBvcr7SgoNZHD49_AOyN5GSh4Xy6vaFusxxiDffTEOtMxdwQ5ZxsPIkrOGlCCV-gw997sVbhFyQFQvpUvuNZ8WhoQU6vGenCBiphXT3_3NfrHrj1I79qXpYYRcFiTLc0tc8Q60epP4chiWVlgR4Dygkw2CMpFb7JV8Lx4LA7aRfNT9-uxU04JDmXgvq-9GCUuIywXURubOxxYj67PCkCuPctd6gqebDzYktACilQGjhOTHb91Z8Gh4Em2oPmVD6qId4SSodcZR80ZVF2BiD-5raLUmQjJCFVyt81YFcVnoCIs_CYv1hvgMnoBN0swMyoNlhIUVRD11DOseZmq2W2RJEcUYq3J_vu7sDIMkR_7t2TwLcfy3GMXarpqlyelsDt_Jyc0HHJT892dSBDikCI4Ua7nQtu1Lr9fYR3rMXHZ21qQSyA5iKfZnqRtcqrdzZPv1nM6HvBFo-fnDKJUuMAWLQVBub5k5RQ6MQsHvfwnrxNZrl5fSGea-90agRso6Tz5k0QfDbeuChBQQ9z27Hj4PNgeiQyM9Moyx0FqdcDMB-GqXrvg-3pyW3z5NqWMhawzZ4MxB2ld0Xvkw2bJLCg32Hmk5-bfnbF_UqzDUFofN7VUHPlIB2kZjphH7bSqmEyagz3o-jMW6y37NHRlwTqYg1fK-Y0ZjqTehfCm1ry6Z_5TwpohkOMSy3vSlOpyTKdLJsrSF42W4_yifv-lOP0JfRt6fR2kv5PTLONaIH4eI5itnZBbPMw0HGQoq_rFBFnReV1rBrhU1ZaDAuBNd6SShlN55eSjtGj1Z_T_CEA6qP5rHXBuF451FggWdoNeEr6kXVZFZEw_aqcVJlrfYxNLIi4Z9AO9Wd3ukUlAmA1dhSldCOqTG_ZdcHKxd8nhcjkZfxSI5AF_8ONtP4UoAyMUURbsjGBruBofaRcfTBV-r67uxPVWur9o00EJCHoDNGvD52Jhx5chyZTU_PFOupuLC5G6de_VxDE1emsT10SbzKjG1n__BBFoHPupIE-xQzDS5JsQZYNZHfPGZNiJYPi3Dug0XjYi5aQPPHRWnbodd3n-jI5lnRacCy_z0ykZZUxioyJYf3ICFTns5cHd1nynPCbgVetnicB-6XUKaVlhA1gF8PFEKlmhCCdiJDvQ1tWGmq0Ux95t_SCJJyhh35KtjZqcFz6jwSqRf6HORmcN3EeMd0WudZLB5d9068rf6QG5Z2J4pDuNh3zxyoa3B6PAPi0RfjehtoOxykG8IwY3G38dIu4jRcSqnl5Vp2r3QwoShkTE9enqaTEZCZ2h6d6dJ4AExbN0HeeTzUc6NbKuL3Ova1hK_eQ1tRqwM6-diH5PHEg3r7cAl17Gv-qpFHLgrgpkj_MSmRGozqzhSR9YLWx8ZavN30cSaVC_dIQg1LyUPKD-kuC_nogZVkbYByftmHUot4gXpvcHePwa0XR9kn_Nhvz3oHYTJNUAxTd-E-HOcjvDTmMNQg4GhxUy4Lc_59mV1apKBFPXIgBAYfJud22NW0j1ULuvDTdcQCGKa9oT_3h6tZmbPbZGY86QAyjshIGecsM1yIkWAbK0Ck_8lysCiEn4SOwgxXH5r4XPRET-8VMdylIxa1-m9O_BIol6A2B6BZqNTHsTjgySun5FeH0UQr0izZVLG3beOKCb5ZQummM95DURiXUi-zBvjvz--DIkffpYrr2T4V0HBlNDRyZAGI1sGMCHH_QU87qIKFgBKAGyJXre81qawfAmpP5rGKFHzLS98W1pprIVgmXsOd0qSkfAIBWvgD-R0nu_f07yICsE-cuGjib60j44Zw9-F2aDjrQJsuKALTlyjPlTbpphitgOVVWKxR5G2r69vZzDiTNY2-a4PrDkDCMBXvDvZukL1SDS-fXrxGuJ7XS3bWm6JInGlFCL7WaCSr7FmGq1XEm6IJBWUzi1D9FTkH9MrNBRqMIUCmYevZu6owVeFL9o_wG8Itzr3lXkM5NHq6evU4tQCYTnd9zxv6iZcJDg_sFVm_YHK3YWQELkkhGJeQ4YPAnOrcrYGOtWHFIofo-1q"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "A recept nem részletezi, hogy frissen őrölt vagy bolti keveréket használj; csak azt írja, hogy a végén add hozzá a garam masalát a kaszuri methivel, és még pár percig főzd.\n\nÁltalános tanács (nem a tudásbázisból):\n- Frissen őrölt saját keverék: intenzívebb és illatosabb. Használj kicsit kevesebbet (kb. 1–1,25 tk), kóstolj és igazítsd.\n- Előre elkészített keverék: teljesen rendben. Ha nem nagyon friss az illata, mehet a recept szerinti 1,5 tk, szükség esetén még egy csipet.\n- Időzítés változatlan: a főzés legvégén add hozzá (a kaszuri methivel), majd 2–3 percig rotyogtasd, ne tovább, hogy a friss aromák megmaradjanak.\n\nForrás: aloo-matar.md",
+          "providerOptions": {
+            "openai": {
+              "itemId": "msg_001f60a36a226d94006ac4f05c452087d28903b37cc627782d"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Rendben, köszi a választ. Egyetlen kérdés maradt: a kaszuri methi mennyiségét is meg tudnád mondani, hogy mennyi az ideális a receptben?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerOptions": {
+            "openai": {
+              "itemId": "rs_001f60a36a226d94006ac4f061cfe087d2a3b816637e19c9ed",
+              "reasoningEncryptedContent": "gAAAAABqxPBkLXjP39DNnENKvUH5GFZB2Wdpaw9uSqEpnI085P5aWrJ5bH2lvq4twbe3XH8KcaUdb_GWwUsq1-1fcLGjUGYJd60yVWak1fYsd78x5WwAUFHQRawRx_YiFO83Xv42NdGLR1k1nOC8q9ckteKzJ0hL5SOjrqJyQ_DOFZvGUBOT-GufYi6KaEamt5NQlAXNiYpU9oyElULLto2bAyoCBdoBOUHRetgP6oTeG8W2lCffIg07Z9XtfZ4iyOyM0LiN_OTXcNmT0g7CEepYOIIMSRYlkQ_978yXcQCgf-OsIwd-i8SdIV6fGKMAq0fqYlbtRUwuzkKx1b5kwTplgzEOPts_x2Y8h_syZ6VdTfLM61L3kMN1i5XJCNdPvOc53PFLzCmM58BbtKwQYYeET_3cGBFTlMvwFs50mtcUsLA_ZRH1-d7DV5n53RdLTWHhFnYDXLpcK2CA2uKZkZpVFZjss38HWdgbzVxlvcVZC6lIXJmDPm7OogosEIQU12xJ0m4nZKBbGdzWEbFs4_m0nOJ9l2BEx3BLJhvfw-HQK-1ux4-Hni4gQehz5QXc9-v0KGniI52lNcPUIr4_qBpNS2r9qMfv63a7YfnPz5poAj-zwlXff5ktRUGFH8BLT_somNSvnkP2AEx4B2d1XfjKCyDDNnRh1O0vFaPIOd52UHeF6mCUQZFr7SbSdpek00eVcE-9yDAosU9fKsV7Rp-G8-eFdoHQHvjLqNt0WsP-5_T3-Nxm-oVqfmiJyGuqYjSBKtKj3sZN70-l8EX9AbRjkCEdqKu3ChRzemE_PmLgLkVFA4t83EXaZxIoM6HvgtgjJ6LLnvyo64pN1aT86HJyFX20meq01e58482f3-f2p66G14M58z6x1NOwtYPNoQ3v2G7VWGYY0yPM5tkyVTBCqtNMf2U8ErlcOc23swIGYUgiIO3osbPsV9g5ATz1Nekpb8whYO6sfS-IJyCBXLbuWkjKrx7qCWH1vNDfA0xefTHlrrEtIOInlebZV1jr1jMFawrq9EBC7oaCb6ibcKw3qk_RC05A0hi1kLSv67AwkbenmH8rWN58kvc_7_mldkzLO_fQXU4LQ9nKZDvoRJ1fdVdGW12xwkncl3WSsJzo9ip0D_VQC6cmiXfDxSIa4_3MyVNlIAAEa9nSu6j-sST3pOfxTJN5ralegSdtRCu4qbg4P0SnqfFu6xEK3juFrP1Sjk3hBJg5hbqjsINU183SpENOGdcH3Ob3pQH-sEgGFJusxkh6v2O_g1Mg0XyIG61jY2y-AZNKko5UeA0GluXpeRl6BqXI39fabekzuwbH5n-x2vMgoHnyoBasGmoLDEe9xtL9iOTvGwdMcYQ6rga_7Uxq8NnIeisI-mbvEHnL3J3gUaOHbzuOG9x82yn1rN4K_5qw0YADedlYrGK2LZu2T_OlRdilIgCQdTXklEbnaKmtFDPB0G-iohsjCrjewibP8ioTC_-MXsYKZjzKb_QISLs0LJeolGVXvUMFs74hdXnhKyfK5PriPOFXkF6mjCo1wubAqKvqmJVzBEpj0-lcIn8QPihF9P_MvP5QgUTHNXOfLpQgPrkwVRpnWsJDWJGsyo2iEhUm8YEg24SrWw01nt5haX0XllmKdvJUjvb5cKn0A3lcbymR2AmkcvASGWqwzpcLq_Gdv-jGHpdUyahTr270u29R-6z1ofKZPvP3MCy0dhCOUJZQH3JqxX2Kc2yXOtxR07hmevEa57fuYlMLPfZNUZt9v5qr8NSf0npG8tgCDrWraUFDkoVpKVBW63XkdpxhN0HQDCCzmbY11pvX2jQ8PuVjam7LiB-9bi6Jw061InoeGwG4G5wX2pDZpsFNt5EAX9V02yggPq6O6yuBFwDSQIzvyLdhCD4-x8vDJXrzvxKS1LZ5Yn42pJZQiazk__UEVLR1niZI1utY8EVpOdRcnwmCS0_vVn3NGNyhm7CHwjy2p2KfYRqRBEHHCKdnuH34w3WeyEio9R_HJo8T_Y8dE9eWoZVoErhglnO8Y2hgsQNfL6xYAW839s5-oUCHNBlFxXkjzXrLUSH4BxzA1GAn5AdlQ5WnvA6SqCyvkrTCapte_WonsyMC43UcPgYQapuZeh5VZF9WKPkStdxviOe3R04YQo7XRI2WWeGT_WcypnkuFiEjSbt3fsvaHQjbK2ZnomsHEW75weIOJgHnDaMcArC11Zk-32RRPxwpWLmPRqntVKRo4xXEWMjsopiBxhB7g6NnjDFDCO68INCbrz193lgPId2SJtdfyTpNu9mA1c-rASR9H8MXiXsvku8rA-KF0HrOCR8qmBuYi_toKRmvu4Aj-aQxs3TrTEoyKWIboXYwuN5YouAxefm6NIGnVYNK7_NhJIYUoq-sIXu8lKDZycOmyN-QPgwAMct3m80fSrMwwT0="
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "call_cMu3JphYOmjzuUgmHjMiCsnD",
+          "toolName": "getInformation",
+          "input": {
+            "question": "Aloo Matar kasuri methi amount"
+          },
+          "providerOptions": {
+            "openai": {
+              "itemId": "fc_001f60a36a226d94006ac4f064194487d2a3cd5e14671e9be0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": [
+        {
+          "type": "tool-result",
+          "toolCallId": "call_cMu3JphYOmjzuUgmHjMiCsnD",
+          "toolName": "getInformation",
+          "output": {
+            "type": "json",
+            "value": {
+              "results": [
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "ingredients",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: ingredients\n\n* 2 medium tomatoes (or 1 small can, fire-roasted best)\n* 6 cloves garlic, peeled\n* 1\" piece of ginger, roughly chopped\n* 1\" piece cinnamon\n* 2 cloves\n* 2 green cardamom pods\n* 1 tbsp oil\n* 1 tsp cumin seeds\n* 1 medium red onion, chopped\n* 3–4 whole chilies, sliced lenghtwise\n* 1 tsp coriander powder\n* 1/2 tsp turmeric powder\n* 1/2 tsp red chili powder\n* 3/4 tsp salt\n* 1.5 cups water\n* 2 medium potatoes, cut into 1/2\" pieces\n* 2–3 cup green peas (frozen ok)\n* 1.5 tsp garam masala\n* 1 tsp crushed fenugreek leaves (kasuri methi)\n* Cilantro (to garnish)",
+                  "similarity": 0.6874269277881743
+                },
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "steps",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: steps\n\n1. In a blender, puree tomatoes, garlic, and ginger\n2. In a large pot, dry roast cinnamon, clove, and cardamom until very fragrant\n3. Add oil and cook cumin seeds until fragrant\n4. Add onion and whole chilies, sautee 2–3 minutes, until soft\n5. Add potatoes and cook, stirring often, for about three minutes\n6. Add spices (except garam masala) and 1/4-cup water\n7. Reduce heat and add pureed tomato, stir and cover, cooking for about 12 minutes until oil starts to separate from sauce\n8. Add two cups water and peas, maintain simmer until potatoes are completely cooked, about 10 minutes\n9. Add fenugreek leaves and garam masala (and cream, if using), mix and cook a few more minutes\n10. Serve with chopped cilantro on top",
+                  "similarity": 0.6719980136742074
+                },
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "info",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: info\n\n* About 45 minutes\n* 4 servings as part of a meal with other dishes",
+                  "similarity": 0.6684852239176384
+                },
+                {
+                  "resourceId": "2tq9pvdbdthqdhfaavca1",
+                  "fileName": "aloo-matar.md",
+                  "section": "notes",
+                  "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: notes\n\n* Try adding paneer instead of or alongside the potatoes (making it either Matar Paneer or Aloo Matar Paneer), same cooking time applies",
+                  "similarity": 0.6557031006907911
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "A recept szerint: 1 teáskanál összemorzsolt kaszuri methi (szárított görögszéna-levél).\n\nForrás: aloo-matar.md",
+          "providerOptions": {
+            "openai": {
+              "itemId": "msg_001f60a36a226d94006ac4f0657bf887d29d96e143be8b60b2"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
