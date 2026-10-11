@@ -113,7 +113,7 @@ A következő kérdések eltérése is korlátozza az összehasonlítást.
 
 ## Loom – 4. modul
 
-A 4. modul videójának linkje a felvétel elkészítése után kerül ide.
+[Multi-turn evaluáció bemutatása – Loom-videó](https://www.loom.com/share/2464f30ab7be4dc79c9a1611110c7055)
 
 ---
 
