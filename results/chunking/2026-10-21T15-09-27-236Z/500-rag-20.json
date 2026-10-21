@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-20",
+    "question": "Mennyi ideig kell dagasztani és először keleszteni a Pita Bread tésztáját?",
+    "searchQuery": "Pita Bread kneading duration first rise time",
+    "relevantSources": [
+      {
+        "fileName": "pita-bread.md",
+        "section": "steps"
+      }
+    ]
+  },
+  "maxBodyLength": 500,
+  "results": [
+    {
+      "chunkId": "fed7ad928d8da269e246b836f4c149794286fdfd79a64f8cf196cc00c5774850",
+      "chunkIndex": 1,
+      "fileName": "pita-bread.md",
+      "section": "steps",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: steps\n\n1. In a stand mixer or bread machine, add all ingredients and knead until dough is smooth and elastic, about 15–20 minutes\n2. Leave sitting, covered, in a warm place for one hour\n3. Punch down dough and cut into 8 pieces (6 if you want really big pitas); roll them into a ball, cover with a damp towel, and let rest for 10 minutes\n4. Roll each dough into a thin circle (no more than 1/4\" thick); place on a floured surface and cover with a damp towel for 30 minutes until slightly puffy",
+      "similarity": 0.6817952487638034
+    },
+    {
+      "chunkId": "3f81723258a6d39e073e8f642ffbc3f19b46bc52b9aaaeb0ef97f9f75fb2fb04",
+      "chunkIndex": 4,
+      "fileName": "no-knead-pan-pizza.md",
+      "section": "notes",
+      "content": "Document: no-knead-pan-pizza.md\nTitle: No-Knead Pan Pizza\nSection: notes\n\n* Dough requires 8–24 hour first rise and another 2-hour rise before baking!",
+      "similarity": 0.6278483412132767
+    },
+    {
+      "chunkId": "ac1aba1377232368a3175bc04e4bef6bf21cd3a21e1004a03f0fbe8833bc92a0",
+      "chunkIndex": 0,
+      "fileName": "pita-bread.md",
+      "section": "ingredients",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: ingredients\n\n* 8 oz water, 105–115ºF\n* 1 tbsp extra-virgin olive oil\n* 1 tbsp granulated sugar\n* 2.25 tsp (one packet) instant yeast\n* 1 tsp kosher salt\n* 2.5 oz whole wheat flour\n* 10 oz all-purpose flour",
+      "similarity": 0.6083325318289717
+    },
+    {
+      "chunkId": "3512a79141cc23754eaed719629fe661b83e2499ef21424073cf22d97349d31b",
+      "chunkIndex": 1,
+      "fileName": "no-knead-pan-pizza.md",
+      "section": "steps",
+      "content": "Document: no-knead-pan-pizza.md\nTitle: No-Knead Pan Pizza\nSection: steps\n\n1. Combine flour, salt, yeast, water, and oil in a large bowl (at least 4–6 times the volume of the dough)\n2. Mix with hands until no dry flour remains\n3. Cover bowl with plastic wrap, then let rest at cool room temp (no warmer than 75ºF) for 8–24 hours; dough will rise dramatically and fill the bowl\n4. Sprinkle top of dough lightly with flour, then transfer to a well-floured surface\n5. Divide dough into two pieces and form into a tight ball",
+      "similarity": 0.5541694881677577
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.25,
+    "returnedCount": 4
+  },
+  "searchMs": 1.8505499999992026
+}

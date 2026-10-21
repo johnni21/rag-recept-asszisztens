@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-08",
+    "question": "Milyen hozzávalók és mennyiségek kellenek a hummus tahiniszószához?",
+    "searchQuery": "Hummus tahini sauce ingredient quantities",
+    "relevantSources": [
+      {
+        "fileName": "hummus.md",
+        "section": "ingredients"
+      }
+    ]
+  },
+  "maxBodyLength": 500,
+  "results": [
+    {
+      "chunkId": "874c0447610728ca8e145f06bfe36954143c97d4930d11b7affdc2f2c6264621",
+      "chunkIndex": 0,
+      "fileName": "hummus.md",
+      "section": "ingredients",
+      "content": "Document: hummus.md\nTitle: Hummus\nSection: ingredients\n\n* 1/2 lb dried chickpeas\n* 1 tsp baking soda\n* 2 tbsp kosher salt\n* 6 cups cold water\nFor the tahini\n* 1 whole head garlic, broken into individual unpeeled cloves\n* 2/3 cup fresh lemon juice (about 3–4 lemons)\n* 1/2 tsp ground cumin\n* 1 cup tahini paste (about 10 oz)\nFor the hummus\n* 1 tsp baking soda\n* 1 tbsp salt\n* 1 small onion, split in half\n* 1 stalk celery\n* 1 carrot\n* 2 medium cloves garlic\n* 2 bay leaves\n* 6 cups water\n* 1.5 cups tahini (see above)",
+      "similarity": 0.69073426011989
+    },
+    {
+      "chunkId": "9df41128491da4ce43a61a606fccb171d1ef767b76262d7f40dd9784167bddf4",
+      "chunkIndex": 1,
+      "fileName": "hummus.md",
+      "section": "ingredients",
+      "content": "Document: hummus.md\nTitle: Hummus\nSection: ingredients\n\n* Olive oil, za'tar, and/or paprika for serving",
+      "similarity": 0.6665845373013901
+    },
+    {
+      "chunkId": "7af934ceb42a5d831d1f2337a100d8ab37d3080c17bcf98f73ff3a99ce533b49",
+      "chunkIndex": 4,
+      "fileName": "hummus.md",
+      "section": "steps",
+      "content": "Document: hummus.md\nTitle: Hummus\nSection: steps\n\nFinish the hummus\n1. Discard onion, celery, and bay leaves; transfer everything else to a food processor with enough cooking liquid to cover them\n2. Pulse slowly to mix, then increase speed to high until the texture of a thick milkshake, about two minutes (may need to remove inset and cover with a towel to allow steam to escape)\n3. Transfer to a large bowl and whisk in tahini sauce; whisk in salt to taste",
+      "similarity": 0.664151015583979
+    },
+    {
+      "chunkId": "911370d78040d42738da06b0d1c9c867e80f5da0a22a574adb48150297b27205",
+      "chunkIndex": 3,
+      "fileName": "hummus.md",
+      "section": "steps",
+      "content": "Document: hummus.md\nTitle: Hummus\nSection: steps\n\n1. Combine garlic and lenom juice in a blender, pulse until a pulpy puree is formed\n2. Transfer to a fine mesh strainer over a large bowl; press out as much liquid as possible with the back of a spoon, then discard solids\n3. Add cumin and tahini paste, whisk to combine – mixture will seize up and turn pasty, add a few tablespoons water, whisking between, until smooth and light (should lose its shape it you let ribbons drop from the whisk into the bowl)\n4. Season to taste with salt",
+      "similarity": 0.6576928984963141
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.5,
+    "returnedCount": 2
+  },
+  "searchMs": 2.1222390000002633
+}

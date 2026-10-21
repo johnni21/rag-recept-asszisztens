@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-12",
+    "question": "Hogyan lehet sütő helyett füstölve elkészíteni a Mac and Cheese-t?",
+    "searchQuery": "Mac and Cheese smoking alternative temperature duration",
+    "relevantSources": [
+      {
+        "fileName": "mac-and-cheese.md",
+        "section": "notes"
+      }
+    ]
+  },
+  "maxBodyLength": 1000,
+  "results": [
+    {
+      "chunkId": "4c6b3ec94de59ccbfd4f5500daaa5e29522c653cec088f91a6de896c34e8f1ad",
+      "chunkIndex": 3,
+      "fileName": "mac-and-cheese.md",
+      "section": "notes",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: notes\n\n* Optional: add smoked paprika at the end with the salt and pepper\n* As per the Amazing Ribs recipe, instead of baking in the oven, you can smoke the mac-n-cheese over 350º F, indirect heat for about 40 minutes (they also suggest mixing the panko with 3 tbsp melted butter!)\n* [A different take](https://www.seriouseats.com/recipes/2015/10/bacon-jalapeno-stovetop-macaroni-and-cheese-recipe.html) (and with bacon and jalepeños!)",
+      "similarity": 0.6508203879560213
+    },
+    {
+      "chunkId": "a672fe36de91682100890c7b7d138b7519d9895ddc0c8e2bec56fffd8e5d5d70",
+      "chunkIndex": 1,
+      "fileName": "mac-and-cheese.md",
+      "section": "steps",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: steps\n\n1. Preheat the oven to 400º F, bring a large pot of salted water to boil\n2. Grease a roasting pan with 1 tbsp butter\n3. In a frying pan, fry the shallots and garlic until golden brown\n3. Cook the milk with bay leaves in a small saucepan over medium-low heat\n4. When small bubbles appear along the sides (about 5 mins) turn off the heat, add the cooked shallots and garlic, and set aside\n5. Cook the pasta until it is nearly done, drain and rinse to stop cooking\n6. In a saucepan over medium-low heat, melt 3 tbsp butter\n7. When it's foamy add flour and cook, stirring, until the mixture browns (about 5 mins)\n8. Remove bay leaves from milk and add, 1/4-cup at a time, into the flour mixture, stirring with  whisk constantly\n9. As soon as mixture becomes smooth, add more milk until the mixture is completely smooth\n10. Add the cheddar/gouda and stir\n11. Dump the pasta into a roasting pan and pour the cheese mix on top, top with parmesan and salt and pepper, stir",
+      "similarity": 0.5603493072802944
+    },
+    {
+      "chunkId": "2187fae3acddf599619fa78fb676a75abed4b22e9fa5ad436896216294a04092",
+      "chunkIndex": 2,
+      "fileName": "mac-and-cheese.md",
+      "section": "steps",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: steps\n\n12. Top with breadcrumbs and bake until bubbling, about 15 minutes",
+      "similarity": 0.5589059017407786
+    },
+    {
+      "chunkId": "bc4aa6d44313b416f2d55cb36e66c1193001b1b4462abc9df55c8c4767f62950",
+      "chunkIndex": 4,
+      "fileName": "mac-and-cheese.md",
+      "section": "based on",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: based on\n\n* https://www.seriouseats.com/recipes/2007/10/baked-vegetarian-macaroni-and-cheese-recipe.html\n* https://amazingribs.com/tested-recipes/other-fun-food-recipes/smoked-mac-and-cheese-recipe",
+      "similarity": 0.5537825882864433
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.3333333333333333,
+    "returnedCount": 3
+  },
+  "searchMs": 1.851937999999791
+}

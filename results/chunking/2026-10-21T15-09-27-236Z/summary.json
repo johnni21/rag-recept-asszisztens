@@ -1,0 +1,35 @@
+{
+  "testsPerVariant": 20,
+  "variants": [
+    {
+      "size": 1000,
+      "chunks": 407,
+      "meanSearchMs": 2.1703833999999915,
+      "metrics": {
+        "precisionAtK": 0.25,
+        "recallAtK": 1,
+        "reciprocalRankAtK": 0.975,
+        "returnedPrecision": 0.275,
+        "returnedCount": 3.7
+      }
+    },
+    {
+      "size": 500,
+      "chunks": 498,
+      "meanSearchMs": 1.99093544999987,
+      "metrics": {
+        "precisionAtK": 0.25,
+        "recallAtK": 1,
+        "reciprocalRankAtK": 0.95,
+        "returnedPrecision": 0.3416666666666667,
+        "returnedCount": 3.1
+      }
+    }
+  ],
+  "embeddingUsage": {
+    "tokens": 63732,
+    "batches": 20,
+    "cacheHits": 0,
+    "generatedUniqueTexts": 614
+  }
+}

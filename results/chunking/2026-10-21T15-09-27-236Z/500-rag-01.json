@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-01",
+    "question": "Mennyi idő alatt készül el az Aloo Matar, és hány adag lesz belőle?",
+    "searchQuery": "Aloo Matar preparation time servings",
+    "relevantSources": [
+      {
+        "fileName": "aloo-matar.md",
+        "section": "info"
+      }
+    ]
+  },
+  "maxBodyLength": 500,
+  "results": [
+    {
+      "chunkId": "ccb5492abfd87cb96682338bcb06474dd792d4a6b2054dd85f7af464fe371677",
+      "chunkIndex": 0,
+      "fileName": "aloo-matar.md",
+      "section": "info",
+      "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: info\n\n* About 45 minutes\n* 4 servings as part of a meal with other dishes",
+      "similarity": 0.8189668795994223
+    },
+    {
+      "chunkId": "181f6dea56e00855aa16219c0cee27c1aecedf7693fb5e9fdbce9170a39d30f2",
+      "chunkIndex": 4,
+      "fileName": "aloo-matar.md",
+      "section": "steps",
+      "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: steps\n\n8. Add two cups water and peas, maintain simmer until potatoes are completely cooked, about 10 minutes\n9. Add fenugreek leaves and garam masala (and cream, if using), mix and cook a few more minutes\n10. Serve with chopped cilantro on top",
+      "similarity": 0.754119144784655
+    },
+    {
+      "chunkId": "cf0378f5277045a282be49b21fbd0860af91d716dbec0bbb394c72fcfbb9a84f",
+      "chunkIndex": 3,
+      "fileName": "aloo-matar.md",
+      "section": "steps",
+      "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: steps\n\n1. In a blender, puree tomatoes, garlic, and ginger\n2. In a large pot, dry roast cinnamon, clove, and cardamom until very fragrant\n3. Add oil and cook cumin seeds until fragrant\n4. Add onion and whole chilies, sautee 2–3 minutes, until soft\n5. Add potatoes and cook, stirring often, for about three minutes\n6. Add spices (except garam masala) and 1/4-cup water\n7. Reduce heat and add pureed tomato, stir and cover, cooking for about 12 minutes until oil starts to separate from sauce",
+      "similarity": 0.7338588641420806
+    },
+    {
+      "chunkId": "e939234fa68674473d5c943f045c8f23a954340a0c9109a60e3324fca49f186c",
+      "chunkIndex": 5,
+      "fileName": "aloo-matar.md",
+      "section": "notes",
+      "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: notes\n\n* Try adding paneer instead of or alongside the potatoes (making it either Matar Paneer or Aloo Matar Paneer), same cooking time applies",
+      "similarity": 0.733601743540592
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.3333333333333333,
+    "returnedCount": 3
+  },
+  "searchMs": 1.9860910000006697
+}

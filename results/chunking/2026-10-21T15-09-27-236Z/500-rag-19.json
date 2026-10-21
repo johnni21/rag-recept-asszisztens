@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-19",
+    "question": "Milyen lisztek és mennyi élesztő kell a Pita Bread recepthez?",
+    "searchQuery": "Pita Bread flour types quantities instant yeast amount",
+    "relevantSources": [
+      {
+        "fileName": "pita-bread.md",
+        "section": "ingredients"
+      }
+    ]
+  },
+  "maxBodyLength": 500,
+  "results": [
+    {
+      "chunkId": "ac1aba1377232368a3175bc04e4bef6bf21cd3a21e1004a03f0fbe8833bc92a0",
+      "chunkIndex": 0,
+      "fileName": "pita-bread.md",
+      "section": "ingredients",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: ingredients\n\n* 8 oz water, 105–115ºF\n* 1 tbsp extra-virgin olive oil\n* 1 tbsp granulated sugar\n* 2.25 tsp (one packet) instant yeast\n* 1 tsp kosher salt\n* 2.5 oz whole wheat flour\n* 10 oz all-purpose flour",
+      "similarity": 0.6747117339538926
+    },
+    {
+      "chunkId": "fed7ad928d8da269e246b836f4c149794286fdfd79a64f8cf196cc00c5774850",
+      "chunkIndex": 1,
+      "fileName": "pita-bread.md",
+      "section": "steps",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: steps\n\n1. In a stand mixer or bread machine, add all ingredients and knead until dough is smooth and elastic, about 15–20 minutes\n2. Leave sitting, covered, in a warm place for one hour\n3. Punch down dough and cut into 8 pieces (6 if you want really big pitas); roll them into a ball, cover with a damp towel, and let rest for 10 minutes\n4. Roll each dough into a thin circle (no more than 1/4\" thick); place on a floured surface and cover with a damp towel for 30 minutes until slightly puffy",
+      "similarity": 0.625065068133415
+    },
+    {
+      "chunkId": "2cbd745940f43f97bb78dd5d772d80c57106e2d89d26e39c1a78614b55c52206",
+      "chunkIndex": 1,
+      "fileName": "thin-crust-pizza.md",
+      "section": "ingredients",
+      "content": "Document: thin-crust-pizza.md\nTitle: Thin-Crust (and Quick) Pizza\nSection: ingredients\n\n* 630g bread flour\n* 15g sugar\n* 10g kosher salt\n* 10g instant yeast\n* 32g olive oil (about 3 tbsp)\n* 420g lukewarm water",
+      "similarity": 0.591329061190152
+    },
+    {
+      "chunkId": "4ed3d14bbafb2e5f3d588bf2fe6e69ea40e2418a3b358980203837e6704fb502",
+      "chunkIndex": 0,
+      "fileName": "pizza-dough.md",
+      "section": "ingredients",
+      "content": "Document: pizza-dough.md\nTitle: Pizza Dough\nSection: ingredients\n\n* 20.25 oz unbleached high-gluten, bread, or all-purpose flour (4.5 cups, chilled if possible)\n* 0.44 oz salt (1.75 tsp)\n* 0.11 oz instant yeast (1 tsp)\n* 2 oz olive oil (1/4 cup)\n* 14 oz water, ice cold (1.75 cups, 40ºF)\n* semolina flour or cornmeal, for dusting",
+      "similarity": 0.581178621446765
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.25,
+    "returnedCount": 4
+  },
+  "searchMs": 1.876845000000685
+}

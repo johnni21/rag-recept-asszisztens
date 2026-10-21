@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-18",
+    "question": "Meddig kell préselni a tofut, és hogyan kell bevonni keményítővel a Sesame Tofu receptben?",
+    "searchQuery": "Sesame Tofu pressing duration cornstarch coating steps",
+    "relevantSources": [
+      {
+        "fileName": "sesame-tofu.md",
+        "section": "steps"
+      }
+    ]
+  },
+  "maxBodyLength": 1000,
+  "results": [
+    {
+      "chunkId": "ba7d47c68fad4a5c20ad94a2dbb1194b6fbff6a26c2fca1aaf5a6a0bf5fa6fed",
+      "chunkIndex": 1,
+      "fileName": "sesame-tofu.md",
+      "section": "steps",
+      "content": "Document: sesame-tofu.md\nTitle: Sesame Tofu\nSection: steps\n\n1. drain and press the tofu for at least 20 minutes\n2. cut tofu into 1-inch cubes, season with a pinch of salt\n3. sprinkle tofu with 1 tbsp cornstarch, toss to coat, repeat with remaining cornstarch or until cubes all have an even coating\n4. heat vegetable oil in a large skillet over medium flame\n5. add tofu and cook, flipping regularly, until all sides are golden brown; when done, remove to a paper-towel-lined plate\n6. while tofu is cooking, mix the sauce ingredients (except the aromatics) in a bowl\n7. add oil to a skillet over medium heat, add brocoli and cook until lightly charred but still firm\n8. add garlic, ginger, and scallions and cook until soft and aromatic, about 30 seconds; remove everything from the pan\n9. add more oil and sauce mixture to skillet and cook, stirring, until sauce boils and thickens, about 1 minute\n10. return brocoli and tofu to the pan, add 1 tbsp sesame seeds and remove from heat",
+      "similarity": 0.7551975059120551
+    },
+    {
+      "chunkId": "ccf05a07fefdd8540a301381a71745f443412938f98d8d1a84203daaf6519b5c",
+      "chunkIndex": 0,
+      "fileName": "sesame-tofu.md",
+      "section": "ingredients",
+      "content": "Document: sesame-tofu.md\nTitle: Sesame Tofu\nSection: ingredients\n\n* 1 block extra firm tofu, drained and pressed\n* 2 tbsp cornstarch\n* 2 tbsp vegetable oil (or other neutral oil)\n* 1/2 lbs broccoli, cut into florets\n* 3-4 green onions, sliced\nFor the sauce:\n* 3 tbsp dark soy sauce\n* 2 tbsp Shaoxing wine\n* 2 tbsp rice vinegar\n* 3 tbsp low-sodium chicken stock (or water)\n* 5 tbsp sugar\n* 2 tsp roasted sesame seed oil\n* 1 tbsp corn starch\n* 2 tsp peanut, vegetable, canola oil\n* 2 tsp minced garlic (about 2 medium cloves)\n* 2 tsp minced ginger (about 1-inch piece)\n* 2 tsp minced scallion, white parts only\n* 1 tbsp toasted sesame seeds\nTo finish:\n* 1 tbsp toasted sesame seeds",
+      "similarity": 0.7306009396386688
+    },
+    {
+      "chunkId": "54de492e88d7e697d7133510f05a008a95755972223329052c50aec58a4d73fa",
+      "chunkIndex": 2,
+      "fileName": "sesame-tofu.md",
+      "section": "steps",
+      "content": "Document: sesame-tofu.md\nTitle: Sesame Tofu\nSection: steps\n\n11. turn with a spoon until all pieces are evenly coated, top with more sesame seeds and serve immediately",
+      "similarity": 0.7156167913799766
+    },
+    {
+      "chunkId": "f74c617f4f45739a5f50f8194c58c4b024f61841cabf747fa5bd29981868131c",
+      "chunkIndex": 3,
+      "fileName": "sesame-tofu.md",
+      "section": "based on",
+      "content": "Document: sesame-tofu.md\nTitle: Sesame Tofu\nSection: based on\n\n* https://www.seriouseats.com/recipes/2014/02/vegan-experience-crispy-tofu-broccoli-stir-fry.html\n* https://www.budgetbytes.com/pan-fried-sesame-tofu-with-broccoli\n* https://domesticsuperhero.com/honey-sesame-tofu\n* https://www.seriouseats.com/recipes/2014/07/the-best-chinese-sesame-chicken-recipe.html",
+      "similarity": 0.6319723181807898
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.3333333333333333,
+    "returnedCount": 3
+  },
+  "searchMs": 1.6746910000001662
+}
