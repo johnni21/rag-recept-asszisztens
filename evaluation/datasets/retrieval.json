@@ -1,0 +1,162 @@
+[
+  {
+    "id": "rag-01",
+    "question": "Mennyi idő alatt készül el az Aloo Matar, és hány adag lesz belőle?",
+    "searchQuery": "Aloo Matar preparation time servings",
+    "relevantSources": [
+      { "fileName": "aloo-matar.md", "section": "info" }
+    ]
+  },
+  {
+    "id": "rag-02",
+    "question": "Mennyi burgonya és zöldborsó kell az Aloo Matarhoz?",
+    "searchQuery": "Aloo Matar potato and green pea quantities",
+    "relevantSources": [
+      { "fileName": "aloo-matar.md", "section": "ingredients" }
+    ]
+  },
+  {
+    "id": "rag-03",
+    "question": "Tehetek paneert az Aloo Matarba?",
+    "searchQuery": "Aloo Matar add paneer instead of potatoes",
+    "relevantSources": [
+      { "fileName": "aloo-matar.md", "section": "notes" }
+    ]
+  },
+  {
+    "id": "rag-04",
+    "question": "Milyen alapanyagok kellenek a Chicken Schnitzel panírozásához?",
+    "searchQuery": "Chicken Schnitzel breading ingredients flour eggs panko",
+    "relevantSources": [
+      { "fileName": "chicken-schnitzel.md", "section": "ingredients" }
+    ]
+  },
+  {
+    "id": "rag-05",
+    "question": "Meddig kell sós vízben pácolni a Chicken Schnitzelt, és milyen hőmérsékleten kell sütni?",
+    "searchQuery": "Chicken Schnitzel brining duration frying oil temperature",
+    "relevantSources": [
+      { "fileName": "chicken-schnitzel.md", "section": "steps" }
+    ]
+  },
+  {
+    "id": "rag-06",
+    "question": "Mit adhatok a liszthez, ha fűszeresebb Chicken Schnitzelt szeretnék?",
+    "searchQuery": "Chicken Schnitzel spicy flour additions gochugaru",
+    "relevantSources": [
+      { "fileName": "chicken-schnitzel.md", "section": "notes" }
+    ]
+  },
+  {
+    "id": "rag-07",
+    "question": "Meddig tartható el a hummus és a tahini a hűtőben?",
+    "searchQuery": "Hummus tahini refrigerator storage duration",
+    "relevantSources": [
+      { "fileName": "hummus.md", "section": "notes" }
+    ]
+  },
+  {
+    "id": "rag-08",
+    "question": "Milyen hozzávalók és mennyiségek kellenek a hummus tahiniszószához?",
+    "searchQuery": "Hummus tahini sauce ingredient quantities",
+    "relevantSources": [
+      { "fileName": "hummus.md", "section": "ingredients" }
+    ]
+  },
+  {
+    "id": "rag-09",
+    "question": "Mennyi szójaszósz, mirin és sake kell a Teriyaki Chickenhez?",
+    "searchQuery": "Teriyaki Chicken soy sauce mirin sake quantities",
+    "relevantSources": [
+      { "fileName": "teriyaki-chicken.md", "section": "ingredients" }
+    ]
+  },
+  {
+    "id": "rag-10",
+    "question": "Meddig kell pácolni a Teriyaki Chickent, és hogyan kell besűríteni a szószt?",
+    "searchQuery": "Teriyaki Chicken marinating time sauce thickening steps",
+    "relevantSources": [
+      { "fileName": "teriyaki-chicken.md", "section": "steps" }
+    ]
+  },
+  {
+    "id": "rag-11",
+    "question": "Milyen sajtok és milyen mennyiségben kellenek a Mac and Cheese recepthez?",
+    "searchQuery": "Mac and Cheese cheese types and quantities",
+    "relevantSources": [
+      { "fileName": "mac-and-cheese.md", "section": "ingredients" }
+    ]
+  },
+  {
+    "id": "rag-12",
+    "question": "Hogyan lehet sütő helyett füstölve elkészíteni a Mac and Cheese-t?",
+    "searchQuery": "Mac and Cheese smoking alternative temperature duration",
+    "relevantSources": [
+      { "fileName": "mac-and-cheese.md", "section": "notes" }
+    ]
+  },
+  {
+    "id": "rag-13",
+    "question": "Mennyi tahini és citromlé kell a Baba Ganoushhoz?",
+    "searchQuery": "Baba Ganoush tahini lemon juice quantities",
+    "relevantSources": [
+      { "fileName": "baba-ganoush.md", "section": "ingredients" }
+    ]
+  },
+  {
+    "id": "rag-14",
+    "question": "Meddig tartható el a Baba Ganoush a hűtőben, és milyen hőmérsékleten tálaljam?",
+    "searchQuery": "Baba Ganoush refrigerator storage duration serving temperature",
+    "relevantSources": [
+      { "fileName": "baba-ganoush.md", "section": "notes" }
+    ]
+  },
+  {
+    "id": "rag-15",
+    "question": "Mennyi idő alatt készül el a Black Bean Enchiladas, és hány adag lesz?",
+    "searchQuery": "Black Bean Enchiladas preparation time servings",
+    "relevantSources": [
+      { "fileName": "black-bean-enchiladas.md", "section": "info" }
+    ]
+  },
+  {
+    "id": "rag-16",
+    "question": "Le kell önteni a konzervbab levét a Black Bean Enchiladas készítésekor?",
+    "searchQuery": "Black Bean Enchiladas blend canned beans including can liquid",
+    "relevantSources": [
+      { "fileName": "black-bean-enchiladas.md", "section": "steps" }
+    ]
+  },
+  {
+    "id": "rag-17",
+    "question": "Milyen folyadékok és mennyiségek kellenek a Sesame Tofu szószához?",
+    "searchQuery": "Sesame Tofu sauce liquid ingredients quantities",
+    "relevantSources": [
+      { "fileName": "sesame-tofu.md", "section": "ingredients" }
+    ]
+  },
+  {
+    "id": "rag-18",
+    "question": "Meddig kell préselni a tofut, és hogyan kell bevonni keményítővel a Sesame Tofu receptben?",
+    "searchQuery": "Sesame Tofu pressing duration cornstarch coating steps",
+    "relevantSources": [
+      { "fileName": "sesame-tofu.md", "section": "steps" }
+    ]
+  },
+  {
+    "id": "rag-19",
+    "question": "Milyen lisztek és mennyi élesztő kell a Pita Bread recepthez?",
+    "searchQuery": "Pita Bread flour types quantities instant yeast amount",
+    "relevantSources": [
+      { "fileName": "pita-bread.md", "section": "ingredients" }
+    ]
+  },
+  {
+    "id": "rag-20",
+    "question": "Mennyi ideig kell dagasztani és először keleszteni a Pita Bread tésztáját?",
+    "searchQuery": "Pita Bread kneading duration first rise time",
+    "relevantSources": [
+      { "fileName": "pita-bread.md", "section": "steps" }
+    ]
+  }
+]

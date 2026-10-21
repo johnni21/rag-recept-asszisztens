@@ -1,0 +1,213 @@
+{
+  "test": {
+    "id": "rag-16",
+    "question": "Le kell önteni a konzervbab levét a Black Bean Enchiladas készítésekor?",
+    "searchQuery": "Black Bean Enchiladas blend canned beans including can liquid",
+    "relevantSources": [
+      {
+        "fileName": "black-bean-enchiladas.md",
+        "section": "steps"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "chunkId": "u0t2pun0t6l5fqfrtu2bt",
+      "chunkIndex": 2,
+      "resourceId": "jirh2b3bobbtdjedng0ga",
+      "fileName": "black-bean-enchiladas.md",
+      "section": "steps",
+      "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: steps\n\n1. Put the beans, including the water from the can, in a blender and blend until smooth and the thickness of creamy soup (add water if necessary)\n2. Transfer to a pan and heat, adding salt as needed, until hot enough to serve\n3. For each plate, add some bean sauce in the bottom\n4. Dip a tortilla in the beans, fold into quarters, and place on plate, adding more bean sauce on top\n5. Top with salsa, cheese, cilantro, and sliced onion",
+      "similarity": 0.7039493741728388
+    },
+    {
+      "chunkId": "q8q8u9ddom25d4cm5natz",
+      "chunkIndex": 1,
+      "resourceId": "jirh2b3bobbtdjedng0ga",
+      "fileName": "black-bean-enchiladas.md",
+      "section": "ingredients",
+      "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: ingredients\n\n* 14 oz can black beans\n* Tortillas\n* Tomatillo salsa (see recipe here)\n* Queso fresco, crumbled\n* Cilantro, finly chopped\n* Sliced onion (pickled is extra nice)",
+      "similarity": 0.6619732306979128
+    },
+    {
+      "chunkId": "3fqpaxuhcbmwcs8rb6aaz",
+      "chunkIndex": 4,
+      "resourceId": "jirh2b3bobbtdjedng0ga",
+      "fileName": "black-bean-enchiladas.md",
+      "section": "based on",
+      "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: based on\n\n* https://www.rickbayless.com/recipe/black-bean-sauced-enchiladas-with-chorizo-and-salsa-verde\n* https://www.youtube.com/watch?v=MJN-7wrsjPs&list=WL&index=16&t=0s",
+      "similarity": 0.6131138739497658
+    },
+    {
+      "chunkId": "9uxe0oph4ds6bpcc3hdt2",
+      "chunkIndex": 0,
+      "resourceId": "jirh2b3bobbtdjedng0ga",
+      "fileName": "black-bean-enchiladas.md",
+      "section": "info",
+      "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: info\n\n* About 15 minutes\n* 2 servings",
+      "similarity": 0.5882877072817465
+    },
+    {
+      "chunkId": "7y92w1s7a48lap239qilw",
+      "chunkIndex": 3,
+      "resourceId": "jirh2b3bobbtdjedng0ga",
+      "fileName": "black-bean-enchiladas.md",
+      "section": "notes",
+      "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: notes\n\n* While these aren't rolled and baked like we usually think of enchiladas, they are super easy to make!",
+      "similarity": 0.5695356715268068
+    },
+    {
+      "chunkId": "rvsqi3sm5p8die2tttwl1",
+      "chunkIndex": 2,
+      "resourceId": "y4urvvxuhlto3328kxr6v",
+      "fileName": "creamy-chicken-enchiladas.md",
+      "section": "steps",
+      "content": "Document: creamy-chicken-enchiladas.md\nTitle: Creamy Chicken Enchiladas\nSection: steps\n\n1. Turn on the broiler to high and set rack about 8\" below\n2. In a foil-lined baking sheet, place poblanos, onion, tomatillos, serranos, and garlic and broil, turning occasionally, until tomatillos are lightly charred, about 10 minutes (see note)\n3. Remove tomatillos and continue cooking until poblanos are charred on all sides, about 2 minutes; remove poblanos to a separate bowl and cover\n4. Continue cooking until remaining vegetables are softened and charred, about 5 minutes; remove to bowl with tomatillos\n5. Move rack to middle position and set oven to 375º F\n6. Add stock to bowl with poblanos and peel while submerged; transfer peeled peppers to bowl with tomatillos\n7. Strain stock though a fine mesh strainer into bowl with vegetables to remove seeds and skin\n8. Add cilantro and set aside\n9. Season chicken on all sides with salt and pepper\n10. In a large pot, add oil and heat over high heat until shimmering",
+      "similarity": 0.551345659356985
+    },
+    {
+      "chunkId": "9ze2xfu0kn05uy8c9nokz",
+      "chunkIndex": 5,
+      "resourceId": "y4urvvxuhlto3328kxr6v",
+      "fileName": "creamy-chicken-enchiladas.md",
+      "section": "notes",
+      "content": "Document: creamy-chicken-enchiladas.md\nTitle: Creamy Chicken Enchiladas\nSection: notes\n\n* Jack cheese can be replaced with Oaxaca or other cheese too\n* 1 cup crema is a **lot**, can def reduce to about 1/2 cup total\n* If in a hurry, can also dry-roast the veggies in a cast iron pan (and poblanos directly on the burner)",
+      "similarity": 0.5423299032149141
+    },
+    {
+      "chunkId": "jonng2atp72oh89hkauhd",
+      "chunkIndex": 2,
+      "resourceId": "upe94wh1c37pd8h1zqzug",
+      "fileName": "enchilada-sauce.md",
+      "section": "steps",
+      "content": "Document: enchilada-sauce.md\nTitle: Enchilada Sauce\nSection: steps\n\n1. Trim stems from chiles and remove seeds\n2. In a large bowl, add chiles and hot water; cover and let sit for 20 minutes\n3. Remove chiles and put in blender\n4. Add 1 cup chile water and 1/2 cup fresh water, plus remaining ingredients\n5. Blend until completely smooth, adding more water if necessary\n6. Use immediately or store in fridge for up to two weeks (or freezer fr 6 months)",
+      "similarity": 0.5408371543033229
+    },
+    {
+      "chunkId": "fr1e3oshl6qkyor3pv52k",
+      "chunkIndex": 3,
+      "resourceId": "y4urvvxuhlto3328kxr6v",
+      "fileName": "creamy-chicken-enchiladas.md",
+      "section": "steps",
+      "content": "Document: creamy-chicken-enchiladas.md\nTitle: Creamy Chicken Enchiladas\nSection: steps\n\n11. Add chicken, skin-side down, and cook undisturbed until well-browned, about 6 minutes\n12. Flip and cook until lightly browned on the other side, about 2 minutes\n13. Transfer chicken to a bowl, keeping any juices in the pot\n14. Add vegetables to pot and scrape any browned bits from the bottom\n15. Puree with an immersion blender until a chunky sauce forms, season to taste with salt and pepper\n16. Return chicken to pot, bring to a simmer, cover with lid slightly ajar, and cook until chicken is done, about 15 minutes\n17. When chicken is done, remove from heat and transfer to a large bowl; let rest until cook enough to handle\n18. Shred chicken, discarding bones and skin\n19. Add 1 cup sauce, half the cheese and half the crema; toss to combine\n20. Lightly grease a 13x9\" pan, then spread about 1/3 of the sauce on the bottom\n21. Optional: dip each tortilla in the sauce and stack on a cutting board",
+      "similarity": 0.5399757954168821
+    },
+    {
+      "chunkId": "ifuit7ty0t8aqf7ubv085",
+      "chunkIndex": 0,
+      "resourceId": "upe94wh1c37pd8h1zqzug",
+      "fileName": "enchilada-sauce.md",
+      "section": "info",
+      "content": "Document: enchilada-sauce.md\nTitle: Enchilada Sauce\nSection: info\n\n* About 25 minutes\n* 2 cups",
+      "similarity": 0.53471811921494
+    },
+    {
+      "chunkId": "0w25cide5bkmw0y4xjwl2",
+      "chunkIndex": 4,
+      "resourceId": "upe94wh1c37pd8h1zqzug",
+      "fileName": "enchilada-sauce.md",
+      "section": "based on",
+      "content": "Document: enchilada-sauce.md\nTitle: Enchilada Sauce\nSection: based on\n\n* https://www.isabeleats.com/authentic-red-enchilada-sauce",
+      "similarity": 0.5337046031309164
+    },
+    {
+      "chunkId": "uisu4kajp0eul89clv26j",
+      "chunkIndex": 1,
+      "resourceId": "y4urvvxuhlto3328kxr6v",
+      "fileName": "creamy-chicken-enchiladas.md",
+      "section": "ingredients",
+      "content": "Document: creamy-chicken-enchiladas.md\nTitle: Creamy Chicken Enchiladas\nSection: ingredients\n\n* 3 poblano peppers\n* 1 large onion, quartered\n* 1.5 lbs tomatillos\n* 1–2 serrano peppers\n* 3 cloves garlic, unpeeled\n* 2 cups stock\n* 1 cup cilantro leaves\n* 2 lbs bone-in, skin-on chicken thighs\n* 1 tbsp oil\n* 16 corn tortillas, preferably homemade\n* 8 oz shredded pepper jack cheese (see note)\n* 1 cup crema, divided (see note)",
+      "similarity": 0.5331452381462858
+    }
+  ],
+  "baseline": {
+    "results": [
+      {
+        "chunkId": "u0t2pun0t6l5fqfrtu2bt",
+        "chunkIndex": 2,
+        "resourceId": "jirh2b3bobbtdjedng0ga",
+        "fileName": "black-bean-enchiladas.md",
+        "section": "steps",
+        "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: steps\n\n1. Put the beans, including the water from the can, in a blender and blend until smooth and the thickness of creamy soup (add water if necessary)\n2. Transfer to a pan and heat, adding salt as needed, until hot enough to serve\n3. For each plate, add some bean sauce in the bottom\n4. Dip a tortilla in the beans, fold into quarters, and place on plate, adding more bean sauce on top\n5. Top with salsa, cheese, cilantro, and sliced onion",
+        "similarity": 0.7039493741728388
+      },
+      {
+        "chunkId": "q8q8u9ddom25d4cm5natz",
+        "chunkIndex": 1,
+        "resourceId": "jirh2b3bobbtdjedng0ga",
+        "fileName": "black-bean-enchiladas.md",
+        "section": "ingredients",
+        "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: ingredients\n\n* 14 oz can black beans\n* Tortillas\n* Tomatillo salsa (see recipe here)\n* Queso fresco, crumbled\n* Cilantro, finly chopped\n* Sliced onion (pickled is extra nice)",
+        "similarity": 0.6619732306979128
+      },
+      {
+        "chunkId": "3fqpaxuhcbmwcs8rb6aaz",
+        "chunkIndex": 4,
+        "resourceId": "jirh2b3bobbtdjedng0ga",
+        "fileName": "black-bean-enchiladas.md",
+        "section": "based on",
+        "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: based on\n\n* https://www.rickbayless.com/recipe/black-bean-sauced-enchiladas-with-chorizo-and-salsa-verde\n* https://www.youtube.com/watch?v=MJN-7wrsjPs&list=WL&index=16&t=0s",
+        "similarity": 0.6131138739497658
+      },
+      {
+        "chunkId": "9uxe0oph4ds6bpcc3hdt2",
+        "chunkIndex": 0,
+        "resourceId": "jirh2b3bobbtdjedng0ga",
+        "fileName": "black-bean-enchiladas.md",
+        "section": "info",
+        "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: info\n\n* About 15 minutes\n* 2 servings",
+        "similarity": 0.5882877072817465
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.25,
+      "returnedCount": 4
+    }
+  },
+  "reranked": {
+    "results": [
+      {
+        "chunkId": "u0t2pun0t6l5fqfrtu2bt",
+        "chunkIndex": 2,
+        "resourceId": "jirh2b3bobbtdjedng0ga",
+        "fileName": "black-bean-enchiladas.md",
+        "section": "steps",
+        "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: steps\n\n1. Put the beans, including the water from the can, in a blender and blend until smooth and the thickness of creamy soup (add water if necessary)\n2. Transfer to a pan and heat, adding salt as needed, until hot enough to serve\n3. For each plate, add some bean sauce in the bottom\n4. Dip a tortilla in the beans, fold into quarters, and place on plate, adding more bean sauce on top\n5. Top with salsa, cheese, cilantro, and sliced onion",
+        "similarity": 0.7039493741728388,
+        "rerankScore": 3
+      },
+      {
+        "chunkId": "q8q8u9ddom25d4cm5natz",
+        "chunkIndex": 1,
+        "resourceId": "jirh2b3bobbtdjedng0ga",
+        "fileName": "black-bean-enchiladas.md",
+        "section": "ingredients",
+        "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: ingredients\n\n* 14 oz can black beans\n* Tortillas\n* Tomatillo salsa (see recipe here)\n* Queso fresco, crumbled\n* Cilantro, finly chopped\n* Sliced onion (pickled is extra nice)",
+        "similarity": 0.6619732306979128,
+        "rerankScore": 2
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.5,
+      "returnedCount": 2
+    }
+  },
+  "timing": {
+    "retrievalMs": 209,
+    "rerankingMs": 1791,
+    "totalMs": 2000
+  },
+  "rerankingUsage": {
+    "inputTokens": 1527,
+    "outputTokens": 102,
+    "totalTokens": 1629,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  }
+}

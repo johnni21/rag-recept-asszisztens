@@ -1,0 +1,159 @@
+{
+  "test": {
+    "id": "rag-05",
+    "question": "Meddig kell sós vízben pácolni a Chicken Schnitzelt, és milyen hőmérsékleten kell sütni?",
+    "searchQuery": "Chicken Schnitzel brining duration frying oil temperature",
+    "relevantSources": [
+      {
+        "fileName": "chicken-schnitzel.md",
+        "section": "steps"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "chunkId": "nzn1idg7z6sm5bibvhhg1",
+      "chunkIndex": 2,
+      "resourceId": "jnzwi9r41ytulhiur6wj3",
+      "fileName": "chicken-schnitzel.md",
+      "section": "steps",
+      "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: steps\n\n1. Cut tenders from chicken breasts, if present\n2. Whisk water and salt in a large bowl or tray, add chicken and brine in the fridge for 30 minutes\n3. Remove chicken, pat dry, and butterfly as needed into pieces about 1/4\" thick\n4. Place chicken in a plastic bag, one piece at a time, and pound with a rolling pin or meat tenderizer until thin and even\n5. Place flour, eggs, and panko onto separate plates (pie tins work great for this)\n6. Heat oil in a cast iron skillet to 375º F\n7. Batter chicken one piece at a time in the flour, egg, and panko, patting lightly to get a thorough coating\n8. Keep prepped cutlets on wire rack\n9. Fry cutlets, a few at a time and turning often, until golden brown and crisp, about 3–4 minutes total\n10. Remove to a wire rack, adding salt immediately\n11. Serve with lemon slices, coleslaw, and cold beer",
+      "similarity": 0.6486421006651526
+    },
+    {
+      "chunkId": "pbrnq0j31hgadzncrj281",
+      "chunkIndex": 1,
+      "resourceId": "jnzwi9r41ytulhiur6wj3",
+      "fileName": "chicken-schnitzel.md",
+      "section": "ingredients",
+      "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: ingredients\n\n* 2 quarts water\n* 1/3 cup kosher salt\n* 2 boneless, skinless chicken breasts\n* 2/4 cup all-purpose flour\n* 2 large eggs, beaten\n* 2 cups panko bread crumbs\n* Peanut, canola, or other neutral oil",
+      "similarity": 0.6358723670970234
+    },
+    {
+      "chunkId": "5hvldhizfn8il13p1ljpj",
+      "chunkIndex": 0,
+      "resourceId": "jnzwi9r41ytulhiur6wj3",
+      "fileName": "chicken-schnitzel.md",
+      "section": "info",
+      "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: info\n\n* About 1.5 hours\n* Hearty meal for 2 plus enough for sandwiches the next day",
+      "similarity": 0.5860235633094107
+    },
+    {
+      "chunkId": "y2wask6cnw7rf58nujkrn",
+      "chunkIndex": 3,
+      "resourceId": "jnzwi9r41ytulhiur6wj3",
+      "fileName": "chicken-schnitzel.md",
+      "section": "notes",
+      "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: notes\n\n* These are *really* good on bao with some Bonchon-style hot sauce!\n* Consider adding this to the flour: 2 tsp baking powder, 1/4 cup gochugaru (Korean red chlii flakes), 1 tbsp black pepper, 2 tbsp garlic powder, 1.5 tsp kosher salt\n* You can also change up the brine: 1/2 cup kimchi juice, 1 cup buttermilk, 1 egg, 1.5 tsp kosher salt, 1 tbsp soy sauce, 1/4 cup gochugaru, 2 tbsp black pepper\n* Can use half butter, half oil to fry",
+      "similarity": 0.5699344574593713
+    },
+    {
+      "chunkId": "wudqzur03468h3ttpi9vm",
+      "chunkIndex": 4,
+      "resourceId": "jnzwi9r41ytulhiur6wj3",
+      "fileName": "chicken-schnitzel.md",
+      "section": "based on",
+      "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: based on\n\n* https://www.seriouseats.com/recipes/2014/04/chicken-schnitzel-recipe.html\n* https://www.seriouseats.com/recipes/2018/10/pork-schnitzel-recipe.html",
+      "similarity": 0.5341290184851513
+    },
+    {
+      "chunkId": "i8emeomvmxo0zvjjq5739",
+      "chunkIndex": 3,
+      "resourceId": "8kwup3il28sv9bkmfiwbk",
+      "fileName": "chicken-nuggets.md",
+      "section": "steps",
+      "content": "Document: chicken-nuggets.md\nTitle: Chicken Nuggets\nSection: steps\n\n6. Cook, flipping every 30 seconds, until they puff and start to brown, about 4–5 minutes\n7. Remove to wire rack and cook the remaining nuggets\n8. Let rest for five minutes on rack\n9. Bring oil to 375ºF\n10. Return all nuggets to oil and cook, flipping, until deep golden brown and very crispy, about 4 minutes\n11. Return to rack and let sit for two minutes",
+      "similarity": 0.47763727714830084
+    }
+  ],
+  "baseline": {
+    "results": [
+      {
+        "chunkId": "nzn1idg7z6sm5bibvhhg1",
+        "chunkIndex": 2,
+        "resourceId": "jnzwi9r41ytulhiur6wj3",
+        "fileName": "chicken-schnitzel.md",
+        "section": "steps",
+        "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: steps\n\n1. Cut tenders from chicken breasts, if present\n2. Whisk water and salt in a large bowl or tray, add chicken and brine in the fridge for 30 minutes\n3. Remove chicken, pat dry, and butterfly as needed into pieces about 1/4\" thick\n4. Place chicken in a plastic bag, one piece at a time, and pound with a rolling pin or meat tenderizer until thin and even\n5. Place flour, eggs, and panko onto separate plates (pie tins work great for this)\n6. Heat oil in a cast iron skillet to 375º F\n7. Batter chicken one piece at a time in the flour, egg, and panko, patting lightly to get a thorough coating\n8. Keep prepped cutlets on wire rack\n9. Fry cutlets, a few at a time and turning often, until golden brown and crisp, about 3–4 minutes total\n10. Remove to a wire rack, adding salt immediately\n11. Serve with lemon slices, coleslaw, and cold beer",
+        "similarity": 0.6486421006651526
+      },
+      {
+        "chunkId": "pbrnq0j31hgadzncrj281",
+        "chunkIndex": 1,
+        "resourceId": "jnzwi9r41ytulhiur6wj3",
+        "fileName": "chicken-schnitzel.md",
+        "section": "ingredients",
+        "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: ingredients\n\n* 2 quarts water\n* 1/3 cup kosher salt\n* 2 boneless, skinless chicken breasts\n* 2/4 cup all-purpose flour\n* 2 large eggs, beaten\n* 2 cups panko bread crumbs\n* Peanut, canola, or other neutral oil",
+        "similarity": 0.6358723670970234
+      },
+      {
+        "chunkId": "5hvldhizfn8il13p1ljpj",
+        "chunkIndex": 0,
+        "resourceId": "jnzwi9r41ytulhiur6wj3",
+        "fileName": "chicken-schnitzel.md",
+        "section": "info",
+        "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: info\n\n* About 1.5 hours\n* Hearty meal for 2 plus enough for sandwiches the next day",
+        "similarity": 0.5860235633094107
+      },
+      {
+        "chunkId": "y2wask6cnw7rf58nujkrn",
+        "chunkIndex": 3,
+        "resourceId": "jnzwi9r41ytulhiur6wj3",
+        "fileName": "chicken-schnitzel.md",
+        "section": "notes",
+        "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: notes\n\n* These are *really* good on bao with some Bonchon-style hot sauce!\n* Consider adding this to the flour: 2 tsp baking powder, 1/4 cup gochugaru (Korean red chlii flakes), 1 tbsp black pepper, 2 tbsp garlic powder, 1.5 tsp kosher salt\n* You can also change up the brine: 1/2 cup kimchi juice, 1 cup buttermilk, 1 egg, 1.5 tsp kosher salt, 1 tbsp soy sauce, 1/4 cup gochugaru, 2 tbsp black pepper\n* Can use half butter, half oil to fry",
+        "similarity": 0.5699344574593713
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.25,
+      "returnedCount": 4
+    }
+  },
+  "reranked": {
+    "results": [
+      {
+        "chunkId": "nzn1idg7z6sm5bibvhhg1",
+        "chunkIndex": 2,
+        "resourceId": "jnzwi9r41ytulhiur6wj3",
+        "fileName": "chicken-schnitzel.md",
+        "section": "steps",
+        "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: steps\n\n1. Cut tenders from chicken breasts, if present\n2. Whisk water and salt in a large bowl or tray, add chicken and brine in the fridge for 30 minutes\n3. Remove chicken, pat dry, and butterfly as needed into pieces about 1/4\" thick\n4. Place chicken in a plastic bag, one piece at a time, and pound with a rolling pin or meat tenderizer until thin and even\n5. Place flour, eggs, and panko onto separate plates (pie tins work great for this)\n6. Heat oil in a cast iron skillet to 375º F\n7. Batter chicken one piece at a time in the flour, egg, and panko, patting lightly to get a thorough coating\n8. Keep prepped cutlets on wire rack\n9. Fry cutlets, a few at a time and turning often, until golden brown and crisp, about 3–4 minutes total\n10. Remove to a wire rack, adding salt immediately\n11. Serve with lemon slices, coleslaw, and cold beer",
+        "similarity": 0.6486421006651526,
+        "rerankScore": 3
+      },
+      {
+        "chunkId": "pbrnq0j31hgadzncrj281",
+        "chunkIndex": 1,
+        "resourceId": "jnzwi9r41ytulhiur6wj3",
+        "fileName": "chicken-schnitzel.md",
+        "section": "ingredients",
+        "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: ingredients\n\n* 2 quarts water\n* 1/3 cup kosher salt\n* 2 boneless, skinless chicken breasts\n* 2/4 cup all-purpose flour\n* 2 large eggs, beaten\n* 2 cups panko bread crumbs\n* Peanut, canola, or other neutral oil",
+        "similarity": 0.6358723670970234,
+        "rerankScore": 2
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.5,
+      "returnedCount": 2
+    }
+  },
+  "timing": {
+    "retrievalMs": 312,
+    "rerankingMs": 2394,
+    "totalMs": 2706
+  },
+  "rerankingUsage": {
+    "inputTokens": 926,
+    "outputTokens": 54,
+    "totalTokens": 980,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "planned": 20,
+  "completed": 20,
+  "failed": 0,
+  "baseline": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 0.975,
+    "returnedPrecision": 0.275,
+    "returnedCount": 3.7
+  },
+  "reranked": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.6333333333333333,
+    "returnedCount": 1.8
+  },
+  "errors": []
+}
