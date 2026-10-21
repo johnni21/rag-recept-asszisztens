@@ -1,5 +1,6 @@
 import { openai } from '@ai-sdk/openai';
 import { embed, embedMany } from 'ai';
+import { rerankCandidates } from '@/lib/ai/reranking';
 import {
   and,
   cosineDistance,
@@ -64,9 +65,14 @@ export const generateEmbedding = async (
   return embedding;
 };
 
-export const findRelevantContent = async (
+export const retrieveCandidates = async (
   userQuery: string,
+  limit = 12,
 ) => {
+  if (!Number.isInteger(limit) || limit < 1 || limit > 50) {
+    throw new Error('Candidate limit must be an integer between 1 and 50.');
+  }
+
   const userQueryEmbedded = await generateEmbedding(userQuery);
 
   const similarity = sql<number>`1 - (${cosineDistance(
@@ -74,8 +80,10 @@ export const findRelevantContent = async (
     userQueryEmbedded,
   )})`;
 
-  const relevantChunks = await db
+  const chunks = await db
     .select({
+      chunkId: embeddings.id,
+      chunkIndex: embeddings.chunkIndex,
       resourceId: resources.id,
       fileName: resources.fileName,
       section: embeddings.section,
@@ -93,10 +101,26 @@ export const findRelevantContent = async (
         gt(similarity, MIN_SIMILARITY),
       ),
     )
-    .orderBy(desc(similarity))
-    .limit(4);
+    .orderBy(desc(similarity), embeddings.id)
+    .limit(limit);
 
-  if (relevantChunks.length === 0) {
+  return chunks.map(chunk => ({
+    ...chunk,
+    similarity: Number(chunk.similarity),
+  }));
+};
+
+export const findRelevantContent = async (
+  userQuery: string,
+) => {
+  const candidates = await retrieveCandidates(userQuery, 12);
+  const reranked = await rerankCandidates(
+    userQuery,
+    candidates,
+    4,
+  );
+
+  if (reranked.results.length === 0) {
     return {
       results: [],
       message:
@@ -105,12 +129,6 @@ export const findRelevantContent = async (
   }
 
   return {
-    results: relevantChunks.map(chunk => ({
-      resourceId: chunk.resourceId,
-      fileName: chunk.fileName,
-      section: chunk.section,
-      content: chunk.content,
-      similarity: Number(chunk.similarity),
-    })),
+    results: reranked.results,
   };
 };
