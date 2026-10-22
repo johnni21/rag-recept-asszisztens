@@ -1,0 +1,27 @@
+{
+  "planned": 10,
+  "technicalPassed": 10,
+  "judged": 10,
+  "successful": 10,
+  "executionErrors": 0,
+  "completedTurns": 20,
+  "responseQualityMean": 3,
+  "simulatedSatisfactionMean": 3,
+  "goalAchievedCount": 10,
+  "judgeFlaggedHallucinationCount": 0,
+  "meanClientFirstTextMs": 16412.65,
+  "meanClientStreamMs": 18001.6,
+  "meanServerTotalMs": 17986.45,
+  "meanJourneyMs": 36530.6,
+  "knownChatCostUsd": 0.15780590999999997,
+  "chatCostCoverage": {
+    "pricedTurns": 20,
+    "recordedTurns": 20
+  },
+  "knownJudgeCostUsd": 0.010209999999999999,
+  "judgeCostCoverage": {
+    "pricedEvaluations": 10,
+    "evaluations": 10
+  },
+  "documentProcessingCostIncluded": false
+}
