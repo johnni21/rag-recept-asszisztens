@@ -12,11 +12,17 @@ import type {
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 
-import { getAssistantConfig } from '@/lib/ai/assistant';
+import {
+  ASSISTANT_MODEL,
+  getAssistantConfig,
+} from '@/lib/ai/assistant';
 import {
   loadConversation,
   saveConversationMessages,
 } from '@/lib/chat/conversations';
+import type { ChatMetricOutcome } from '@/lib/db/schema/chat-metrics';
+import { saveChatMeasurement } from '@/lib/monitoring/store';
+import { createUsageCollector } from '@/lib/monitoring/usage';
 
 export const maxDuration = 60;
 
@@ -38,6 +44,8 @@ const requestSchema = z.object({
 }).strict();
 
 export async function POST(request: Request) {
+  const requestStartedAt = performance.now();
+
   let body: unknown;
 
   try {
@@ -105,7 +113,11 @@ export async function POST(request: Request) {
       );
     }
 
-    const config = getAssistantConfig();
+    const collector = createUsageCollector();
+    const config = getAssistantConfig(
+      undefined,
+      collector.record,
+    );
 
     type AssistantMessage = UIMessage<
       unknown,
@@ -119,12 +131,76 @@ export async function POST(request: Request) {
     });
 
     let completedSuccessfully = false;
+    let firstTextMs: number | null = null;
+    let generationMs: number | null = null;
+    let reported = false;
+
+    const generationStartedAt = performance.now();
+
+    const reportMetrics = async (
+      outcome: ChatMetricOutcome,
+    ): Promise<void> => {
+      if (reported) {
+        return;
+      }
+
+      reported = true;
+
+      const measurement = {
+        conversationId,
+        messageId: message.id,
+        outcome,
+        firstTextMs,
+        generationMs,
+        totalMs: Math.round(
+          performance.now() - requestStartedAt,
+        ),
+        usage: collector.snapshot(),
+      };
+
+      console.info(
+        '[chat-metrics]',
+        JSON.stringify(measurement),
+      );
+
+      try {
+        const saved = await saveChatMeasurement(measurement);
+
+        console.info(
+          '[chat-metrics-saved]',
+          JSON.stringify({ id: saved.id }),
+        );
+      } catch (error) {
+        console.error('Chat metrics persistence failed:', error);
+      }
+    };
 
     const result = streamText({
       ...config,
       messages: convertToModelMessages(messages),
       abortSignal: AbortSignal.timeout(120_000),
-      onFinish: ({ finishReason }) => {
+      onChunk: ({ chunk }) => {
+        if (
+          chunk.type === 'text-delta' &&
+          firstTextMs === null
+        ) {
+          firstTextMs = Math.round(
+            performance.now() - requestStartedAt,
+          );
+        }
+      },
+      onFinish: ({ finishReason, totalUsage }) => {
+        generationMs = Math.round(
+          performance.now() - generationStartedAt,
+        );
+
+        collector.record({
+          stage: 'assistant',
+          model: ASSISTANT_MODEL,
+          usage: totalUsage,
+          durationMs: generationMs,
+        });
+
         completedSuccessfully = finishReason === 'stop';
       },
       onError: ({ error }) => {
@@ -149,14 +225,22 @@ export async function POST(request: Request) {
         isAborted,
       }) => {
         if (isAborted || completedSuccessfully === false) {
+          await reportMetrics('not-saved');
           return;
         }
 
-        await saveConversationMessages({
-          id: conversationId,
-          expectedRevision: revision,
-          messages: completedMessages,
-        });
+        try {
+          await saveConversationMessages({
+            id: conversationId,
+            expectedRevision: revision,
+            messages: completedMessages,
+          });
+        } catch (error) {
+          await reportMetrics('save-failed');
+          throw error;
+        }
+
+        await reportMetrics('saved');
       },
       onError: error => {
         console.error(
