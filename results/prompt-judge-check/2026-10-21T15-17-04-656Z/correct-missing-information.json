@@ -1,0 +1,43 @@
+{
+  "id": "correct-missing-information",
+  "input": {
+    "question": "A teriyaki-chicken.md szerint hány kalória egy adag?",
+    "answerable": false,
+    "referenceAnswer": "A recept nem tartalmaz adagonkénti kalóriaadatot.",
+    "contexts": [],
+    "answer": "A rendelkezésemre álló forrásokban nem találtam adagonkénti kalóriaadatot, így pontos számot nem tudok mondani."
+  },
+  "evaluation": {
+    "contextRelevanceScore": null,
+    "answerCorrectnessScore": 3,
+    "groundednessScore": 3,
+    "unsupportedClaims": [],
+    "reasoning": {
+      "contextRelevance": "Nem érkezett kontextus, így nem volt releváns szöveg a kérdés megválaszolásához.",
+      "answerCorrectness": "A válasz helyesen jelzi, hogy nincs elérhető adat az adagonkénti kalóriára, ami megfelel a referenceAnswer-nek.",
+      "groundedness": "Mivel nem érkezett kontextus, a válasz korrekt módon jelzi az információ hiányát, így minden állítás alátámasztott."
+    },
+    "contextRelevanceApplicable": false,
+    "hallucinationDetected": false
+  },
+  "rawEvaluation": {
+    "contextRelevanceScore": 0,
+    "answerCorrectnessScore": 3,
+    "groundednessScore": 3,
+    "unsupportedClaims": [],
+    "reasoning": {
+      "contextRelevance": "Nem érkezett kontextus, így nem volt releváns szöveg a kérdés megválaszolásához.",
+      "answerCorrectness": "A válasz helyesen jelzi, hogy nincs elérhető adat az adagonkénti kalóriára, ami megfelel a referenceAnswer-nek.",
+      "groundedness": "Mivel nem érkezett kontextus, a válasz korrekt módon jelzi az információ hiányát, így minden állítás alátámasztott."
+    }
+  },
+  "usage": {
+    "inputTokens": 1088,
+    "outputTokens": 138,
+    "totalTokens": 1226,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  },
+  "model": "gpt-4.1-mini",
+  "durationMs": 2063
+}

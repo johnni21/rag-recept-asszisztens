@@ -1,0 +1,49 @@
+{
+  "id": "correct-answer",
+  "input": {
+    "question": "Mennyi kurkuma kell az Aloo Matarhoz?",
+    "answerable": true,
+    "referenceAnswer": "Fél teáskanál kurkuma.",
+    "contexts": [
+      {
+        "fileName": "aloo-matar.md",
+        "section": "ingredients",
+        "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: ingredients\n\n* 2 medium tomatoes (or 1 small can, fire-roasted best)\n* 6 cloves garlic, peeled\n* 1\" piece of ginger, roughly chopped\n* 1\" piece cinnamon\n* 2 cloves\n* 2 green cardamom pods\n* 1 tbsp oil\n* 1 tsp cumin seeds\n* 1 medium red onion, chopped\n* 3–4 whole chilies, sliced lenghtwise\n* 1 tsp coriander powder\n* 1/2 tsp turmeric powder\n* 1/2 tsp red chili powder\n* 3/4 tsp salt\n* 1.5 cups water\n* 2 medium potatoes, cut into 1/2\" pieces\n* 2–3 cup green peas (frozen ok)\n* 1.5 tsp garam masala\n* 1 tsp crushed fenugreek leaves (kasuri methi)\n* Cilantro (to garnish)"
+      }
+    ],
+    "answer": "Fél teáskanál kurkuma kell hozzá. Forrás: aloo-matar.md"
+  },
+  "evaluation": {
+    "contextRelevanceScore": 3,
+    "answerCorrectnessScore": 3,
+    "groundednessScore": 3,
+    "unsupportedClaims": [],
+    "reasoning": {
+      "contextRelevance": "A megadott kontextus közvetlenül tartalmazza a kérdésre vonatkozó információt, az összetevők között szerepel a kurkuma mennyisége az Aloo Matar receptben.",
+      "answerCorrectness": "A válasz pontosan megadja a kurkuma mennyiségét (fél teáskanál), ami megegyezik a referencia válaszban szereplő adattal, így helyes és kielégítő.",
+      "groundedness": "A válaszban szereplő kurkuma mennyisége teljes mértékben alátámasztott a megadott kontextusban található összetevőlista alapján."
+    },
+    "contextRelevanceApplicable": true,
+    "hallucinationDetected": false
+  },
+  "rawEvaluation": {
+    "contextRelevanceScore": 3,
+    "answerCorrectnessScore": 3,
+    "groundednessScore": 3,
+    "unsupportedClaims": [],
+    "reasoning": {
+      "contextRelevance": "A megadott kontextus közvetlenül tartalmazza a kérdésre vonatkozó információt, az összetevők között szerepel a kurkuma mennyisége az Aloo Matar receptben.",
+      "answerCorrectness": "A válasz pontosan megadja a kurkuma mennyiségét (fél teáskanál), ami megegyezik a referencia válaszban szereplő adattal, így helyes és kielégítő.",
+      "groundedness": "A válaszban szereplő kurkuma mennyisége teljes mértékben alátámasztott a megadott kontextusban található összetevőlista alapján."
+    }
+  },
+  "usage": {
+    "inputTokens": 1304,
+    "outputTokens": 184,
+    "totalTokens": 1488,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  },
+  "model": "gpt-4.1-mini",
+  "durationMs": 3019
+}
