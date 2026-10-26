@@ -1,0 +1,213 @@
+{
+  "test": {
+    "id": "rag-02",
+    "question": "Mennyi burgonya és zöldborsó kell az Aloo Matarhoz?",
+    "searchQuery": "Aloo Matar potato and green pea quantities",
+    "relevantSources": [
+      {
+        "fileName": "aloo-matar.md",
+        "section": "ingredients"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "chunkId": "dlvl1k3k9bky1auuv8lbq",
+      "chunkIndex": 3,
+      "resourceId": "2tq9pvdbdthqdhfaavca1",
+      "fileName": "aloo-matar.md",
+      "section": "notes",
+      "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: notes\n\n* Try adding paneer instead of or alongside the potatoes (making it either Matar Paneer or Aloo Matar Paneer), same cooking time applies",
+      "similarity": 0.7127732876669096
+    },
+    {
+      "chunkId": "9pxhqisbdn88m83r5ecj1",
+      "chunkIndex": 1,
+      "resourceId": "2tq9pvdbdthqdhfaavca1",
+      "fileName": "aloo-matar.md",
+      "section": "ingredients",
+      "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: ingredients\n\n* 2 medium tomatoes (or 1 small can, fire-roasted best)\n* 6 cloves garlic, peeled\n* 1\" piece of ginger, roughly chopped\n* 1\" piece cinnamon\n* 2 cloves\n* 2 green cardamom pods\n* 1 tbsp oil\n* 1 tsp cumin seeds\n* 1 medium red onion, chopped\n* 3–4 whole chilies, sliced lenghtwise\n* 1 tsp coriander powder\n* 1/2 tsp turmeric powder\n* 1/2 tsp red chili powder\n* 3/4 tsp salt\n* 1.5 cups water\n* 2 medium potatoes, cut into 1/2\" pieces\n* 2–3 cup green peas (frozen ok)\n* 1.5 tsp garam masala\n* 1 tsp crushed fenugreek leaves (kasuri methi)\n* Cilantro (to garnish)",
+      "similarity": 0.7111770843424323
+    },
+    {
+      "chunkId": "fsk9rourgevs71bs62h6i",
+      "chunkIndex": 0,
+      "resourceId": "2tq9pvdbdthqdhfaavca1",
+      "fileName": "aloo-matar.md",
+      "section": "info",
+      "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: info\n\n* About 45 minutes\n* 4 servings as part of a meal with other dishes",
+      "similarity": 0.6989493107728906
+    },
+    {
+      "chunkId": "fobhl4maoghnrjvdd3e2v",
+      "chunkIndex": 2,
+      "resourceId": "2tq9pvdbdthqdhfaavca1",
+      "fileName": "aloo-matar.md",
+      "section": "steps",
+      "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: steps\n\n1. In a blender, puree tomatoes, garlic, and ginger\n2. In a large pot, dry roast cinnamon, clove, and cardamom until very fragrant\n3. Add oil and cook cumin seeds until fragrant\n4. Add onion and whole chilies, sautee 2–3 minutes, until soft\n5. Add potatoes and cook, stirring often, for about three minutes\n6. Add spices (except garam masala) and 1/4-cup water\n7. Reduce heat and add pureed tomato, stir and cover, cooking for about 12 minutes until oil starts to separate from sauce\n8. Add two cups water and peas, maintain simmer until potatoes are completely cooked, about 10 minutes\n9. Add fenugreek leaves and garam masala (and cream, if using), mix and cook a few more minutes\n10. Serve with chopped cilantro on top",
+      "similarity": 0.6987886367463078
+    },
+    {
+      "chunkId": "4mczfefu7nd6wb74ljg0q",
+      "chunkIndex": 4,
+      "resourceId": "2tq9pvdbdthqdhfaavca1",
+      "fileName": "aloo-matar.md",
+      "section": "based on",
+      "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: based on\n\n* https://www.cookwithmanali.com/instant-pot-aloo-matar\n* https://www.seriouseats.com/recipes/2012/01/potato-and-pea-curry-aloo-matar-indian-recipe.html",
+      "similarity": 0.681786799492224
+    },
+    {
+      "chunkId": "1frj7fxoh16mjxcmqwf6s",
+      "chunkIndex": 4,
+      "resourceId": "q9cs1ibumyftlowcp4r7c",
+      "fileName": "masala-green-beans.md",
+      "section": "based on:",
+      "content": "Document: masala-green-beans.md\nTitle: Masala Green Beans\nSection: based on:\n\n* *Spiced Green Beans* from *The Art of Indian Vegetarian Cooking* by Yamuna Devi",
+      "similarity": 0.5285076186546702
+    },
+    {
+      "chunkId": "hnf2fbuz3qllkjxb0yk6k",
+      "chunkIndex": 0,
+      "resourceId": "q9cs1ibumyftlowcp4r7c",
+      "fileName": "masala-green-beans.md",
+      "section": "overview",
+      "content": "Document: masala-green-beans.md\nTitle: Masala Green Beans\nSection: overview\n\n**(Masala Barbatti Sabji)**",
+      "similarity": 0.5217052707841882
+    },
+    {
+      "chunkId": "3flfjps3v8tu8ih0mc2e6",
+      "chunkIndex": 3,
+      "resourceId": "q9cs1ibumyftlowcp4r7c",
+      "fileName": "masala-green-beans.md",
+      "section": "notes",
+      "content": "Document: masala-green-beans.md\nTitle: Masala Green Beans\nSection: notes\n\n* Green beans can be substituted for long beans. Fry beans for 2-3 minutes, then add 1/2 cup water, cover and cook until tender. Then add spices and cook until water evaporates.",
+      "similarity": 0.514809991410695
+    },
+    {
+      "chunkId": "29stsei0p39c0mqmtzsb2",
+      "chunkIndex": 1,
+      "resourceId": "q9cs1ibumyftlowcp4r7c",
+      "fileName": "masala-green-beans.md",
+      "section": "ingredients",
+      "content": "Document: masala-green-beans.md\nTitle: Masala Green Beans\nSection: ingredients\n\n* 3-4 tbsp oil or ghee\n* 2 tsp black mustard seeds\n* 1 tsp cumin seeds\n* 1-2 dried chillies, crushed\n* 1 lb long beans, trimmed and cut into 3/4\" pieces (see note)\n* 1 tsp ground coriander\n* 1 tsp salt\n* 1 tsp sugar",
+      "similarity": 0.5127856523560692
+    },
+    {
+      "chunkId": "oedp1qr7ysc9os4qjrhzi",
+      "chunkIndex": 2,
+      "resourceId": "q9cs1ibumyftlowcp4r7c",
+      "fileName": "masala-green-beans.md",
+      "section": "steps",
+      "content": "Document: masala-green-beans.md\nTitle: Masala Green Beans\nSection: steps\n\n1. heat oil in pan over medium\n2. when hot, add mustard and cumin seeds, cook until fragrant and mustard seeds begin to pop\n3. add beans, stir to coat in oil\n4. add the remaining ingredients, stir fry for 4-5 minutes or until beans are just beginning to become tender",
+      "similarity": 0.48540495710558074
+    },
+    {
+      "chunkId": "7tm16r36jxtibx7uyu52t",
+      "chunkIndex": 1,
+      "resourceId": "6jh0xga4r6lu6vsx1vhi2",
+      "fileName": "black-pepper-rice.md",
+      "section": "info",
+      "content": "Document: black-pepper-rice.md\nTitle: Milagu Sadam\nSection: info\n\n* About 45 minutes\n* Enough for 4 servings with a meal",
+      "similarity": 0.4695742730599939
+    },
+    {
+      "chunkId": "o1qxqd3e87s3d2s0g25o6",
+      "chunkIndex": 0,
+      "resourceId": "u10y15n22i7bf52x1gt9c",
+      "fileName": "potato-and-green-chili-hash.md",
+      "section": "info",
+      "content": "Document: potato-and-green-chili-hash.md\nTitle: Potato and Green Chili Hash\nSection: info\n\n* about an hour\n* a big meal for two",
+      "similarity": 0.45141544667352873
+    }
+  ],
+  "baseline": {
+    "results": [
+      {
+        "chunkId": "dlvl1k3k9bky1auuv8lbq",
+        "chunkIndex": 3,
+        "resourceId": "2tq9pvdbdthqdhfaavca1",
+        "fileName": "aloo-matar.md",
+        "section": "notes",
+        "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: notes\n\n* Try adding paneer instead of or alongside the potatoes (making it either Matar Paneer or Aloo Matar Paneer), same cooking time applies",
+        "similarity": 0.7127732876669096
+      },
+      {
+        "chunkId": "9pxhqisbdn88m83r5ecj1",
+        "chunkIndex": 1,
+        "resourceId": "2tq9pvdbdthqdhfaavca1",
+        "fileName": "aloo-matar.md",
+        "section": "ingredients",
+        "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: ingredients\n\n* 2 medium tomatoes (or 1 small can, fire-roasted best)\n* 6 cloves garlic, peeled\n* 1\" piece of ginger, roughly chopped\n* 1\" piece cinnamon\n* 2 cloves\n* 2 green cardamom pods\n* 1 tbsp oil\n* 1 tsp cumin seeds\n* 1 medium red onion, chopped\n* 3–4 whole chilies, sliced lenghtwise\n* 1 tsp coriander powder\n* 1/2 tsp turmeric powder\n* 1/2 tsp red chili powder\n* 3/4 tsp salt\n* 1.5 cups water\n* 2 medium potatoes, cut into 1/2\" pieces\n* 2–3 cup green peas (frozen ok)\n* 1.5 tsp garam masala\n* 1 tsp crushed fenugreek leaves (kasuri methi)\n* Cilantro (to garnish)",
+        "similarity": 0.7111770843424323
+      },
+      {
+        "chunkId": "fsk9rourgevs71bs62h6i",
+        "chunkIndex": 0,
+        "resourceId": "2tq9pvdbdthqdhfaavca1",
+        "fileName": "aloo-matar.md",
+        "section": "info",
+        "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: info\n\n* About 45 minutes\n* 4 servings as part of a meal with other dishes",
+        "similarity": 0.6989493107728906
+      },
+      {
+        "chunkId": "fobhl4maoghnrjvdd3e2v",
+        "chunkIndex": 2,
+        "resourceId": "2tq9pvdbdthqdhfaavca1",
+        "fileName": "aloo-matar.md",
+        "section": "steps",
+        "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: steps\n\n1. In a blender, puree tomatoes, garlic, and ginger\n2. In a large pot, dry roast cinnamon, clove, and cardamom until very fragrant\n3. Add oil and cook cumin seeds until fragrant\n4. Add onion and whole chilies, sautee 2–3 minutes, until soft\n5. Add potatoes and cook, stirring often, for about three minutes\n6. Add spices (except garam masala) and 1/4-cup water\n7. Reduce heat and add pureed tomato, stir and cover, cooking for about 12 minutes until oil starts to separate from sauce\n8. Add two cups water and peas, maintain simmer until potatoes are completely cooked, about 10 minutes\n9. Add fenugreek leaves and garam masala (and cream, if using), mix and cook a few more minutes\n10. Serve with chopped cilantro on top",
+        "similarity": 0.6987886367463078
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 0.5,
+      "returnedPrecision": 0.25,
+      "returnedCount": 4
+    }
+  },
+  "reranked": {
+    "results": [
+      {
+        "chunkId": "9pxhqisbdn88m83r5ecj1",
+        "chunkIndex": 1,
+        "resourceId": "2tq9pvdbdthqdhfaavca1",
+        "fileName": "aloo-matar.md",
+        "section": "ingredients",
+        "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: ingredients\n\n* 2 medium tomatoes (or 1 small can, fire-roasted best)\n* 6 cloves garlic, peeled\n* 1\" piece of ginger, roughly chopped\n* 1\" piece cinnamon\n* 2 cloves\n* 2 green cardamom pods\n* 1 tbsp oil\n* 1 tsp cumin seeds\n* 1 medium red onion, chopped\n* 3–4 whole chilies, sliced lenghtwise\n* 1 tsp coriander powder\n* 1/2 tsp turmeric powder\n* 1/2 tsp red chili powder\n* 3/4 tsp salt\n* 1.5 cups water\n* 2 medium potatoes, cut into 1/2\" pieces\n* 2–3 cup green peas (frozen ok)\n* 1.5 tsp garam masala\n* 1 tsp crushed fenugreek leaves (kasuri methi)\n* Cilantro (to garnish)",
+        "similarity": 0.7111770843424323,
+        "rerankScore": 3
+      },
+      {
+        "chunkId": "fobhl4maoghnrjvdd3e2v",
+        "chunkIndex": 2,
+        "resourceId": "2tq9pvdbdthqdhfaavca1",
+        "fileName": "aloo-matar.md",
+        "section": "steps",
+        "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: steps\n\n1. In a blender, puree tomatoes, garlic, and ginger\n2. In a large pot, dry roast cinnamon, clove, and cardamom until very fragrant\n3. Add oil and cook cumin seeds until fragrant\n4. Add onion and whole chilies, sautee 2–3 minutes, until soft\n5. Add potatoes and cook, stirring often, for about three minutes\n6. Add spices (except garam masala) and 1/4-cup water\n7. Reduce heat and add pureed tomato, stir and cover, cooking for about 12 minutes until oil starts to separate from sauce\n8. Add two cups water and peas, maintain simmer until potatoes are completely cooked, about 10 minutes\n9. Add fenugreek leaves and garam masala (and cream, if using), mix and cook a few more minutes\n10. Serve with chopped cilantro on top",
+        "similarity": 0.6987886367463078,
+        "rerankScore": 2
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.5,
+      "returnedCount": 2
+    }
+  },
+  "timing": {
+    "retrievalMs": 190,
+    "rerankingMs": 2813,
+    "totalMs": 3002
+  },
+  "rerankingUsage": {
+    "inputTokens": 1230,
+    "outputTokens": 102,
+    "totalTokens": 1332,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  }
+}

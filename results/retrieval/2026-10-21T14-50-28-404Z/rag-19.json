@@ -1,0 +1,203 @@
+{
+  "test": {
+    "id": "rag-19",
+    "question": "Milyen lisztek és mennyi élesztő kell a Pita Bread recepthez?",
+    "searchQuery": "Pita Bread flour types quantities instant yeast amount",
+    "relevantSources": [
+      {
+        "fileName": "pita-bread.md",
+        "section": "ingredients"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "chunkId": "tgg1dym6y5o5q920vp1u1",
+      "chunkIndex": 0,
+      "resourceId": "bv20qafn3bvsztckgy53i",
+      "fileName": "pita-bread.md",
+      "section": "ingredients",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: ingredients\n\n* 8 oz water, 105–115ºF\n* 1 tbsp extra-virgin olive oil\n* 1 tbsp granulated sugar\n* 2.25 tsp (one packet) instant yeast\n* 1 tsp kosher salt\n* 2.5 oz whole wheat flour\n* 10 oz all-purpose flour",
+      "similarity": 0.6747882484708326
+    },
+    {
+      "chunkId": "fr9f2fdcx6h2llmu0hacp",
+      "chunkIndex": 1,
+      "resourceId": "bv20qafn3bvsztckgy53i",
+      "fileName": "pita-bread.md",
+      "section": "steps",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: steps\n\n1. In a stand mixer or bread machine, add all ingredients and knead until dough is smooth and elastic, about 15–20 minutes\n2. Leave sitting, covered, in a warm place for one hour\n3. Punch down dough and cut into 8 pieces (6 if you want really big pitas); roll them into a ball, cover with a damp towel, and let rest for 10 minutes\n4. Roll each dough into a thin circle (no more than 1/4\" thick); place on a floured surface and cover with a damp towel for 30 minutes until slightly puffy\n5. Heat a cast iron pan over high heat, with just a little oil\n6. Cook pitas one at a time, flipping when slightly charred",
+      "similarity": 0.6031391075914412
+    },
+    {
+      "chunkId": "u4hh5u9uojfzffz4uv7g5",
+      "chunkIndex": 1,
+      "resourceId": "x9vk5etvioqh6lw5fbs11",
+      "fileName": "thin-crust-pizza.md",
+      "section": "ingredients",
+      "content": "Document: thin-crust-pizza.md\nTitle: Thin-Crust (and Quick) Pizza\nSection: ingredients\n\n* 630g bread flour\n* 15g sugar\n* 10g kosher salt\n* 10g instant yeast\n* 32g olive oil (about 3 tbsp)\n* 420g lukewarm water",
+      "similarity": 0.5913493332531754
+    },
+    {
+      "chunkId": "jvzrdqnsmrm8ufje87ecf",
+      "chunkIndex": 0,
+      "resourceId": "ziphi0ibsum7azjo1hhsp",
+      "fileName": "pizza-dough.md",
+      "section": "ingredients",
+      "content": "Document: pizza-dough.md\nTitle: Pizza Dough\nSection: ingredients\n\n* 20.25 oz unbleached high-gluten, bread, or all-purpose flour (4.5 cups, chilled if possible)\n* 0.44 oz salt (1.75 tsp)\n* 0.11 oz instant yeast (1 tsp)\n* 2 oz olive oil (1/4 cup)\n* 14 oz water, ice cold (1.75 cups, 40ºF)\n* semolina flour or cornmeal, for dusting",
+      "similarity": 0.5812538070485306
+    },
+    {
+      "chunkId": "z3tdq33r129rbm0rsm4it",
+      "chunkIndex": 1,
+      "resourceId": "1xqqbbtrztbew1s36zd2m",
+      "fileName": "bagels.md",
+      "section": "ingredients",
+      "content": "Document: bagels.md\nTitle: Bagels\nSection: ingredients\n\n* 14.66 oz bread flour (APF ok but not as good)\n* 4 tsp vital wheat gluten (optional, sub with more flour)\n* 2 tsp instant yeast\n* 9 oz cold water\n* 1–2 tbsp malt syrup (or honey)\n* 2 tsp salt\n* Cornmeal\n* 1/4 cup baking soda\n* Olive oil",
+      "similarity": 0.5657923201802996
+    },
+    {
+      "chunkId": "c4fym495op79y5ndwu0yn",
+      "chunkIndex": 2,
+      "resourceId": "bv20qafn3bvsztckgy53i",
+      "fileName": "pita-bread.md",
+      "section": "based on",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: based on\n\n* https://www.seriouseats.com/recipes/2015/08/perfect-pita-bread-recipe.html",
+      "similarity": 0.5649490994873942
+    },
+    {
+      "chunkId": "mhzxl3keb49lnd9gzsixy",
+      "chunkIndex": 0,
+      "resourceId": "4iuq8qp6lf1ks4m4yylzi",
+      "fileName": "no-knead-pan-pizza.md",
+      "section": "ingredients",
+      "content": "Document: no-knead-pan-pizza.md\nTitle: No-Knead Pan Pizza\nSection: ingredients\n\n* 400 grams (about 2.5 cups) bread flour\n* 10 grams kosher salt\n* 4 grams instant yeast\n* 275 grams water\n* 8 grams extra-virgin olive oil\n* Homemade pizza sauce\n* Low-moisture mozarella cheese\n* Toppings of your choice!",
+      "similarity": 0.5159844474304253
+    },
+    {
+      "chunkId": "x5vowb784cz2ywv7ew1et",
+      "chunkIndex": 2,
+      "resourceId": "zujfx4m0vulzm82huqbrn",
+      "fileName": "soft-pretzels-2.md",
+      "section": "ingredients",
+      "content": "Document: soft-pretzels-2.md\nTitle: Soft Pretzels\nSection: ingredients\n\n* 7 grams active dry yeast (or one 1/4-oz package)\n* 120 ml warm water (between 100–115ºF)\n* 1 tbsp barley malt syrup (or firmly-packed brown sugar)\n* 420 grams unbleached bread flour\n* 120 ml cold beer (pilsner-style is best)\n* 2 tbsp unsalted butter, cubed, at room temp\n* 2 tsp kosher or fine sea salt\n* Baked baking soda (1/4-cup) or lye solution (2 tbsp)\n* 1 large egg yolk (if using baking soda)\n* Pretzel salt or other toppings as desired",
+      "similarity": 0.5065355257330033
+    },
+    {
+      "chunkId": "un0qfclwgtm4p4ag4ynr4",
+      "chunkIndex": 1,
+      "resourceId": "z5223uakqlui5fy5zs5g6",
+      "fileName": "roti.md",
+      "section": "ingredients",
+      "content": "Document: roti.md\nTitle: Roti\nSection: ingredients\n\n* 2 cups bread or all-purpose flour\n* 1 tsp salt\n* 2 tbps butter, melted\n* 2/3 cup water",
+      "similarity": 0.5027487347812448
+    },
+    {
+      "chunkId": "euxwn181bfle6wj5pu7sr",
+      "chunkIndex": 1,
+      "resourceId": "z15wkj4eglyp3bpqm49u5",
+      "fileName": "soft-pretzels-1.md",
+      "section": "ingredients",
+      "content": "Document: soft-pretzels-1.md\nTitle: Soft Pretzels\nSection: ingredients\n\n* 1.5 cups warm water (110–115º F)\n* 1 tbsp sugar\n* 2 tsp kosher salt\n* 1 package active dry yeast\n* 22-oz (1-lb, 6-oz) all-purpose flour (approx 4.5 cups)\n* 2 oz unsalted butter, melted\n* 10 cups water\n* 2/3 cup baking soda\n* vegetable oil (for the baking sheet)\n* 1 large egg yolk, beaten with 1 tbsp water\n* kosher or pretzel salt for topping",
+      "similarity": 0.49504683183381526
+    },
+    {
+      "chunkId": "tqizo7zxj5h4301101g4f",
+      "chunkIndex": 2,
+      "resourceId": "x9vk5etvioqh6lw5fbs11",
+      "fileName": "thin-crust-pizza.md",
+      "section": "steps",
+      "content": "Document: thin-crust-pizza.md\nTitle: Thin-Crust (and Quick) Pizza\nSection: steps\n\n1. Add dry ingredients to food processor, pulse to combine\n2. Add olive oil and water and run for about 90 seconds\n3. Transfer to lightly-oiled surface, knead until smooth ball is formed\n4. Divide in half and let sit, covered, for about 45 minutes\n5. Preheat oven to 500ºF, top pizzas, and cook until done",
+      "similarity": 0.4759016143751904
+    },
+    {
+      "chunkId": "l6s9c553dkf6kqrj6hy63",
+      "chunkIndex": 0,
+      "resourceId": "kme2mqr0c54dendgfzaag",
+      "fileName": "flour-tortillas.md",
+      "section": "ingredients",
+      "content": "Document: flour-tortillas.md\nTitle: Flour Tortillas\nSection: ingredients\n\n* 2 cups all-purpose flour\n* 1 tsp kosher salt\n* 1/4 cup lard (preferably back lard though Goya is ok)\n* 3/4 cup cold water",
+      "similarity": 0.47561602003225834
+    }
+  ],
+  "baseline": {
+    "results": [
+      {
+        "chunkId": "tgg1dym6y5o5q920vp1u1",
+        "chunkIndex": 0,
+        "resourceId": "bv20qafn3bvsztckgy53i",
+        "fileName": "pita-bread.md",
+        "section": "ingredients",
+        "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: ingredients\n\n* 8 oz water, 105–115ºF\n* 1 tbsp extra-virgin olive oil\n* 1 tbsp granulated sugar\n* 2.25 tsp (one packet) instant yeast\n* 1 tsp kosher salt\n* 2.5 oz whole wheat flour\n* 10 oz all-purpose flour",
+        "similarity": 0.6747882484708326
+      },
+      {
+        "chunkId": "fr9f2fdcx6h2llmu0hacp",
+        "chunkIndex": 1,
+        "resourceId": "bv20qafn3bvsztckgy53i",
+        "fileName": "pita-bread.md",
+        "section": "steps",
+        "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: steps\n\n1. In a stand mixer or bread machine, add all ingredients and knead until dough is smooth and elastic, about 15–20 minutes\n2. Leave sitting, covered, in a warm place for one hour\n3. Punch down dough and cut into 8 pieces (6 if you want really big pitas); roll them into a ball, cover with a damp towel, and let rest for 10 minutes\n4. Roll each dough into a thin circle (no more than 1/4\" thick); place on a floured surface and cover with a damp towel for 30 minutes until slightly puffy\n5. Heat a cast iron pan over high heat, with just a little oil\n6. Cook pitas one at a time, flipping when slightly charred",
+        "similarity": 0.6031391075914412
+      },
+      {
+        "chunkId": "u4hh5u9uojfzffz4uv7g5",
+        "chunkIndex": 1,
+        "resourceId": "x9vk5etvioqh6lw5fbs11",
+        "fileName": "thin-crust-pizza.md",
+        "section": "ingredients",
+        "content": "Document: thin-crust-pizza.md\nTitle: Thin-Crust (and Quick) Pizza\nSection: ingredients\n\n* 630g bread flour\n* 15g sugar\n* 10g kosher salt\n* 10g instant yeast\n* 32g olive oil (about 3 tbsp)\n* 420g lukewarm water",
+        "similarity": 0.5913493332531754
+      },
+      {
+        "chunkId": "jvzrdqnsmrm8ufje87ecf",
+        "chunkIndex": 0,
+        "resourceId": "ziphi0ibsum7azjo1hhsp",
+        "fileName": "pizza-dough.md",
+        "section": "ingredients",
+        "content": "Document: pizza-dough.md\nTitle: Pizza Dough\nSection: ingredients\n\n* 20.25 oz unbleached high-gluten, bread, or all-purpose flour (4.5 cups, chilled if possible)\n* 0.44 oz salt (1.75 tsp)\n* 0.11 oz instant yeast (1 tsp)\n* 2 oz olive oil (1/4 cup)\n* 14 oz water, ice cold (1.75 cups, 40ºF)\n* semolina flour or cornmeal, for dusting",
+        "similarity": 0.5812538070485306
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.25,
+      "returnedCount": 4
+    }
+  },
+  "reranked": {
+    "results": [
+      {
+        "chunkId": "tgg1dym6y5o5q920vp1u1",
+        "chunkIndex": 0,
+        "resourceId": "bv20qafn3bvsztckgy53i",
+        "fileName": "pita-bread.md",
+        "section": "ingredients",
+        "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: ingredients\n\n* 8 oz water, 105–115ºF\n* 1 tbsp extra-virgin olive oil\n* 1 tbsp granulated sugar\n* 2.25 tsp (one packet) instant yeast\n* 1 tsp kosher salt\n* 2.5 oz whole wheat flour\n* 10 oz all-purpose flour",
+        "similarity": 0.6747882484708326,
+        "rerankScore": 3
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 1,
+      "returnedCount": 1
+    }
+  },
+  "timing": {
+    "retrievalMs": 170,
+    "rerankingMs": 1843,
+    "totalMs": 2013
+  },
+  "rerankingUsage": {
+    "inputTokens": 1469,
+    "outputTokens": 102,
+    "totalTokens": 1571,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  }
+}

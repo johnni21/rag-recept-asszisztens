@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-11",
+    "question": "Milyen sajtok és milyen mennyiségben kellenek a Mac and Cheese recepthez?",
+    "searchQuery": "Mac and Cheese cheese types and quantities",
+    "relevantSources": [
+      {
+        "fileName": "mac-and-cheese.md",
+        "section": "ingredients"
+      }
+    ]
+  },
+  "maxBodyLength": 500,
+  "results": [
+    {
+      "chunkId": "a97a36bda916beeb4b9902b3e8b052f3488eca8f527a921299375682001f3c1c",
+      "chunkIndex": 0,
+      "fileName": "mac-and-cheese.md",
+      "section": "ingredients",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: ingredients\n\n* 2.5 cups milk (low-fat ok)\n* 2 bay leaves\n* 1 lb elbow, shell, ziti, or similar pasta\n* 4 tbsp (1/2 stick) butter\n* 2 shallots (or 1/2 yellow onion), finely chopped\n* 2-3 cloves garlic, finely chopped\n* 3 tbsp all-purpose flour\n* 1.5 cups grated sharp cheddar or gouda\n* 1.5 cups grated Parmesan cheese\n* 1/2 cup panko breadcrumbs\n* Freshly-ground black pepper\n* Salt to taste",
+      "similarity": 0.7231418491678927
+    },
+    {
+      "chunkId": "cc7371ebe31d207e3ccbe8b8ed72ed389966c7b4cc7651979b22a7f315b9ea1b",
+      "chunkIndex": 2,
+      "fileName": "mac-and-cheese.md",
+      "section": "steps",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: steps\n\n6. In a saucepan over medium-low heat, melt 3 tbsp butter\n7. When it's foamy add flour and cook, stirring, until the mixture browns (about 5 mins)\n8. Remove bay leaves from milk and add, 1/4-cup at a time, into the flour mixture, stirring with  whisk constantly\n9. As soon as mixture becomes smooth, add more milk until the mixture is completely smooth\n10. Add the cheddar/gouda and stir",
+      "similarity": 0.6808934143155145
+    },
+    {
+      "chunkId": "d3b9ab22d61154191d4e5d780e36a4ae0232e003a6473d8102ed1ee927c835bb",
+      "chunkIndex": 1,
+      "fileName": "mac-and-cheese.md",
+      "section": "steps",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: steps\n\n1. Preheat the oven to 400º F, bring a large pot of salted water to boil\n2. Grease a roasting pan with 1 tbsp butter\n3. In a frying pan, fry the shallots and garlic until golden brown\n3. Cook the milk with bay leaves in a small saucepan over medium-low heat\n4. When small bubbles appear along the sides (about 5 mins) turn off the heat, add the cooked shallots and garlic, and set aside\n5. Cook the pasta until it is nearly done, drain and rinse to stop cooking",
+      "similarity": 0.6370291787409945
+    },
+    {
+      "chunkId": "b3c19b9842575ea2843dbdf359a65bf650534e908c33be417d2a67db436d6975",
+      "chunkIndex": 3,
+      "fileName": "mac-and-cheese.md",
+      "section": "steps",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: steps\n\n11. Dump the pasta into a roasting pan and pour the cheese mix on top, top with parmesan and salt and pepper, stir\n12. Top with breadcrumbs and bake until bubbling, about 15 minutes",
+      "similarity": 0.6318589247094784
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.5,
+    "returnedCount": 2
+  },
+  "searchMs": 2.057917999998608
+}

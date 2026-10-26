@@ -1,0 +1,186 @@
+{
+  "test": {
+    "id": "rag-09",
+    "question": "Mennyi szójaszósz, mirin és sake kell a Teriyaki Chickenhez?",
+    "searchQuery": "Teriyaki Chicken soy sauce mirin sake quantities",
+    "relevantSources": [
+      {
+        "fileName": "teriyaki-chicken.md",
+        "section": "ingredients"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "chunkId": "vkwxceugad0nqoxbixgzy",
+      "chunkIndex": 1,
+      "resourceId": "bbuqy5kev2ncmgca5m824",
+      "fileName": "teriyaki-chicken.md",
+      "section": "ingredients",
+      "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: ingredients\n\n* 3/4 lb boneless chicken thighs\n* 4 tbsp soy sauce\n* 4 tbsp mirin\n* 2 tbsp sake\n* 2 tbsp sugar\n* 1 pinch fresh ginger (grated)\n* 1–2 tsp olive oil",
+      "similarity": 0.7081688848339792
+    },
+    {
+      "chunkId": "leond94h5a41l2x5jh0gf",
+      "chunkIndex": 2,
+      "resourceId": "bbuqy5kev2ncmgca5m824",
+      "fileName": "teriyaki-chicken.md",
+      "section": "steps",
+      "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: steps\n\n1. Remove skin from chicken, if present\n2. Poke chicken with fork to help absorb sauce\n3. Mix sauce ingredients in a large bowl; add chicken and let sit for 15 minutes in the fridge\n4. In a large skillet, heat oil over medium-high heat\n5. Place chicken and skillet, cooking until browned\n6. Flip, reduce heat to low and pour in sauce\n7. Cover and let steam to cook chicken on low heat until done\n8. Remove lid and simmer until sauce thickens slightly; remove pan from heat\n9. Slice chicken and serve, pouring sauce on chicken",
+      "similarity": 0.6330351821711167
+    },
+    {
+      "chunkId": "m4p43qxw7bpa7g5j8fgov",
+      "chunkIndex": 0,
+      "resourceId": "bbuqy5kev2ncmgca5m824",
+      "fileName": "teriyaki-chicken.md",
+      "section": "info",
+      "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: info\n\n* About 40 minutes\n* 2 servings",
+      "similarity": 0.6045899352008879
+    },
+    {
+      "chunkId": "m5bnyzgfbqnhzb58qnks5",
+      "chunkIndex": 3,
+      "resourceId": "bbuqy5kev2ncmgca5m824",
+      "fileName": "teriyaki-chicken.md",
+      "section": "based on",
+      "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: based on\n\n* https://www.thespruceeats.com/teriyaki-chicken-2031568",
+      "similarity": 0.5909177654687545
+    },
+    {
+      "chunkId": "zyi5zvxi6bh9kwitcwa0h",
+      "chunkIndex": 0,
+      "resourceId": "rhye7317evr6df44rfwo1",
+      "fileName": "bonchon-style-sauce.md",
+      "section": "ingredients",
+      "content": "Document: bonchon-style-sauce.md\nTitle: Bonchon-style Sauce\nSection: ingredients\n\n* 1/4 cup gochujang (see note)\n* 1/2 tsp cornstarch\n* 2 tbsp soy sauce\n* 1 tbsp rice wine vinegar\n* 3 tbsp dark brown sugar\n* 3 medium cloves garlic, minced (about 1 tbsp)\n* 1 tsp grated ginger\n* 1 tbsp toasted sesame oil",
+      "similarity": 0.519648203104617
+    },
+    {
+      "chunkId": "yfzd900i25t7wf4iouv4f",
+      "chunkIndex": 3,
+      "resourceId": "rhye7317evr6df44rfwo1",
+      "fileName": "bonchon-style-sauce.md",
+      "section": "based on",
+      "content": "Document: bonchon-style-sauce.md\nTitle: Bonchon-style Sauce\nSection: based on\n\n* https://www.seriouseats.com/recipes/2012/10/sweet-and-spicy-chili-sauce-korean-fried-chicken-recipe.html\n* https://pepper.ph/bonchon-soy-garlic-chicken-wings",
+      "similarity": 0.49545950023488616
+    },
+    {
+      "chunkId": "xtegxuaqeuh6ka3ayop57",
+      "chunkIndex": 2,
+      "resourceId": "rhye7317evr6df44rfwo1",
+      "fileName": "bonchon-style-sauce.md",
+      "section": "notes",
+      "content": "Document: bonchon-style-sauce.md\nTitle: Bonchon-style Sauce\nSection: notes\n\n* Gochujang is readily available in good Asian markets, but you can sub 2 tbsp Korean chili flakes (or red pepper flakes, in a pinch) with 1 tbsp soy sauce",
+      "similarity": 0.4884750418787417
+    },
+    {
+      "chunkId": "acvspuf8v8qtprbc60dgu",
+      "chunkIndex": 1,
+      "resourceId": "rhye7317evr6df44rfwo1",
+      "fileName": "bonchon-style-sauce.md",
+      "section": "steps",
+      "content": "Document: bonchon-style-sauce.md\nTitle: Bonchon-style Sauce\nSection: steps\n\n1. Combine everything in a small pot, stir well to combine\n2. Heat over low flame until bubbling\n3. Turn off and let cool, adding water as needed (sauce should be just thin enough to drop off a spool when inverted)",
+      "similarity": 0.4699787173467187
+    },
+    {
+      "chunkId": "xbwa05g52571w7qvpxj6q",
+      "chunkIndex": 0,
+      "resourceId": "tz9bkrxeaegf9wg4r4j63",
+      "fileName": "halal-cart-red-sauce.md",
+      "section": "info",
+      "content": "Document: halal-cart-red-sauce.md\nTitle: Halal Cart Red Sauce\nSection: info\n\n* 30 minutes\n* About 1 cup",
+      "similarity": 0.46049795311319075
+    }
+  ],
+  "baseline": {
+    "results": [
+      {
+        "chunkId": "vkwxceugad0nqoxbixgzy",
+        "chunkIndex": 1,
+        "resourceId": "bbuqy5kev2ncmgca5m824",
+        "fileName": "teriyaki-chicken.md",
+        "section": "ingredients",
+        "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: ingredients\n\n* 3/4 lb boneless chicken thighs\n* 4 tbsp soy sauce\n* 4 tbsp mirin\n* 2 tbsp sake\n* 2 tbsp sugar\n* 1 pinch fresh ginger (grated)\n* 1–2 tsp olive oil",
+        "similarity": 0.7081688848339792
+      },
+      {
+        "chunkId": "leond94h5a41l2x5jh0gf",
+        "chunkIndex": 2,
+        "resourceId": "bbuqy5kev2ncmgca5m824",
+        "fileName": "teriyaki-chicken.md",
+        "section": "steps",
+        "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: steps\n\n1. Remove skin from chicken, if present\n2. Poke chicken with fork to help absorb sauce\n3. Mix sauce ingredients in a large bowl; add chicken and let sit for 15 minutes in the fridge\n4. In a large skillet, heat oil over medium-high heat\n5. Place chicken and skillet, cooking until browned\n6. Flip, reduce heat to low and pour in sauce\n7. Cover and let steam to cook chicken on low heat until done\n8. Remove lid and simmer until sauce thickens slightly; remove pan from heat\n9. Slice chicken and serve, pouring sauce on chicken",
+        "similarity": 0.6330351821711167
+      },
+      {
+        "chunkId": "m4p43qxw7bpa7g5j8fgov",
+        "chunkIndex": 0,
+        "resourceId": "bbuqy5kev2ncmgca5m824",
+        "fileName": "teriyaki-chicken.md",
+        "section": "info",
+        "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: info\n\n* About 40 minutes\n* 2 servings",
+        "similarity": 0.6045899352008879
+      },
+      {
+        "chunkId": "m5bnyzgfbqnhzb58qnks5",
+        "chunkIndex": 3,
+        "resourceId": "bbuqy5kev2ncmgca5m824",
+        "fileName": "teriyaki-chicken.md",
+        "section": "based on",
+        "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: based on\n\n* https://www.thespruceeats.com/teriyaki-chicken-2031568",
+        "similarity": 0.5909177654687545
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.25,
+      "returnedCount": 4
+    }
+  },
+  "reranked": {
+    "results": [
+      {
+        "chunkId": "vkwxceugad0nqoxbixgzy",
+        "chunkIndex": 1,
+        "resourceId": "bbuqy5kev2ncmgca5m824",
+        "fileName": "teriyaki-chicken.md",
+        "section": "ingredients",
+        "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: ingredients\n\n* 3/4 lb boneless chicken thighs\n* 4 tbsp soy sauce\n* 4 tbsp mirin\n* 2 tbsp sake\n* 2 tbsp sugar\n* 1 pinch fresh ginger (grated)\n* 1–2 tsp olive oil",
+        "similarity": 0.7081688848339792,
+        "rerankScore": 3
+      },
+      {
+        "chunkId": "leond94h5a41l2x5jh0gf",
+        "chunkIndex": 2,
+        "resourceId": "bbuqy5kev2ncmgca5m824",
+        "fileName": "teriyaki-chicken.md",
+        "section": "steps",
+        "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: steps\n\n1. Remove skin from chicken, if present\n2. Poke chicken with fork to help absorb sauce\n3. Mix sauce ingredients in a large bowl; add chicken and let sit for 15 minutes in the fridge\n4. In a large skillet, heat oil over medium-high heat\n5. Place chicken and skillet, cooking until browned\n6. Flip, reduce heat to low and pour in sauce\n7. Cover and let steam to cook chicken on low heat until done\n8. Remove lid and simmer until sauce thickens slightly; remove pan from heat\n9. Slice chicken and serve, pouring sauce on chicken",
+        "similarity": 0.6330351821711167,
+        "rerankScore": 2
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.5,
+      "returnedCount": 2
+    }
+  },
+  "timing": {
+    "retrievalMs": 183,
+    "rerankingMs": 2994,
+    "totalMs": 3177
+  },
+  "rerankingUsage": {
+    "inputTokens": 866,
+    "outputTokens": 78,
+    "totalTokens": 944,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  }
+}

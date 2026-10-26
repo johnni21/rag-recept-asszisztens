@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-07",
+    "question": "Meddig tartható el a hummus és a tahini a hűtőben?",
+    "searchQuery": "Hummus tahini refrigerator storage duration",
+    "relevantSources": [
+      {
+        "fileName": "hummus.md",
+        "section": "notes"
+      }
+    ]
+  },
+  "maxBodyLength": 500,
+  "results": [
+    {
+      "chunkId": "a00a6b78469ff0ba4af29266e3e6caf637f4b60b9095df655b3ecbbcf79aecd7",
+      "chunkIndex": 6,
+      "fileName": "hummus.md",
+      "section": "notes",
+      "content": "Document: hummus.md\nTitle: Hummus\nSection: notes\n\n* Tahini and hummus will keep in the fridge for up to 1–1.5 weeks\n* Canned chickpeas will work – see the Serious Eats recipe (at the bottom) for info",
+      "similarity": 0.7236888399287053
+    },
+    {
+      "chunkId": "6629cec8a1c770569106ff41010b8f0c36167f1931267cc6a23144f8ce3fbaf1",
+      "chunkIndex": 5,
+      "fileName": "hummus.md",
+      "section": "steps",
+      "content": "Document: hummus.md\nTitle: Hummus\nSection: steps\n\n4. Let cool to room temp (should thicken to hold its shape), drizzle with olive oil and sprinkle with za'atar and/or paprika",
+      "similarity": 0.5741237391338977
+    },
+    {
+      "chunkId": "7af934ceb42a5d831d1f2337a100d8ab37d3080c17bcf98f73ff3a99ce533b49",
+      "chunkIndex": 4,
+      "fileName": "hummus.md",
+      "section": "steps",
+      "content": "Document: hummus.md\nTitle: Hummus\nSection: steps\n\nFinish the hummus\n1. Discard onion, celery, and bay leaves; transfer everything else to a food processor with enough cooking liquid to cover them\n2. Pulse slowly to mix, then increase speed to high until the texture of a thick milkshake, about two minutes (may need to remove inset and cover with a towel to allow steam to escape)\n3. Transfer to a large bowl and whisk in tahini sauce; whisk in salt to taste",
+      "similarity": 0.5597077734613348
+    },
+    {
+      "chunkId": "d7824089f469a6c80489216224a343d9a9dfd3148e830c840efc3fffa46ced8d",
+      "chunkIndex": 2,
+      "fileName": "lemon-tahini-dressing.md",
+      "section": "steps",
+      "content": "Document: lemon-tahini-dressing.md\nTitle: Lemon Tahini Dressing\nSection: steps\n\n1. Whisk ingredients together, starting with 2/3-cup water and adding more as necessary\n2. Will keep for 5 days in fridge",
+      "similarity": 0.5487952756706389
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.3333333333333333,
+    "returnedCount": 3
+  },
+  "searchMs": 2.1993640000000596
+}

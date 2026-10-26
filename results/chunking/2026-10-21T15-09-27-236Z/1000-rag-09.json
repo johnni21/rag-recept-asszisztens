@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-09",
+    "question": "Mennyi szójaszósz, mirin és sake kell a Teriyaki Chickenhez?",
+    "searchQuery": "Teriyaki Chicken soy sauce mirin sake quantities",
+    "relevantSources": [
+      {
+        "fileName": "teriyaki-chicken.md",
+        "section": "ingredients"
+      }
+    ]
+  },
+  "maxBodyLength": 1000,
+  "results": [
+    {
+      "chunkId": "59585c8a7f06a5f2da0f9053194695ae278713171c5ae8148537d65a1c62031b",
+      "chunkIndex": 1,
+      "fileName": "teriyaki-chicken.md",
+      "section": "ingredients",
+      "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: ingredients\n\n* 3/4 lb boneless chicken thighs\n* 4 tbsp soy sauce\n* 4 tbsp mirin\n* 2 tbsp sake\n* 2 tbsp sugar\n* 1 pinch fresh ginger (grated)\n* 1–2 tsp olive oil",
+      "similarity": 0.7081631998402392
+    },
+    {
+      "chunkId": "113bdea2f60624221d7d645957a20fab8c4e5d660d0bb90d6fbf2873f78228be",
+      "chunkIndex": 2,
+      "fileName": "teriyaki-chicken.md",
+      "section": "steps",
+      "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: steps\n\n1. Remove skin from chicken, if present\n2. Poke chicken with fork to help absorb sauce\n3. Mix sauce ingredients in a large bowl; add chicken and let sit for 15 minutes in the fridge\n4. In a large skillet, heat oil over medium-high heat\n5. Place chicken and skillet, cooking until browned\n6. Flip, reduce heat to low and pour in sauce\n7. Cover and let steam to cook chicken on low heat until done\n8. Remove lid and simmer until sauce thickens slightly; remove pan from heat\n9. Slice chicken and serve, pouring sauce on chicken",
+      "similarity": 0.6330440120841212
+    },
+    {
+      "chunkId": "800979e3538f060c203c82688b45b712666dcc22cfea31a88eed7bf40a039b23",
+      "chunkIndex": 0,
+      "fileName": "teriyaki-chicken.md",
+      "section": "info",
+      "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: info\n\n* About 40 minutes\n* 2 servings",
+      "similarity": 0.6041514342753934
+    },
+    {
+      "chunkId": "427a7945a7be2f7a6ec941d03b148cc46806d24c771e557d69011fa4a180eba3",
+      "chunkIndex": 3,
+      "fileName": "teriyaki-chicken.md",
+      "section": "based on",
+      "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: based on\n\n* https://www.thespruceeats.com/teriyaki-chicken-2031568",
+      "similarity": 0.5903802157236011
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.25,
+    "returnedCount": 4
+  },
+  "searchMs": 1.8603189999994356
+}

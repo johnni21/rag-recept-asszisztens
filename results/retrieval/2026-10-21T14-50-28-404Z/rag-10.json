@@ -1,0 +1,203 @@
+{
+  "test": {
+    "id": "rag-10",
+    "question": "Meddig kell pácolni a Teriyaki Chickent, és hogyan kell besűríteni a szószt?",
+    "searchQuery": "Teriyaki Chicken marinating time sauce thickening steps",
+    "relevantSources": [
+      {
+        "fileName": "teriyaki-chicken.md",
+        "section": "steps"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "chunkId": "leond94h5a41l2x5jh0gf",
+      "chunkIndex": 2,
+      "resourceId": "bbuqy5kev2ncmgca5m824",
+      "fileName": "teriyaki-chicken.md",
+      "section": "steps",
+      "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: steps\n\n1. Remove skin from chicken, if present\n2. Poke chicken with fork to help absorb sauce\n3. Mix sauce ingredients in a large bowl; add chicken and let sit for 15 minutes in the fridge\n4. In a large skillet, heat oil over medium-high heat\n5. Place chicken and skillet, cooking until browned\n6. Flip, reduce heat to low and pour in sauce\n7. Cover and let steam to cook chicken on low heat until done\n8. Remove lid and simmer until sauce thickens slightly; remove pan from heat\n9. Slice chicken and serve, pouring sauce on chicken",
+      "similarity": 0.7362131792865991
+    },
+    {
+      "chunkId": "vkwxceugad0nqoxbixgzy",
+      "chunkIndex": 1,
+      "resourceId": "bbuqy5kev2ncmgca5m824",
+      "fileName": "teriyaki-chicken.md",
+      "section": "ingredients",
+      "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: ingredients\n\n* 3/4 lb boneless chicken thighs\n* 4 tbsp soy sauce\n* 4 tbsp mirin\n* 2 tbsp sake\n* 2 tbsp sugar\n* 1 pinch fresh ginger (grated)\n* 1–2 tsp olive oil",
+      "similarity": 0.6447709137251533
+    },
+    {
+      "chunkId": "m4p43qxw7bpa7g5j8fgov",
+      "chunkIndex": 0,
+      "resourceId": "bbuqy5kev2ncmgca5m824",
+      "fileName": "teriyaki-chicken.md",
+      "section": "info",
+      "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: info\n\n* About 40 minutes\n* 2 servings",
+      "similarity": 0.6291491225990666
+    },
+    {
+      "chunkId": "m5bnyzgfbqnhzb58qnks5",
+      "chunkIndex": 3,
+      "resourceId": "bbuqy5kev2ncmgca5m824",
+      "fileName": "teriyaki-chicken.md",
+      "section": "based on",
+      "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: based on\n\n* https://www.thespruceeats.com/teriyaki-chicken-2031568",
+      "similarity": 0.6066085926891143
+    },
+    {
+      "chunkId": "acvspuf8v8qtprbc60dgu",
+      "chunkIndex": 1,
+      "resourceId": "rhye7317evr6df44rfwo1",
+      "fileName": "bonchon-style-sauce.md",
+      "section": "steps",
+      "content": "Document: bonchon-style-sauce.md\nTitle: Bonchon-style Sauce\nSection: steps\n\n1. Combine everything in a small pot, stir well to combine\n2. Heat over low flame until bubbling\n3. Turn off and let cool, adding water as needed (sauce should be just thin enough to drop off a spool when inverted)",
+      "similarity": 0.5164382057609835
+    },
+    {
+      "chunkId": "id7fqsyqspca49c24peuo",
+      "chunkIndex": 1,
+      "resourceId": "89u261og2yok8d7nv01pe",
+      "fileName": "barbeque-sauce.md",
+      "section": "steps",
+      "content": "Document: barbeque-sauce.md\nTitle: (Ketchup-based) BBQ Sauce\nSection: steps\n\n1. Add all ingredients to a small saucepan, stir well\n2. Bring to a simmer over medium heat for five minutes, stirring frequently",
+      "similarity": 0.5126865492626965
+    },
+    {
+      "chunkId": "u4d4f651atckdo2f0xkyp",
+      "chunkIndex": 2,
+      "resourceId": "4s6596biqoeou0daxb9np",
+      "fileName": "halal-cart-chicken.md",
+      "section": "steps",
+      "content": "Document: halal-cart-chicken.md\nTitle: Halal Cart Chicken\nSection: steps\n\n1. Combine lemon juice, oregano, coriander, garlic, and olive oil in a blender; blend until smooth\n2. Place chicken in a shallow bowl, add *half the marinade* and stir to coat\n3. Cover and put chicken in fridge for 1–4 hours, stirring occasionally\n4. When ready, remove chicken and pat dry with paper towels; season with kosher salt and lots of pepper\n5. Heat a cast iron skillet over medium-high, adding some oil until lightly smoking\n6. Add chicken and cook without disturbing until lightly browned on one side, about four minues\n7. Flip, reduce heat to medium, and cook until pieces reach 165º, about 6 minutes\n8. Transfer to a cutting board and cool for 5 minutes\n9. After resting, roughly chop into 1/4–1/2\" pieces; add to a bowl and stir in remaining marinade\nmake the rice:\n1. Melt butter in a small saucepan over medium heat, add turmeric and cumin until fragrant\n2. Add rice and stir to coat; cook, stirring frequently, until lightly toasted, about 4 minutes",
+      "similarity": 0.4837152665337321
+    },
+    {
+      "chunkId": "zyi5zvxi6bh9kwitcwa0h",
+      "chunkIndex": 0,
+      "resourceId": "rhye7317evr6df44rfwo1",
+      "fileName": "bonchon-style-sauce.md",
+      "section": "ingredients",
+      "content": "Document: bonchon-style-sauce.md\nTitle: Bonchon-style Sauce\nSection: ingredients\n\n* 1/4 cup gochujang (see note)\n* 1/2 tsp cornstarch\n* 2 tbsp soy sauce\n* 1 tbsp rice wine vinegar\n* 3 tbsp dark brown sugar\n* 3 medium cloves garlic, minced (about 1 tbsp)\n* 1 tsp grated ginger\n* 1 tbsp toasted sesame oil",
+      "similarity": 0.4770828532582263
+    },
+    {
+      "chunkId": "v0vyibgsrkdza7mzo0gk0",
+      "chunkIndex": 1,
+      "resourceId": "jy5kr25blqkiiadb68vvf",
+      "fileName": "sesame-tofu.md",
+      "section": "steps",
+      "content": "Document: sesame-tofu.md\nTitle: Sesame Tofu\nSection: steps\n\n1. drain and press the tofu for at least 20 minutes\n2. cut tofu into 1-inch cubes, season with a pinch of salt\n3. sprinkle tofu with 1 tbsp cornstarch, toss to coat, repeat with remaining cornstarch or until cubes all have an even coating\n4. heat vegetable oil in a large skillet over medium flame\n5. add tofu and cook, flipping regularly, until all sides are golden brown; when done, remove to a paper-towel-lined plate\n6. while tofu is cooking, mix the sauce ingredients (except the aromatics) in a bowl\n7. add oil to a skillet over medium heat, add brocoli and cook until lightly charred but still firm\n8. add garlic, ginger, and scallions and cook until soft and aromatic, about 30 seconds; remove everything from the pan\n9. add more oil and sauce mixture to skillet and cook, stirring, until sauce boils and thickens, about 1 minute\n10. return brocoli and tofu to the pan, add 1 tbsp sesame seeds and remove from heat",
+      "similarity": 0.47229531387684176
+    },
+    {
+      "chunkId": "yfzd900i25t7wf4iouv4f",
+      "chunkIndex": 3,
+      "resourceId": "rhye7317evr6df44rfwo1",
+      "fileName": "bonchon-style-sauce.md",
+      "section": "based on",
+      "content": "Document: bonchon-style-sauce.md\nTitle: Bonchon-style Sauce\nSection: based on\n\n* https://www.seriouseats.com/recipes/2012/10/sweet-and-spicy-chili-sauce-korean-fried-chicken-recipe.html\n* https://pepper.ph/bonchon-soy-garlic-chicken-wings",
+      "similarity": 0.4646262014306398
+    },
+    {
+      "chunkId": "7lrpci41154mljsbpfiu7",
+      "chunkIndex": 3,
+      "resourceId": "c3wa196hxfo6zki9fdy7g",
+      "fileName": "portuguese-hot-sauce.md",
+      "section": "steps",
+      "content": "Document: portuguese-hot-sauce.md\nTitle: PIRI-PIRI HOT SAUCE\nSection: steps\n\n1. Melt butter in a small saucepan over medium-high\n2. Add cilantro and garlic, cooking until garlic starts to brown\n3. Add remaining ingredients, reduce to medium-low and simmer about 2 minutes\n4. Serve warm on top of BBQ chicken!",
+      "similarity": 0.46336751896365236
+    },
+    {
+      "chunkId": "cnivutdn8pns8uae1zvui",
+      "chunkIndex": 2,
+      "resourceId": "jy5kr25blqkiiadb68vvf",
+      "fileName": "sesame-tofu.md",
+      "section": "steps",
+      "content": "Document: sesame-tofu.md\nTitle: Sesame Tofu\nSection: steps\n\n11. turn with a spoon until all pieces are evenly coated, top with more sesame seeds and serve immediately",
+      "similarity": 0.4594060272945022
+    }
+  ],
+  "baseline": {
+    "results": [
+      {
+        "chunkId": "leond94h5a41l2x5jh0gf",
+        "chunkIndex": 2,
+        "resourceId": "bbuqy5kev2ncmgca5m824",
+        "fileName": "teriyaki-chicken.md",
+        "section": "steps",
+        "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: steps\n\n1. Remove skin from chicken, if present\n2. Poke chicken with fork to help absorb sauce\n3. Mix sauce ingredients in a large bowl; add chicken and let sit for 15 minutes in the fridge\n4. In a large skillet, heat oil over medium-high heat\n5. Place chicken and skillet, cooking until browned\n6. Flip, reduce heat to low and pour in sauce\n7. Cover and let steam to cook chicken on low heat until done\n8. Remove lid and simmer until sauce thickens slightly; remove pan from heat\n9. Slice chicken and serve, pouring sauce on chicken",
+        "similarity": 0.7362131792865991
+      },
+      {
+        "chunkId": "vkwxceugad0nqoxbixgzy",
+        "chunkIndex": 1,
+        "resourceId": "bbuqy5kev2ncmgca5m824",
+        "fileName": "teriyaki-chicken.md",
+        "section": "ingredients",
+        "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: ingredients\n\n* 3/4 lb boneless chicken thighs\n* 4 tbsp soy sauce\n* 4 tbsp mirin\n* 2 tbsp sake\n* 2 tbsp sugar\n* 1 pinch fresh ginger (grated)\n* 1–2 tsp olive oil",
+        "similarity": 0.6447709137251533
+      },
+      {
+        "chunkId": "m4p43qxw7bpa7g5j8fgov",
+        "chunkIndex": 0,
+        "resourceId": "bbuqy5kev2ncmgca5m824",
+        "fileName": "teriyaki-chicken.md",
+        "section": "info",
+        "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: info\n\n* About 40 minutes\n* 2 servings",
+        "similarity": 0.6291491225990666
+      },
+      {
+        "chunkId": "m5bnyzgfbqnhzb58qnks5",
+        "chunkIndex": 3,
+        "resourceId": "bbuqy5kev2ncmgca5m824",
+        "fileName": "teriyaki-chicken.md",
+        "section": "based on",
+        "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: based on\n\n* https://www.thespruceeats.com/teriyaki-chicken-2031568",
+        "similarity": 0.6066085926891143
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.25,
+      "returnedCount": 4
+    }
+  },
+  "reranked": {
+    "results": [
+      {
+        "chunkId": "leond94h5a41l2x5jh0gf",
+        "chunkIndex": 2,
+        "resourceId": "bbuqy5kev2ncmgca5m824",
+        "fileName": "teriyaki-chicken.md",
+        "section": "steps",
+        "content": "Document: teriyaki-chicken.md\nTitle: Teriyaki Chicken\nSection: steps\n\n1. Remove skin from chicken, if present\n2. Poke chicken with fork to help absorb sauce\n3. Mix sauce ingredients in a large bowl; add chicken and let sit for 15 minutes in the fridge\n4. In a large skillet, heat oil over medium-high heat\n5. Place chicken and skillet, cooking until browned\n6. Flip, reduce heat to low and pour in sauce\n7. Cover and let steam to cook chicken on low heat until done\n8. Remove lid and simmer until sauce thickens slightly; remove pan from heat\n9. Slice chicken and serve, pouring sauce on chicken",
+        "similarity": 0.7362131792865991,
+        "rerankScore": 3
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 1,
+      "returnedCount": 1
+    }
+  },
+  "timing": {
+    "retrievalMs": 209,
+    "rerankingMs": 2241,
+    "totalMs": 2450
+  },
+  "rerankingUsage": {
+    "inputTokens": 1460,
+    "outputTokens": 102,
+    "totalTokens": 1562,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  }
+}

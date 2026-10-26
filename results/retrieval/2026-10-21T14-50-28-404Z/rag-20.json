@@ -1,0 +1,203 @@
+{
+  "test": {
+    "id": "rag-20",
+    "question": "Mennyi ideig kell dagasztani és először keleszteni a Pita Bread tésztáját?",
+    "searchQuery": "Pita Bread kneading duration first rise time",
+    "relevantSources": [
+      {
+        "fileName": "pita-bread.md",
+        "section": "steps"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "chunkId": "fr9f2fdcx6h2llmu0hacp",
+      "chunkIndex": 1,
+      "resourceId": "bv20qafn3bvsztckgy53i",
+      "fileName": "pita-bread.md",
+      "section": "steps",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: steps\n\n1. In a stand mixer or bread machine, add all ingredients and knead until dough is smooth and elastic, about 15–20 minutes\n2. Leave sitting, covered, in a warm place for one hour\n3. Punch down dough and cut into 8 pieces (6 if you want really big pitas); roll them into a ball, cover with a damp towel, and let rest for 10 minutes\n4. Roll each dough into a thin circle (no more than 1/4\" thick); place on a floured surface and cover with a damp towel for 30 minutes until slightly puffy\n5. Heat a cast iron pan over high heat, with just a little oil\n6. Cook pitas one at a time, flipping when slightly charred",
+      "similarity": 0.6555511699407778
+    },
+    {
+      "chunkId": "yu25dp7c7gt3edi17bq8y",
+      "chunkIndex": 3,
+      "resourceId": "4iuq8qp6lf1ks4m4yylzi",
+      "fileName": "no-knead-pan-pizza.md",
+      "section": "notes",
+      "content": "Document: no-knead-pan-pizza.md\nTitle: No-Knead Pan Pizza\nSection: notes\n\n* Dough requires 8–24 hour first rise and another 2-hour rise before baking!",
+      "similarity": 0.6278471279619133
+    },
+    {
+      "chunkId": "tgg1dym6y5o5q920vp1u1",
+      "chunkIndex": 0,
+      "resourceId": "bv20qafn3bvsztckgy53i",
+      "fileName": "pita-bread.md",
+      "section": "ingredients",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: ingredients\n\n* 8 oz water, 105–115ºF\n* 1 tbsp extra-virgin olive oil\n* 1 tbsp granulated sugar\n* 2.25 tsp (one packet) instant yeast\n* 1 tsp kosher salt\n* 2.5 oz whole wheat flour\n* 10 oz all-purpose flour",
+      "similarity": 0.6083481548485002
+    },
+    {
+      "chunkId": "c4fym495op79y5ndwu0yn",
+      "chunkIndex": 2,
+      "resourceId": "bv20qafn3bvsztckgy53i",
+      "fileName": "pita-bread.md",
+      "section": "based on",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: based on\n\n* https://www.seriouseats.com/recipes/2015/08/perfect-pita-bread-recipe.html",
+      "similarity": 0.5511522083114522
+    },
+    {
+      "chunkId": "aeky850wknwv5wpb4bxet",
+      "chunkIndex": 2,
+      "resourceId": "ziphi0ibsum7azjo1hhsp",
+      "fileName": "pizza-dough.md",
+      "section": "notes",
+      "content": "Document: pizza-dough.md\nTitle: Pizza Dough\nSection: notes\n\n* If dough won't stretch out, let it rest 5–20 minutes and try again",
+      "similarity": 0.5373183406195118
+    },
+    {
+      "chunkId": "9vkz8h3wej7fin4tpdm4r",
+      "chunkIndex": 2,
+      "resourceId": "4iuq8qp6lf1ks4m4yylzi",
+      "fileName": "no-knead-pan-pizza.md",
+      "section": "steps",
+      "content": "Document: no-knead-pan-pizza.md\nTitle: No-Knead Pan Pizza\nSection: steps\n\n11. After two hours, dough should fill pan up to the edges; use your fingertips to press it until it fills in every corner (pop large bubbles); lift all edges of the dough to let air bubbles escape\n12. Top dough with 3/4-cup sauce, cheese, and toppings\n13. Bake until top is golden brown, 12–15 minutes (if bottom is not dark brown, place pan on a stove burner and cook 2–3 minutes longer)",
+      "similarity": 0.5325878480804278
+    },
+    {
+      "chunkId": "2gvh1rcoh8xyt5xsdxbaa",
+      "chunkIndex": 3,
+      "resourceId": "x9vk5etvioqh6lw5fbs11",
+      "fileName": "thin-crust-pizza.md",
+      "section": "notes",
+      "content": "Document: thin-crust-pizza.md\nTitle: Thin-Crust (and Quick) Pizza\nSection: notes\n\n* Could also let sit for 24–72 hours in the fridge, then let come to room temp for 2 hours before cooking, but this works great as a last-minute pizza dough\n* See the King Arthur Flour recipe below for another approach",
+      "similarity": 0.5197399755567738
+    },
+    {
+      "chunkId": "u4hh5u9uojfzffz4uv7g5",
+      "chunkIndex": 1,
+      "resourceId": "x9vk5etvioqh6lw5fbs11",
+      "fileName": "thin-crust-pizza.md",
+      "section": "ingredients",
+      "content": "Document: thin-crust-pizza.md\nTitle: Thin-Crust (and Quick) Pizza\nSection: ingredients\n\n* 630g bread flour\n* 15g sugar\n* 10g kosher salt\n* 10g instant yeast\n* 32g olive oil (about 3 tbsp)\n* 420g lukewarm water",
+      "similarity": 0.5160841390188391
+    },
+    {
+      "chunkId": "tecmbar9e9gcno2uwbcg5",
+      "chunkIndex": 1,
+      "resourceId": "4iuq8qp6lf1ks4m4yylzi",
+      "fileName": "no-knead-pan-pizza.md",
+      "section": "steps",
+      "content": "Document: no-knead-pan-pizza.md\nTitle: No-Knead Pan Pizza\nSection: steps\n\n1. Combine flour, salt, yeast, water, and oil in a large bowl (at least 4–6 times the volume of the dough)\n2. Mix with hands until no dry flour remains\n3. Cover bowl with plastic wrap, then let rest at cool room temp (no warmer than 75ºF) for 8–24 hours; dough will rise dramatically and fill the bowl\n4. Sprinkle top of dough lightly with flour, then transfer to a well-floured surface\n5. Divide dough into two pieces and form into a tight ball\n6. Pour 1–2 tbsp oil in the bottom of a 10\" cast iron skillet\n7. Place one ball of dough in each pan and turn to coat evenly with oil\n8. Using a flat palm, press dough around the pan, spreading to fill the bottom to the edges of the pan\n9. Cover tightly with plastic wrap and let dough sit at room temp for 2 hours\n10. After the first hour, adjust oven rack to middle position and preheat to 550ºF",
+      "similarity": 0.5048504969435218
+    },
+    {
+      "chunkId": "tqizo7zxj5h4301101g4f",
+      "chunkIndex": 2,
+      "resourceId": "x9vk5etvioqh6lw5fbs11",
+      "fileName": "thin-crust-pizza.md",
+      "section": "steps",
+      "content": "Document: thin-crust-pizza.md\nTitle: Thin-Crust (and Quick) Pizza\nSection: steps\n\n1. Add dry ingredients to food processor, pulse to combine\n2. Add olive oil and water and run for about 90 seconds\n3. Transfer to lightly-oiled surface, knead until smooth ball is formed\n4. Divide in half and let sit, covered, for about 45 minutes\n5. Preheat oven to 500ºF, top pizzas, and cook until done",
+      "similarity": 0.5043693873098741
+    },
+    {
+      "chunkId": "p6vbvktrponpz8arafmh3",
+      "chunkIndex": 1,
+      "resourceId": "zujfx4m0vulzm82huqbrn",
+      "fileName": "soft-pretzels-2.md",
+      "section": "info",
+      "content": "Document: soft-pretzels-2.md\nTitle: Soft Pretzels\nSection: info\n\n* Make dough 24 hours in advance, then about 1 hour\n* 8 pretzels",
+      "similarity": 0.495381599591155
+    },
+    {
+      "chunkId": "mhzxl3keb49lnd9gzsixy",
+      "chunkIndex": 0,
+      "resourceId": "4iuq8qp6lf1ks4m4yylzi",
+      "fileName": "no-knead-pan-pizza.md",
+      "section": "ingredients",
+      "content": "Document: no-knead-pan-pizza.md\nTitle: No-Knead Pan Pizza\nSection: ingredients\n\n* 400 grams (about 2.5 cups) bread flour\n* 10 grams kosher salt\n* 4 grams instant yeast\n* 275 grams water\n* 8 grams extra-virgin olive oil\n* Homemade pizza sauce\n* Low-moisture mozarella cheese\n* Toppings of your choice!",
+      "similarity": 0.4930446783361231
+    }
+  ],
+  "baseline": {
+    "results": [
+      {
+        "chunkId": "fr9f2fdcx6h2llmu0hacp",
+        "chunkIndex": 1,
+        "resourceId": "bv20qafn3bvsztckgy53i",
+        "fileName": "pita-bread.md",
+        "section": "steps",
+        "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: steps\n\n1. In a stand mixer or bread machine, add all ingredients and knead until dough is smooth and elastic, about 15–20 minutes\n2. Leave sitting, covered, in a warm place for one hour\n3. Punch down dough and cut into 8 pieces (6 if you want really big pitas); roll them into a ball, cover with a damp towel, and let rest for 10 minutes\n4. Roll each dough into a thin circle (no more than 1/4\" thick); place on a floured surface and cover with a damp towel for 30 minutes until slightly puffy\n5. Heat a cast iron pan over high heat, with just a little oil\n6. Cook pitas one at a time, flipping when slightly charred",
+        "similarity": 0.6555511699407778
+      },
+      {
+        "chunkId": "yu25dp7c7gt3edi17bq8y",
+        "chunkIndex": 3,
+        "resourceId": "4iuq8qp6lf1ks4m4yylzi",
+        "fileName": "no-knead-pan-pizza.md",
+        "section": "notes",
+        "content": "Document: no-knead-pan-pizza.md\nTitle: No-Knead Pan Pizza\nSection: notes\n\n* Dough requires 8–24 hour first rise and another 2-hour rise before baking!",
+        "similarity": 0.6278471279619133
+      },
+      {
+        "chunkId": "tgg1dym6y5o5q920vp1u1",
+        "chunkIndex": 0,
+        "resourceId": "bv20qafn3bvsztckgy53i",
+        "fileName": "pita-bread.md",
+        "section": "ingredients",
+        "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: ingredients\n\n* 8 oz water, 105–115ºF\n* 1 tbsp extra-virgin olive oil\n* 1 tbsp granulated sugar\n* 2.25 tsp (one packet) instant yeast\n* 1 tsp kosher salt\n* 2.5 oz whole wheat flour\n* 10 oz all-purpose flour",
+        "similarity": 0.6083481548485002
+      },
+      {
+        "chunkId": "c4fym495op79y5ndwu0yn",
+        "chunkIndex": 2,
+        "resourceId": "bv20qafn3bvsztckgy53i",
+        "fileName": "pita-bread.md",
+        "section": "based on",
+        "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: based on\n\n* https://www.seriouseats.com/recipes/2015/08/perfect-pita-bread-recipe.html",
+        "similarity": 0.5511522083114522
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.25,
+      "returnedCount": 4
+    }
+  },
+  "reranked": {
+    "results": [
+      {
+        "chunkId": "fr9f2fdcx6h2llmu0hacp",
+        "chunkIndex": 1,
+        "resourceId": "bv20qafn3bvsztckgy53i",
+        "fileName": "pita-bread.md",
+        "section": "steps",
+        "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: steps\n\n1. In a stand mixer or bread machine, add all ingredients and knead until dough is smooth and elastic, about 15–20 minutes\n2. Leave sitting, covered, in a warm place for one hour\n3. Punch down dough and cut into 8 pieces (6 if you want really big pitas); roll them into a ball, cover with a damp towel, and let rest for 10 minutes\n4. Roll each dough into a thin circle (no more than 1/4\" thick); place on a floured surface and cover with a damp towel for 30 minutes until slightly puffy\n5. Heat a cast iron pan over high heat, with just a little oil\n6. Cook pitas one at a time, flipping when slightly charred",
+        "similarity": 0.6555511699407778,
+        "rerankScore": 3
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 1,
+      "returnedCount": 1
+    }
+  },
+  "timing": {
+    "retrievalMs": 189,
+    "rerankingMs": 1699,
+    "totalMs": 1888
+  },
+  "rerankingUsage": {
+    "inputTokens": 1396,
+    "outputTokens": 102,
+    "totalTokens": 1498,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  }
+}

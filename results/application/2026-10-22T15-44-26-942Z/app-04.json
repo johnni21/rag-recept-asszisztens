@@ -1,0 +1,1593 @@
+{
+  "id": "app-04",
+  "name": "Üres feltöltés és TXT dokumentum feldolgozása",
+  "recipeName": "Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096",
+  "fileName": "evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+  "technicalPassed": true,
+  "success": true,
+  "checks": [
+    {
+      "name": "Üres feltöltés elutasítása",
+      "status": 400,
+      "durationMs": 25
+    },
+    {
+      "name": "Tesztfájl feltöltése",
+      "status": 201,
+      "durationMs": 36
+    },
+    {
+      "name": "Dokumentum feldolgozása",
+      "status": 200,
+      "durationMs": 321
+    },
+    {
+      "name": "Beszélgetés megjelenése a listában",
+      "status": 200,
+      "durationMs": 13
+    },
+    {
+      "name": "Tesztfájl törlése",
+      "status": 200,
+      "durationMs": 32
+    },
+    {
+      "name": "Már törölt dokumentum ismételt törlése",
+      "status": 404,
+      "durationMs": 9
+    },
+    {
+      "name": "Tesztbeszélgetés törlése",
+      "status": 200,
+      "durationMs": 36
+    },
+    {
+      "name": "Törölt beszélgetés már nem tölthető vissza",
+      "status": 404,
+      "durationMs": 17
+    }
+  ],
+  "turns": [
+    {
+      "question": "Mennyi idő alatt készül el a Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096?",
+      "referenceAnswer": "A megadott teljes elkészítési idő 20 perc.",
+      "answer": "Az összes elkészítési idő 20 perc.\n\nForrás: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+      "contexts": [
+        {
+          "fileName": "evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+          "section": "text",
+          "content": "Document: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt\n\n# Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096\n## info\n* Total preparation time: 20 minutes\n* Servings: 2\n## ingredients\n* 250 g drained canned chickpeas\n* 200 g cooked rice\n* 1 tbsp olive oil\n* 1 tsp ground cumin\n## steps\n1. Heat the olive oil in a pan.\n2. Add the drained chickpeas and ground cumin. Cook for 5 minutes, stirring.\n3. Add the already cooked rice and stir for 2 minutes.\n4. Divide into 2 servings.\n## notes\n* No calorie, price, or storage information is provided."
+        }
+      ],
+      "stream": {
+        "userMessage": {
+          "id": "c1e3eab4-972d-4636-8e89-3a2fa7f338d1",
+          "role": "user",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Mennyi idő alatt készül el a Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096?"
+            }
+          ]
+        },
+        "assistantMessageId": "ErITz1hgNWXHNbzZ",
+        "answer": "Az összes elkészítési idő 20 perc.\n\nForrás: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+        "parts": [
+          {
+            "type": "start",
+            "messageId": "ErITz1hgNWXHNbzZ"
+          },
+          {
+            "type": "start-step"
+          },
+          {
+            "type": "reasoning-start",
+            "id": "rs_0b2dd6ffbf242bb2006ada2fb61da087d1b5be2d4cdbd5695e:0",
+            "providerMetadata": {
+              "openai": {
+                "itemId": "rs_0b2dd6ffbf242bb2006ada2fb61da087d1b5be2d4cdbd5695e",
+                "reasoningEncryptedContent": "gAAAAABq2i-2dCtkhR-z-2oi7wiLfpXRyR6tsy4pazl-C7iM-VStY9wiqwIHaQxD_MaJT7u5_opcy5xT2EmgtQ229fXNmHofLeOJtaYD4YG8WAb2KZZcBI9ZyDdAmJ3e1h25BKO1xOOJonXvPmCU17uZ2sE2Rpb4qVkEoV0TL5IMIKQy--VRQN4ONRT5uOr87gWVQSzhFJ7VXfSh8w_unnI6iaSOC6zY7x7F4JHcu6yB16bcjDP3qOQKwTSkAvugi2XPd8texUE4btg3E35bnMmkeFDwF8jxhGHV_-SNb_ZXOZWKWeamNmF8S91jbuzlat_YxBhelx2FqXVTpbXSN67pf_zbVF5fzWVJfoKqhjr9lkchW66nIL493xbmnLsYVawm29l-sZdFpj4biHwlA0Qapm1MKqLf5yUlYzFoebyaCXNOUOlmWdDYQSFJa4nZ4cdnPXXXaWeRQ4J15RObUGG4BCjEOFpBCjaAWwGNEPe06uOvEFy_botBTESWuwm-M0ZaK1h57EkibtrXDqglYMgfGgyRhM1T3Y81b463nLydzTDWKo7BfHFC-8s-N6pbvgQFocW9iouHNGVwtS5xavfv5EQee8971yDkQE5Nm3u9sLLFqCV1dRLyMGAPESrGds34AEWtJfp7ygXdnd_4lahinLsgxDSTgWUanxwm-QtcNMnAva14gkpqBN8uA6SAzcc8uDJwngVcnV4mWhZsY9-MaPiQEMTPJXZIyZGYIO2L7-j-m5dhA-oqOK4ZRnGIuTXbFH3pXiWIGg7ZcqGjaJKfgoXAoDJQXfmSAO82NJSWo6j7BRl544REZcY3osjLsCZLl6jdxb_Di2lgiOrGjgGAslqUTUAwzRxe_-Ancln4Y7XvRb60-cF0pUmA0hZPioJdzM4M1UeMKsdv2uwhtF0mnDR2RNi_DB9lDP3AwuWbwYvyxuQzmhVFBHggHcULBhO98faPsrZoqrHbVxdHkt725yWwUuH8Vw6J97QP7brlj16h0t1NBxOuF5w4WkdHq4S4p-TTz8nfIHYYtZCFDXvj4OB7ZauY7sBeDHymHl1PrjzbGsz-U6VyG0l84Oir_7e84JU-2m3FI01se-gjOYgF0wa505IJnDu0l85apLjp3zgWvIuZkobU0a0oSLU3_wxliWgdDutLFyAsT7tlpbfoO3z2O-gUJ5B8nwfSs5i1Wwrqq5Dm593NMiYCUM64pgj3g_xxztxn"
+              }
+            }
+          },
+          {
+            "type": "reasoning-end",
+            "id": "rs_0b2dd6ffbf242bb2006ada2fb61da087d1b5be2d4cdbd5695e:0",
+            "providerMetadata": {
+              "openai": {
+                "itemId": "rs_0b2dd6ffbf242bb2006ada2fb61da087d1b5be2d4cdbd5695e",
+                "reasoningEncryptedContent": "gAAAAABq2i-5Wt81x8nrAUgbsB6iRgiT27fpoRGRDigOAOY-SMcPE8TZJwDvkzFgcu3YlMd7XGHy6Z4qW_2YtuKdeRfqlF7CVj-qfhX0edfw2cNix39AN9LC_RKmr7j9c73forsFMzFD9U9rg7dVQlpIulL67RND4zCyuyCLzJnf0ZIiZsIZUNzxBAwVz1NytbFyq9Qhr4c7P9FA4iSoFXoMmhF7ZP7cNnsWZR3CFjmKCt7Zv0wvgm9BO8I52w5lyCp3ZDaroToB9KOaR99JhFLzFgpnHM-FDTHL4NJpWhyo8r55fUTpqBQpzSE8wW8hm15mXPukyCPCMLofElpAajAsrIkO2Yf05iSIjDvLmrLnV7JmXnWdTzLx6r6iG9E0cMKQz5KHM39mlz9ma06brOBbXk8EbdPaJKvxfKOHDjyniaRPeR26xpGTyAUbUXHhfSg3WUjLrmxuxjnHnOLAUOrtCwJzulZhhCyAwy2kT_m3IWDGYBv-rHvPzgk6DsGZ50ISghGC_2qL5KiXqkbDL7rL8-KBrarivAFaZkkZ112sMibst_y39wfjRc3HHP0Mxno0j_twv4kncK29PmijnxBe5gphmXPQRCvbJx0ntQwOndizXJOrcLc0Opvs0xp_nOliE73yRos-cEwcx_YteaEQR6Fku_Q_hZn7IH2eajWykPRrzlrJW7qMN8kopAj3MDf8hrqj9aBcfqjCbdwbYShjQrcpUzekIBfKtTKahUS3_f9eC_iB9yjeNY1Fgr3LG-MQQIR1VaVa3cEQmCbEgvyISiD0mBj6oWqxFrjhZVAErKvpscKyBNpCWrRtdNoEQTs10L_zMurVSlErYdAz7CRksIIoKtFWDH9nLSABqVMIBge2RZA253OXYCSqPlJBZQdazWuZLvMs2YX7F3p8yO6tsoV2Zr5aeg3XrvGkLdCyifd1EX0-jb0Lq4VRHV8qLzg8bQ2DPqe0EEvXyyanF7qNk4cnhgqohiY7c6YJkHLIq6ubQ-B56aG4aoMjC6QRXpgTe8GXMiSZBSyP1vjEEsWGzP3g1VTxZeiARwzlcpqhbw33zbwpJW9biXFeqo8Ov3M8LloOqPt4yXep6_0WZOE0aWrrtXTOBBfzrkRO1C2wM4DRW4__mGkm1RUxvslhnJTAFiDIt_8XvJh4gxKamJ2itFT4OJ75cvANxOu1wOVBQxt81sTAmh3-puotIjqy28vILlTH-TQZgHMVbWvIqpUPHzlte4S37OvJITPMUG4YTLcqgQYwfMXK2RXxAwQ6NpCTOuo_7Cx_OuIQVGzKjrJZdQ10I5aS7p6gQNuwhNdPmKHjDq56lzMxKey3onK752Kf1_-4jXPZMCH9DxluPh0yFHMxJ2hg3vI38MV9NXnnUqHXynD9rCSHRak25ti4KLzrKYnWPGVuWZAa9bgUx4F_IvvLRK69YDg8I1Ht5gJUwRJmy3_bfU7mQous2elne67EDLqC9YYLPVF4Wu8kJ381tP8orpmGCtgWUhaMlvNfzgkz6GxJH9KswUiAP_3dH93vEq0_8bbH-LLfADKnLX_Uc3FA5VEVK3zJjCSXPzjUF8q0NPIQ2Fe2OZvD9OJ9jUt5i4vdGFy1TwwBMiLWQnkkH0j-05uEtTcM_wMRN-5jAAVO1H1X7WxPxCGMX_0yiUKgIGb9_l-QZAeiOvORfcRa43TYJ9HrfM8GfRpftcDS7TcuXmfSZdW5xlVXtcABa2mLq-XGDJOfcTeeD0NoYmxOHJG-agaCKocK9zUK4HjMiId9drF0D7aWL1ZRInEQ4L57ESvyQ7LmaVxI-M8srw0NvutoMQy5HYYffjX0C79k7FntGNidkE_aR-LnSRHqAdaTUE2yNYLHAc5bQrdiiHnCfi6RD5kqybGXe3a46GzsTRZE14ATrdp_wVL8ULg5pRBO-WXeTfwFrDwZr2lwTwDaG-kAxABamFjmYS6dYOYLSz7R8teRnGoEpzJUDSAtS5hbWO3NcJ8os11Lutmr8GOs0WTkPKOPRjrJKs56ZJav3vVl5HTcOD0IvTstKZ8jY5LY7pUow9ahsS44wGq8fR7bGNpNeuO1ujAioJ_pM9BVgAUtSe_PsQqk-upxqSfER2FGKoQDGUddqfObcjX8SLOY_2r2164WQOgNpn7qHQr6oVbe583jQ4UljGsmd90xU8B8ETawW22lP5ffQKIc2kTyrY-ukfZY99rUt__rkRuVYPdYFyulLEF8MJ0AQepDJ1zk4L5dMKjgH5rLlAPDdwaedacAJRyA9oHHUHKJdca-7V7stewuTUpX7kEAgbpB5r-yJAlyrTOWMbYazQmDZ3ZT-oX7hekTjEmUAc9DQCFKxyMMSL5VR7m8c3kGzK6f4lzjy4SG4iVKvQ9myEzEF2MY9VhvVKuZl-byLfSSQl3YmkuXdOB11cnYvlHi9pI7jCeqxTLlkuUn2Whc-ci2ZT0M3WIhtrXNC3nZtLignTJrtQJ5zIiwCuiiaQ9yJzhJNUddEWZ0Tozc8qqZR0lNF7kBr-6M6ixlWIy_LKw6TBrcAV3_HvcDZ2Qko62eVMW-lRyb16UQB7VW2MkMOj_tJNRPr92ysbQgnrAuBh4CCX-ZUvv5V9APC1eGpdz3orAoj83tCdql0glOa1bNsfSss4fg-_J9Eq5zExScMNddw2HswgmVFgXePpgNf3UWeC_rBHG4eyAlgzBF6DaTluDXOIPNMvaurBgF9FG9q-XeBW7Vvg1RT2ascRNyJTiLznhyTjG5B9Qp_rsIQNMfDxqkAASNkItGih11ruZu-hQGqWCOymlZVB3FYTNTPFFxxN5b1iyUw5KZC84_x5CgcrCnzYE7UJWQLJzc1LTQrU7Z7h2grsenu381cOM5Sggg3i7CZVAtdCokpSIysACzxpLWgfLe6bos7i-9ZQ2QMf_WY9hFm-GWxQwL8yn5aZ0lKxmPIfilhqG2nAziZkksC0HJh0-2dz9T11GXHjosys_YlcFidNpGDKpNyk27Pwx2j4HBmiLTbFkTNHCTxB_2hWs3Sx6eQhroSxuhassqm0_Y5OEem5rah3ViIdCUvmmDL_wQwGaPMQuiRP4l0M9q4Jlevbqbx66gE7iaF2ia4DoLrjNC2ObVU15MAc5cfw0_t0a5-giGXAeGnLmX8cC3_zvcvWwVY9xsT6PAFCpZ2D35aX2tTXgQpqOdVwtX0hTjed5bURkONHKFE2ESNv_x4ELIXaJA5-ZKbvpELbrtp7qylwOeGK-Qz5LpU7d5SGMIPTQbxxQTk1f6VoKMPQNzMgYCrKSrRS2As5KYgf2TuHmKS9MJ9uOg-uVOVNvVDfq0cbIPAfXnU6nTXdhonXN2Q1-75CbiTAKr3D2lJGiFvUTJkXLjSNu1MqE3RiMSQIjKCsxvYEjtn1W1LTMCqS9KxYZiekbFqMb111VqBNpS3G9SkF9nAAJKZ0sekrQEDaCP32mj7OcIVVrPNunqbT72w8r2LhvHFRufWkXIp1V27GsXiMoedGACe67PZojcozXDd-DnlB6WxsiwoqLp74BaZIHrVl2sj-VK9wwv17u4icUoeu2OhH3gn_2HYDGaBYgem9_VHAVV_CehxNe-QK13d3YbKfdWbsJ5YfWPI5FVJ7fZP_6Zet-vTXwqRHqPLFOO3NdM3BBP1rlxU9qR3Ejy-AtTqRoErC9xH-EIQj4FKrGB--3nbQoVfREIH9a-V4R7AHP30NWS97fgCwzQ-lO1wjY-hE_KbCvZk2GrlYu-zQByl8S1Y2CU3XISdoGthoqXSUKrwYAwGdxnkTgByfH8DjGKynlLCNZDOfH-399bnkozJz6v6e-egqF40H7oWiLtAr8hkn-Sv1en_1O_4zDYRVHeo9pcOwY8uLFoQ93wNafs-DprhiZySRlxqCbLaSkZhBsjrfe9g7-XfAA5GJcGbCEDpI4j3-TBKdVpMFaK0fQiPf7mbK9phwzBmXO0K1KchLtNtk4XWsdCeDZd7ZRVztqY24eN5RoMtgHncw=="
+              }
+            }
+          },
+          {
+            "type": "tool-input-start",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "toolName": "getInformation"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "{\""
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "question"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "\":\""
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "Evaluation"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": " Chick"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "pea"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": " Bowl"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": " app"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "-"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "04"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": " "
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "506"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "de"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "721"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "-f"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "7"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "ef"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "-"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "412"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "9"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "-"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "94"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "c"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "2"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "-c"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "8"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "c"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "19"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "d"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "1"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "d"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "109"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "6"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": " preparation"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": " time"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "inputTextDelta": "\"}"
+          },
+          {
+            "type": "tool-input-available",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "toolName": "getInformation",
+            "input": {
+              "question": "Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096 preparation time"
+            },
+            "providerMetadata": {
+              "openai": {
+                "itemId": "fc_0b2dd6ffbf242bb2006ada2fb9bbc087d18ecd96e46bfaa8ea"
+              }
+            }
+          },
+          {
+            "type": "tool-output-available",
+            "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+            "output": {
+              "results": [
+                {
+                  "chunkId": "kozf0f3rosclynrf22ep4",
+                  "chunkIndex": 0,
+                  "resourceId": "3w3tiow489fqyt2i0038f",
+                  "fileName": "evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+                  "section": "text",
+                  "content": "Document: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt\n\n# Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096\n## info\n* Total preparation time: 20 minutes\n* Servings: 2\n## ingredients\n* 250 g drained canned chickpeas\n* 200 g cooked rice\n* 1 tbsp olive oil\n* 1 tsp ground cumin\n## steps\n1. Heat the olive oil in a pan.\n2. Add the drained chickpeas and ground cumin. Cook for 5 minutes, stirring.\n3. Add the already cooked rice and stir for 2 minutes.\n4. Divide into 2 servings.\n## notes\n* No calorie, price, or storage information is provided.",
+                  "similarity": 0.7620911233049841,
+                  "rerankScore": 3
+                }
+              ]
+            }
+          },
+          {
+            "type": "finish-step"
+          },
+          {
+            "type": "start-step"
+          },
+          {
+            "type": "reasoning-start",
+            "id": "rs_0b2dd6ffbf242bb2006ada2fcaba5c87d1874695eeee2e216a:0",
+            "providerMetadata": {
+              "openai": {
+                "itemId": "rs_0b2dd6ffbf242bb2006ada2fcaba5c87d1874695eeee2e216a",
+                "reasoningEncryptedContent": "gAAAAABq2i_KQjHVM6yg9dgrx89mVc5UQ2L5IBsDlKALPFrQ9BB_-7Pz6KFisB7cZgC02sNYeT9EYmE-ZAYfhxZsyPumsnBubZT0K5cY34Gd4uft5qtVVVBnX8K18fVVjaCQ1wgewLi9gs2f02sU1t37yUvn_OPakS5nGTV_tYZOI7bgl-pGgMFMjkB3K_3PLt4eh59LBHS_CUZoyu_O-UeTlJTvF_C6ynkiP_LBwyVRk39xI_Xd37KeKtTD8zzXHV53k1XFPG3Smaqpl_Na_gt7x-6xGFg1If6lr51dQkF8EAjrG9HFxriiKA9CUVzZozSzlCrKhS4L6S0vhiyrUFkOk9tzdc8ieCO5kJcT5h8nRti2RuLvYjRpq-_3sDADpWenrmKMcYDeuRhPWJIOEUCWf3tCRJPFBMpxRiaT56t8NMVcb4WJPJUEYr6g5KWWEf0pW7pchGQGhJxYZea1IDbZtRTl3f-SS3BuRzJFX8nFYCh9h0mhcblAdwugdQ8YNn0qwOZPBY6swjwWzdEmsxHRb8Jle3V921c63kR_t2jVUywWK_jO-EL6G-si5jAvs_nSzZw9G0m1aCdZKFxBYV75PtIhKqI-kUtZdTW2n_nkx8owXiRST3_XPt-KQenFYv1TdnaDvsw9ri8HkbQ1dHKzqbjBJ3r4KPpf8j95BFyGabfW9hX1Tw3voruyooSWed0YouEc_9sbnLLD-NYbqA2EVwIrMi_qKR0tWEQDGO9IiKVpqad7SgpvpLoWEOx9azVUGlC2mmSuHqsba8dKxxftpdP34vV5g188WFSv7D9DSOL0p3DLFe7n9EcqhKGv5tc06Ot54bp9bZ6mCH0imvSHY_TCgdh3gew1j3QOZ46xsXuFalpis-CWwCgfoBxCIMf0JW0XdTDq_H3PCf_qjhDcDe_vaJCkotsBE38EogP6UEBrvLi6nLACwjxNBJb8HR9m7UldaAAnoFvD-PHnzwu3j_uiSfqgKd-xrHDeF3OwBetUDaYoyO4OFmYANO3-woaUI_yZI5ChaLjRH5GI7FJtou1XCtOLjZ301jjwZKEsISWOFtlr4_15u6pwFWiFfmyNB2WVeiilJO-4WI9ZD0-5VYb2cU6__GXyu8SVRnEO1mPgGv1wD-kP9Q7QTCs337_lP-BmSIq1gf0jCN-WDjVpmbBiiQ5_AOuuqEwaY8oHIfzmSfx5HBkfI3Kdbsdx5NbspSGTK-fK"
+              }
+            }
+          },
+          {
+            "type": "reasoning-end",
+            "id": "rs_0b2dd6ffbf242bb2006ada2fcaba5c87d1874695eeee2e216a:0",
+            "providerMetadata": {
+              "openai": {
+                "itemId": "rs_0b2dd6ffbf242bb2006ada2fcaba5c87d1874695eeee2e216a",
+                "reasoningEncryptedContent": "gAAAAABq2i_R0BH2eD3eggwcJPgFHNPHqUaBJqB9cWKjMAFOgVys_UsLK2MClfKBXNfJoEEItFzxfoTQZmNT0lzKMM3U-7l-xyF1Nt4ndWxC0JO2Cx9_aKVNNUpQfUNPrOOwqHpu1w-RIjIjm5iF94X1rpbGWXZTvps9Y770ALnHFPcE3FOEMb4iZJmxjKE4Nnl5ob7gkHJUw2n2ZBrtfq5eFKygfETlniFRSBA7GIhM9NIO4hkRLEbNaJRkYrrfLhCqDDeMQpZj2MKknFudyw8qPCIVUIu7wCJ3VREZokaQoidc5GpEN3kxGOTrEg3ES9DQ7DycSyJ_EGjK78YAxXNKukZ_TcVt8vFefw9AvwJSMY-12f_Om4TbWnFXI6NqsDh8jzYZf8BRhkoLO4oS1ST-xkAT7zjC6_hg_qamt3adKY0EtL1RDBthQLyCa8Y_wL0Mqh1p6A_0gZYld6cvuwpSfHWRkkU89czSaSqT8nL8Lqqh9QxCcPY18LP41i23FqjEOXHQl4L53FEC7tjgywMKX9dAiE_lhh7srjT8aYCF2bcQuT43uTpLi9xqGbltsixxzxg3h0RMqQASzmqUMmmUk1d-N5pE2pGno0PYJPE5rbgvosBV93-9NANtEQ9PMREoqqohwSSVR8Gpqlc3a_7fXNRK6uovehBqL4yxP3rtGv9gGAM5WFJxUfG9Ml94mNg8uTXNlJBYZ5zbst1EtfefpN71UK29h8fKs9x9cVCp6DxLz6IkreIbpV6iQfM2r1HKGOpzf7ChODb6D0cmfWKK0YK-hjQPkABcVFeM7WB-N108rvtDoXWSPnA6IcC_L4GxBWNqU-ndT5rscwjAFmr_jiJ47jb6dRNPDa8mlz8_r4Fp3fOiUhcl78x4DNXbdh610XzWXoysYQlskURVj-1SM_8_tuv-NfX_ULiNWHTxffl2VGZ16bPeareO_xp9xvLNVqD_Lza17GYK7TGSbZuIvCcUSseeppahTXoY_geUNJSnyYyO4LE_VF4puKorgWXdyacaIQKQfezWM6jv1Zgx-vZiiJpfQSv6oDplTNVqC1pbW72DsJf3wkuHzDtD2h6nEZhlrapezuoDzKCp8mAG0fyDmtFTV6C4-oAuAeMOM8MjCBsB8JIA6hIQEZ-EFYfjoPERNO6EyJRif01Zc6lmoNd3-GKZGgpzf7P8ZIxAK2eqRGRW95CgWtzFC_v7_zo3SPgXkO4ux4mjpGyE8je90nNvDNFusFLlD1IqqbGQMGJzyye5f5t827ws_OxrbnpSbW-ZwDoGVKffjPxoBmA7C5dgmVWl1EGVPONu24lNtSOAFBe9PVOEz2Eq-nSOWeeJ70kKSTUknDjj6XPy05vXkpXMrqnhpA7NbHsffsRQQ2uSjne4uVoPA9-EYRjuTGKn_4E7hDKI7nJgRu0yvXgwiZOPjdYvxunPb8U_VnFXEJ-insqeRYOLSSIpHLgqdfEU6DK1JymnwBznh3gBUuxNpt-PZOwj2NvRx6bfO0Z-IppjPPJQFuQ7Hd6hfD7tFjXxxBv1CiUKPbrrRQQJVeb6CvWshRxseHG3k0kza10CxVSjyp-XV4X37LOw7ZHWXU5Op_sO6tFZAhQ2gWX_F5Ay5WZT94SClt7y2a-JVAAhW9skZvhP_R3BVf-KJIYM6XkGLSMfKVQdMJJ3xADl2EPxQelbIvwRr_EBBuffi2r9nEzUJzsvNuAxXp5FJlqZfM7liP-TvxBTt7P-X5VinkRNkkG9mwtdZjjq7sjLnp37MX8V2nBHwug_33OMqi3fReSm3U6UjUL93Y6h5O8WgaUl8QjuuJCtuEBne7ao2EPUgKHduQfSw9h2fWmQROn2uR3dH1Mw4cppmZgnQxdCMqCBLfnTycJZk6sH26vLG6ynuc-n7r33_xTECuqigZZu8FQzbtZF-jbaFmm6-KCz50OZjXYOhSndbj69Ex4iXuNmSdnO7hrabmXZfGIoYWp1VKUovnGm-lXRxwoDCrlACf5-Fme0ZTMjmeoUS-GWpTUQ8WlnaGXZ5gnBLQWbMnf-slQ9kFyV-wHj8YJl6ucMSYZ6LZHsOrQtr6CTO19vdLxGePTEMmYHh808CGIUz6reCRoNvVlMDGrSAeUGE1XdmLi67uPnM1dS0VvE4DndWxdvaM_8NkTUccFws01ziZIPyc81WtnXVjkuwXrbB6yRG_9ppbrh-tHSvRZ6qN-lEi5TFt7wkkn5QanfVvJcn7ErkNWOwhZ_DX4-KAwjkvjQZS_uHDS9U81SAZGNtNo_lQsuUfvwUCFFsIBxg2gHbGfBH5wTD9MQKKUDEpIn0ZTEnSb6TSp6O-N2sv1JByceXI20yAz70H5dV9uvGnaBzkbcVIx3tkOeILBG8sUcU64htfIj7hVpbzunsfCaEn1P4-2wF1eBpLYIBMHEQJhcFhAc1ZHJg0J9BRd8Oq3TDhBwYtpvuW6GmtO-vxZjHwh7kYebfQTJOJZQVVXt6Yz-QrprYqGphBVSKDmS2e8v6z38eIWJQObGTiZPLoFpgvg8x3bYrvbU13TwKtp7YYzZPsE9oBcs0p10Q5D-VVyH9445PdRSi7chfMXJB8ObwnjVgur6hyS1Sz26f1Z0ADa4NlXEOdG_r0JvWzq_cWM2pcGTINTGieb3iqeMr0XoHqMAl9p7iZy1LiLSPQa1KgUKUJqxMgau4-EWLcft1zccPIe65VZWpcyaT-knWrRr4ZNDNmfDkJv3CcU9pA0n4KdG55uCceowX5K4-a7DPZg9SiZqYCGELiUNrGlq74XTWMnAf5iVrq7E28hhg1GKdwwWvnAvibAGoP6tAgSfM4cyvUy7xzr8kYuciLVUimYiN787CtLUTm-OyQIkUTJdqD2VlP_EPMQBdNq5PJa2cETPKV4x5ukAfPcbbpRsQVqaWLi1J1x6ukY1xCe6b7XdipBnPmXI2g7av3boa0OE4u7xaA2h0Lc608CkQjMMEXiLr6hriOl01OlK_2qAg1ZICWNV7ZOQthQyGvC2L-HlKNyNOymMzYl1qcqcgzCcbg=="
+              }
+            }
+          },
+          {
+            "type": "text-start",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "providerMetadata": {
+              "openai": {
+                "itemId": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152"
+              }
+            }
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "Az"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": " öss"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "zes"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": " elk"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "ész"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "ít"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "ési"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": " idő"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": " "
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "20"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": " perc"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": ".\n\n"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "For"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "rás"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": ":"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": " evaluation"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "-app"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "-"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "04"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "-"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "506"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "de"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "721"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "-f"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "7"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "ef"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "-"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "412"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "9"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "-"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "94"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "c"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "2"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "-c"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "8"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "c"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "19"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "d"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "1"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "d"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "109"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": "6"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152",
+            "delta": ".txt"
+          },
+          {
+            "type": "text-end",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152"
+          },
+          {
+            "type": "finish-step"
+          },
+          {
+            "type": "finish"
+          }
+        ],
+        "timing": {
+          "headersMs": 20,
+          "firstByteMs": 22,
+          "firstTextMs": 27823,
+          "totalStreamMs": 29382,
+          "textDeltaCount": 43
+        }
+      },
+      "metric": {
+        "id": "tucxux397r5wouk6pys3y",
+        "outcome": "saved",
+        "firstTextMs": 27810,
+        "generationMs": 29357,
+        "totalMs": 29367,
+        "usage": [
+          {
+            "model": "text-embedding-3-small",
+            "stage": "embedding",
+            "durationMs": 235,
+            "inputTokens": 33,
+            "outputTokens": 0,
+            "cachedInputTokens": null
+          },
+          {
+            "model": "gpt-4.1-mini",
+            "stage": "reranking",
+            "durationMs": 4224,
+            "inputTokens": 1698,
+            "outputTokens": 102,
+            "cachedInputTokens": 0
+          },
+          {
+            "model": "gpt-5",
+            "stage": "assistant",
+            "durationMs": 29357,
+            "inputTokens": 1514,
+            "outputTokens": 461,
+            "cachedInputTokens": 0
+          }
+        ],
+        "estimatedCostUsd": "0.0073455600",
+        "pricingVersion": "openai-standard-usd-2026-10-22",
+        "storedType": "array"
+      },
+      "conversation": {
+        "id": "umch4ok90zxc6gif6y842",
+        "title": "Mennyi idő alatt készül el a Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096?",
+        "revision": 1,
+        "messages": [
+          {
+            "id": "c1e3eab4-972d-4636-8e89-3a2fa7f338d1",
+            "role": "user",
+            "parts": [
+              {
+                "type": "text",
+                "text": "Mennyi idő alatt készül el a Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096?"
+              }
+            ]
+          },
+          {
+            "id": "ErITz1hgNWXHNbzZ",
+            "role": "assistant",
+            "parts": [
+              {
+                "type": "step-start"
+              },
+              {
+                "type": "reasoning",
+                "text": "",
+                "state": "done",
+                "providerMetadata": {
+                  "openai": {
+                    "itemId": "rs_0b2dd6ffbf242bb2006ada2fb61da087d1b5be2d4cdbd5695e",
+                    "reasoningEncryptedContent": "gAAAAABq2i-5Wt81x8nrAUgbsB6iRgiT27fpoRGRDigOAOY-SMcPE8TZJwDvkzFgcu3YlMd7XGHy6Z4qW_2YtuKdeRfqlF7CVj-qfhX0edfw2cNix39AN9LC_RKmr7j9c73forsFMzFD9U9rg7dVQlpIulL67RND4zCyuyCLzJnf0ZIiZsIZUNzxBAwVz1NytbFyq9Qhr4c7P9FA4iSoFXoMmhF7ZP7cNnsWZR3CFjmKCt7Zv0wvgm9BO8I52w5lyCp3ZDaroToB9KOaR99JhFLzFgpnHM-FDTHL4NJpWhyo8r55fUTpqBQpzSE8wW8hm15mXPukyCPCMLofElpAajAsrIkO2Yf05iSIjDvLmrLnV7JmXnWdTzLx6r6iG9E0cMKQz5KHM39mlz9ma06brOBbXk8EbdPaJKvxfKOHDjyniaRPeR26xpGTyAUbUXHhfSg3WUjLrmxuxjnHnOLAUOrtCwJzulZhhCyAwy2kT_m3IWDGYBv-rHvPzgk6DsGZ50ISghGC_2qL5KiXqkbDL7rL8-KBrarivAFaZkkZ112sMibst_y39wfjRc3HHP0Mxno0j_twv4kncK29PmijnxBe5gphmXPQRCvbJx0ntQwOndizXJOrcLc0Opvs0xp_nOliE73yRos-cEwcx_YteaEQR6Fku_Q_hZn7IH2eajWykPRrzlrJW7qMN8kopAj3MDf8hrqj9aBcfqjCbdwbYShjQrcpUzekIBfKtTKahUS3_f9eC_iB9yjeNY1Fgr3LG-MQQIR1VaVa3cEQmCbEgvyISiD0mBj6oWqxFrjhZVAErKvpscKyBNpCWrRtdNoEQTs10L_zMurVSlErYdAz7CRksIIoKtFWDH9nLSABqVMIBge2RZA253OXYCSqPlJBZQdazWuZLvMs2YX7F3p8yO6tsoV2Zr5aeg3XrvGkLdCyifd1EX0-jb0Lq4VRHV8qLzg8bQ2DPqe0EEvXyyanF7qNk4cnhgqohiY7c6YJkHLIq6ubQ-B56aG4aoMjC6QRXpgTe8GXMiSZBSyP1vjEEsWGzP3g1VTxZeiARwzlcpqhbw33zbwpJW9biXFeqo8Ov3M8LloOqPt4yXep6_0WZOE0aWrrtXTOBBfzrkRO1C2wM4DRW4__mGkm1RUxvslhnJTAFiDIt_8XvJh4gxKamJ2itFT4OJ75cvANxOu1wOVBQxt81sTAmh3-puotIjqy28vILlTH-TQZgHMVbWvIqpUPHzlte4S37OvJITPMUG4YTLcqgQYwfMXK2RXxAwQ6NpCTOuo_7Cx_OuIQVGzKjrJZdQ10I5aS7p6gQNuwhNdPmKHjDq56lzMxKey3onK752Kf1_-4jXPZMCH9DxluPh0yFHMxJ2hg3vI38MV9NXnnUqHXynD9rCSHRak25ti4KLzrKYnWPGVuWZAa9bgUx4F_IvvLRK69YDg8I1Ht5gJUwRJmy3_bfU7mQous2elne67EDLqC9YYLPVF4Wu8kJ381tP8orpmGCtgWUhaMlvNfzgkz6GxJH9KswUiAP_3dH93vEq0_8bbH-LLfADKnLX_Uc3FA5VEVK3zJjCSXPzjUF8q0NPIQ2Fe2OZvD9OJ9jUt5i4vdGFy1TwwBMiLWQnkkH0j-05uEtTcM_wMRN-5jAAVO1H1X7WxPxCGMX_0yiUKgIGb9_l-QZAeiOvORfcRa43TYJ9HrfM8GfRpftcDS7TcuXmfSZdW5xlVXtcABa2mLq-XGDJOfcTeeD0NoYmxOHJG-agaCKocK9zUK4HjMiId9drF0D7aWL1ZRInEQ4L57ESvyQ7LmaVxI-M8srw0NvutoMQy5HYYffjX0C79k7FntGNidkE_aR-LnSRHqAdaTUE2yNYLHAc5bQrdiiHnCfi6RD5kqybGXe3a46GzsTRZE14ATrdp_wVL8ULg5pRBO-WXeTfwFrDwZr2lwTwDaG-kAxABamFjmYS6dYOYLSz7R8teRnGoEpzJUDSAtS5hbWO3NcJ8os11Lutmr8GOs0WTkPKOPRjrJKs56ZJav3vVl5HTcOD0IvTstKZ8jY5LY7pUow9ahsS44wGq8fR7bGNpNeuO1ujAioJ_pM9BVgAUtSe_PsQqk-upxqSfER2FGKoQDGUddqfObcjX8SLOY_2r2164WQOgNpn7qHQr6oVbe583jQ4UljGsmd90xU8B8ETawW22lP5ffQKIc2kTyrY-ukfZY99rUt__rkRuVYPdYFyulLEF8MJ0AQepDJ1zk4L5dMKjgH5rLlAPDdwaedacAJRyA9oHHUHKJdca-7V7stewuTUpX7kEAgbpB5r-yJAlyrTOWMbYazQmDZ3ZT-oX7hekTjEmUAc9DQCFKxyMMSL5VR7m8c3kGzK6f4lzjy4SG4iVKvQ9myEzEF2MY9VhvVKuZl-byLfSSQl3YmkuXdOB11cnYvlHi9pI7jCeqxTLlkuUn2Whc-ci2ZT0M3WIhtrXNC3nZtLignTJrtQJ5zIiwCuiiaQ9yJzhJNUddEWZ0Tozc8qqZR0lNF7kBr-6M6ixlWIy_LKw6TBrcAV3_HvcDZ2Qko62eVMW-lRyb16UQB7VW2MkMOj_tJNRPr92ysbQgnrAuBh4CCX-ZUvv5V9APC1eGpdz3orAoj83tCdql0glOa1bNsfSss4fg-_J9Eq5zExScMNddw2HswgmVFgXePpgNf3UWeC_rBHG4eyAlgzBF6DaTluDXOIPNMvaurBgF9FG9q-XeBW7Vvg1RT2ascRNyJTiLznhyTjG5B9Qp_rsIQNMfDxqkAASNkItGih11ruZu-hQGqWCOymlZVB3FYTNTPFFxxN5b1iyUw5KZC84_x5CgcrCnzYE7UJWQLJzc1LTQrU7Z7h2grsenu381cOM5Sggg3i7CZVAtdCokpSIysACzxpLWgfLe6bos7i-9ZQ2QMf_WY9hFm-GWxQwL8yn5aZ0lKxmPIfilhqG2nAziZkksC0HJh0-2dz9T11GXHjosys_YlcFidNpGDKpNyk27Pwx2j4HBmiLTbFkTNHCTxB_2hWs3Sx6eQhroSxuhassqm0_Y5OEem5rah3ViIdCUvmmDL_wQwGaPMQuiRP4l0M9q4Jlevbqbx66gE7iaF2ia4DoLrjNC2ObVU15MAc5cfw0_t0a5-giGXAeGnLmX8cC3_zvcvWwVY9xsT6PAFCpZ2D35aX2tTXgQpqOdVwtX0hTjed5bURkONHKFE2ESNv_x4ELIXaJA5-ZKbvpELbrtp7qylwOeGK-Qz5LpU7d5SGMIPTQbxxQTk1f6VoKMPQNzMgYCrKSrRS2As5KYgf2TuHmKS9MJ9uOg-uVOVNvVDfq0cbIPAfXnU6nTXdhonXN2Q1-75CbiTAKr3D2lJGiFvUTJkXLjSNu1MqE3RiMSQIjKCsxvYEjtn1W1LTMCqS9KxYZiekbFqMb111VqBNpS3G9SkF9nAAJKZ0sekrQEDaCP32mj7OcIVVrPNunqbT72w8r2LhvHFRufWkXIp1V27GsXiMoedGACe67PZojcozXDd-DnlB6WxsiwoqLp74BaZIHrVl2sj-VK9wwv17u4icUoeu2OhH3gn_2HYDGaBYgem9_VHAVV_CehxNe-QK13d3YbKfdWbsJ5YfWPI5FVJ7fZP_6Zet-vTXwqRHqPLFOO3NdM3BBP1rlxU9qR3Ejy-AtTqRoErC9xH-EIQj4FKrGB--3nbQoVfREIH9a-V4R7AHP30NWS97fgCwzQ-lO1wjY-hE_KbCvZk2GrlYu-zQByl8S1Y2CU3XISdoGthoqXSUKrwYAwGdxnkTgByfH8DjGKynlLCNZDOfH-399bnkozJz6v6e-egqF40H7oWiLtAr8hkn-Sv1en_1O_4zDYRVHeo9pcOwY8uLFoQ93wNafs-DprhiZySRlxqCbLaSkZhBsjrfe9g7-XfAA5GJcGbCEDpI4j3-TBKdVpMFaK0fQiPf7mbK9phwzBmXO0K1KchLtNtk4XWsdCeDZd7ZRVztqY24eN5RoMtgHncw=="
+                  }
+                }
+              },
+              {
+                "type": "tool-getInformation",
+                "input": {
+                  "question": "Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096 preparation time"
+                },
+                "state": "output-available",
+                "output": {
+                  "results": [
+                    {
+                      "chunkId": "kozf0f3rosclynrf22ep4",
+                      "content": "Document: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt\n\n# Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096\n## info\n* Total preparation time: 20 minutes\n* Servings: 2\n## ingredients\n* 250 g drained canned chickpeas\n* 200 g cooked rice\n* 1 tbsp olive oil\n* 1 tsp ground cumin\n## steps\n1. Heat the olive oil in a pan.\n2. Add the drained chickpeas and ground cumin. Cook for 5 minutes, stirring.\n3. Add the already cooked rice and stir for 2 minutes.\n4. Divide into 2 servings.\n## notes\n* No calorie, price, or storage information is provided.",
+                      "section": "text",
+                      "fileName": "evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+                      "chunkIndex": 0,
+                      "resourceId": "3w3tiow489fqyt2i0038f",
+                      "similarity": 0.7620911233049841,
+                      "rerankScore": 3
+                    }
+                  ]
+                },
+                "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+                "callProviderMetadata": {
+                  "openai": {
+                    "itemId": "fc_0b2dd6ffbf242bb2006ada2fb9bbc087d18ecd96e46bfaa8ea"
+                  }
+                }
+              },
+              {
+                "type": "step-start"
+              },
+              {
+                "type": "reasoning",
+                "text": "",
+                "state": "done",
+                "providerMetadata": {
+                  "openai": {
+                    "itemId": "rs_0b2dd6ffbf242bb2006ada2fcaba5c87d1874695eeee2e216a",
+                    "reasoningEncryptedContent": "gAAAAABq2i_R0BH2eD3eggwcJPgFHNPHqUaBJqB9cWKjMAFOgVys_UsLK2MClfKBXNfJoEEItFzxfoTQZmNT0lzKMM3U-7l-xyF1Nt4ndWxC0JO2Cx9_aKVNNUpQfUNPrOOwqHpu1w-RIjIjm5iF94X1rpbGWXZTvps9Y770ALnHFPcE3FOEMb4iZJmxjKE4Nnl5ob7gkHJUw2n2ZBrtfq5eFKygfETlniFRSBA7GIhM9NIO4hkRLEbNaJRkYrrfLhCqDDeMQpZj2MKknFudyw8qPCIVUIu7wCJ3VREZokaQoidc5GpEN3kxGOTrEg3ES9DQ7DycSyJ_EGjK78YAxXNKukZ_TcVt8vFefw9AvwJSMY-12f_Om4TbWnFXI6NqsDh8jzYZf8BRhkoLO4oS1ST-xkAT7zjC6_hg_qamt3adKY0EtL1RDBthQLyCa8Y_wL0Mqh1p6A_0gZYld6cvuwpSfHWRkkU89czSaSqT8nL8Lqqh9QxCcPY18LP41i23FqjEOXHQl4L53FEC7tjgywMKX9dAiE_lhh7srjT8aYCF2bcQuT43uTpLi9xqGbltsixxzxg3h0RMqQASzmqUMmmUk1d-N5pE2pGno0PYJPE5rbgvosBV93-9NANtEQ9PMREoqqohwSSVR8Gpqlc3a_7fXNRK6uovehBqL4yxP3rtGv9gGAM5WFJxUfG9Ml94mNg8uTXNlJBYZ5zbst1EtfefpN71UK29h8fKs9x9cVCp6DxLz6IkreIbpV6iQfM2r1HKGOpzf7ChODb6D0cmfWKK0YK-hjQPkABcVFeM7WB-N108rvtDoXWSPnA6IcC_L4GxBWNqU-ndT5rscwjAFmr_jiJ47jb6dRNPDa8mlz8_r4Fp3fOiUhcl78x4DNXbdh610XzWXoysYQlskURVj-1SM_8_tuv-NfX_ULiNWHTxffl2VGZ16bPeareO_xp9xvLNVqD_Lza17GYK7TGSbZuIvCcUSseeppahTXoY_geUNJSnyYyO4LE_VF4puKorgWXdyacaIQKQfezWM6jv1Zgx-vZiiJpfQSv6oDplTNVqC1pbW72DsJf3wkuHzDtD2h6nEZhlrapezuoDzKCp8mAG0fyDmtFTV6C4-oAuAeMOM8MjCBsB8JIA6hIQEZ-EFYfjoPERNO6EyJRif01Zc6lmoNd3-GKZGgpzf7P8ZIxAK2eqRGRW95CgWtzFC_v7_zo3SPgXkO4ux4mjpGyE8je90nNvDNFusFLlD1IqqbGQMGJzyye5f5t827ws_OxrbnpSbW-ZwDoGVKffjPxoBmA7C5dgmVWl1EGVPONu24lNtSOAFBe9PVOEz2Eq-nSOWeeJ70kKSTUknDjj6XPy05vXkpXMrqnhpA7NbHsffsRQQ2uSjne4uVoPA9-EYRjuTGKn_4E7hDKI7nJgRu0yvXgwiZOPjdYvxunPb8U_VnFXEJ-insqeRYOLSSIpHLgqdfEU6DK1JymnwBznh3gBUuxNpt-PZOwj2NvRx6bfO0Z-IppjPPJQFuQ7Hd6hfD7tFjXxxBv1CiUKPbrrRQQJVeb6CvWshRxseHG3k0kza10CxVSjyp-XV4X37LOw7ZHWXU5Op_sO6tFZAhQ2gWX_F5Ay5WZT94SClt7y2a-JVAAhW9skZvhP_R3BVf-KJIYM6XkGLSMfKVQdMJJ3xADl2EPxQelbIvwRr_EBBuffi2r9nEzUJzsvNuAxXp5FJlqZfM7liP-TvxBTt7P-X5VinkRNkkG9mwtdZjjq7sjLnp37MX8V2nBHwug_33OMqi3fReSm3U6UjUL93Y6h5O8WgaUl8QjuuJCtuEBne7ao2EPUgKHduQfSw9h2fWmQROn2uR3dH1Mw4cppmZgnQxdCMqCBLfnTycJZk6sH26vLG6ynuc-n7r33_xTECuqigZZu8FQzbtZF-jbaFmm6-KCz50OZjXYOhSndbj69Ex4iXuNmSdnO7hrabmXZfGIoYWp1VKUovnGm-lXRxwoDCrlACf5-Fme0ZTMjmeoUS-GWpTUQ8WlnaGXZ5gnBLQWbMnf-slQ9kFyV-wHj8YJl6ucMSYZ6LZHsOrQtr6CTO19vdLxGePTEMmYHh808CGIUz6reCRoNvVlMDGrSAeUGE1XdmLi67uPnM1dS0VvE4DndWxdvaM_8NkTUccFws01ziZIPyc81WtnXVjkuwXrbB6yRG_9ppbrh-tHSvRZ6qN-lEi5TFt7wkkn5QanfVvJcn7ErkNWOwhZ_DX4-KAwjkvjQZS_uHDS9U81SAZGNtNo_lQsuUfvwUCFFsIBxg2gHbGfBH5wTD9MQKKUDEpIn0ZTEnSb6TSp6O-N2sv1JByceXI20yAz70H5dV9uvGnaBzkbcVIx3tkOeILBG8sUcU64htfIj7hVpbzunsfCaEn1P4-2wF1eBpLYIBMHEQJhcFhAc1ZHJg0J9BRd8Oq3TDhBwYtpvuW6GmtO-vxZjHwh7kYebfQTJOJZQVVXt6Yz-QrprYqGphBVSKDmS2e8v6z38eIWJQObGTiZPLoFpgvg8x3bYrvbU13TwKtp7YYzZPsE9oBcs0p10Q5D-VVyH9445PdRSi7chfMXJB8ObwnjVgur6hyS1Sz26f1Z0ADa4NlXEOdG_r0JvWzq_cWM2pcGTINTGieb3iqeMr0XoHqMAl9p7iZy1LiLSPQa1KgUKUJqxMgau4-EWLcft1zccPIe65VZWpcyaT-knWrRr4ZNDNmfDkJv3CcU9pA0n4KdG55uCceowX5K4-a7DPZg9SiZqYCGELiUNrGlq74XTWMnAf5iVrq7E28hhg1GKdwwWvnAvibAGoP6tAgSfM4cyvUy7xzr8kYuciLVUimYiN787CtLUTm-OyQIkUTJdqD2VlP_EPMQBdNq5PJa2cETPKV4x5ukAfPcbbpRsQVqaWLi1J1x6ukY1xCe6b7XdipBnPmXI2g7av3boa0OE4u7xaA2h0Lc608CkQjMMEXiLr6hriOl01OlK_2qAg1ZICWNV7ZOQthQyGvC2L-HlKNyNOymMzYl1qcqcgzCcbg=="
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "text": "Az összes elkészítési idő 20 perc.\n\nForrás: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+                "state": "done",
+                "providerMetadata": {
+                  "openai": {
+                    "itemId": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "question": "Ebből mennyi ideig kell a csicseriborsót a serpenyőben kevergetni a rizs hozzáadása előtt?",
+      "referenceAnswer": "5 percig.",
+      "answer": "5 percig kell a csicseriborsót (a köménnyel) kevergetve főzni, mielőtt hozzáadod a rizst.\n\nForrás: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+      "contexts": [
+        {
+          "fileName": "evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+          "section": "text",
+          "content": "Document: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt\n\n# Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096\n## info\n* Total preparation time: 20 minutes\n* Servings: 2\n## ingredients\n* 250 g drained canned chickpeas\n* 200 g cooked rice\n* 1 tbsp olive oil\n* 1 tsp ground cumin\n## steps\n1. Heat the olive oil in a pan.\n2. Add the drained chickpeas and ground cumin. Cook for 5 minutes, stirring.\n3. Add the already cooked rice and stir for 2 minutes.\n4. Divide into 2 servings.\n## notes\n* No calorie, price, or storage information is provided."
+        }
+      ],
+      "stream": {
+        "userMessage": {
+          "id": "a53560f3-579f-431b-a418-079164da53ac",
+          "role": "user",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Ebből mennyi ideig kell a csicseriborsót a serpenyőben kevergetni a rizs hozzáadása előtt?"
+            }
+          ]
+        },
+        "assistantMessageId": "yHgRClGfB7Ui6Aan",
+        "answer": "5 percig kell a csicseriborsót (a köménnyel) kevergetve főzni, mielőtt hozzáadod a rizst.\n\nForrás: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+        "parts": [
+          {
+            "type": "start",
+            "messageId": "yHgRClGfB7Ui6Aan"
+          },
+          {
+            "type": "start-step"
+          },
+          {
+            "type": "reasoning-start",
+            "id": "rs_0b2dd6ffbf242bb2006ada2fd5ce3487d1a4b84fb065b1c057:0",
+            "providerMetadata": {
+              "openai": {
+                "itemId": "rs_0b2dd6ffbf242bb2006ada2fd5ce3487d1a4b84fb065b1c057",
+                "reasoningEncryptedContent": "gAAAAABq2i_V_KmCFqX9UcyTlGcZhDQ3b_hrxs3a1VgAx16-xQegbcEY_jjGG6UnjAS9uxQXRfeR-qo4zpBSjzp3NM9_H8No38nZ3_1XyuSGpR82Vbktigj1ZM6H_yrr8cpwCG9kjeHDkvW34bkGmkRPgkbpnRN41HgtYz19CV0Yc0ley_tBTb08Z_eMmdv3w9IepATf-pJErpWA6BpNFtc3SsGTMmuWrCoLw2mqXZ1FvVwZrBoxmZP_qRaQ1RSKr-fuJlGPNWjqhZwANtjDZwDK4xXCwSwyB7Hl7Q90He_DGCpF9OYySka5wbRP04TP-eXBHIwh7LkYQkB36o6jK9ADbCcHZcecULipKcfm6crjxXDQmLPFaIfgXVm5dxpo8BNY_rdSn3i8p9VoIUHz-ZBWXhNvjXMAVI-S-cO6RhKQkr6HQbUPznRhB_zTAS6l5dPsR-6bLWHqJs0BPEwhyqRbOzgu6Oe5gGXjSrk6hYFYXpkGproJZ6_BPnEJGG6VYwYTeuwme2AlCgWfUzj56JF59AfT9oMcOw30Jxrov4SyfnIb3wGUzRte0l6bK2cuFVW_P9H286yLWym4gupqz6ZxEclUl_cz8jV09QJe9YjsyMEXpWYZXo5llKnqswQfjeluW7N7lcS-eYNXUjE5hSLAm3q0QsFPTJ6cEN_WswbcxbNFmwt5-mKM0hQyoOiVMooPQ2W9li47_K0Tp8XDZsGI-5eAW9M70ZQn9ZfGGe8uqG29X4-fJyEEaXgB0I0oo3Mv0enQPOlcVNEG5tH8hwfgDYuudcYrkW06JJDkwRjssrhasZR5V3XU5vbpCZNsDChdwfLqTHutMhk5dUqhbzlruIOE-6k-dXETe7IAVHfV5AYUE4W7yheU3kYHIZoBWA1_vWg92FwkVvsTkrs8VwBckNfJKpYRaloI1g5zA71tZbAlK9cCmLbxx4HfENu8HbRrFS973l7h3nvwnjdQTI634XMsGn4udcEtI2TwZCqwopc2TLM3AeOIZAhHxjz5p802Wre79G1pLe48DJHCgMijVMioeHelK1rL5DHCDD98kya8LP3Nbg55EQW-FRla-EbqAZgB7mhxuOAoTALawgEyqxWhKqkTeDW74lZbVywx5uAHH-ruxiQ-FZk-zscRkWtya_MUHFsqFgKPG1Hhss84DOqJ3kVrJD2G65z9QiClVb7ILeVjv058dJhUsskMBH8F6DwyPU2l"
+              }
+            }
+          },
+          {
+            "type": "reasoning-end",
+            "id": "rs_0b2dd6ffbf242bb2006ada2fd5ce3487d1a4b84fb065b1c057:0",
+            "providerMetadata": {
+              "openai": {
+                "itemId": "rs_0b2dd6ffbf242bb2006ada2fd5ce3487d1a4b84fb065b1c057",
+                "reasoningEncryptedContent": "gAAAAABq2i_Z9HOCiV-IjWEkhdRCukaYqTpbftmpN3HFTYxNyuDXsONIY3DM10uK2nVOO1Bx5Ns2VPC_lpdoAyWwG_8e7bxYTEONfRBoRluSzbjZzhz5lpc2AKHAZP-JS2S02ETnQrzNmP1-8v9MD3-hkyTvnf_cSsJwOW5mcu4Lbc2-QJLTRNOSJ0Y6Nc7v5El0lDZCTGhbJ5YyEWouzeIYf67tVbZJzWKfzO2Ifs1xIKVFt5H9g2fYHCC5nz3Q1S6lfEEghLrj-noIcsur02qsxSnkxpLWMKHNFeJ8tWzN-6tUQagbLa-an-2j8IfDmD4TYAHw_BMeupG5shn3i3eB1nCuKH7oH-_VTU243Jjf58m-SUIcODl1SxqfwlGW6idKcbXRcpHhfbttQpmRHPizBQgVLMXzbwKCl0nzAeJQ-_Gd7MqMM2Rqi8Y6708nBHT7xhLFuXwFrLp3_HvAOWzNPabl09uTVtaZ4NSvl_N11tsV1HwsKBX6vnKsOYWppntvev5jQmfN1PjRdQrB1TGG9w91a9zmvj3drzV3MaQJ_-3mf7SsTQlvKnGvrl6mqRDPb8YoX6f8om3Jw-fpCJyJbea3sDtisWdPaNihfJFnUpWvfS7nuxDFm6BSdutJVb5RZm9UHGxIqp7ORsLevDxTekL2P0Ud8E7DfQm3piRCTpONl4GuqV5r2nssbKdCK7rOVby7wxoktAmvjN1cT8eyeyf49_SF-db0VYsEooCyBavy6AiVHXdl_JgD30vN3OGp7CtldFJ_bzUbEtcoeMnZmmD259W6olD3Y3wKA3xU_ptX1w2P1MOFTytmfZAkbroctD2LkhunI_p2UhmA7FMC63cSXmgXdfKVnAN1_GOYesMAp6Yoz_NNamcxlnAkV41de4am-OyKuCBYDyv1N8lssNnrorwhJ1j3z3Gsyhb_47qMzpN6RBDl--KXpvW5uAhUqzVaSYvkYgDwwggOfssV3xa3Ri_ltiQN2XPqRX04cbQ9Wz1Rl2K_vrDCxwvyg5I5IZFln8xOVgHubHgXONYMsxbgTyVI-934fpGGh2UQWFGjee3X1xqjh2a6mfkucHgvcPQwdrA1mL_22DinPs1nUA9fvnpjAFmwgY1pscotESs7qtIHW7vj94Zz9rpa_EbGkfHY49GHSogFX_WyPA_KDwGOMmfgwZWiW_vJDzPkKNM3h4o8yuEYDcqn8XIf58hscVS6Cxn1nRkXsaSiTeKAVGYs2JlcSuIpQhucaT0OivCC1xDXtOoLcmxvHLKGVtQPSRUjyUB7UKYX_h06LZriR1IaP0K8AiYjokGZapA74EE8L7hbKgD5Sy5en74NEI0Tzi8SuBvp6IL1VjoJ3H-gBNI9mbbfMdrmsyIsGSApx_guWoAuE0JIa3TV7HKSrqQ3gvdaBv9a5zsY4fbunBdh4jq-lMUgTSeImPJcsId0Td27XifQGBWr_ocgwnqwz6H3ArizO5WxphCKear_NUL8XMsbeFDkA0NWyRRATjrMwOryoizpkNC_mkqqpwXXRNw4c4KgJcdJBoJgYOsJ2ErKiLSWxCOxLLRfrhcYg-KMpgnX7KAF7D7P2FIT2iIWIIVzqJXqTCSHb9yK63tQXFtJJIQZKvteNYn5yEx82wOeqqDIxwp8lQTXwxXy1ghM5TQc3D0nQb0fxra3dCWRYJ6Wk-ewl2TZreB8e3n4vMkYf7YkMmGil235UB6EqFl4-wgz8RhhSbU1K7ornNY1FADm4gCdVqKifzrWhtYBvp35hSozYGU9rv1ar3mGhVKNFQH2HwL-Ji0My5AYdsd3J3zs2k-jTHayJ9Z2OwJ1UtZQUNAnOp8MyG1Dyn0viajGx67iUtb3Hi0tVIWSEFrRS5RSZU54tquSUAsdQb_wrDfm0rxqvH18tGQ6n1XWZOomob6edCDrwZCdtRxPGxWg15ub7p69oh6XgWWm1RV76F2UT3vRo6C5-SYGd_AscC-IiemRX1NRarRiMKmfBoopwLK9O7eiy1vpwj-uj92rpPDmNx0KWw9jWKXH_g3tUPsHICKJ7K7eyYx2C4bVRgfgVtBVnOtvs6X5gpamYI963KFlNUzvaFjPIWxJt7lU2lfFdjkLpp5QD1W-Ws00oriGbsYbGhvK1i7KuhXjf-BOZAnWyKwNFJDjZ0LmTOonAt8ZyFAZyazrtKzAsliEI9cP0vdPQST5op9DE53mCd8EmyG_h8umyDoHbBaPcFWjnduKsBCdK9GN1Jcfv_fcrl_qFamp-gELNbXpZjhP3Id9sLr8rn6JsQ-uywcs92Ni_8gIf9ecBG86BIQ_QItseSAF4gfyl2IkP0oUevN3s2wg0G0a5475ju0lIJA3Dx8JJoUU_IPJOTU_BRcdTTTX8h4J3UIS2K-mF1vnM1kRyxHfEjiIyXFS4tC-Tk9h9_5W9wtrynoYb57Gwu8NlNWhg8wOEjFXBRgVGrWDjnw2LM8YPTeWX0kyfobpna4QT6Lecv6YeQo8IZpOvAZI4RjDLrqIvDim6f1bIykqUPKMZgv8lYbrqblGU0ioQ1W5ZN7-HmD6yppjOipau60tDKojAH4oRV8QafOiDB6og-K_ULj80fXzZ3MxgEUyBGf5dD8zi14RFXQkxHUTAO8YQgoDQ07URNnfuww4ZkCMlNw_bQzO0JGzkkRUIFLNdCLPKKLkf2G91OD6ZgbEGcEb95DqCAAsy_xTUkgRgeGIiNtKgCAQTYcCux0xa1WxWbP7evdz60rD76FMMfRuS7V8z2Qo9CHLmL4eHlArIqaW8fpN-n2h78bSmZAPCjDR6PdPcosy6tM3LNd2zjxfGqeAn3xiS3dd30w0BTFKlmoqTSZ8ysyOhKZU1st6bkvBThKQR9umy-_xwzegVTab0TaMOtvIoHVYbBYvaad0VaM1QLgOiSLc3vIo5EmR035YbvtsvZxmjRHQRXt_J7tmenm8xw--85afI66isUQZ14nPo-szSi6whNxluuURBYPLpuK0J1-oZYiClHmEdwAfv80_FT3v7h4eaL69ioqpd5lyKQ=="
+              }
+            }
+          },
+          {
+            "type": "tool-input-start",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "toolName": "getInformation"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "{\""
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "question"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "\":\""
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "Evaluation"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": " Chick"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "pea"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": " Bowl"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": " app"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "-"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "04"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": " "
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "506"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "de"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "721"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "-f"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "7"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "ef"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "-"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "412"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "9"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "-"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "94"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "c"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "2"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "-c"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "8"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "c"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "19"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "d"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "1"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "d"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "109"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "6"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": " cook"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": " chick"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "peas"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": " time"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": " before"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": " adding"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": " rice"
+          },
+          {
+            "type": "tool-input-delta",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "inputTextDelta": "\"}"
+          },
+          {
+            "type": "tool-input-available",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "toolName": "getInformation",
+            "input": {
+              "question": "Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096 cook chickpeas time before adding rice"
+            },
+            "providerMetadata": {
+              "openai": {
+                "itemId": "fc_0b2dd6ffbf242bb2006ada2fd9a70887d18b3dac83742b2061"
+              }
+            }
+          },
+          {
+            "type": "tool-output-available",
+            "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+            "output": {
+              "results": [
+                {
+                  "chunkId": "kozf0f3rosclynrf22ep4",
+                  "chunkIndex": 0,
+                  "resourceId": "3w3tiow489fqyt2i0038f",
+                  "fileName": "evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+                  "section": "text",
+                  "content": "Document: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt\n\n# Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096\n## info\n* Total preparation time: 20 minutes\n* Servings: 2\n## ingredients\n* 250 g drained canned chickpeas\n* 200 g cooked rice\n* 1 tbsp olive oil\n* 1 tsp ground cumin\n## steps\n1. Heat the olive oil in a pan.\n2. Add the drained chickpeas and ground cumin. Cook for 5 minutes, stirring.\n3. Add the already cooked rice and stir for 2 minutes.\n4. Divide into 2 servings.\n## notes\n* No calorie, price, or storage information is provided.",
+                  "similarity": 0.7690218564708066,
+                  "rerankScore": 3
+                }
+              ]
+            }
+          },
+          {
+            "type": "finish-step"
+          },
+          {
+            "type": "start-step"
+          },
+          {
+            "type": "text-start",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "providerMetadata": {
+              "openai": {
+                "itemId": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072"
+              }
+            }
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "5"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " perc"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "ig"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " kell"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " a"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " cs"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "ic"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "ser"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "ib"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "ors"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "ót"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " ("
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "a"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " kö"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "mén"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "ny"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "el"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": ")"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " ke"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "ver"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "get"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "ve"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " fő"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "zni"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": ","
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " miel"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "ő"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "tt"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " hozzá"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "ad"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "od"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " a"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " riz"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "st"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": ".\n\n"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "For"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "rás"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": ":"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": " evaluation"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "-app"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "-"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "04"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "-"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "506"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "de"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "721"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "-f"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "7"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "ef"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "-"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "412"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "9"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "-"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "94"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "c"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "2"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "-c"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "8"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "c"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "19"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "d"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "1"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "d"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "109"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": "6"
+          },
+          {
+            "type": "text-delta",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072",
+            "delta": ".txt"
+          },
+          {
+            "type": "text-end",
+            "id": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072"
+          },
+          {
+            "type": "finish-step"
+          },
+          {
+            "type": "finish"
+          }
+        ],
+        "timing": {
+          "headersMs": 22,
+          "firstByteMs": 24,
+          "firstTextMs": 10815,
+          "totalStreamMs": 12570,
+          "textDeltaCount": 66
+        }
+      },
+      "metric": {
+        "id": "2w2g52maw26i3z9ic0ijo",
+        "outcome": "saved",
+        "firstTextMs": 10801,
+        "generationMs": 12540,
+        "totalMs": 12551,
+        "usage": [
+          {
+            "model": "text-embedding-3-small",
+            "stage": "embedding",
+            "durationMs": 253,
+            "inputTokens": 39,
+            "outputTokens": 0,
+            "cachedInputTokens": null
+          },
+          {
+            "model": "gpt-4.1-mini",
+            "stage": "reranking",
+            "durationMs": 1684,
+            "inputTokens": 2091,
+            "outputTokens": 102,
+            "cachedInputTokens": 0
+          },
+          {
+            "model": "gpt-5",
+            "stage": "assistant",
+            "durationMs": 12540,
+            "inputTokens": 2295,
+            "outputTokens": 257,
+            "cachedInputTokens": 1024
+          }
+        ],
+        "estimatedCostUsd": "0.0052871300",
+        "pricingVersion": "openai-standard-usd-2026-10-22",
+        "storedType": "array"
+      },
+      "conversation": {
+        "id": "umch4ok90zxc6gif6y842",
+        "title": "Mennyi idő alatt készül el a Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096?",
+        "revision": 2,
+        "messages": [
+          {
+            "id": "c1e3eab4-972d-4636-8e89-3a2fa7f338d1",
+            "role": "user",
+            "parts": [
+              {
+                "type": "text",
+                "text": "Mennyi idő alatt készül el a Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096?"
+              }
+            ]
+          },
+          {
+            "id": "ErITz1hgNWXHNbzZ",
+            "role": "assistant",
+            "parts": [
+              {
+                "type": "step-start"
+              },
+              {
+                "type": "reasoning",
+                "text": "",
+                "state": "done",
+                "providerMetadata": {
+                  "openai": {
+                    "itemId": "rs_0b2dd6ffbf242bb2006ada2fb61da087d1b5be2d4cdbd5695e",
+                    "reasoningEncryptedContent": "gAAAAABq2i-5Wt81x8nrAUgbsB6iRgiT27fpoRGRDigOAOY-SMcPE8TZJwDvkzFgcu3YlMd7XGHy6Z4qW_2YtuKdeRfqlF7CVj-qfhX0edfw2cNix39AN9LC_RKmr7j9c73forsFMzFD9U9rg7dVQlpIulL67RND4zCyuyCLzJnf0ZIiZsIZUNzxBAwVz1NytbFyq9Qhr4c7P9FA4iSoFXoMmhF7ZP7cNnsWZR3CFjmKCt7Zv0wvgm9BO8I52w5lyCp3ZDaroToB9KOaR99JhFLzFgpnHM-FDTHL4NJpWhyo8r55fUTpqBQpzSE8wW8hm15mXPukyCPCMLofElpAajAsrIkO2Yf05iSIjDvLmrLnV7JmXnWdTzLx6r6iG9E0cMKQz5KHM39mlz9ma06brOBbXk8EbdPaJKvxfKOHDjyniaRPeR26xpGTyAUbUXHhfSg3WUjLrmxuxjnHnOLAUOrtCwJzulZhhCyAwy2kT_m3IWDGYBv-rHvPzgk6DsGZ50ISghGC_2qL5KiXqkbDL7rL8-KBrarivAFaZkkZ112sMibst_y39wfjRc3HHP0Mxno0j_twv4kncK29PmijnxBe5gphmXPQRCvbJx0ntQwOndizXJOrcLc0Opvs0xp_nOliE73yRos-cEwcx_YteaEQR6Fku_Q_hZn7IH2eajWykPRrzlrJW7qMN8kopAj3MDf8hrqj9aBcfqjCbdwbYShjQrcpUzekIBfKtTKahUS3_f9eC_iB9yjeNY1Fgr3LG-MQQIR1VaVa3cEQmCbEgvyISiD0mBj6oWqxFrjhZVAErKvpscKyBNpCWrRtdNoEQTs10L_zMurVSlErYdAz7CRksIIoKtFWDH9nLSABqVMIBge2RZA253OXYCSqPlJBZQdazWuZLvMs2YX7F3p8yO6tsoV2Zr5aeg3XrvGkLdCyifd1EX0-jb0Lq4VRHV8qLzg8bQ2DPqe0EEvXyyanF7qNk4cnhgqohiY7c6YJkHLIq6ubQ-B56aG4aoMjC6QRXpgTe8GXMiSZBSyP1vjEEsWGzP3g1VTxZeiARwzlcpqhbw33zbwpJW9biXFeqo8Ov3M8LloOqPt4yXep6_0WZOE0aWrrtXTOBBfzrkRO1C2wM4DRW4__mGkm1RUxvslhnJTAFiDIt_8XvJh4gxKamJ2itFT4OJ75cvANxOu1wOVBQxt81sTAmh3-puotIjqy28vILlTH-TQZgHMVbWvIqpUPHzlte4S37OvJITPMUG4YTLcqgQYwfMXK2RXxAwQ6NpCTOuo_7Cx_OuIQVGzKjrJZdQ10I5aS7p6gQNuwhNdPmKHjDq56lzMxKey3onK752Kf1_-4jXPZMCH9DxluPh0yFHMxJ2hg3vI38MV9NXnnUqHXynD9rCSHRak25ti4KLzrKYnWPGVuWZAa9bgUx4F_IvvLRK69YDg8I1Ht5gJUwRJmy3_bfU7mQous2elne67EDLqC9YYLPVF4Wu8kJ381tP8orpmGCtgWUhaMlvNfzgkz6GxJH9KswUiAP_3dH93vEq0_8bbH-LLfADKnLX_Uc3FA5VEVK3zJjCSXPzjUF8q0NPIQ2Fe2OZvD9OJ9jUt5i4vdGFy1TwwBMiLWQnkkH0j-05uEtTcM_wMRN-5jAAVO1H1X7WxPxCGMX_0yiUKgIGb9_l-QZAeiOvORfcRa43TYJ9HrfM8GfRpftcDS7TcuXmfSZdW5xlVXtcABa2mLq-XGDJOfcTeeD0NoYmxOHJG-agaCKocK9zUK4HjMiId9drF0D7aWL1ZRInEQ4L57ESvyQ7LmaVxI-M8srw0NvutoMQy5HYYffjX0C79k7FntGNidkE_aR-LnSRHqAdaTUE2yNYLHAc5bQrdiiHnCfi6RD5kqybGXe3a46GzsTRZE14ATrdp_wVL8ULg5pRBO-WXeTfwFrDwZr2lwTwDaG-kAxABamFjmYS6dYOYLSz7R8teRnGoEpzJUDSAtS5hbWO3NcJ8os11Lutmr8GOs0WTkPKOPRjrJKs56ZJav3vVl5HTcOD0IvTstKZ8jY5LY7pUow9ahsS44wGq8fR7bGNpNeuO1ujAioJ_pM9BVgAUtSe_PsQqk-upxqSfER2FGKoQDGUddqfObcjX8SLOY_2r2164WQOgNpn7qHQr6oVbe583jQ4UljGsmd90xU8B8ETawW22lP5ffQKIc2kTyrY-ukfZY99rUt__rkRuVYPdYFyulLEF8MJ0AQepDJ1zk4L5dMKjgH5rLlAPDdwaedacAJRyA9oHHUHKJdca-7V7stewuTUpX7kEAgbpB5r-yJAlyrTOWMbYazQmDZ3ZT-oX7hekTjEmUAc9DQCFKxyMMSL5VR7m8c3kGzK6f4lzjy4SG4iVKvQ9myEzEF2MY9VhvVKuZl-byLfSSQl3YmkuXdOB11cnYvlHi9pI7jCeqxTLlkuUn2Whc-ci2ZT0M3WIhtrXNC3nZtLignTJrtQJ5zIiwCuiiaQ9yJzhJNUddEWZ0Tozc8qqZR0lNF7kBr-6M6ixlWIy_LKw6TBrcAV3_HvcDZ2Qko62eVMW-lRyb16UQB7VW2MkMOj_tJNRPr92ysbQgnrAuBh4CCX-ZUvv5V9APC1eGpdz3orAoj83tCdql0glOa1bNsfSss4fg-_J9Eq5zExScMNddw2HswgmVFgXePpgNf3UWeC_rBHG4eyAlgzBF6DaTluDXOIPNMvaurBgF9FG9q-XeBW7Vvg1RT2ascRNyJTiLznhyTjG5B9Qp_rsIQNMfDxqkAASNkItGih11ruZu-hQGqWCOymlZVB3FYTNTPFFxxN5b1iyUw5KZC84_x5CgcrCnzYE7UJWQLJzc1LTQrU7Z7h2grsenu381cOM5Sggg3i7CZVAtdCokpSIysACzxpLWgfLe6bos7i-9ZQ2QMf_WY9hFm-GWxQwL8yn5aZ0lKxmPIfilhqG2nAziZkksC0HJh0-2dz9T11GXHjosys_YlcFidNpGDKpNyk27Pwx2j4HBmiLTbFkTNHCTxB_2hWs3Sx6eQhroSxuhassqm0_Y5OEem5rah3ViIdCUvmmDL_wQwGaPMQuiRP4l0M9q4Jlevbqbx66gE7iaF2ia4DoLrjNC2ObVU15MAc5cfw0_t0a5-giGXAeGnLmX8cC3_zvcvWwVY9xsT6PAFCpZ2D35aX2tTXgQpqOdVwtX0hTjed5bURkONHKFE2ESNv_x4ELIXaJA5-ZKbvpELbrtp7qylwOeGK-Qz5LpU7d5SGMIPTQbxxQTk1f6VoKMPQNzMgYCrKSrRS2As5KYgf2TuHmKS9MJ9uOg-uVOVNvVDfq0cbIPAfXnU6nTXdhonXN2Q1-75CbiTAKr3D2lJGiFvUTJkXLjSNu1MqE3RiMSQIjKCsxvYEjtn1W1LTMCqS9KxYZiekbFqMb111VqBNpS3G9SkF9nAAJKZ0sekrQEDaCP32mj7OcIVVrPNunqbT72w8r2LhvHFRufWkXIp1V27GsXiMoedGACe67PZojcozXDd-DnlB6WxsiwoqLp74BaZIHrVl2sj-VK9wwv17u4icUoeu2OhH3gn_2HYDGaBYgem9_VHAVV_CehxNe-QK13d3YbKfdWbsJ5YfWPI5FVJ7fZP_6Zet-vTXwqRHqPLFOO3NdM3BBP1rlxU9qR3Ejy-AtTqRoErC9xH-EIQj4FKrGB--3nbQoVfREIH9a-V4R7AHP30NWS97fgCwzQ-lO1wjY-hE_KbCvZk2GrlYu-zQByl8S1Y2CU3XISdoGthoqXSUKrwYAwGdxnkTgByfH8DjGKynlLCNZDOfH-399bnkozJz6v6e-egqF40H7oWiLtAr8hkn-Sv1en_1O_4zDYRVHeo9pcOwY8uLFoQ93wNafs-DprhiZySRlxqCbLaSkZhBsjrfe9g7-XfAA5GJcGbCEDpI4j3-TBKdVpMFaK0fQiPf7mbK9phwzBmXO0K1KchLtNtk4XWsdCeDZd7ZRVztqY24eN5RoMtgHncw=="
+                  }
+                }
+              },
+              {
+                "type": "tool-getInformation",
+                "input": {
+                  "question": "Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096 preparation time"
+                },
+                "state": "output-available",
+                "output": {
+                  "results": [
+                    {
+                      "chunkId": "kozf0f3rosclynrf22ep4",
+                      "content": "Document: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt\n\n# Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096\n## info\n* Total preparation time: 20 minutes\n* Servings: 2\n## ingredients\n* 250 g drained canned chickpeas\n* 200 g cooked rice\n* 1 tbsp olive oil\n* 1 tsp ground cumin\n## steps\n1. Heat the olive oil in a pan.\n2. Add the drained chickpeas and ground cumin. Cook for 5 minutes, stirring.\n3. Add the already cooked rice and stir for 2 minutes.\n4. Divide into 2 servings.\n## notes\n* No calorie, price, or storage information is provided.",
+                      "section": "text",
+                      "fileName": "evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+                      "chunkIndex": 0,
+                      "resourceId": "3w3tiow489fqyt2i0038f",
+                      "similarity": 0.7620911233049841,
+                      "rerankScore": 3
+                    }
+                  ]
+                },
+                "toolCallId": "call_66i6JluwYkdVIE5LsdTimOxT",
+                "callProviderMetadata": {
+                  "openai": {
+                    "itemId": "fc_0b2dd6ffbf242bb2006ada2fb9bbc087d18ecd96e46bfaa8ea"
+                  }
+                }
+              },
+              {
+                "type": "step-start"
+              },
+              {
+                "type": "reasoning",
+                "text": "",
+                "state": "done",
+                "providerMetadata": {
+                  "openai": {
+                    "itemId": "rs_0b2dd6ffbf242bb2006ada2fcaba5c87d1874695eeee2e216a",
+                    "reasoningEncryptedContent": "gAAAAABq2i_R0BH2eD3eggwcJPgFHNPHqUaBJqB9cWKjMAFOgVys_UsLK2MClfKBXNfJoEEItFzxfoTQZmNT0lzKMM3U-7l-xyF1Nt4ndWxC0JO2Cx9_aKVNNUpQfUNPrOOwqHpu1w-RIjIjm5iF94X1rpbGWXZTvps9Y770ALnHFPcE3FOEMb4iZJmxjKE4Nnl5ob7gkHJUw2n2ZBrtfq5eFKygfETlniFRSBA7GIhM9NIO4hkRLEbNaJRkYrrfLhCqDDeMQpZj2MKknFudyw8qPCIVUIu7wCJ3VREZokaQoidc5GpEN3kxGOTrEg3ES9DQ7DycSyJ_EGjK78YAxXNKukZ_TcVt8vFefw9AvwJSMY-12f_Om4TbWnFXI6NqsDh8jzYZf8BRhkoLO4oS1ST-xkAT7zjC6_hg_qamt3adKY0EtL1RDBthQLyCa8Y_wL0Mqh1p6A_0gZYld6cvuwpSfHWRkkU89czSaSqT8nL8Lqqh9QxCcPY18LP41i23FqjEOXHQl4L53FEC7tjgywMKX9dAiE_lhh7srjT8aYCF2bcQuT43uTpLi9xqGbltsixxzxg3h0RMqQASzmqUMmmUk1d-N5pE2pGno0PYJPE5rbgvosBV93-9NANtEQ9PMREoqqohwSSVR8Gpqlc3a_7fXNRK6uovehBqL4yxP3rtGv9gGAM5WFJxUfG9Ml94mNg8uTXNlJBYZ5zbst1EtfefpN71UK29h8fKs9x9cVCp6DxLz6IkreIbpV6iQfM2r1HKGOpzf7ChODb6D0cmfWKK0YK-hjQPkABcVFeM7WB-N108rvtDoXWSPnA6IcC_L4GxBWNqU-ndT5rscwjAFmr_jiJ47jb6dRNPDa8mlz8_r4Fp3fOiUhcl78x4DNXbdh610XzWXoysYQlskURVj-1SM_8_tuv-NfX_ULiNWHTxffl2VGZ16bPeareO_xp9xvLNVqD_Lza17GYK7TGSbZuIvCcUSseeppahTXoY_geUNJSnyYyO4LE_VF4puKorgWXdyacaIQKQfezWM6jv1Zgx-vZiiJpfQSv6oDplTNVqC1pbW72DsJf3wkuHzDtD2h6nEZhlrapezuoDzKCp8mAG0fyDmtFTV6C4-oAuAeMOM8MjCBsB8JIA6hIQEZ-EFYfjoPERNO6EyJRif01Zc6lmoNd3-GKZGgpzf7P8ZIxAK2eqRGRW95CgWtzFC_v7_zo3SPgXkO4ux4mjpGyE8je90nNvDNFusFLlD1IqqbGQMGJzyye5f5t827ws_OxrbnpSbW-ZwDoGVKffjPxoBmA7C5dgmVWl1EGVPONu24lNtSOAFBe9PVOEz2Eq-nSOWeeJ70kKSTUknDjj6XPy05vXkpXMrqnhpA7NbHsffsRQQ2uSjne4uVoPA9-EYRjuTGKn_4E7hDKI7nJgRu0yvXgwiZOPjdYvxunPb8U_VnFXEJ-insqeRYOLSSIpHLgqdfEU6DK1JymnwBznh3gBUuxNpt-PZOwj2NvRx6bfO0Z-IppjPPJQFuQ7Hd6hfD7tFjXxxBv1CiUKPbrrRQQJVeb6CvWshRxseHG3k0kza10CxVSjyp-XV4X37LOw7ZHWXU5Op_sO6tFZAhQ2gWX_F5Ay5WZT94SClt7y2a-JVAAhW9skZvhP_R3BVf-KJIYM6XkGLSMfKVQdMJJ3xADl2EPxQelbIvwRr_EBBuffi2r9nEzUJzsvNuAxXp5FJlqZfM7liP-TvxBTt7P-X5VinkRNkkG9mwtdZjjq7sjLnp37MX8V2nBHwug_33OMqi3fReSm3U6UjUL93Y6h5O8WgaUl8QjuuJCtuEBne7ao2EPUgKHduQfSw9h2fWmQROn2uR3dH1Mw4cppmZgnQxdCMqCBLfnTycJZk6sH26vLG6ynuc-n7r33_xTECuqigZZu8FQzbtZF-jbaFmm6-KCz50OZjXYOhSndbj69Ex4iXuNmSdnO7hrabmXZfGIoYWp1VKUovnGm-lXRxwoDCrlACf5-Fme0ZTMjmeoUS-GWpTUQ8WlnaGXZ5gnBLQWbMnf-slQ9kFyV-wHj8YJl6ucMSYZ6LZHsOrQtr6CTO19vdLxGePTEMmYHh808CGIUz6reCRoNvVlMDGrSAeUGE1XdmLi67uPnM1dS0VvE4DndWxdvaM_8NkTUccFws01ziZIPyc81WtnXVjkuwXrbB6yRG_9ppbrh-tHSvRZ6qN-lEi5TFt7wkkn5QanfVvJcn7ErkNWOwhZ_DX4-KAwjkvjQZS_uHDS9U81SAZGNtNo_lQsuUfvwUCFFsIBxg2gHbGfBH5wTD9MQKKUDEpIn0ZTEnSb6TSp6O-N2sv1JByceXI20yAz70H5dV9uvGnaBzkbcVIx3tkOeILBG8sUcU64htfIj7hVpbzunsfCaEn1P4-2wF1eBpLYIBMHEQJhcFhAc1ZHJg0J9BRd8Oq3TDhBwYtpvuW6GmtO-vxZjHwh7kYebfQTJOJZQVVXt6Yz-QrprYqGphBVSKDmS2e8v6z38eIWJQObGTiZPLoFpgvg8x3bYrvbU13TwKtp7YYzZPsE9oBcs0p10Q5D-VVyH9445PdRSi7chfMXJB8ObwnjVgur6hyS1Sz26f1Z0ADa4NlXEOdG_r0JvWzq_cWM2pcGTINTGieb3iqeMr0XoHqMAl9p7iZy1LiLSPQa1KgUKUJqxMgau4-EWLcft1zccPIe65VZWpcyaT-knWrRr4ZNDNmfDkJv3CcU9pA0n4KdG55uCceowX5K4-a7DPZg9SiZqYCGELiUNrGlq74XTWMnAf5iVrq7E28hhg1GKdwwWvnAvibAGoP6tAgSfM4cyvUy7xzr8kYuciLVUimYiN787CtLUTm-OyQIkUTJdqD2VlP_EPMQBdNq5PJa2cETPKV4x5ukAfPcbbpRsQVqaWLi1J1x6ukY1xCe6b7XdipBnPmXI2g7av3boa0OE4u7xaA2h0Lc608CkQjMMEXiLr6hriOl01OlK_2qAg1ZICWNV7ZOQthQyGvC2L-HlKNyNOymMzYl1qcqcgzCcbg=="
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "text": "Az összes elkészítési idő 20 perc.\n\nForrás: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+                "state": "done",
+                "providerMetadata": {
+                  "openai": {
+                    "itemId": "msg_0b2dd6ffbf242bb2006ada2fd1119487d1a34388d8e9020152"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "a53560f3-579f-431b-a418-079164da53ac",
+            "role": "user",
+            "parts": [
+              {
+                "type": "text",
+                "text": "Ebből mennyi ideig kell a csicseriborsót a serpenyőben kevergetni a rizs hozzáadása előtt?"
+              }
+            ]
+          },
+          {
+            "id": "yHgRClGfB7Ui6Aan",
+            "role": "assistant",
+            "parts": [
+              {
+                "type": "step-start"
+              },
+              {
+                "type": "reasoning",
+                "text": "",
+                "state": "done",
+                "providerMetadata": {
+                  "openai": {
+                    "itemId": "rs_0b2dd6ffbf242bb2006ada2fd5ce3487d1a4b84fb065b1c057",
+                    "reasoningEncryptedContent": "gAAAAABq2i_Z9HOCiV-IjWEkhdRCukaYqTpbftmpN3HFTYxNyuDXsONIY3DM10uK2nVOO1Bx5Ns2VPC_lpdoAyWwG_8e7bxYTEONfRBoRluSzbjZzhz5lpc2AKHAZP-JS2S02ETnQrzNmP1-8v9MD3-hkyTvnf_cSsJwOW5mcu4Lbc2-QJLTRNOSJ0Y6Nc7v5El0lDZCTGhbJ5YyEWouzeIYf67tVbZJzWKfzO2Ifs1xIKVFt5H9g2fYHCC5nz3Q1S6lfEEghLrj-noIcsur02qsxSnkxpLWMKHNFeJ8tWzN-6tUQagbLa-an-2j8IfDmD4TYAHw_BMeupG5shn3i3eB1nCuKH7oH-_VTU243Jjf58m-SUIcODl1SxqfwlGW6idKcbXRcpHhfbttQpmRHPizBQgVLMXzbwKCl0nzAeJQ-_Gd7MqMM2Rqi8Y6708nBHT7xhLFuXwFrLp3_HvAOWzNPabl09uTVtaZ4NSvl_N11tsV1HwsKBX6vnKsOYWppntvev5jQmfN1PjRdQrB1TGG9w91a9zmvj3drzV3MaQJ_-3mf7SsTQlvKnGvrl6mqRDPb8YoX6f8om3Jw-fpCJyJbea3sDtisWdPaNihfJFnUpWvfS7nuxDFm6BSdutJVb5RZm9UHGxIqp7ORsLevDxTekL2P0Ud8E7DfQm3piRCTpONl4GuqV5r2nssbKdCK7rOVby7wxoktAmvjN1cT8eyeyf49_SF-db0VYsEooCyBavy6AiVHXdl_JgD30vN3OGp7CtldFJ_bzUbEtcoeMnZmmD259W6olD3Y3wKA3xU_ptX1w2P1MOFTytmfZAkbroctD2LkhunI_p2UhmA7FMC63cSXmgXdfKVnAN1_GOYesMAp6Yoz_NNamcxlnAkV41de4am-OyKuCBYDyv1N8lssNnrorwhJ1j3z3Gsyhb_47qMzpN6RBDl--KXpvW5uAhUqzVaSYvkYgDwwggOfssV3xa3Ri_ltiQN2XPqRX04cbQ9Wz1Rl2K_vrDCxwvyg5I5IZFln8xOVgHubHgXONYMsxbgTyVI-934fpGGh2UQWFGjee3X1xqjh2a6mfkucHgvcPQwdrA1mL_22DinPs1nUA9fvnpjAFmwgY1pscotESs7qtIHW7vj94Zz9rpa_EbGkfHY49GHSogFX_WyPA_KDwGOMmfgwZWiW_vJDzPkKNM3h4o8yuEYDcqn8XIf58hscVS6Cxn1nRkXsaSiTeKAVGYs2JlcSuIpQhucaT0OivCC1xDXtOoLcmxvHLKGVtQPSRUjyUB7UKYX_h06LZriR1IaP0K8AiYjokGZapA74EE8L7hbKgD5Sy5en74NEI0Tzi8SuBvp6IL1VjoJ3H-gBNI9mbbfMdrmsyIsGSApx_guWoAuE0JIa3TV7HKSrqQ3gvdaBv9a5zsY4fbunBdh4jq-lMUgTSeImPJcsId0Td27XifQGBWr_ocgwnqwz6H3ArizO5WxphCKear_NUL8XMsbeFDkA0NWyRRATjrMwOryoizpkNC_mkqqpwXXRNw4c4KgJcdJBoJgYOsJ2ErKiLSWxCOxLLRfrhcYg-KMpgnX7KAF7D7P2FIT2iIWIIVzqJXqTCSHb9yK63tQXFtJJIQZKvteNYn5yEx82wOeqqDIxwp8lQTXwxXy1ghM5TQc3D0nQb0fxra3dCWRYJ6Wk-ewl2TZreB8e3n4vMkYf7YkMmGil235UB6EqFl4-wgz8RhhSbU1K7ornNY1FADm4gCdVqKifzrWhtYBvp35hSozYGU9rv1ar3mGhVKNFQH2HwL-Ji0My5AYdsd3J3zs2k-jTHayJ9Z2OwJ1UtZQUNAnOp8MyG1Dyn0viajGx67iUtb3Hi0tVIWSEFrRS5RSZU54tquSUAsdQb_wrDfm0rxqvH18tGQ6n1XWZOomob6edCDrwZCdtRxPGxWg15ub7p69oh6XgWWm1RV76F2UT3vRo6C5-SYGd_AscC-IiemRX1NRarRiMKmfBoopwLK9O7eiy1vpwj-uj92rpPDmNx0KWw9jWKXH_g3tUPsHICKJ7K7eyYx2C4bVRgfgVtBVnOtvs6X5gpamYI963KFlNUzvaFjPIWxJt7lU2lfFdjkLpp5QD1W-Ws00oriGbsYbGhvK1i7KuhXjf-BOZAnWyKwNFJDjZ0LmTOonAt8ZyFAZyazrtKzAsliEI9cP0vdPQST5op9DE53mCd8EmyG_h8umyDoHbBaPcFWjnduKsBCdK9GN1Jcfv_fcrl_qFamp-gELNbXpZjhP3Id9sLr8rn6JsQ-uywcs92Ni_8gIf9ecBG86BIQ_QItseSAF4gfyl2IkP0oUevN3s2wg0G0a5475ju0lIJA3Dx8JJoUU_IPJOTU_BRcdTTTX8h4J3UIS2K-mF1vnM1kRyxHfEjiIyXFS4tC-Tk9h9_5W9wtrynoYb57Gwu8NlNWhg8wOEjFXBRgVGrWDjnw2LM8YPTeWX0kyfobpna4QT6Lecv6YeQo8IZpOvAZI4RjDLrqIvDim6f1bIykqUPKMZgv8lYbrqblGU0ioQ1W5ZN7-HmD6yppjOipau60tDKojAH4oRV8QafOiDB6og-K_ULj80fXzZ3MxgEUyBGf5dD8zi14RFXQkxHUTAO8YQgoDQ07URNnfuww4ZkCMlNw_bQzO0JGzkkRUIFLNdCLPKKLkf2G91OD6ZgbEGcEb95DqCAAsy_xTUkgRgeGIiNtKgCAQTYcCux0xa1WxWbP7evdz60rD76FMMfRuS7V8z2Qo9CHLmL4eHlArIqaW8fpN-n2h78bSmZAPCjDR6PdPcosy6tM3LNd2zjxfGqeAn3xiS3dd30w0BTFKlmoqTSZ8ysyOhKZU1st6bkvBThKQR9umy-_xwzegVTab0TaMOtvIoHVYbBYvaad0VaM1QLgOiSLc3vIo5EmR035YbvtsvZxmjRHQRXt_J7tmenm8xw--85afI66isUQZ14nPo-szSi6whNxluuURBYPLpuK0J1-oZYiClHmEdwAfv80_FT3v7h4eaL69ioqpd5lyKQ=="
+                  }
+                }
+              },
+              {
+                "type": "tool-getInformation",
+                "input": {
+                  "question": "Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096 cook chickpeas time before adding rice"
+                },
+                "state": "output-available",
+                "output": {
+                  "results": [
+                    {
+                      "chunkId": "kozf0f3rosclynrf22ep4",
+                      "content": "Document: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt\n\n# Evaluation Chickpea Bowl app-04 506de721-f7ef-4129-94c2-c8c19d1d1096\n## info\n* Total preparation time: 20 minutes\n* Servings: 2\n## ingredients\n* 250 g drained canned chickpeas\n* 200 g cooked rice\n* 1 tbsp olive oil\n* 1 tsp ground cumin\n## steps\n1. Heat the olive oil in a pan.\n2. Add the drained chickpeas and ground cumin. Cook for 5 minutes, stirring.\n3. Add the already cooked rice and stir for 2 minutes.\n4. Divide into 2 servings.\n## notes\n* No calorie, price, or storage information is provided.",
+                      "section": "text",
+                      "fileName": "evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+                      "chunkIndex": 0,
+                      "resourceId": "3w3tiow489fqyt2i0038f",
+                      "similarity": 0.7690218564708066,
+                      "rerankScore": 3
+                    }
+                  ]
+                },
+                "toolCallId": "call_yihqT3MIuNZe5BsPgN829xfy",
+                "callProviderMetadata": {
+                  "openai": {
+                    "itemId": "fc_0b2dd6ffbf242bb2006ada2fd9a70887d18b3dac83742b2061"
+                  }
+                }
+              },
+              {
+                "type": "step-start"
+              },
+              {
+                "type": "text",
+                "text": "5 percig kell a csicseriborsót (a köménnyel) kevergetve főzni, mielőtt hozzáadod a rizst.\n\nForrás: evaluation-app-04-506de721-f7ef-4129-94c2-c8c19d1d1096.txt",
+                "state": "done",
+                "providerMetadata": {
+                  "openai": {
+                    "itemId": "msg_0b2dd6ffbf242bb2006ada2fdd815087d1943920b96b921072"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "judge": {
+    "evaluation": {
+      "responseQualityScore": 3,
+      "simulatedSatisfactionScore": 3,
+      "goalAchieved": true,
+      "unsupportedClaims": [],
+      "reasoning": "Az asszisztens mindkét körben pontosan és világosan válaszolt a kérdésekre, a megadott receptből származó információkat használva. A második kérdés a recept lépéseire hivatkozott, és az asszisztens helyesen követte ezt az összefüggést. A válaszok egyértelműek, relevánsak és megfelelnek a referencia válaszoknak.",
+      "evidence": [
+        "Az összes elkészítési idő 20 perc.",
+        "5 percig kell a csicseriborsót (a köménnyel) kevergetve főzni, mielőtt hozzáadod a rizst."
+      ],
+      "hallucinationDetected": false
+    },
+    "usage": {
+      "inputTokens": 1704,
+      "outputTokens": 181,
+      "totalTokens": 1885,
+      "reasoningTokens": 0,
+      "cachedInputTokens": 0
+    },
+    "model": "gpt-4.1-mini",
+    "durationMs": 2206
+  },
+  "journeyMs": 42495,
+  "totalCaseMs": 44811,
+  "error": null,
+  "cleanupErrors": []
+}

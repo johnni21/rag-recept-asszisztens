@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-20",
+    "question": "Mennyi ideig kell dagasztani és először keleszteni a Pita Bread tésztáját?",
+    "searchQuery": "Pita Bread kneading duration first rise time",
+    "relevantSources": [
+      {
+        "fileName": "pita-bread.md",
+        "section": "steps"
+      }
+    ]
+  },
+  "maxBodyLength": 1000,
+  "results": [
+    {
+      "chunkId": "4e9eaec96c2bc2893f61af3f9c902ac4fd2df15df86a9e81554afc39e5cda32c",
+      "chunkIndex": 1,
+      "fileName": "pita-bread.md",
+      "section": "steps",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: steps\n\n1. In a stand mixer or bread machine, add all ingredients and knead until dough is smooth and elastic, about 15–20 minutes\n2. Leave sitting, covered, in a warm place for one hour\n3. Punch down dough and cut into 8 pieces (6 if you want really big pitas); roll them into a ball, cover with a damp towel, and let rest for 10 minutes\n4. Roll each dough into a thin circle (no more than 1/4\" thick); place on a floured surface and cover with a damp towel for 30 minutes until slightly puffy\n5. Heat a cast iron pan over high heat, with just a little oil\n6. Cook pitas one at a time, flipping when slightly charred",
+      "similarity": 0.6554981722715336
+    },
+    {
+      "chunkId": "1768b37ac100f09b46b5b3848831c2f00418609fd703b0f791055d376c4d3929",
+      "chunkIndex": 3,
+      "fileName": "no-knead-pan-pizza.md",
+      "section": "notes",
+      "content": "Document: no-knead-pan-pizza.md\nTitle: No-Knead Pan Pizza\nSection: notes\n\n* Dough requires 8–24 hour first rise and another 2-hour rise before baking!",
+      "similarity": 0.6278483412132767
+    },
+    {
+      "chunkId": "ac1aba1377232368a3175bc04e4bef6bf21cd3a21e1004a03f0fbe8833bc92a0",
+      "chunkIndex": 0,
+      "fileName": "pita-bread.md",
+      "section": "ingredients",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: ingredients\n\n* 8 oz water, 105–115ºF\n* 1 tbsp extra-virgin olive oil\n* 1 tbsp granulated sugar\n* 2.25 tsp (one packet) instant yeast\n* 1 tsp kosher salt\n* 2.5 oz whole wheat flour\n* 10 oz all-purpose flour",
+      "similarity": 0.6083325318289717
+    },
+    {
+      "chunkId": "d09a1b478517d3ef23f2883821f28d46929799ba051cf469c9691fa39d857fd2",
+      "chunkIndex": 2,
+      "fileName": "pita-bread.md",
+      "section": "based on",
+      "content": "Document: pita-bread.md\nTitle: Pita Bread\nSection: based on\n\n* https://www.seriouseats.com/recipes/2015/08/perfect-pita-bread-recipe.html",
+      "similarity": 0.550977279049818
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.25,
+    "returnedCount": 4
+  },
+  "searchMs": 1.6743459999997867
+}

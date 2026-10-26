@@ -1,0 +1,168 @@
+{
+  "test": {
+    "id": "rag-11",
+    "question": "Milyen sajtok és milyen mennyiségben kellenek a Mac and Cheese recepthez?",
+    "searchQuery": "Mac and Cheese cheese types and quantities",
+    "relevantSources": [
+      {
+        "fileName": "mac-and-cheese.md",
+        "section": "ingredients"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "chunkId": "ujmh9io62u0bxtmlv72jf",
+      "chunkIndex": 0,
+      "resourceId": "leg52a97jdask5as402zx",
+      "fileName": "mac-and-cheese.md",
+      "section": "ingredients",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: ingredients\n\n* 2.5 cups milk (low-fat ok)\n* 2 bay leaves\n* 1 lb elbow, shell, ziti, or similar pasta\n* 4 tbsp (1/2 stick) butter\n* 2 shallots (or 1/2 yellow onion), finely chopped\n* 2-3 cloves garlic, finely chopped\n* 3 tbsp all-purpose flour\n* 1.5 cups grated sharp cheddar or gouda\n* 1.5 cups grated Parmesan cheese\n* 1/2 cup panko breadcrumbs\n* Freshly-ground black pepper\n* Salt to taste",
+      "similarity": 0.723132134583966
+    },
+    {
+      "chunkId": "htv52mjikkmwegs622op2",
+      "chunkIndex": 1,
+      "resourceId": "leg52a97jdask5as402zx",
+      "fileName": "mac-and-cheese.md",
+      "section": "steps",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: steps\n\n1. Preheat the oven to 400º F, bring a large pot of salted water to boil\n2. Grease a roasting pan with 1 tbsp butter\n3. In a frying pan, fry the shallots and garlic until golden brown\n3. Cook the milk with bay leaves in a small saucepan over medium-low heat\n4. When small bubbles appear along the sides (about 5 mins) turn off the heat, add the cooked shallots and garlic, and set aside\n5. Cook the pasta until it is nearly done, drain and rinse to stop cooking\n6. In a saucepan over medium-low heat, melt 3 tbsp butter\n7. When it's foamy add flour and cook, stirring, until the mixture browns (about 5 mins)\n8. Remove bay leaves from milk and add, 1/4-cup at a time, into the flour mixture, stirring with  whisk constantly\n9. As soon as mixture becomes smooth, add more milk until the mixture is completely smooth\n10. Add the cheddar/gouda and stir\n11. Dump the pasta into a roasting pan and pour the cheese mix on top, top with parmesan and salt and pepper, stir",
+      "similarity": 0.667478271804613
+    },
+    {
+      "chunkId": "4mbrdaoahqovmd802l12a",
+      "chunkIndex": 2,
+      "resourceId": "leg52a97jdask5as402zx",
+      "fileName": "mac-and-cheese.md",
+      "section": "steps",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: steps\n\n12. Top with breadcrumbs and bake until bubbling, about 15 minutes",
+      "similarity": 0.6219315300449311
+    },
+    {
+      "chunkId": "1wx1ehh64l9vdwqhgkp44",
+      "chunkIndex": 4,
+      "resourceId": "leg52a97jdask5as402zx",
+      "fileName": "mac-and-cheese.md",
+      "section": "based on",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: based on\n\n* https://www.seriouseats.com/recipes/2007/10/baked-vegetarian-macaroni-and-cheese-recipe.html\n* https://amazingribs.com/tested-recipes/other-fun-food-recipes/smoked-mac-and-cheese-recipe",
+      "similarity": 0.603558717483853
+    },
+    {
+      "chunkId": "xvqqfltei3ynresid4mye",
+      "chunkIndex": 3,
+      "resourceId": "leg52a97jdask5as402zx",
+      "fileName": "mac-and-cheese.md",
+      "section": "notes",
+      "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: notes\n\n* Optional: add smoked paprika at the end with the salt and pepper\n* As per the Amazing Ribs recipe, instead of baking in the oven, you can smoke the mac-n-cheese over 350º F, indirect heat for about 40 minutes (they also suggest mixing the panko with 3 tbsp melted butter!)\n* [A different take](https://www.seriouseats.com/recipes/2015/10/bacon-jalapeno-stovetop-macaroni-and-cheese-recipe.html) (and with bacon and jalepeños!)",
+      "similarity": 0.5743930149269779
+    },
+    {
+      "chunkId": "mxy71d8bh0jmhkw0pvotw",
+      "chunkIndex": 2,
+      "resourceId": "dlfr5kky477683x2pt8ko",
+      "fileName": "queso-dip.md",
+      "section": "steps",
+      "content": "Document: queso-dip.md\nTitle: QUESO DIP\nSection: steps\n\n1. Chop the onion and pickled jalepeños\n2. Grate the cheese (should be about 8 ounces or 2 cups total)\n3. Heat the butter in a saucepan over medium heat until foamy (about 1 minute)\n4. Reduce heat to medium-low and add onions, then crush garlic into pot and season with salt\n5. Cook until onions are tender but not browned, about three minutes\n6. Add cumin and cayenne pepper and cook, stirring frequently, until aromatic\n7. Stir in most of the milk (leave some in the measuring cup for later) and bring to a bare simmer\n8. While the milk is cooking, add the cornstarch to the milk and whisk with a fork until smooth\n9. When the milk is simmering, add the cornstarch mixture and bring up the heat to medium\n10. Cook, stirring constantly, until mixture has thickened and coats the back of a rubber spatula (see note)\n11. Reduce to medium-low and add American cheese, stirring until fully melted but not bubbling, about three minutes",
+      "similarity": 0.4751248342923575
+    },
+    {
+      "chunkId": "nqithjx4flnc8xqqk4i9z",
+      "chunkIndex": 1,
+      "resourceId": "dlfr5kky477683x2pt8ko",
+      "fileName": "queso-dip.md",
+      "section": "ingredients",
+      "content": "Document: queso-dip.md\nTitle: QUESO DIP\nSection: ingredients\n\n* 1/2 small onion, finely chopped\n* 1/4 cup pickled jalapeños\n* 1 large garlic clove, crushed\n* 1 cup American cheese, grated\n* 1 cup asadero, Monterey Jack, or other cheese (see note), grated\n* 1 tbsp unsalted butter\n* 1/2 tsp kosher salt\n* 1.5 tsp juice from pickled jalapeños\n* 1 tsp ground cumi\n* 1/4 tsp cayenne pepper\n* 1 cup milk\n* 1/5 tsp cornstarch",
+      "similarity": 0.45125764658665934
+    }
+  ],
+  "baseline": {
+    "results": [
+      {
+        "chunkId": "ujmh9io62u0bxtmlv72jf",
+        "chunkIndex": 0,
+        "resourceId": "leg52a97jdask5as402zx",
+        "fileName": "mac-and-cheese.md",
+        "section": "ingredients",
+        "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: ingredients\n\n* 2.5 cups milk (low-fat ok)\n* 2 bay leaves\n* 1 lb elbow, shell, ziti, or similar pasta\n* 4 tbsp (1/2 stick) butter\n* 2 shallots (or 1/2 yellow onion), finely chopped\n* 2-3 cloves garlic, finely chopped\n* 3 tbsp all-purpose flour\n* 1.5 cups grated sharp cheddar or gouda\n* 1.5 cups grated Parmesan cheese\n* 1/2 cup panko breadcrumbs\n* Freshly-ground black pepper\n* Salt to taste",
+        "similarity": 0.723132134583966
+      },
+      {
+        "chunkId": "htv52mjikkmwegs622op2",
+        "chunkIndex": 1,
+        "resourceId": "leg52a97jdask5as402zx",
+        "fileName": "mac-and-cheese.md",
+        "section": "steps",
+        "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: steps\n\n1. Preheat the oven to 400º F, bring a large pot of salted water to boil\n2. Grease a roasting pan with 1 tbsp butter\n3. In a frying pan, fry the shallots and garlic until golden brown\n3. Cook the milk with bay leaves in a small saucepan over medium-low heat\n4. When small bubbles appear along the sides (about 5 mins) turn off the heat, add the cooked shallots and garlic, and set aside\n5. Cook the pasta until it is nearly done, drain and rinse to stop cooking\n6. In a saucepan over medium-low heat, melt 3 tbsp butter\n7. When it's foamy add flour and cook, stirring, until the mixture browns (about 5 mins)\n8. Remove bay leaves from milk and add, 1/4-cup at a time, into the flour mixture, stirring with  whisk constantly\n9. As soon as mixture becomes smooth, add more milk until the mixture is completely smooth\n10. Add the cheddar/gouda and stir\n11. Dump the pasta into a roasting pan and pour the cheese mix on top, top with parmesan and salt and pepper, stir",
+        "similarity": 0.667478271804613
+      },
+      {
+        "chunkId": "4mbrdaoahqovmd802l12a",
+        "chunkIndex": 2,
+        "resourceId": "leg52a97jdask5as402zx",
+        "fileName": "mac-and-cheese.md",
+        "section": "steps",
+        "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: steps\n\n12. Top with breadcrumbs and bake until bubbling, about 15 minutes",
+        "similarity": 0.6219315300449311
+      },
+      {
+        "chunkId": "1wx1ehh64l9vdwqhgkp44",
+        "chunkIndex": 4,
+        "resourceId": "leg52a97jdask5as402zx",
+        "fileName": "mac-and-cheese.md",
+        "section": "based on",
+        "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: based on\n\n* https://www.seriouseats.com/recipes/2007/10/baked-vegetarian-macaroni-and-cheese-recipe.html\n* https://amazingribs.com/tested-recipes/other-fun-food-recipes/smoked-mac-and-cheese-recipe",
+        "similarity": 0.603558717483853
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.3333333333333333,
+      "returnedCount": 3
+    }
+  },
+  "reranked": {
+    "results": [
+      {
+        "chunkId": "ujmh9io62u0bxtmlv72jf",
+        "chunkIndex": 0,
+        "resourceId": "leg52a97jdask5as402zx",
+        "fileName": "mac-and-cheese.md",
+        "section": "ingredients",
+        "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: ingredients\n\n* 2.5 cups milk (low-fat ok)\n* 2 bay leaves\n* 1 lb elbow, shell, ziti, or similar pasta\n* 4 tbsp (1/2 stick) butter\n* 2 shallots (or 1/2 yellow onion), finely chopped\n* 2-3 cloves garlic, finely chopped\n* 3 tbsp all-purpose flour\n* 1.5 cups grated sharp cheddar or gouda\n* 1.5 cups grated Parmesan cheese\n* 1/2 cup panko breadcrumbs\n* Freshly-ground black pepper\n* Salt to taste",
+        "similarity": 0.723132134583966,
+        "rerankScore": 3
+      },
+      {
+        "chunkId": "htv52mjikkmwegs622op2",
+        "chunkIndex": 1,
+        "resourceId": "leg52a97jdask5as402zx",
+        "fileName": "mac-and-cheese.md",
+        "section": "steps",
+        "content": "Document: mac-and-cheese.md\nTitle: Mac and Cheese\nSection: steps\n\n1. Preheat the oven to 400º F, bring a large pot of salted water to boil\n2. Grease a roasting pan with 1 tbsp butter\n3. In a frying pan, fry the shallots and garlic until golden brown\n3. Cook the milk with bay leaves in a small saucepan over medium-low heat\n4. When small bubbles appear along the sides (about 5 mins) turn off the heat, add the cooked shallots and garlic, and set aside\n5. Cook the pasta until it is nearly done, drain and rinse to stop cooking\n6. In a saucepan over medium-low heat, melt 3 tbsp butter\n7. When it's foamy add flour and cook, stirring, until the mixture browns (about 5 mins)\n8. Remove bay leaves from milk and add, 1/4-cup at a time, into the flour mixture, stirring with  whisk constantly\n9. As soon as mixture becomes smooth, add more milk until the mixture is completely smooth\n10. Add the cheddar/gouda and stir\n11. Dump the pasta into a roasting pan and pour the cheese mix on top, top with parmesan and salt and pepper, stir",
+        "similarity": 0.667478271804613,
+        "rerankScore": 2
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.5,
+      "returnedCount": 2
+    }
+  },
+  "timing": {
+    "retrievalMs": 191,
+    "rerankingMs": 2402,
+    "totalMs": 2593
+  },
+  "rerankingUsage": {
+    "inputTokens": 1266,
+    "outputTokens": 62,
+    "totalTokens": 1328,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  }
+}

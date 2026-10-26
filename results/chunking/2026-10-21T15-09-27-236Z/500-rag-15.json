@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-15",
+    "question": "Mennyi idő alatt készül el a Black Bean Enchiladas, és hány adag lesz?",
+    "searchQuery": "Black Bean Enchiladas preparation time servings",
+    "relevantSources": [
+      {
+        "fileName": "black-bean-enchiladas.md",
+        "section": "info"
+      }
+    ]
+  },
+  "maxBodyLength": 500,
+  "results": [
+    {
+      "chunkId": "c75b93d00bb0cd424b32f0923410c6a8c458abbfa0152bc5a78e3e50a5f822f6",
+      "chunkIndex": 0,
+      "fileName": "black-bean-enchiladas.md",
+      "section": "info",
+      "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: info\n\n* About 15 minutes\n* 2 servings",
+      "similarity": 0.773305050788901
+    },
+    {
+      "chunkId": "8c70444f3b787769ca8447e07808b3f9f9f4145d6eb528c7a24a4651f3f25859",
+      "chunkIndex": 0,
+      "fileName": "creamy-chicken-enchiladas.md",
+      "section": "info",
+      "content": "Document: creamy-chicken-enchiladas.md\nTitle: Creamy Chicken Enchiladas\nSection: info\n\n* About 2 hours\n* 6 servings",
+      "similarity": 0.674384734636331
+    },
+    {
+      "chunkId": "36d8e1f187c0b582831fb04469b89530ee8b400ec954742862204b2f55e634d6",
+      "chunkIndex": 2,
+      "fileName": "black-bean-enchiladas.md",
+      "section": "steps",
+      "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: steps\n\n1. Put the beans, including the water from the can, in a blender and blend until smooth and the thickness of creamy soup (add water if necessary)\n2. Transfer to a pan and heat, adding salt as needed, until hot enough to serve\n3. For each plate, add some bean sauce in the bottom\n4. Dip a tortilla in the beans, fold into quarters, and place on plate, adding more bean sauce on top\n5. Top with salsa, cheese, cilantro, and sliced onion",
+      "similarity": 0.6576967279777453
+    },
+    {
+      "chunkId": "ed39addfa7a517baa366029ba2d923d69e0604472c0ac41ce6f5627d932690cd",
+      "chunkIndex": 1,
+      "fileName": "black-bean-enchiladas.md",
+      "section": "ingredients",
+      "content": "Document: black-bean-enchiladas.md\nTitle: Black Bean Enchiladas\nSection: ingredients\n\n* 14 oz can black beans\n* Tortillas\n* Tomatillo salsa (see recipe here)\n* Queso fresco, crumbled\n* Cilantro, finly chopped\n* Sliced onion (pickled is extra nice)",
+      "similarity": 0.6514091577405634
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.25,
+    "returnedCount": 4
+  },
+  "searchMs": 1.960070999999516
+}

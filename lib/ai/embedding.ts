@@ -13,13 +13,16 @@ import {
   chunkDocument,
   SupportedFileType,
 } from '@/lib/ai/chunking';
+import { rerankCandidates } from '@/lib/ai/reranking';
 import { db } from '@/lib/db';
 import {
   embeddings,
   resources,
 } from '@/lib/db/schema/resources';
+import type { UsageRecorder } from '@/lib/monitoring/usage';
 
-const embeddingModel = openai.embedding('text-embedding-3-small');
+const EMBEDDING_MODEL = 'text-embedding-3-small';
+const embeddingModel = openai.embedding(EMBEDDING_MODEL);
 const MIN_SIMILARITY = 0.45;
 
 export const generateEmbeddings = async (
@@ -53,29 +56,54 @@ export const generateEmbeddings = async (
 
 export const generateEmbedding = async (
   value: string,
+  recordUsage?: UsageRecorder,
 ): Promise<number[]> => {
   const input = value.replaceAll('\n', ' ');
+  const startedAt = performance.now();
 
-  const { embedding } = await embed({
+  const { embedding, usage } = await embed({
     model: embeddingModel,
     value: input,
+  });
+
+  recordUsage?.({
+    stage: 'embedding',
+    model: EMBEDDING_MODEL,
+    usage: {
+      inputTokens: usage.tokens,
+      outputTokens: 0,
+    },
+    durationMs: performance.now() - startedAt,
   });
 
   return embedding;
 };
 
-export const findRelevantContent = async (
+export const retrieveCandidates = async (
   userQuery: string,
+  limit = 12,
+  recordUsage?: UsageRecorder,
 ) => {
-  const userQueryEmbedded = await generateEmbedding(userQuery);
+  if (!Number.isInteger(limit) || limit < 1 || limit > 50) {
+    throw new Error(
+      'Candidate limit must be an integer between 1 and 50.',
+    );
+  }
+
+  const userQueryEmbedded = await generateEmbedding(
+    userQuery,
+    recordUsage,
+  );
 
   const similarity = sql<number>`1 - (${cosineDistance(
     embeddings.embedding,
     userQueryEmbedded,
   )})`;
 
-  const relevantChunks = await db
+  const chunks = await db
     .select({
+      chunkId: embeddings.id,
+      chunkIndex: embeddings.chunkIndex,
       resourceId: resources.id,
       fileName: resources.fileName,
       section: embeddings.section,
@@ -93,10 +121,41 @@ export const findRelevantContent = async (
         gt(similarity, MIN_SIMILARITY),
       ),
     )
-    .orderBy(desc(similarity))
-    .limit(4);
+    .orderBy(desc(similarity), embeddings.id)
+    .limit(limit);
 
-  if (relevantChunks.length === 0) {
+  return chunks.map(chunk => ({
+    ...chunk,
+    similarity: Number(chunk.similarity),
+  }));
+};
+
+export const findRelevantContent = async (
+  userQuery: string,
+  recordUsage?: UsageRecorder,
+) => {
+  const candidates = await retrieveCandidates(
+    userQuery,
+    12,
+    recordUsage,
+  );
+
+  const reranked = await rerankCandidates(
+    userQuery,
+    candidates,
+    4,
+  );
+
+  if (reranked.usage !== undefined) {
+    recordUsage?.({
+      stage: 'reranking',
+      model: reranked.model,
+      usage: reranked.usage,
+      durationMs: reranked.durationMs,
+    });
+  }
+
+  if (reranked.results.length === 0) {
     return {
       results: [],
       message:
@@ -105,12 +164,6 @@ export const findRelevantContent = async (
   }
 
   return {
-    results: relevantChunks.map(chunk => ({
-      resourceId: chunk.resourceId,
-      fileName: chunk.fileName,
-      section: chunk.section,
-      content: chunk.content,
-      similarity: Number(chunk.similarity),
-    })),
+    results: reranked.results,
   };
 };

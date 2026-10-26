@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-17",
+    "question": "Milyen folyadékok és mennyiségek kellenek a Sesame Tofu szószához?",
+    "searchQuery": "Sesame Tofu sauce liquid ingredients quantities",
+    "relevantSources": [
+      {
+        "fileName": "sesame-tofu.md",
+        "section": "ingredients"
+      }
+    ]
+  },
+  "maxBodyLength": 500,
+  "results": [
+    {
+      "chunkId": "e6d504d338a190f44bdf6eeb0f7a95416890d5e69282155c7e1c2220610f2a21",
+      "chunkIndex": 3,
+      "fileName": "sesame-tofu.md",
+      "section": "steps",
+      "content": "Document: sesame-tofu.md\nTitle: Sesame Tofu\nSection: steps\n\n6. while tofu is cooking, mix the sauce ingredients (except the aromatics) in a bowl\n7. add oil to a skillet over medium heat, add brocoli and cook until lightly charred but still firm\n8. add garlic, ginger, and scallions and cook until soft and aromatic, about 30 seconds; remove everything from the pan\n9. add more oil and sauce mixture to skillet and cook, stirring, until sauce boils and thickens, about 1 minute",
+      "similarity": 0.7318792025490434
+    },
+    {
+      "chunkId": "e19806d5e7ad69c964502cef5d57f5a46f75d383a8f31682193941999e92d19c",
+      "chunkIndex": 0,
+      "fileName": "sesame-tofu.md",
+      "section": "ingredients",
+      "content": "Document: sesame-tofu.md\nTitle: Sesame Tofu\nSection: ingredients\n\n* 1 block extra firm tofu, drained and pressed\n* 2 tbsp cornstarch\n* 2 tbsp vegetable oil (or other neutral oil)\n* 1/2 lbs broccoli, cut into florets\n* 3-4 green onions, sliced\nFor the sauce:\n* 3 tbsp dark soy sauce\n* 2 tbsp Shaoxing wine\n* 2 tbsp rice vinegar\n* 3 tbsp low-sodium chicken stock (or water)\n* 5 tbsp sugar\n* 2 tsp roasted sesame seed oil\n* 1 tbsp corn starch\n* 2 tsp peanut, vegetable, canola oil\n* 2 tsp minced garlic (about 2 medium cloves)\n* 2 tsp minced ginger (about 1-inch piece)",
+      "similarity": 0.7274950603248683
+    },
+    {
+      "chunkId": "8cc125784ceb1bcc416d8571b60aefee5080e133082d7342f0f09c71523ceb80",
+      "chunkIndex": 4,
+      "fileName": "sesame-tofu.md",
+      "section": "steps",
+      "content": "Document: sesame-tofu.md\nTitle: Sesame Tofu\nSection: steps\n\n10. return brocoli and tofu to the pan, add 1 tbsp sesame seeds and remove from heat\n11. turn with a spoon until all pieces are evenly coated, top with more sesame seeds and serve immediately",
+      "similarity": 0.6741145113594836
+    },
+    {
+      "chunkId": "30434dec5dc4afe0b0ef50daf85e27b7efce4361dd1b289a4b4c5a4f479db08c",
+      "chunkIndex": 2,
+      "fileName": "sesame-tofu.md",
+      "section": "steps",
+      "content": "Document: sesame-tofu.md\nTitle: Sesame Tofu\nSection: steps\n\n1. drain and press the tofu for at least 20 minutes\n2. cut tofu into 1-inch cubes, season with a pinch of salt\n3. sprinkle tofu with 1 tbsp cornstarch, toss to coat, repeat with remaining cornstarch or until cubes all have an even coating\n4. heat vegetable oil in a large skillet over medium flame\n5. add tofu and cook, flipping regularly, until all sides are golden brown; when done, remove to a paper-towel-lined plate",
+      "similarity": 0.6683730075181291
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 0.5,
+    "returnedPrecision": 0.5,
+    "returnedCount": 2
+  },
+  "searchMs": 1.8823499999998603
+}

@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "fixture": {
+    "content": "# {{recipeName}}\n\n## info\n* Total preparation time: 20 minutes\n* Servings: 2\n\n## ingredients\n* 250 g drained canned chickpeas\n* 200 g cooked rice\n* 1 tbsp olive oil\n* 1 tsp ground cumin\n\n## steps\n1. Heat the olive oil in a pan.\n2. Add the drained chickpeas and ground cumin. Cook for 5 minutes, stirring.\n3. Add the already cooked rice and stir for 2 minutes.\n4. Divide into 2 servings.\n\n## notes\n* No calorie, price, or storage information is provided.\n"
+  },
+  "cases": [
+    {
+      "id": "app-01",
+      "name": "Feltöltés, feldolgozás és beszélgetés visszatöltése",
+      "persona": "Türelmes kezdő, aki pontos mennyiségeket keres.",
+      "goal": "Megtudni a csicseriborsó mennyiségét és az adagok számát.",
+      "fileType": "md",
+      "check": "reload",
+      "turns": [
+        {
+          "question": "Mennyi csicseriborsó kell a {{recipeName}} recepthez?",
+          "referenceAnswer": "250 g lecsepegtetett konzerv csicseriborsó."
+        },
+        {
+          "question": "És ez hány adaghoz elegendő?",
+          "referenceAnswer": "A korábban kérdezett recept 2 adagra szól."
+        }
+      ]
+    },
+    {
+      "id": "app-02",
+      "name": "Azonos fájlnév ismételt feltöltése",
+      "persona": "Gyakorlatias felhasználó, aki véletlenül kétszer tölt fel.",
+      "goal": "A duplikált feltöltés elutasítása után használni az eredeti receptet.",
+      "fileType": "md",
+      "check": "duplicate-upload",
+      "turns": [
+        {
+          "question": "Mennyi rizs kell a {{recipeName}} recepthez?",
+          "referenceAnswer": "200 g már megfőzött rizs."
+        },
+        {
+          "question": "A rizst nyersen kell hozzáadnom?",
+          "referenceAnswer": "Nem, a hozzávalólistában és a lépésekben már megfőzött rizs szerepel."
+        }
+      ]
+    },
+    {
+      "id": "app-03",
+      "name": "Nem támogatott fájltípus és helyes újrapróbálkozás",
+      "persona": "Kezdő felhasználó, aki először rossz fájltípust választ.",
+      "goal": "A hibás feltöltés után megismerni a recept fűszerezését.",
+      "fileType": "md",
+      "check": "unsupported-upload",
+      "turns": [
+        {
+          "question": "Milyen fűszer és mennyi kell a {{recipeName}} recepthez?",
+          "referenceAnswer": "1 teáskanál őrölt római kömény."
+        },
+        {
+          "question": "Mikor kell ezt hozzáadni?",
+          "referenceAnswer": "A felhevített olajhoz, a csicseriborsóval együtt, a második lépésben."
+        }
+      ]
+    },
+    {
+      "id": "app-04",
+      "name": "Üres feltöltés és TXT dokumentum feldolgozása",
+      "persona": "Egyszerű szövegfájlokat használó felhasználó.",
+      "goal": "Üres fájl elutasítása után TXT receptből kérdezni.",
+      "fileType": "txt",
+      "check": "empty-upload",
+      "turns": [
+        {
+          "question": "Mennyi idő alatt készül el a {{recipeName}}?",
+          "referenceAnswer": "A megadott teljes elkészítési idő 20 perc."
+        },
+        {
+          "question": "Ebből mennyi ideig kell a csicseriborsót a serpenyőben kevergetni a rizs hozzáadása előtt?",
+          "referenceAnswer": "5 percig."
+        }
+      ]
+    },
+    {
+      "id": "app-05",
+      "name": "Elavult beszélgetésverzió elutasítása",
+      "persona": "Több böngészőfület használó felhasználó.",
+      "goal": "Az elavult kérés ne írja felül a mentett beszélgetést.",
+      "fileType": "md",
+      "check": "stale-revision",
+      "turns": [
+        {
+          "question": "Mennyi olaj kell a {{recipeName}} recepthez?",
+          "referenceAnswer": "1 evőkanál olívaolaj."
+        },
+        {
+          "question": "És mennyi római kömény?",
+          "referenceAnswer": "Ugyanahhoz a recepthez 1 teáskanál őrölt római kömény kell."
+        }
+      ]
+    },
+    {
+      "id": "app-06",
+      "name": "Hibás chatkérés után működő beszélgetés",
+      "persona": "Rövid, célzott válaszokat kérő felhasználó.",
+      "goal": "A hibás kérés elutasítása után megtudni a recept lépéseit.",
+      "fileType": "md",
+      "check": "invalid-chat",
+      "turns": [
+        {
+          "question": "A {{recipeName}} elkészítésének első két lépését írd le röviden.",
+          "referenceAnswer": "Először az olívaolajat kell felhevíteni. Utána a csicseriborsót és a római köményt hozzáadni, és kevergetve 5 percig sütni."
+        },
+        {
+          "question": "Ezután a főtt rizzsel még mennyi ideig kell keverni?",
+          "referenceAnswer": "A főtt rizs hozzáadása után még 2 percig."
+        }
+      ]
+    },
+    {
+      "id": "app-07",
+      "name": "Nem létező beszélgetés és új beszélgetés indítása",
+      "persona": "Régi beszélgetéslinket megnyitó felhasználó.",
+      "goal": "Hiányzó beszélgetés után új beszélgetésben receptadatot kapni.",
+      "fileType": "md",
+      "check": "missing-conversation",
+      "turns": [
+        {
+          "question": "Hány adag a {{recipeName}}, és mennyi főtt rizs kell hozzá?",
+          "referenceAnswer": "2 adag, összesen 200 g főtt rizzsel."
+        },
+        {
+          "question": "Akkor egy adagra mennyi rizs jut?",
+          "referenceAnswer": "Egy adagra 100 g főtt rizs jut, a megadott mennyiség felezésével."
+        }
+      ]
+    },
+    {
+      "id": "app-08",
+      "name": "Beszélgetések elkülönítése",
+      "persona": "Egyszerre több külön beszélgetést vezető felhasználó.",
+      "goal": "A válaszok és a mentett üzenetek a megfelelő beszélgetéshez tartozzanak.",
+      "fileType": "md",
+      "check": "conversation-isolation",
+      "turns": [
+        {
+          "question": "Sorold fel a {{recipeName}} négy hozzávalóját mennyiséggel.",
+          "referenceAnswer": "250 g lecsepegtetett konzerv csicseriborsó, 200 g főtt rizs, 1 evőkanál olívaolaj, 1 teáskanál őrölt római kömény."
+        },
+        {
+          "question": "Ezek közül melyiket kell először a serpenyőbe tenni?",
+          "referenceAnswer": "Először az olívaolajat kell a serpenyőben felhevíteni."
+        }
+      ]
+    },
+    {
+      "id": "app-09",
+      "name": "Dokumentum újrafeldolgozása",
+      "persona": "A feldolgozás gombot ismét megnyomó felhasználó.",
+      "goal": "Az újrafeldolgozás után is használható recept, duplikált chunkok nélkül.",
+      "fileType": "md",
+      "check": "reprocess",
+      "turns": [
+        {
+          "question": "Mennyi csicseriborsót és főtt rizst ír a {{recipeName}}?",
+          "referenceAnswer": "250 g lecsepegtetett konzerv csicseriborsót és 200 g főtt rizst."
+        },
+        {
+          "question": "Fél adagmennyiséget készítek. Mindkettőből mennyit használjak?",
+          "referenceAnswer": "A teljes recept feléhez 125 g csicseriborsó és 100 g főtt rizs kell."
+        }
+      ]
+    },
+    {
+      "id": "app-10",
+      "name": "Hiányzó dokumentum és hiányzó receptadat",
+      "persona": "Pontos információt kérő, találgatást nem kedvelő felhasználó.",
+      "goal": "A nem létező dokumentum feldolgozását elutasítani, és hiányzó kalóriaadatot nem kitalálni.",
+      "fileType": "md",
+      "check": "missing-document",
+      "turns": [
+        {
+          "question": "A {{recipeName}} dokumentuma szerint pontosan hány kalória egy adag? Ne becsülj.",
+          "referenceAnswer": "A dokumentum nem ad meg kalóriaadatot. Pontos kalóriaértéket nem szabad kitalálni vagy becsülni."
+        },
+        {
+          "question": "Rendben, akkor csak azt mondd meg, hány adag és mennyi a teljes elkészítési idő.",
+          "referenceAnswer": "2 adag, 20 perc teljes elkészítési idő."
+        }
+      ]
+    }
+  ]
+}

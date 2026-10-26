@@ -1,0 +1,29 @@
+{
+  "planned": 15,
+  "completed": 15,
+  "failed": 0,
+  "contextRelevanceMean": 3,
+  "contextRelevanceEvaluatedCases": 12,
+  "answerCorrectnessMean": 3,
+  "groundednessMean": 3,
+  "judgeFlaggedHallucinationCount": 0,
+  "judgeFlaggedHallucinationRate": 0,
+  "casesWithSearchTool": 15,
+  "meanAssistantMs": 23234.533333333333,
+  "meanJudgeMs": 2734.8,
+  "groups": [
+    {
+      "answerable": true,
+      "evaluated": 12,
+      "correctnessMean": 3,
+      "groundednessMean": 3
+    },
+    {
+      "answerable": false,
+      "evaluated": 3,
+      "correctnessMean": 3,
+      "groundednessMean": 3
+    }
+  ],
+  "errors": []
+}

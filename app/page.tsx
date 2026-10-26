@@ -1,4 +1,4 @@
-import { ChatInterface } from '@/components/chat-interface';
+import { ConversationManager } from '@/components/conversation-manager';
 import { DocumentManager } from '@/components/document-manager';
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
 
         <div className="grid gap-6 lg:grid-cols-[minmax(320px,0.8fr)_minmax(0,1.2fr)]">
           <DocumentManager />
-          <ChatInterface />
+          <ConversationManager />
         </div>
       </div>
     </main>

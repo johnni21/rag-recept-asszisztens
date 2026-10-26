@@ -1,0 +1,8 @@
+{
+  "model": "text-embedding-3-small",
+  "tokens": 63732,
+  "batches": 20,
+  "cacheHits": 0,
+  "generatedUniqueTexts": 614,
+  "preparationMs": 9096
+}

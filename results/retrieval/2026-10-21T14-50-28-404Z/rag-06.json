@@ -1,0 +1,176 @@
+{
+  "test": {
+    "id": "rag-06",
+    "question": "Mit adhatok a liszthez, ha fűszeresebb Chicken Schnitzelt szeretnék?",
+    "searchQuery": "Chicken Schnitzel spicy flour additions gochugaru",
+    "relevantSources": [
+      {
+        "fileName": "chicken-schnitzel.md",
+        "section": "notes"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "chunkId": "y2wask6cnw7rf58nujkrn",
+      "chunkIndex": 3,
+      "resourceId": "jnzwi9r41ytulhiur6wj3",
+      "fileName": "chicken-schnitzel.md",
+      "section": "notes",
+      "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: notes\n\n* These are *really* good on bao with some Bonchon-style hot sauce!\n* Consider adding this to the flour: 2 tsp baking powder, 1/4 cup gochugaru (Korean red chlii flakes), 1 tbsp black pepper, 2 tbsp garlic powder, 1.5 tsp kosher salt\n* You can also change up the brine: 1/2 cup kimchi juice, 1 cup buttermilk, 1 egg, 1.5 tsp kosher salt, 1 tbsp soy sauce, 1/4 cup gochugaru, 2 tbsp black pepper\n* Can use half butter, half oil to fry",
+      "similarity": 0.6903911169807164
+    },
+    {
+      "chunkId": "pbrnq0j31hgadzncrj281",
+      "chunkIndex": 1,
+      "resourceId": "jnzwi9r41ytulhiur6wj3",
+      "fileName": "chicken-schnitzel.md",
+      "section": "ingredients",
+      "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: ingredients\n\n* 2 quarts water\n* 1/3 cup kosher salt\n* 2 boneless, skinless chicken breasts\n* 2/4 cup all-purpose flour\n* 2 large eggs, beaten\n* 2 cups panko bread crumbs\n* Peanut, canola, or other neutral oil",
+      "similarity": 0.5933732594918839
+    },
+    {
+      "chunkId": "nzn1idg7z6sm5bibvhhg1",
+      "chunkIndex": 2,
+      "resourceId": "jnzwi9r41ytulhiur6wj3",
+      "fileName": "chicken-schnitzel.md",
+      "section": "steps",
+      "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: steps\n\n1. Cut tenders from chicken breasts, if present\n2. Whisk water and salt in a large bowl or tray, add chicken and brine in the fridge for 30 minutes\n3. Remove chicken, pat dry, and butterfly as needed into pieces about 1/4\" thick\n4. Place chicken in a plastic bag, one piece at a time, and pound with a rolling pin or meat tenderizer until thin and even\n5. Place flour, eggs, and panko onto separate plates (pie tins work great for this)\n6. Heat oil in a cast iron skillet to 375º F\n7. Batter chicken one piece at a time in the flour, egg, and panko, patting lightly to get a thorough coating\n8. Keep prepped cutlets on wire rack\n9. Fry cutlets, a few at a time and turning often, until golden brown and crisp, about 3–4 minutes total\n10. Remove to a wire rack, adding salt immediately\n11. Serve with lemon slices, coleslaw, and cold beer",
+      "similarity": 0.5845813323361243
+    },
+    {
+      "chunkId": "wudqzur03468h3ttpi9vm",
+      "chunkIndex": 4,
+      "resourceId": "jnzwi9r41ytulhiur6wj3",
+      "fileName": "chicken-schnitzel.md",
+      "section": "based on",
+      "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: based on\n\n* https://www.seriouseats.com/recipes/2014/04/chicken-schnitzel-recipe.html\n* https://www.seriouseats.com/recipes/2018/10/pork-schnitzel-recipe.html",
+      "similarity": 0.5410975942738837
+    },
+    {
+      "chunkId": "45k2gnslckz04bvj5bmwo",
+      "chunkIndex": 1,
+      "resourceId": "jup5fhmbr4wojj8pxmmrc",
+      "fileName": "gobi-manchurian.md",
+      "section": "ingredients",
+      "content": "Document: gobi-manchurian.md\nTitle: Gobi Manchurian (Dry)\nSection: ingredients\n\n* 250 grams cauliflower florets\n* 1/3-cup all-purpose flour\n* 3 tbsp corn starch\n* 1 tsp red chili powder\n* 1/4 tsp black pepper\n* 1/4 tsp salt\n* Neutral oil, for frying\n* 2 tbsp green onions, roughly chopped (plus extra for garnish)\nFor the sauce:\n* 1.5 tbsp oil\n* 1 tbsp garlic, finely chopped\n* 1/2 tbsp ginger, finely chopped\n* 1 green chili, chopped\n* 1/3 cup onions, chopped\n* 1 tbsp soy sauce\n* 2–3 tbsp Sriracha (or similar hot sauce)\n* 1 tsp red chili powder\n* 1 tsp sugar (or to taste)\n* 3–4 tbsp water\n* 1/2-3/4 tsp black pepper\n* 1/8 tsp salt",
+      "similarity": 0.5011677381749048
+    },
+    {
+      "chunkId": "5hvldhizfn8il13p1ljpj",
+      "chunkIndex": 0,
+      "resourceId": "jnzwi9r41ytulhiur6wj3",
+      "fileName": "chicken-schnitzel.md",
+      "section": "info",
+      "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: info\n\n* About 1.5 hours\n* Hearty meal for 2 plus enough for sandwiches the next day",
+      "similarity": 0.4968031303039121
+    },
+    {
+      "chunkId": "xtegxuaqeuh6ka3ayop57",
+      "chunkIndex": 2,
+      "resourceId": "rhye7317evr6df44rfwo1",
+      "fileName": "bonchon-style-sauce.md",
+      "section": "notes",
+      "content": "Document: bonchon-style-sauce.md\nTitle: Bonchon-style Sauce\nSection: notes\n\n* Gochujang is readily available in good Asian markets, but you can sub 2 tbsp Korean chili flakes (or red pepper flakes, in a pinch) with 1 tbsp soy sauce",
+      "similarity": 0.4803075727760191
+    },
+    {
+      "chunkId": "zyi5zvxi6bh9kwitcwa0h",
+      "chunkIndex": 0,
+      "resourceId": "rhye7317evr6df44rfwo1",
+      "fileName": "bonchon-style-sauce.md",
+      "section": "ingredients",
+      "content": "Document: bonchon-style-sauce.md\nTitle: Bonchon-style Sauce\nSection: ingredients\n\n* 1/4 cup gochujang (see note)\n* 1/2 tsp cornstarch\n* 2 tbsp soy sauce\n* 1 tbsp rice wine vinegar\n* 3 tbsp dark brown sugar\n* 3 medium cloves garlic, minced (about 1 tbsp)\n* 1 tsp grated ginger\n* 1 tbsp toasted sesame oil",
+      "similarity": 0.4579675611640208
+    },
+    {
+      "chunkId": "n1zwo5fwnqlhy9cyfiz06",
+      "chunkIndex": 2,
+      "resourceId": "jup5fhmbr4wojj8pxmmrc",
+      "fileName": "gobi-manchurian.md",
+      "section": "steps",
+      "content": "Document: gobi-manchurian.md\nTitle: Gobi Manchurian (Dry)\nSection: steps\n\n1. Cut cauliflower into florets, add to 3 cups hot water and let rest for five minutes; drain and dry with a towel\n2. While cauliflower is soaking, make batter by mixing corn starch, flour, chili powder, pepper and salt in a small bowl; add a little water as needed so the batter is smooth and flows easily\n3. Heat oil in a pot\n4. Coat cauliflower in batter and gently drop in the oil, stirring for even frying\n5. Remove to drain in a colander when golden and crisp (can also be re-fried for extra crisp results!)\nMake the sauce:\n1. Heat oil in a wide pan\n3. Add garlic, ginger, and chilies and sautee for 1–2 minutes\n4. Add onions and sautee for 2 minutes on high heat\n5. Add soy sauce, Sriracha, chili powder, sugar, and vinegar\n6. Add water and black pepper, stir and cook over medium heat until sauce thickens\n7. Take off heat and add salt to taste\n8. Add fried cauliflower and stir to coat, garnish with green onions and serve immediately",
+      "similarity": 0.4522651616048231
+    }
+  ],
+  "baseline": {
+    "results": [
+      {
+        "chunkId": "y2wask6cnw7rf58nujkrn",
+        "chunkIndex": 3,
+        "resourceId": "jnzwi9r41ytulhiur6wj3",
+        "fileName": "chicken-schnitzel.md",
+        "section": "notes",
+        "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: notes\n\n* These are *really* good on bao with some Bonchon-style hot sauce!\n* Consider adding this to the flour: 2 tsp baking powder, 1/4 cup gochugaru (Korean red chlii flakes), 1 tbsp black pepper, 2 tbsp garlic powder, 1.5 tsp kosher salt\n* You can also change up the brine: 1/2 cup kimchi juice, 1 cup buttermilk, 1 egg, 1.5 tsp kosher salt, 1 tbsp soy sauce, 1/4 cup gochugaru, 2 tbsp black pepper\n* Can use half butter, half oil to fry",
+        "similarity": 0.6903911169807164
+      },
+      {
+        "chunkId": "pbrnq0j31hgadzncrj281",
+        "chunkIndex": 1,
+        "resourceId": "jnzwi9r41ytulhiur6wj3",
+        "fileName": "chicken-schnitzel.md",
+        "section": "ingredients",
+        "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: ingredients\n\n* 2 quarts water\n* 1/3 cup kosher salt\n* 2 boneless, skinless chicken breasts\n* 2/4 cup all-purpose flour\n* 2 large eggs, beaten\n* 2 cups panko bread crumbs\n* Peanut, canola, or other neutral oil",
+        "similarity": 0.5933732594918839
+      },
+      {
+        "chunkId": "nzn1idg7z6sm5bibvhhg1",
+        "chunkIndex": 2,
+        "resourceId": "jnzwi9r41ytulhiur6wj3",
+        "fileName": "chicken-schnitzel.md",
+        "section": "steps",
+        "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: steps\n\n1. Cut tenders from chicken breasts, if present\n2. Whisk water and salt in a large bowl or tray, add chicken and brine in the fridge for 30 minutes\n3. Remove chicken, pat dry, and butterfly as needed into pieces about 1/4\" thick\n4. Place chicken in a plastic bag, one piece at a time, and pound with a rolling pin or meat tenderizer until thin and even\n5. Place flour, eggs, and panko onto separate plates (pie tins work great for this)\n6. Heat oil in a cast iron skillet to 375º F\n7. Batter chicken one piece at a time in the flour, egg, and panko, patting lightly to get a thorough coating\n8. Keep prepped cutlets on wire rack\n9. Fry cutlets, a few at a time and turning often, until golden brown and crisp, about 3–4 minutes total\n10. Remove to a wire rack, adding salt immediately\n11. Serve with lemon slices, coleslaw, and cold beer",
+        "similarity": 0.5845813323361243
+      },
+      {
+        "chunkId": "wudqzur03468h3ttpi9vm",
+        "chunkIndex": 4,
+        "resourceId": "jnzwi9r41ytulhiur6wj3",
+        "fileName": "chicken-schnitzel.md",
+        "section": "based on",
+        "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: based on\n\n* https://www.seriouseats.com/recipes/2014/04/chicken-schnitzel-recipe.html\n* https://www.seriouseats.com/recipes/2018/10/pork-schnitzel-recipe.html",
+        "similarity": 0.5410975942738837
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 0.25,
+      "returnedCount": 4
+    }
+  },
+  "reranked": {
+    "results": [
+      {
+        "chunkId": "y2wask6cnw7rf58nujkrn",
+        "chunkIndex": 3,
+        "resourceId": "jnzwi9r41ytulhiur6wj3",
+        "fileName": "chicken-schnitzel.md",
+        "section": "notes",
+        "content": "Document: chicken-schnitzel.md\nTitle: Chicken Schnitzel\nSection: notes\n\n* These are *really* good on bao with some Bonchon-style hot sauce!\n* Consider adding this to the flour: 2 tsp baking powder, 1/4 cup gochugaru (Korean red chlii flakes), 1 tbsp black pepper, 2 tbsp garlic powder, 1.5 tsp kosher salt\n* You can also change up the brine: 1/2 cup kimchi juice, 1 cup buttermilk, 1 egg, 1.5 tsp kosher salt, 1 tbsp soy sauce, 1/4 cup gochugaru, 2 tbsp black pepper\n* Can use half butter, half oil to fry",
+        "similarity": 0.6903911169807164,
+        "rerankScore": 3
+      }
+    ],
+    "metrics": {
+      "precisionAtK": 0.25,
+      "recallAtK": 1,
+      "reciprocalRankAtK": 1,
+      "returnedPrecision": 1,
+      "returnedCount": 1
+    }
+  },
+  "timing": {
+    "retrievalMs": 281,
+    "rerankingMs": 2109,
+    "totalMs": 2390
+  },
+  "rerankingUsage": {
+    "inputTokens": 1482,
+    "outputTokens": 78,
+    "totalTokens": 1560,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  }
+}

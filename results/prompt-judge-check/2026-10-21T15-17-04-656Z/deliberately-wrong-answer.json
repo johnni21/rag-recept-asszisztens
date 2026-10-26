@@ -1,0 +1,59 @@
+{
+  "id": "deliberately-wrong-answer",
+  "input": {
+    "question": "Mennyi kurkuma kell az Aloo Matarhoz?",
+    "answerable": true,
+    "referenceAnswer": "Fél teáskanál kurkuma.",
+    "contexts": [
+      {
+        "fileName": "aloo-matar.md",
+        "section": "ingredients",
+        "content": "Document: aloo-matar.md\nTitle: Aloo Matar\nSection: ingredients\n\n* 2 medium tomatoes (or 1 small can, fire-roasted best)\n* 6 cloves garlic, peeled\n* 1\" piece of ginger, roughly chopped\n* 1\" piece cinnamon\n* 2 cloves\n* 2 green cardamom pods\n* 1 tbsp oil\n* 1 tsp cumin seeds\n* 1 medium red onion, chopped\n* 3–4 whole chilies, sliced lenghtwise\n* 1 tsp coriander powder\n* 1/2 tsp turmeric powder\n* 1/2 tsp red chili powder\n* 3/4 tsp salt\n* 1.5 cups water\n* 2 medium potatoes, cut into 1/2\" pieces\n* 2–3 cup green peas (frozen ok)\n* 1.5 tsp garam masala\n* 1 tsp crushed fenugreek leaves (kasuri methi)\n* Cilantro (to garnish)"
+      }
+    ],
+    "answer": "A recept szerint 5 evőkanál kurkuma kell hozzá. Forrás: aloo-matar.md"
+  },
+  "evaluation": {
+    "contextRelevanceScore": 3,
+    "answerCorrectnessScore": 0,
+    "groundednessScore": 0,
+    "unsupportedClaims": [
+      {
+        "claim": "A recept szerint 5 evőkanál kurkuma kell hozzá.",
+        "reason": "A megadott kontextusban fél teáskanál (1/2 tsp) kurkuma szerepel, nem 5 evőkanál."
+      }
+    ],
+    "reasoning": {
+      "contextRelevance": "A megadott kontextus közvetlenül az Aloo Matar recept hozzávalóit tartalmazza, így teljesen releváns a kérdés megválaszolásához.",
+      "answerCorrectness": "A válasz hibás, mert a kontextus szerint fél teáskanál kurkuma szükséges, míg a válasz 5 evőkanálat állít, ami jelentős eltérés és téves információ.",
+      "groundedness": "A válaszban szereplő kurkuma mennyiségére vonatkozó állítás nincs alátámasztva a kontextusban, sőt ellentmond annak, így a válasz nem megalapozott."
+    },
+    "contextRelevanceApplicable": true,
+    "hallucinationDetected": true
+  },
+  "rawEvaluation": {
+    "contextRelevanceScore": 3,
+    "answerCorrectnessScore": 0,
+    "groundednessScore": 0,
+    "unsupportedClaims": [
+      {
+        "claim": "A recept szerint 5 evőkanál kurkuma kell hozzá.",
+        "reason": "A megadott kontextusban fél teáskanál (1/2 tsp) kurkuma szerepel, nem 5 evőkanál."
+      }
+    ],
+    "reasoning": {
+      "contextRelevance": "A megadott kontextus közvetlenül az Aloo Matar recept hozzávalóit tartalmazza, így teljesen releváns a kérdés megválaszolásához.",
+      "answerCorrectness": "A válasz hibás, mert a kontextus szerint fél teáskanál kurkuma szükséges, míg a válasz 5 evőkanálat állít, ami jelentős eltérés és téves információ.",
+      "groundedness": "A válaszban szereplő kurkuma mennyiségére vonatkozó állítás nincs alátámasztva a kontextusban, sőt ellentmond annak, így a válasz nem megalapozott."
+    }
+  },
+  "usage": {
+    "inputTokens": 1307,
+    "outputTokens": 239,
+    "totalTokens": 1546,
+    "reasoningTokens": 0,
+    "cachedInputTokens": 0
+  },
+  "model": "gpt-4.1-mini",
+  "durationMs": 3061
+}

@@ -4,11 +4,15 @@ import { z } from 'zod';
 
 import { findRelevantContent } from '@/lib/ai/embedding';
 import { baselineSystemPrompt } from '@/lib/ai/prompts';
+import type { UsageRecorder } from '@/lib/monitoring/usage';
+
+export const ASSISTANT_MODEL = 'gpt-5';
 
 export const getAssistantConfig = (
   systemPrompt = baselineSystemPrompt,
+  recordUsage?: UsageRecorder,
 ) => ({
-  model: openai('gpt-5'),
+  model: openai(ASSISTANT_MODEL),
   stopWhen: stepCountIs(5),
   system: systemPrompt,
   tools: {
@@ -28,7 +32,8 @@ query before calling this tool. Preserve recipe names unchanged.
             'A concise English search query translated from the user request',
           ),
       }),
-      execute: async ({ question }) => findRelevantContent(question),
+      execute: async ({ question }) =>
+        findRelevantContent(question, recordUsage),
     }),
   },
 });

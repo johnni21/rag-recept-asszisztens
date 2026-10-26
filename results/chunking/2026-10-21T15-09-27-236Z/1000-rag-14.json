@@ -1,0 +1,56 @@
+{
+  "test": {
+    "id": "rag-14",
+    "question": "Meddig tartható el a Baba Ganoush a hűtőben, és milyen hőmérsékleten tálaljam?",
+    "searchQuery": "Baba Ganoush refrigerator storage duration serving temperature",
+    "relevantSources": [
+      {
+        "fileName": "baba-ganoush.md",
+        "section": "notes"
+      }
+    ]
+  },
+  "maxBodyLength": 1000,
+  "results": [
+    {
+      "chunkId": "1e67b290145e75a6ecac180b4031451eea94708b1dffe3b86d27895dc53ddb55",
+      "chunkIndex": 2,
+      "fileName": "baba-ganoush.md",
+      "section": "notes",
+      "content": "Document: baba-ganoush.md\nTitle: Baba Ganoush\nSection: notes\n\n* Lots of recipes suggest letting sit for 8 hours before eating – seems like a good idea\n* Could sub 2 tbsp olive oil and 2 tbsp yogurt for the oil (for a tangier taste)\n* Can be stored in fridge for up to four days (but let warm to room temp before eating)",
+      "similarity": 0.7105668715852199
+    },
+    {
+      "chunkId": "55a234200a67d17ca59f402027671ab7d0e87453516b6b4c0a6afde50cf392f5",
+      "chunkIndex": 1,
+      "fileName": "baba-ganoush.md",
+      "section": "steps",
+      "content": "Document: baba-ganoush.md\nTitle: Baba Ganoush\nSection: steps\n\n1. Put rack 6\" below broiler and preheat to high\n2. Place eggplants on baking sheet and broil for at least one hour (but ideally more like 90 minutes), turning every 15 minutes, until charred on all sides and completely tender (a skewer should go all the way through the eggplant with no resistance)\n3. Optional: roast the garlic cloves in the broiler or a dry cast iron skillet\n4. Put the eggplants in a large bowl and cover with a plate, letting them steam for 20-25 minutes\n5. Slit open eggplants lengthwise, scoop out soft flesh with a spoon and transfer to a mesh strainer; stir in some salt and let sit for an hour until liquid is removed from the eggplants\n6. Add eggplant, garlic, and lemon juice to a bowl and stir until a rough paste forms\n7. Stirring constantly, add tahini and olive oil in a steady stream until pale and creamy\n8. Add parsley, optional spices (if desired), and season with salt to taste",
+      "similarity": 0.5815309334144944
+    },
+    {
+      "chunkId": "73e528ddf0d82377ce1ac7b6f191806b187433ae1eb5838db479d0c2f2f691b2",
+      "chunkIndex": 3,
+      "fileName": "baba-ganoush.md",
+      "section": "based on",
+      "content": "Document: baba-ganoush.md\nTitle: Baba Ganoush\nSection: based on\n\n* https://www.seriouseats.com/recipes/2014/02/the-best-baba-ganoush-recipe.html\n* http://littlespicejar.com/homemade-baba-ganoush\n* https://www.feastingathome.com/authentic-baba-ganoush-recipe",
+      "similarity": 0.5675832150466822
+    },
+    {
+      "chunkId": "efec2f5bf09d57f700400449431bcb6930c0cd0ca5552a51294809c0c02e65e4",
+      "chunkIndex": 0,
+      "fileName": "baba-ganoush.md",
+      "section": "ingredients",
+      "content": "Document: baba-ganoush.md\nTitle: Baba Ganoush\nSection: ingredients\n\n* 3–4 Italian eggplants (about 2 pounds), pierced with a fork\n* 3 medium cloves garlic, minced\n* 2 tbsp lemon juice\n* 3 tbsp tahini\n* 1/3-cup extra-virgin olive oil\n* 1/4 cup chopped parsley\n* Kosher salt\n* Optional: 1/4–1/2 tsp cumin powder\n* Optional: a few drops of liquid smoke\n* Optional: garnish with zaatar and/or Aleppo chile flakes",
+      "similarity": 0.5240010949667153
+    }
+  ],
+  "metrics": {
+    "precisionAtK": 0.25,
+    "recallAtK": 1,
+    "reciprocalRankAtK": 1,
+    "returnedPrecision": 0.25,
+    "returnedCount": 4
+  },
+  "searchMs": 1.7414130000015575
+}
