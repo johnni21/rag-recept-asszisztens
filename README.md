@@ -492,5 +492,7 @@ Korábbi videók:
 
 ## Zárófeladat videók
 
-- Technikai bemutató: elkészítés alatt.
-- Felhasználói demó: elkészítés alatt.
+## Zárófeladat videók
+
+- [Technikai bemutató – Loom](https://www.loom.com/share/60d10ed51f664c5ab9dfeb14a16c06a9)
+- [Felhasználói demó – Loom](https://www.loom.com/share/fe6eefbd94844673aff88f928571338d)
